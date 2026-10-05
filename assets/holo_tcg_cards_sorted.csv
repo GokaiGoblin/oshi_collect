@@ -1,0 +1,2257 @@
+card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint,price_usd,archetype
+1,hBP01,天音かなた,Amane Kanata,hBP01-001,OSR,1,0,0,11,White
+2,hBP01,天音かなた,Amane Kanata,hBP01-001,OUR,1,0,0,206.5,White
+3,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-002,OSR,1,0,0,4.3,White
+4,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-002,OUR,1,0,0,150.3,White
+5,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-003,OSR,1,0,0,4,Green
+6,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-003,OUR,1,0,0,67.6,Green
+7,hBP01,兎田ぺこら,Usada Pekora,hBP01-004,OSR,1,0,0,9.2,Green
+8,hBP01,兎田ぺこら,Usada Pekora,hBP01-004,OUR,1,0,0,289,Green
+9,hBP01,鷹嶺ルイ,Takane Lui,hBP01-005,OSR,1,0,0,3.6,Red
+10,hBP01,鷹嶺ルイ,Takane Lui,hBP01-005,OUR,1,0,0,107.4,Red
+11,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-006,OSR,1,0,0,4,Red
+12,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-006,OUR,1,0,0,66.1,Red
+13,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-006,SEC,1,1,0,206.5,Red
+14,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-007,OSR,1,0,0,13.9,Blue
+15,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-007,OUR,1,0,0,0,Blue
+16,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-007,SEC,1,1,0,992.5,Blue
+17,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-008,OSR,1,0,0,4.5,Blue
+18,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-008,OUR,1,0,0,90.9,Blue
+19,hBP01,天音かなた,Amane Kanata,hBP01-009,C,0,0,0,3,White
+20,hBP01,天音かなた,Amane Kanata,hBP01-010,U,0,0,0,3,White
+21,hBP01,天音かなた,Amane Kanata,hBP01-011,C,0,0,0,2.7,White
+22,hBP01,天音かなた,Amane Kanata,hBP01-012,U,0,0,0,3.6,White
+23,hBP01,天音かなた,Amane Kanata,hBP01-013,R,1,0,0,3,White
+24,hBP01,天音かなた,Amane Kanata,hBP01-014,RR,1,0,0,4,White
+25,hBP01,天音かなた,Amane Kanata,hBP01-014,UR,1,0,0,13.9,White
+26,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-015,C,0,0,0,3,White
+27,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-016,U,0,0,0,3,White
+28,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-017,C,0,0,0,2.7,White
+29,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-018,C,0,0,0,2.7,White
+30,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-019,U,0,0,0,3.6,White
+31,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-020,R,1,0,0,3.6,White
+32,hBP01,ときのそら,Tokino Sora,hBP01-021,C,0,0,0,4.5,White
+33,hBP01,ときのそら,Tokino Sora,hBP01-022,U,0,0,0,3,White
+34,hBP01,ときのそら,Tokino Sora,hBP01-023,RR,1,0,0,3.6,White
+35,hBP01,ときのそら,Tokino Sora,hBP01-023,UR,1,0,0,9.3,White
+36,hBP01,ベスティア・ゼータ,Vestia Zeta,hBP01-024,C,0,0,0,3.6,White
+37,hBP01,ベスティア・ゼータ,Vestia Zeta,hBP01-025,C,0,0,0,2.4,White
+38,hBP01,ベスティア・ゼータ,Vestia Zeta,hBP01-026,U,0,0,0,3.6,White
+39,hBP01,ベスティア・ゼータ,Vestia Zeta,hBP01-027,RR,1,0,0,4.5,White
+40,hBP01,ベスティア・ゼータ,Vestia Zeta,hBP01-027,UR,1,0,0,11,White
+41,hBP01,IRyS,IRyS,hBP01-028,C,0,0,0,3.6,White
+42,hBP01,IRyS,IRyS,hBP01-029,C,0,0,0,2.7,White
+43,hBP01,IRyS,IRyS,hBP01-030,U,0,0,0,3.6,White
+44,hBP01,IRyS,IRyS,hBP01-031,R,1,0,0,3.6,White
+45,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-032,C,0,0,0,3,Green
+46,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-033,U,0,0,0,2.4,Green
+47,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-034,C,0,0,0,3,Green
+48,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-035,C,0,0,0,0,Green
+49,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-036,U,0,0,0,2.7,Green
+50,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-037,R,1,0,0,3,Green
+51,hBP01,兎田ぺこら,Usada Pekora,hBP01-038,C,0,0,0,3.6,Green
+52,hBP01,兎田ぺこら,Usada Pekora,hBP01-039,U,0,0,0,3.6,Green
+53,hBP01,兎田ぺこら,Usada Pekora,hBP01-040,C,0,0,0,2.4,Green
+54,hBP01,兎田ぺこら,Usada Pekora,hBP01-041,U,0,0,0,3.6,Green
+55,hBP01,兎田ぺこら,Usada Pekora,hBP01-042,R,1,0,0,3.6,Green
+56,hBP01,兎田ぺこら,Usada Pekora,hBP01-043,RR,1,0,0,3,Green
+57,hBP01,兎田ぺこら,Usada Pekora,hBP01-043,UR,1,0,0,8.1,Green
+58,hBP01,AZKi,AZKi,hBP01-044,C,0,0,0,6.4,Green
+59,hBP01,AZKi,AZKi,hBP01-045,U,0,0,0,4.9,Green
+60,hBP01,AZKi,AZKi,hBP01-046,C,0,0,0,3.6,Green
+61,hBP01,AZKi,AZKi,hBP01-047,RR,1,0,0,3.6,Green
+62,hBP01,AZKi,AZKi,hBP01-047,UR,1,0,0,9.2,Green
+63,hBP01,風真いろは,Kazama Iroha,hBP01-048,C,0,0,0,3,Green
+64,hBP01,風真いろは,Kazama Iroha,hBP01-049,C,0,0,0,2.7,Green
+65,hBP01,風真いろは,Kazama Iroha,hBP01-050,U,0,0,0,3,Green
+66,hBP01,風真いろは,Kazama Iroha,hBP01-051,RR,1,0,0,3.6,Green
+67,hBP01,風真いろは,Kazama Iroha,hBP01-051,UR,1,0,0,9.8,Green
+68,hBP01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-052,C,0,0,0,3,Green
+69,hBP01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-053,C,0,0,0,2.4,Green
+70,hBP01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-054,U,0,0,0,4,Green
+71,hBP01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-055,R,1,0,0,3.6,Green
+72,hBP01,鷹嶺ルイ,Takane Lui,hBP01-056,C,0,0,0,5.8,Red
+73,hBP01,鷹嶺ルイ,Takane Lui,hBP01-057,U,0,0,0,2.7,Red
+74,hBP01,鷹嶺ルイ,Takane Lui,hBP01-058,C,0,0,0,2.2,Red
+75,hBP01,鷹嶺ルイ,Takane Lui,hBP01-059,C,0,0,0,2.4,Red
+76,hBP01,鷹嶺ルイ,Takane Lui,hBP01-060,U,0,0,0,4.9,Red
+77,hBP01,鷹嶺ルイ,Takane Lui,hBP01-061,R,1,0,0,4.5,Red
+78,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-062,C,0,0,0,4.5,Red
+79,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-063,U,0,0,0,2.7,Red
+80,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-064,C,0,0,0,2.2,Red
+81,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-065,U,0,0,0,3,Red
+82,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-066,R,1,0,0,3,Red
+83,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,RR,1,0,0,3.6,Red
+84,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,UR,1,0,0,8.2,Red
+85,hBP01,尾丸ポルカ,Omaru Polka,hBP01-068,C,0,0,0,3,Red
+86,hBP01,尾丸ポルカ,Omaru Polka,hBP01-069,C,0,0,0,2.7,Red
+87,hBP01,尾丸ポルカ,Omaru Polka,hBP01-070,U,0,0,0,4.5,Red
+88,hBP01,尾丸ポルカ,Omaru Polka,hBP01-071,RR,1,0,0,3.6,Red
+89,hBP01,尾丸ポルカ,Omaru Polka,hBP01-071,UR,1,0,0,20.3,Red
+90,hBP01,ハコス・ベールズ,Hakos Baelz,hBP01-072,C,0,0,0,3,Red
+91,hBP01,ハコス・ベールズ,Hakos Baelz,hBP01-073,C,0,0,0,2.7,Red
+92,hBP01,ハコス・ベールズ,Hakos Baelz,hBP01-074,U,0,0,0,4,Red
+93,hBP01,ハコス・ベールズ,Hakos Baelz,hBP01-075,R,1,0,0,4.5,Red
+94,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-076,C,0,0,0,3.6,Blue
+95,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-077,U,0,0,0,3,Blue
+96,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-078,C,0,0,0,0,Blue
+97,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-079,U,0,0,0,3.6,Blue
+98,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-080,R,1,0,0,3.6,Blue
+99,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-081,RR,1,0,0,3.6,Blue
+100,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-081,UR,1,0,0,9.8,Blue
+101,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-082,C,0,0,0,3,Blue
+102,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-083,U,0,0,0,3,Blue
+103,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-084,C,0,0,0,2.2,Blue
+104,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-085,C,0,0,0,2.2,Blue
+105,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-086,U,0,0,0,3,Blue
+106,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-087,R,1,0,0,3,Blue
+107,hBP01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,C,0,0,0,3.6,Blue
+108,hBP01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-089,C,0,0,0,2.2,Blue
+109,hBP01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-090,U,0,0,0,4.5,Blue
+110,hBP01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-091,RR,1,0,0,3,Blue
+111,hBP01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-091,UR,1,0,0,8.2,Blue
+112,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-092,C,0,0,0,3.6,Blue
+113,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-093,C,0,0,0,2.7,Blue
+114,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-094,U,0,0,0,9.2,Blue
+115,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-095,R,1,0,0,4.5,Blue
+116,hBP01,兎田ぺこら,Usada Pekora,hBP01-096,R,1,0,0,3,White
+117,hBP01,不知火フレア,Shiranui Flare,hBP01-097,R,1,0,0,3,White
+118,hBP01,白銀ノエル,Shirogane Noel,hBP01-098,R,1,0,0,3,White
+119,hBP01,宝鐘マリン,Houshou Marine,hBP01-099,R,1,0,0,2.7,White
+120,hBP01,森カリオペ,Mori Calliope,hBP01-100,C,0,0,0,2.2,White
+121,hBP01,ワトソン・アメリア,Amelia Watson,hBP01-101,C,0,0,0,2.7,White
+122,hBP01,アイドルマイク,Idol Microphone,hBP01-102,U,0,0,0,3,Support
+123,hBP01,ゲーミングパソコン,Gaming PC,hBP01-103,U,0,0,0,3.6,Support
+124,hBP01,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,0,6.6,Support
+125,hBP01,ペンライト,Penlight,hBP01-105,U,0,0,0,3,Support
+126,hBP01,あとは任せた！,I leave the rest to you!,hBP01-106,U,0,0,0,2.4,Support
+127,hBP01,アンコール,Encore,hBP01-107,C,0,0,0,4,Support
+128,hBP01,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,0,4.5,Support
+129,hBP01,月と兎の物語,Tale of the Moon and the Rabbit,hBP01-109,U,0,0,0,2.7,Support
+130,hBP01,鈍器でぶっ叩くわよ！,I'll smack you with a blunt weapon!,hBP01-110,U,0,0,0,2.4,Support
+131,hBP01,ホロライブインドネシア3期生,Hololive Indonesia Gen 3,hBP01-111,U,0,0,0,2.7,Support
+132,hBP01,わくわくいたずらタイム,Exciting Prank Time,hBP01-112,U,0,0,0,2.4,Support
+133,hBP01,Promise,Promise,hBP01-113,U,0,0,0,3,Support
+134,hBP01,石の斧,Stone Axe,hBP01-114,C,0,0,0,3.6,Support
+135,hBP01,星街すいせいのマイク,Hoshimachi Suisei's Microphone,hBP01-115,U,0,0,0,3,Support
+136,hBP01,うぱお,Upao,hBP01-116,C,0,0,0,3,Support
+137,hBP01,フレンド,Friend,hBP01-117,C,0,0,0,2.2,Support
+138,hBP01,あん肝,Ankimo,hBP01-118,C,0,0,0,3,Support
+139,hBP01,ジョブズ,Jobs,hBP01-119,C,0,0,0,2.2,Support
+140,hBP01,がんも,Ganmo,hBP01-120,C,0,0,0,2.7,Support
+141,hBP01,Kotori,Kotori,hBP01-121,C,0,0,0,3,Support
+142,hBP01,ロゼ隊,Rose Knight,hBP01-122,C,0,0,0,2.2,Support
+143,hBP01,野うさぎ同盟,Wild Rabbit Alliance,hBP01-123,C,0,0,0,2.7,Support
+144,hBP01,開拓者,Pioneers,hBP01-124,C,0,0,0,3.5,Support
+145,hBP01,KFP,KFP,hBP01-125,C,0,0,0,3,Support
+146,hBP01,座員,Troupe Member,hBP01-126,C,0,0,0,3.5,Support
+1526,hBP01,春先のどか,,hSD01-016,C,0,0,1,4.75,Support
+1527,hBP01,スゴイパソコン,,hSD01-019,C,0,0,1,3.5,Support
+1528,hBP01,ホロリスの輪,,hSD01-020,C,0,0,1,3.5,Support
+147,hBP02,白上フブキ,Shirakami Fubuki,hBP02-001,OSR,1,0,0,13.8,White
+148,hBP02,白上フブキ,Shirakami Fubuki,hBP02-001,OUR,1,0,0,243.4,White
+149,hBP02,白上フブキ,Shirakami Fubuki,hBP02-001,SEC,1,1,0,0,White
+150,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-002,OSR,1,0,0,4,Green
+151,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-002,OUR,1,0,0,48.4,Green
+152,hBP02,宝鐘マリン,Houshou Marine,hBP02-003,OSR,1,0,0,5.8,Red
+153,hBP02,宝鐘マリン,Houshou Marine,hBP02-003,OUR,1,0,0,120.8,Red
+154,hBP02,宝鐘マリン,Houshou Marine,hBP02-003,SEC,1,1,0,836,Red
+155,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-004,OSR,1,0,0,4.5,Blue
+156,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-004,OUR,1,0,0,246.1,Blue
+157,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-004,SEC,1,1,0,0,Blue
+158,hBP02,紫咲シオン,Murasaki Shion,hBP02-005,OSR,1,0,0,4.9,Purple
+159,hBP02,紫咲シオン,Murasaki Shion,hBP02-005,OUR,1,0,0,198.2,Purple
+160,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-006,OSR,1,0,0,4.9,Purple
+161,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-006,OUR,1,0,0,94.6,Purple
+162,hBP02,森カリオペ,Mori Calliope,hBP02-007,OSR,1,0,0,9.2,Purple
+163,hBP02,森カリオペ,Mori Calliope,hBP02-007,OUR,1,0,0,173.4,Purple
+164,hBP02,白上フブキ,Shirakami Fubuki,hBP02-008,C,0,0,0,3,White
+165,hBP02,白上フブキ,Shirakami Fubuki,hBP02-009,U,0,0,0,2.4,White
+166,hBP02,白上フブキ,Shirakami Fubuki,hBP02-010,C,0,0,0,2.4,White
+167,hBP02,白上フブキ,Shirakami Fubuki,hBP02-010,S,1,0,0,4.9,White
+168,hBP02,白上フブキ,Shirakami Fubuki,hBP02-011,U,0,0,0,2.7,White
+169,hBP02,白上フブキ,Shirakami Fubuki,hBP02-011,S,1,0,0,8.2,White
+170,hBP02,白上フブキ,Shirakami Fubuki,hBP02-012,R,1,0,0,3,White
+171,hBP02,白上フブキ,Shirakami Fubuki,hBP02-012,SR,1,0,0,7.3,White
+172,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,RR,1,0,0,4.7,White
+173,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,SR,1,0,0,11,White
+174,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,UR,1,0,0,115.5,White
+175,hBP02,白銀ノエル,Shirogane Noel,hBP02-014,C,0,0,0,3,White
+176,hBP02,白銀ノエル,Shirogane Noel,hBP02-015,C,0,0,0,2.4,White
+177,hBP02,白銀ノエル,Shirogane Noel,hBP02-015,S,1,0,0,4.9,White
+178,hBP02,白銀ノエル,Shirogane Noel,hBP02-016,U,0,0,0,2.7,White
+179,hBP02,白銀ノエル,Shirogane Noel,hBP02-016,S,1,0,0,5.8,White
+180,hBP02,白銀ノエル,Shirogane Noel,hBP02-017,RR,1,0,0,3.6,White
+181,hBP02,白銀ノエル,Shirogane Noel,hBP02-017,SR,1,0,0,6.6,White
+182,hBP02,白銀ノエル,Shirogane Noel,hBP02-017,UR,1,0,0,40.7,White
+183,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-018,C,0,0,0,3.6,Green
+184,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-019,U,0,0,0,2.4,Green
+185,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-019,S,1,0,0,4.7,Green
+186,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-020,C,0,0,0,2.4,Green
+187,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-020,S,1,0,0,4.7,Green
+188,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-021,U,0,0,0,2.7,Green
+189,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-021,S,1,0,0,5.8,Green
+190,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-022,R,1,0,0,2.7,Green
+191,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-022,SR,1,0,0,5.8,Green
+192,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-023,RR,1,0,0,3.6,Green
+193,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-023,SR,1,0,0,7.3,Green
+194,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-023,UR,1,0,0,32.4,Green
+195,hBP02,大神ミオ,Ookami Mio,hBP02-024,C,0,0,0,3,Green
+196,hBP02,大神ミオ,Ookami Mio,hBP02-025,C,0,0,0,2.4,Green
+197,hBP02,大神ミオ,Ookami Mio,hBP02-025,S,1,0,0,4.7,Green
+198,hBP02,大神ミオ,Ookami Mio,hBP02-026,U,0,0,0,4,Green
+199,hBP02,大神ミオ,Ookami Mio,hBP02-026,S,1,0,0,13.8,Green
+200,hBP02,大神ミオ,Ookami Mio,hBP02-027,RR,1,0,0,4.9,Green
+201,hBP02,大神ミオ,Ookami Mio,hBP02-027,SR,1,0,0,9.2,Green
+202,hBP02,大神ミオ,Ookami Mio,hBP02-027,UR,1,0,0,48.2,Green
+203,hBP02,宝鐘マリン,Houshou Marine,hBP02-028,C,0,0,0,2.7,Red
+204,hBP02,宝鐘マリン,Houshou Marine,hBP02-029,U,0,0,0,2.7,Red
+205,hBP02,宝鐘マリン,Houshou Marine,hBP02-030,C,0,0,0,2.4,Red
+206,hBP02,宝鐘マリン,Houshou Marine,hBP02-030,S,1,0,0,8.2,Red
+207,hBP02,宝鐘マリン,Houshou Marine,hBP02-031,U,0,0,0,3,Red
+208,hBP02,宝鐘マリン,Houshou Marine,hBP02-031,S,1,0,0,4.5,Red
+209,hBP02,宝鐘マリン,Houshou Marine,hBP02-032,R,1,0,0,3,Red
+210,hBP02,宝鐘マリン,Houshou Marine,hBP02-032,SR,1,0,0,15.7,Red
+211,hBP02,宝鐘マリン,Houshou Marine,hBP02-033,RR,1,0,0,9.2,Red
+212,hBP02,宝鐘マリン,Houshou Marine,hBP02-033,SR,1,0,0,18.4,Red
+213,hBP02,宝鐘マリン,Houshou Marine,hBP02-033,UR,1,0,0,85.3,Red
+214,hBP02,百鬼あやめ,Nakiri Ayame,hBP02-034,RR,1,0,0,4.5,Red
+215,hBP02,百鬼あやめ,Nakiri Ayame,hBP02-034,SR,1,0,0,7.3,Red
+216,hBP02,百鬼あやめ,Nakiri Ayame,hBP02-034,UR,1,0,0,48.2,Red
+217,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-035,C,0,0,0,9.2,Blue
+218,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-036,U,0,0,0,2.7,Blue
+219,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-036,S,1,0,0,4,Blue
+220,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-037,C,0,0,0,2.4,Blue
+221,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-037,S,1,0,0,7.3,Blue
+222,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-038,U,0,0,0,4,Blue
+223,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-038,S,1,0,0,42.8,Blue
+224,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-039,R,1,0,0,2.7,Blue
+225,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-039,SR,1,0,0,7.3,Blue
+226,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-040,RR,1,0,0,4.5,Blue
+227,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-040,SR,1,0,0,9.2,Blue
+228,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-040,UR,1,0,0,139.4,Blue
+229,hBP02,猫又おかゆ,Nekomata Okayu,hBP02-041,RR,1,0,0,4,Blue
+230,hBP02,猫又おかゆ,Nekomata Okayu,hBP02-041,SR,1,0,0,9.2,Blue
+231,hBP02,猫又おかゆ,Nekomata Okayu,hBP02-041,UR,1,0,0,57.5,Blue
+232,hBP02,紫咲シオン,Murasaki Shion,hBP02-042,C,0,0,0,3,Purple
+233,hBP02,紫咲シオン,Murasaki Shion,hBP02-043,U,0,0,0,2.4,Purple
+234,hBP02,紫咲シオン,Murasaki Shion,hBP02-044,C,0,0,0,2.4,Purple
+235,hBP02,紫咲シオン,Murasaki Shion,hBP02-044,S,1,0,0,5.8,Purple
+236,hBP02,紫咲シオン,Murasaki Shion,hBP02-045,U,0,0,0,2.4,Purple
+237,hBP02,紫咲シオン,Murasaki Shion,hBP02-045,S,1,0,0,11,Purple
+238,hBP02,紫咲シオン,Murasaki Shion,hBP02-046,R,1,0,0,2.7,Purple
+239,hBP02,紫咲シオン,Murasaki Shion,hBP02-046,SR,1,0,0,5.6,Purple
+240,hBP02,紫咲シオン,Murasaki Shion,hBP02-047,RR,1,0,0,3.6,Purple
+241,hBP02,紫咲シオン,Murasaki Shion,hBP02-047,SR,1,0,0,7.3,Purple
+242,hBP02,紫咲シオン,Murasaki Shion,hBP02-047,UR,1,0,0,66.7,Purple
+244,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-048,C,0,0,0,2.4,Purple
+245,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-049,U,0,0,0,2.2,Purple
+246,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-049,S,1,0,0,3.6,Purple
+247,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-050,C,0,0,0,2.2,Purple
+248,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-050,S,1,0,0,3.6,Purple
+249,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-051,U,0,0,0,2.2,Purple
+250,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-051,S,1,0,0,3.6,Purple
+251,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-052,R,1,0,0,2.7,Purple
+252,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-052,SR,1,0,0,5.8,Purple
+253,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-053,RR,1,0,0,3,Purple
+254,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-053,SR,1,0,0,4.9,Purple
+255,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-053,UR,1,0,0,15.7,Purple
+256,hBP02,森カリオペ,Mori Calliope,hBP02-054,C,0,0,0,3,Purple
+257,hBP02,森カリオペ,Mori Calliope,hBP02-055,U,0,0,0,2.4,Purple
+258,hBP02,森カリオペ,Mori Calliope,hBP02-055,S,1,0,0,4.7,Purple
+259,hBP02,森カリオペ,Mori Calliope,hBP02-056,C,0,0,0,2.4,Purple
+260,hBP02,森カリオペ,Mori Calliope,hBP02-056,S,1,0,0,4,Purple
+261,hBP02,森カリオペ,Mori Calliope,hBP02-057,U,0,0,0,2.7,Purple
+262,hBP02,森カリオペ,Mori Calliope,hBP02-057,S,1,0,0,10.3,Purple
+263,hBP02,森カリオペ,Mori Calliope,hBP02-058,R,1,0,0,2.4,Purple
+264,hBP02,森カリオペ,Mori Calliope,hBP02-058,SR,1,0,0,5.8,Purple
+265,hBP02,森カリオペ,Mori Calliope,hBP02-059,RR,1,0,0,4.5,Purple
+266,hBP02,森カリオペ,Mori Calliope,hBP02-059,SR,1,0,0,9.2,Purple
+267,hBP02,森カリオペ,Mori Calliope,hBP02-059,UR,1,0,0,24.9,Purple
+268,hBP02,癒月ちょこ,Yuzuki Choco,hBP02-060,R,1,0,0,2.7,Purple
+269,hBP02,癒月ちょこ,Yuzuki Choco,hBP02-060,SR,1,0,0,7.3,Purple
+270,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-061,C,0,0,0,2.7,Purple
+271,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-062,C,0,0,0,2.4,Purple
+272,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-062,S,1,0,0,4.7,Purple
+273,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-063,U,0,0,0,2.2,Purple
+274,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-063,S,1,0,0,3.6,Purple
+275,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-064,RR,1,0,0,3.6,Purple
+276,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-064,SR,1,0,0,8.2,Purple
+277,hBP02,一伊那尓栖,Ninomae Ina'nis,hBP02-064,UR,1,0,0,29.6,Purple
+278,hBP02,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-065,C,0,0,0,2.7,Purple
+279,hBP02,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-066,C,0,0,0,2.2,Purple
+280,hBP02,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-066,S,1,0,0,3.6,Purple
+281,hBP02,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-067,U,0,0,0,3,Purple
+282,hBP02,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-067,S,1,0,0,11,Purple
+283,hBP02,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-068,R,1,0,0,3,Purple
+284,hBP02,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-068,SR,1,0,0,9.2,Purple
+285,hBP02,魔法少女みこ,Magical Girl Miko,hBP02-069,R,1,0,0,2.4,White
+286,hBP02,魔法少女みこ,Magical Girl Miko,hBP02-069,SR,1,0,0,6.6,White
+287,hBP02,魔法少女かなた,Magical Girl Kanata,hBP02-070,R,1,0,0,2.4,White
+288,hBP02,魔法少女かなた,Magical Girl Kanata,hBP02-070,SR,1,0,0,5.8,White
+289,hBP02,魔法少女ルーナ,Magical Girl Luna,hBP02-071,R,1,0,0,2.4,White
+290,hBP02,魔法少女ルーナ,Magical Girl Luna,hBP02-071,SR,1,0,0,5.8,White
+291,hBP02,魔法少女シオン,Magical Girl Shion,hBP02-072,R,1,0,0,2.4,White
+293,hBP02,魔法少女シオン,Magical Girl Shion,hBP02-072,SR,1,0,0,5.8,White
+294,hBP02,魔法少女マリン,Magical Girl Marine,hBP02-073,R,1,0,0,2.4,White
+295,hBP02,魔法少女マリン,Magical Girl Marine,hBP02-073,SR,1,0,0,5.8,White
+296,hBP02,魔法少女クロヱ,Magical Girl Chloe,hBP02-074,R,1,0,0,2.4,White
+297,hBP02,魔法少女クロヱ,Magical Girl Chloe,hBP02-074,SR,1,0,0,6.6,White
+298,hBP02,アイドルサインペン,Idol's Autograph Pen,hBP02-075,U,0,0,0,3,Support
+299,hBP02,アイドルサインペン,Idol's Autograph Pen,hBP02-075,S,1,0,0,3.6,Support
+300,hBP02,カスタムパソコン,Custom PC,hBP02-076,C,0,0,0,3,Support
+301,hBP02,カスタムパソコン,Custom PC,hBP02-076,S,1,0,0,6.6,Support
+302,hBP02,レトロパソコン,Retro PC,hBP02-077,C,0,0,0,2.4,Support
+303,hBP02,レトロパソコン,Retro PC,hBP02-077,S,1,0,0,5.8,Support
+304,hBP02,かなた建設(エラッタ前),Kanata Construction,hBP02-078,U,0,0,0,2.7,Support
+305,hBP02,かなた建設(エラッタ前),Kanata Construction,hBP02-078,S,1,0,0,4.7,Support
+306,hBP02,爆発の魔法,Explosion Magic,hBP02-079,U,0,0,0,4.5,Support
+307,hBP02,爆発の魔法,Explosion Magic,hBP02-079,S,1,0,0,9.2,Support
+308,hBP02,秘密結社holoX,holoX,hBP02-080,U,0,0,0,2.4,Support
+309,hBP02,秘密結社holoX,holoX,hBP02-080,S,1,0,0,5.8,Support
+310,hBP02,ホロライブ インドネシア2期生,Hololive Indonesia Gen 2,hBP02-081,U,0,0,0,2.7,Support
+311,hBP02,ホロライブ インドネシア2期生,Hololive Indonesia Gen 2,hBP02-081,S,1,0,0,3.6,Support
+312,hBP02,ホロライブゲーマーズ,Hololive GAMERS,hBP02-082,U,0,0,0,3,Support
+313,hBP02,ホロライブゲーマーズ,Hololive GAMERS,hBP02-082,S,1,0,0,4.9,Support
+314,hBP02,魔法のタンス,Magical Dresser,hBP02-083,U,0,0,0,2.2,Support
+315,hBP02,魔法のタンス,Magical Dresser,hBP02-083,S,1,0,0,3.6,Support
+316,hBP02,みっころね24,Mikkorone 24,hBP02-084,U,0,0,0,10.1,Support
+317,hBP02,みっころね24,Mikkorone 24,hBP02-084,S,1,0,0,24.9,Support
+318,hBP02,みっころね24,Mikkorone 24,hBP02-084,SEC,1,1,0,729.8,Support
+319,hBP02,HOLOLIVE FANTASY,HOLOLIVE FANTASY,hBP02-085,U,0,0,0,3,Support
+320,hBP02,HOLOLIVE FANTASY,HOLOLIVE FANTASY,hBP02-085,S,1,0,0,4.7,Support
+321,hBP02,ホロスパークリング,holoSparkling,hBP02-086,C,0,0,0,3.6,Support
+322,hBP02,ホロスパークリング,holoSparkling,hBP02-086,S,1,0,0,5.8,Support
+323,hBP02,紫咲シオンの魔法のステッキ,Murasaki Shion's Magical Wand,hBP02-087,C,0,0,0,2.2,Support
+324,hBP02,紫咲シオンの魔法のステッキ,Murasaki Shion's Magical Wand,hBP02-087,S,1,0,0,3.6,Support
+325,hBP02,森カリオペの鎌,Mori Calliope's Scythe,hBP02-088,U,0,0,0,2.2,Support
+326,hBP02,森カリオペの鎌,Mori Calliope's Scythe,hBP02-088,S,1,0,0,5.8,Support
+327,hBP02,おるやんけ,Oruyanke,hBP02-089,C,0,0,0,2.4,Support
+328,hBP02,おるやんけ,Oruyanke,hBP02-089,S,1,0,0,6.6,Support
+329,hBP02,ネジマキツネ,Nejimakitsune,hBP02-090,C,0,0,0,2.4,Support
+330,hBP02,ネジマキツネ,Nejimakitsune,hBP02-090,S,1,0,0,7.3,Support
+331,hBP02,フブチュン,Fubu-chun,hBP02-091,C,0,0,0,2.4,Support
+332,hBP02,フブチュン,Fubu-chun,hBP02-091,S,1,0,0,3.6,Support
+333,hBP02,フブラ,Fubzilla,hBP02-092,U,0,0,0,2.4,Support
+334,hBP02,フブラ,Fubzilla,hBP02-092,S,1,0,0,3.6,Support
+335,hBP02,ミテイル,Miteiru,hBP02-093,C,0,0,0,2.4,Support
+336,hBP02,ミテイル,Miteiru,hBP02-093,S,1,0,0,3.6,Support
+337,hBP02,Tatang,Tatang,hBP02-094,C,0,0,0,2.4,Support
+338,hBP02,Tatang,Tatang,hBP02-094,S,1,0,0,4.7,Support
+339,hBP02,ドクロくん,Dokuro-kun,hBP02-095,C,0,0,0,2.2,Support
+340,hBP02,ドクロくん,Dokuro-kun,hBP02-095,S,1,0,0,3.6,Support
+341,hBP02,イヌ,Inu,hBP02-096,C,0,0,0,2.2,Support
+342,hBP02,イヌ,Inu,hBP02-096,S,1,0,0,3,Support
+343,hBP02,UDIN,UDIN,hBP02-097,C,0,0,0,2.2,Support
+344,hBP02,UDIN,UDIN,hBP02-097,S,1,0,0,3,Support
+345,hBP02,Death-sensei,Death-sensei,hBP02-098,C,0,0,0,2.4,Support
+346,hBP02,Death-sensei,Death-sensei,hBP02-098,S,1,0,0,5.8,Support
+347,hBP02,すこん部,Sukonbu,hBP02-099,C,0,0,0,2.4,Support
+348,hBP02,すこん部,Sukonbu,hBP02-099,S,1,0,0,3.6,Support
+349,hBP02,白銀聖騎士団,Knight's Order of Shirogane,hBP02-100,C,0,0,0,2.4,Support
+350,hBP02,白銀聖騎士団,Knight's Order of Shirogane,hBP02-100,S,1,0,0,4.5,Support
+351,hBP02,ミオファ,Mio-fam,hBP02-101,C,0,0,0,2.2,Support
+352,hBP02,ミオファ,Mio-fam,hBP02-101,S,1,0,0,9.2,Support
+353,hBP02,塩っ子(エラッタ前),Shiokko,hBP02-102,C,0,0,0,2.2,Support
+354,hBP02,塩っ子(エラッタ前),Shiokko,hBP02-102,S,1,0,0,4.7,Support
+1490,hBP02,白エール,White Cheer,hY01-003,SY,1,0,0,43.5,White
+1491,hBP02,緑エール,Green Cheer,hY02-002,SY,1,0,0,27.25,Green
+1492,hBP02,赤エール,Red Cheer,hY03-002,SY,1,0,0,39.75,Red
+1493,hBP02,青エール,Blue Cheer,hY04-002,SY,1,0,0,33.5,Blue
+1494,hBP02,紫エール,Purple Cheer,hY05-002,SY,1,0,0,26,Purple
+355,hBP02,百鬼あやめ,Nakiri Ayame,hSD02-009,SR,1,0,1,11,Red
+356,hBP02,猫又おかゆ,Nekomata Okayu,hSD03-009,SR,1,0,1,6.6,Blue
+357,hBP02,癒月ちょこ,Yuzuki Choco,hSD04-009,SR,1,0,1,7.3,Purple
+358,hBP03,姫森ルーナ,Himemori Luna,hBP03-001,OSR,1,0,0,5.8,White
+359,hBP03,姫森ルーナ,Himemori Luna,hBP03-001,OUR,1,0,0,132.2,White
+360,hBP03,獅白ぼたん,Shishiro Botan,hBP03-002,OSR,1,0,0,5.8,Green
+361,hBP03,獅白ぼたん,Shishiro Botan,hBP03-002,OUR,1,0,0,112,Green
+362,hBP03,獅白ぼたん,Shishiro Botan,hBP03-002,SEC,1,1,0,438.2,Green
+363,hBP03,さくらみこ,Sakura Miko,hBP03-003,OSR,1,0,0,13.8,Red
+364,hBP03,さくらみこ,Sakura Miko,hBP03-003,OUR,1,0,0,0,Red
+365,hBP03,さくらみこ,Sakura Miko,hBP03-003,SEC,1,1,0,0,Red
+366,hBP03,フワモコ,FUWAMOCO,hBP03-004,OSR,1,0,0,7.3,Blue
+367,hBP03,フワモコ,FUWAMOCO,hBP03-004,OUR,1,0,0,206.5,Blue
+368,hBP03,常闇トワ,Tokoyami Towa,hBP03-005,OSR,1,0,0,7.3,Purple
+369,hBP03,常闇トワ,Tokoyami Towa,hBP03-005,OUR,1,0,0,139.4,Purple
+370,hBP03,常闇トワ,Tokoyami Towa,hBP03-005,SEC,1,1,0,566.2,Purple
+371,hBP03,戌神ころね,Inugami Korone,hBP03-006,OSR,1,0,0,24.9,Yellow
+372,hBP03,戌神ころね,Inugami Korone,hBP03-006,OUR,1,0,0,223,Yellow
+373,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,OSR,1,0,0,7.3,Yellow
+374,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,OUR,1,0,0,85.3,Yellow
+375,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,SEC,1,1,0,650.3,Yellow
+376,hBP03,アユンダ・リス,Ayunda Risu,hBP03-008,OSR,1,0,0,3.6,Yellow
+377,hBP03,アユンダ・リス,Ayunda Risu,hBP03-008,OUR,1,0,0,76,Yellow
+378,hBP03,姫森ルーナ,Himemori Luna,hBP03-009,C,0,0,0,3,White
+379,hBP03,姫森ルーナ,Himemori Luna,hBP03-010,U,0,0,0,2.2,White
+380,hBP03,姫森ルーナ,Himemori Luna,hBP03-010,S,1,0,0,0,White
+381,hBP03,姫森ルーナ,Himemori Luna,hBP03-011,C,0,0,0,2.2,White
+382,hBP03,姫森ルーナ,Himemori Luna,hBP03-011,S,1,0,0,4.9,White
+383,hBP03,姫森ルーナ,Himemori Luna,hBP03-012,U,0,0,0,2.2,White
+384,hBP03,姫森ルーナ,Himemori Luna,hBP03-012,S,1,0,0,5.8,White
+385,hBP03,姫森ルーナ,Himemori Luna,hBP03-013,R,1,0,0,2.4,White
+386,hBP03,姫森ルーナ,Himemori Luna,hBP03-013,SR,1,0,0,5.8,White
+387,hBP03,姫森ルーナ,Himemori Luna,hBP03-014,RR,1,0,0,3.6,White
+388,hBP03,姫森ルーナ,Himemori Luna,hBP03-014,SR,1,0,0,6.6,White
+389,hBP03,姫森ルーナ,Himemori Luna,hBP03-014,UR,1,0,0,24.9,White
+390,hBP03,轟はじめ,Todoroki Hajime,hBP03-015,RR,1,0,0,3.6,White
+391,hBP03,轟はじめ,Todoroki Hajime,hBP03-015,SR,1,0,0,5.8,White
+392,hBP03,轟はじめ,Todoroki Hajime,hBP03-015,UR,1,0,0,24.9,White
+393,hBP03,獅白ぼたん,Shishiro Botan,hBP03-016,C,0,0,0,3,Green
+394,hBP03,獅白ぼたん,Shishiro Botan,hBP03-017,U,0,0,0,2.2,Green
+395,hBP03,獅白ぼたん,Shishiro Botan,hBP03-017,S,1,0,0,5.8,Green
+396,hBP03,獅白ぼたん,Shishiro Botan,hBP03-018,C,0,0,0,2.2,Green
+397,hBP03,獅白ぼたん,Shishiro Botan,hBP03-018,S,1,0,0,4.9,Green
+398,hBP03,獅白ぼたん,Shishiro Botan,hBP03-019,U,0,0,0,2.2,Green
+399,hBP03,獅白ぼたん,Shishiro Botan,hBP03-019,S,1,0,0,5.8,Green
+400,hBP03,獅白ぼたん,Shishiro Botan,hBP03-020,R,1,0,0,2.4,Green
+401,hBP03,獅白ぼたん,Shishiro Botan,hBP03-020,SR,1,0,0,6.6,Green
+402,hBP03,獅白ぼたん,Shishiro Botan,hBP03-021,RR,1,0,0,3.6,Green
+403,hBP03,獅白ぼたん,Shishiro Botan,hBP03-021,SR,1,0,0,7.3,Green
+404,hBP03,獅白ぼたん,Shishiro Botan,hBP03-021,UR,1,0,0,47.4,Green
+405,hBP03,アキ・ローゼンタール,Aki Rosenthal,hBP03-022,R,1,0,0,2.4,Green
+406,hBP03,アキ・ローゼンタール,Aki Rosenthal,hBP03-022,SR,1,0,0,5.8,Green
+407,hBP03,兎田ぺこら,Usada Pekora,hBP03-023,R,1,0,0,3.6,Green
+408,hBP03,兎田ぺこら,Usada Pekora,hBP03-023,SR,1,0,0,13.8,Green
+409,hBP03,風真いろは,Kazama Iroha,hBP03-024,RR,1,0,0,3.6,Green
+410,hBP03,風真いろは,Kazama Iroha,hBP03-024,SR,1,0,0,9.2,Green
+411,hBP03,風真いろは,Kazama Iroha,hBP03-024,UR,1,0,0,34.2,Green
+412,hBP03,さくらみこ,Sakura Miko,hBP03-025,C,0,0,0,3.6,Red
+413,hBP03,さくらみこ,Sakura Miko,hBP03-026,U,0,0,0,2.4,Red
+414,hBP03,さくらみこ,Sakura Miko,hBP03-026,S,1,0,0,4.9,Red
+415,hBP03,さくらみこ,Sakura Miko,hBP03-027,C,0,0,0,2.2,Red
+416,hBP03,さくらみこ,Sakura Miko,hBP03-027,S,1,0,0,8.2,Red
+417,hBP03,さくらみこ,Sakura Miko,hBP03-028,U,0,0,0,2.2,Red
+418,hBP03,さくらみこ,Sakura Miko,hBP03-028,S,1,0,0,8.4,Red
+419,hBP03,さくらみこ,Sakura Miko,hBP03-029,R,1,0,0,3.6,Red
+420,hBP03,さくらみこ,Sakura Miko,hBP03-029,SR,1,0,0,18.4,Red
+421,hBP03,さくらみこ,Sakura Miko,hBP03-030,RR,1,0,0,4.9,Red
+422,hBP03,さくらみこ,Sakura Miko,hBP03-030,SR,1,0,0,7.3,Red
+423,hBP03,さくらみこ,Sakura Miko,hBP03-030,UR,1,0,0,48.2,Red
+424,hBP03,赤井はあと,Akai Haato,hBP03-031,C,0,0,0,2.7,Red
+425,hBP03,赤井はあと,Akai Haato,hBP03-032,C,0,0,0,2.2,Red
+426,hBP03,赤井はあと,Akai Haato,hBP03-032,S,1,0,0,3.6,Red
+427,hBP03,赤井はあと,Akai Haato,hBP03-033,U,0,0,0,2.2,Red
+428,hBP03,赤井はあと,Akai Haato,hBP03-033,S,1,0,0,5.8,Red
+429,hBP03,赤井はあと,Akai Haato,hBP03-034,RR,1,0,0,7.3,Red
+430,hBP03,赤井はあと,Akai Haato,hBP03-034,SR,1,0,0,9.2,Red
+431,hBP03,赤井はあと,Akai Haato,hBP03-034,UR,1,0,0,38.9,Red
+432,hBP03,鷹嶺ルイ,Takane Lui,hBP03-035,R,1,0,0,2.4,Red
+433,hBP03,鷹嶺ルイ,Takane Lui,hBP03-035,SR,1,0,0,7.3,Red
+434,hBP03,小鳥遊キアラ,Takanashi Kiara,hBP03-036,R,1,0,0,2.4,Red
+435,hBP03,小鳥遊キアラ,Takanashi Kiara,hBP03-036,SR,1,0,0,6.6,Red
+436,hBP03,モココ・アビスガード,Mococo Abyssgard,hBP03-037,C,0,0,0,3,Red
+437,hBP03,モココ・アビスガード,Mococo Abyssgard,hBP03-038,C,0,0,0,2.2,Red
+438,hBP03,モココ・アビスガード,Mococo Abyssgard,hBP03-038,S,1,0,0,0,Red
+439,hBP03,モココ・アビスガード,Mococo Abyssgard,hBP03-039,R,1,0,0,2.4,Red
+440,hBP03,モココ・アビスガード,Mococo Abyssgard,hBP03-039,SR,1,0,0,6.6,Red
+441,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-040,C,0,0,0,3,Blue
+442,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-041,C,0,0,0,2.2,Blue
+443,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-041,S,1,0,0,3.7,Blue
+444,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-042,U,0,0,0,2.4,Blue
+445,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-042,S,1,0,0,4.9,Blue
+446,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-043,RR,1,0,0,4.9,Blue
+447,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-043,SR,1,0,0,7.3,Blue
+448,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-043,UR,1,0,0,57.5,Blue
+449,hBP03,星街すいせい,Hoshimachi Suisei,hBP03-044,R,1,0,0,3.6,Blue
+450,hBP03,星街すいせい,Hoshimachi Suisei,hBP03-044,SR,1,0,0,24.9,Blue
+451,hBP03,こぼ・かなえる,Kobo Kanaeru,hBP03-045,R,1,0,0,2.4,Blue
+452,hBP03,こぼ・かなえる,Kobo Kanaeru,hBP03-045,SR,1,0,0,8.2,Blue
+453,hBP03,火威青,Hiodoshi Ao,hBP03-046,C,0,0,0,2.7,Blue
+454,hBP03,火威青,Hiodoshi Ao,hBP03-047,C,0,0,0,2.2,Blue
+455,hBP03,火威青,Hiodoshi Ao,hBP03-047,S,1,0,0,3.4,Blue
+456,hBP03,火威青,Hiodoshi Ao,hBP03-048,U,0,0,0,2.2,Blue
+457,hBP03,火威青,Hiodoshi Ao,hBP03-048,S,1,0,0,3.6,Blue
+458,hBP03,火威青,Hiodoshi Ao,hBP03-049,R,1,0,0,2.4,Blue
+459,hBP03,火威青,Hiodoshi Ao,hBP03-049,SR,1,0,0,7.3,Blue
+460,hBP03,フワモコ,FUWAMOCO,hBP03-050,R,1,0,0,3,"Blue,Red"
+461,hBP03,フワモコ,FUWAMOCO,hBP03-050,SR,1,0,0,0,"Blue,Red"
+462,hBP03,常闇トワ,Tokoyami Towa,hBP03-051,C,0,0,0,3,Purple
+463,hBP03,常闇トワ,Tokoyami Towa,hBP03-052,U,0,0,0,2.2,Purple
+464,hBP03,常闇トワ,Tokoyami Towa,hBP03-052,S,1,0,0,3.6,Purple
+465,hBP03,常闇トワ,Tokoyami Towa,hBP03-053,C,0,0,0,2.2,Purple
+466,hBP03,常闇トワ,Tokoyami Towa,hBP03-053,S,1,0,0,5.8,Purple
+467,hBP03,常闇トワ,Tokoyami Towa,hBP03-054,U,0,0,0,2.2,Purple
+468,hBP03,常闇トワ,Tokoyami Towa,hBP03-054,S,1,0,0,5.8,Purple
+469,hBP03,常闇トワ,Tokoyami Towa,hBP03-055,R,1,0,0,2.4,Purple
+470,hBP03,常闇トワ,Tokoyami Towa,hBP03-055,SR,1,0,0,6.6,Purple
+471,hBP03,常闇トワ,Tokoyami Towa,hBP03-056,RR,1,0,0,4,Purple
+472,hBP03,常闇トワ,Tokoyami Towa,hBP03-056,SR,1,0,0,9.2,Purple
+473,hBP03,常闇トワ,Tokoyami Towa,hBP03-056,UR,1,0,0,38.9,Purple
+474,hBP03,ロボ子さん,Roboco-san,hBP03-057,C,0,0,0,2.7,Purple
+475,hBP03,ロボ子さん,Roboco-san,hBP03-058,C,0,0,0,2.2,Purple
+476,hBP03,ロボ子さん,Roboco-san,hBP03-058,S,1,0,0,3.6,Purple
+477,hBP03,ロボ子さん,Roboco-san,hBP03-059,U,0,0,0,4,Purple
+478,hBP03,ロボ子さん,Roboco-san,hBP03-059,S,1,0,0,13.8,Purple
+479,hBP03,ロボ子さん,Roboco-san,hBP03-060,R,1,0,0,2.7,Purple
+480,hBP03,ロボ子さん,Roboco-san,hBP03-060,SR,1,0,0,9.2,Purple
+481,hBP03,戌神ころね,Inugami Korone,hBP03-061,C,0,0,0,3.6,Yellow
+482,hBP03,戌神ころね,Inugami Korone,hBP03-062,U,0,0,0,2.7,Yellow
+483,hBP03,戌神ころね,Inugami Korone,hBP03-062,S,1,0,0,5.8,Yellow
+484,hBP03,戌神ころね,Inugami Korone,hBP03-063,C,0,0,0,2.7,Yellow
+485,hBP03,戌神ころね,Inugami Korone,hBP03-063,S,1,0,0,11,Yellow
+486,hBP03,戌神ころね,Inugami Korone,hBP03-064,U,0,0,0,2.4,Yellow
+487,hBP03,戌神ころね,Inugami Korone,hBP03-064,S,1,0,0,4.9,Yellow
+488,hBP03,戌神ころね,Inugami Korone,hBP03-065,R,1,0,0,3.6,Yellow
+489,hBP03,戌神ころね,Inugami Korone,hBP03-065,SR,1,0,0,9.2,Yellow
+490,hBP03,戌神ころね,Inugami Korone,hBP03-066,RR,1,0,0,4,Yellow
+491,hBP03,戌神ころね,Inugami Korone,hBP03-066,SR,1,0,0,6.6,Yellow
+492,hBP03,戌神ころね,Inugami Korone,hBP03-066,UR,1,0,0,38.9,Yellow
+493,hBP03,角巻わため,Tsunomaki Watame,hBP03-067,C,0,0,0,3,Yellow
+494,hBP03,角巻わため,Tsunomaki Watame,hBP03-068,U,0,0,0,2.2,Yellow
+495,hBP03,角巻わため,Tsunomaki Watame,hBP03-068,S,1,0,0,4.9,Yellow
+496,hBP03,角巻わため,Tsunomaki Watame,hBP03-069,C,0,0,0,2.2,Yellow
+497,hBP03,角巻わため,Tsunomaki Watame,hBP03-069,S,1,0,0,7.3,Yellow
+498,hBP03,角巻わため,Tsunomaki Watame,hBP03-070,U,0,0,0,3,Yellow
+499,hBP03,角巻わため,Tsunomaki Watame,hBP03-070,S,1,0,0,0,Yellow
+500,hBP03,角巻わため,Tsunomaki Watame,hBP03-071,R,1,0,0,2.4,Yellow
+501,hBP03,角巻わため,Tsunomaki Watame,hBP03-071,SR,1,0,0,6.6,Yellow
+502,hBP03,角巻わため,Tsunomaki Watame,hBP03-072,RR,1,0,0,4.9,Yellow
+503,hBP03,角巻わため,Tsunomaki Watame,hBP03-072,SR,1,0,0,8.2,Yellow
+504,hBP03,角巻わため,Tsunomaki Watame,hBP03-072,UR,1,0,0,48.2,Yellow
+505,hBP03,アユンダ・リス,Ayunda Risu,hBP03-073,C,0,0,0,3,Yellow
+506,hBP03,アユンダ・リス,Ayunda Risu,hBP03-074,U,0,0,0,2.2,Yellow
+507,hBP03,アユンダ・リス,Ayunda Risu,hBP03-074,S,1,0,0,3.6,Yellow
+508,hBP03,アユンダ・リス,Ayunda Risu,hBP03-075,C,0,0,0,2.2,Yellow
+509,hBP03,アユンダ・リス,Ayunda Risu,hBP03-075,S,1,0,0,3.6,Yellow
+510,hBP03,アユンダ・リス,Ayunda Risu,hBP03-076,U,0,0,0,2.4,Yellow
+511,hBP03,アユンダ・リス,Ayunda Risu,hBP03-076,S,1,0,0,6.6,Yellow
+512,hBP03,アユンダ・リス,Ayunda Risu,hBP03-077,R,1,0,0,2.4,Yellow
+513,hBP03,アユンダ・リス,Ayunda Risu,hBP03-077,SR,1,0,0,5.8,Yellow
+514,hBP03,アユンダ・リス,Ayunda Risu,hBP03-078,RR,1,0,0,3,Yellow
+515,hBP03,アユンダ・リス,Ayunda Risu,hBP03-078,SR,1,0,0,4.9,Yellow
+516,hBP03,アユンダ・リス,Ayunda Risu,hBP03-078,UR,1,0,0,13.8,Yellow
+517,hBP03,不知火フレア,Shiranui Flare,hBP03-079,RR,1,0,0,3.6,Yellow
+518,hBP03,不知火フレア,Shiranui Flare,hBP03-079,SR,1,0,0,7.3,Yellow
+519,hBP03,不知火フレア,Shiranui Flare,hBP03-079,UR,1,0,0,24.9,Yellow
+520,hBP03,音乃瀬奏,Otonose Kanade,hBP03-080,C,0,0,0,2.7,Yellow
+521,hBP03,音乃瀬奏,Otonose Kanade,hBP03-081,C,0,0,0,2.2,Yellow
+522,hBP03,音乃瀬奏,Otonose Kanade,hBP03-081,S,1,0,0,4.9,Yellow
+523,hBP03,音乃瀬奏,Otonose Kanade,hBP03-082,U,0,0,0,2.2,Yellow
+524,hBP03,音乃瀬奏,Otonose Kanade,hBP03-082,S,1,0,0,3.3,Yellow
+525,hBP03,音乃瀬奏,Otonose Kanade,hBP03-083,R,1,0,0,2.4,Yellow
+526,hBP03,音乃瀬奏,Otonose Kanade,hBP03-083,SR,1,0,0,7.3,Yellow
+527,hBP03,ゴージャスパソコン,Gorgeous PC,hBP03-084,U,0,0,0,2.2,Support
+528,hBP03,ゴージャスパソコン,Gorgeous PC,hBP03-084,S,1,0,0,3,Support
+529,hBP03,スーパーパソコン,Super PC,hBP03-085,U,0,0,0,2.7,Support
+530,hBP03,スーパーパソコン,Super PC,hBP03-085,S,1,0,0,3.6,Support
+531,hBP03,デュアルモニターパソコン,Dual-Monitor PC,hBP03-086,C,0,0,0,2.7,Support
+532,hBP03,デュアルモニターパソコン,Dual-Monitor PC,hBP03-086,S,1,0,0,3.6,Support
+533,hBP03,コールアンドレスポンス,Call and Response,hBP03-087,C,0,0,0,2.2,Support
+534,hBP03,コールアンドレスポンス,Call and Response,hBP03-087,S,1,0,0,3.6,Support
+535,hBP03,凸待ち,Totsumachi,hBP03-088,U,0,0,0,5.8,Support
+536,hBP03,凸待ち,Totsumachi,hBP03-088,S,1,0,0,0,Support
+537,hBP03,ファンミーティング,Fan Meeting,hBP03-089,U,0,0,0,2.2,Support
+538,hBP03,ファンミーティング,Fan Meeting,hBP03-089,S,1,0,0,3.6,Support
+539,hBP03,ホロライブ言えるかな？,Can You Do the hololive?,hBP03-090,U,0,0,0,3.6,Support
+540,hBP03,ホロライブ言えるかな？,Can You Do the hololive?,hBP03-090,S,1,0,0,11,Support
+541,hBP03,ホロライブインドネシア1期生,Hololive Indonesia Gen 1,hBP03-091,U,0,0,0,2.2,Support
+542,hBP03,ホロライブインドネシア1期生,Hololive Indonesia Gen 1,hBP03-091,S,1,0,0,4,Support
+543,hBP03,ホロライブ0期性,Hololive Gen 0,hBP03-092,U,0,0,0,2.7,Support
+544,hBP03,ホロライブ0期性,Hololive Gen 0,hBP03-092,S,1,0,0,4.9,Support
+545,hBP03,ホロライブ4期生,Hololive Gen 4,hBP03-093,U,0,0,0,2.4,Support
+546,hBP03,ホロライブ4期生,Hololive Gen 4,hBP03-093,S,1,0,0,4.5,Support
+547,hBP03,FPS配信,FPS Stream,hBP03-094,U,0,0,0,2.4,Support
+548,hBP03,FPS配信,FPS Stream,hBP03-094,S,1,0,0,3.6,Support
+549,hBP03,ホロキャップ,holoCap,hBP03-095,C,0,0,0,2.2,Support
+550,hBP03,ホロキャップ,holoCap,hBP03-095,S,1,0,0,4,Support
+551,hBP03,ライフル,Rifle,hBP03-096,U,0,0,0,3,Support
+552,hBP03,ライフル,Rifle,hBP03-096,S,1,0,0,8.2,Support
+553,hBP03,リコーダー,Recorder,hBP03-097,C,0,0,0,2.2,Support
+554,hBP03,リコーダー,Recorder,hBP03-097,S,1,0,0,4,Support
+555,hBP03,金時,Kintoki,hBP03-098,U,0,0,0,2.4,Support
+556,hBP03,金時,Kintoki,hBP03-098,S,1,0,0,4.5,Support
+557,hBP03,マグチ,Maguchi,hBP03-099,C,0,0,0,2.2,Support
+558,hBP03,マグチ,Maguchi,hBP03-099,S,1,0,0,4.7,Support
+559,hBP03,ペロ,Pero,hBP03-100,C,0,0,0,2.2,Support
+560,hBP03,ペロ,Pero,hBP03-100,S,1,0,0,4.9,Support
+561,hBP03,ビビ,Bibi,hBP03-101,C,0,0,0,2.2,Support
+562,hBP03,ビビ,Bibi,hBP03-101,S,1,0,0,4.7,Support
+563,hBP03,フトイヌ,Futoinu,hBP03-102,U,0,0,0,3,Support
+564,hBP03,フトイヌ,Futoinu,hBP03-102,S,1,0,0,8.2,Support
+565,hBP03,ホソイヌ,Hosoinu,hBP03-103,C,0,0,0,2.2,Support
+566,hBP03,ホソイヌ,Hosoinu,hBP03-103,S,1,0,0,3.6,Support
+567,hBP03,Riscot,Riscot,hBP03-104,C,0,0,0,2.2,Support
+568,hBP03,Riscot,Riscot,hBP03-104,S,1,0,0,3.6,Support
+569,hBP03,ルーナイト,Lu-knights,hBP03-105,U,0,0,0,2.4,Support
+570,hBP03,ルーナイト,Lu-knights,hBP03-105,S,1,0,0,4.5,Support
+571,hBP03,SSRB,SSRB,hBP03-106,C,0,0,0,2.2,Support
+572,hBP03,SSRB,SSRB,hBP03-106,S,1,0,0,3.6,Support
+573,hBP03,35P,35P,hBP03-107,U,0,0,0,2.4,Support
+574,hBP03,35P,35P,hBP03-107,S,1,0,0,7,Support
+575,hBP03,はあとん,Haaton,hBP03-108,C,0,0,0,2.2,Support
+576,hBP03,はあとん,Haaton,hBP03-108,S,1,0,0,3,Support
+577,hBP03,Ruffians,Ruffians,hBP03-109,C,0,0,0,2.2,Support
+578,hBP03,Ruffians,Ruffians,hBP03-109,S,1,0,0,3,Support
+579,hBP03,ろぼさー,Roboser,hBP03-110,U,0,0,0,2.2,Support
+580,hBP03,ろぼさー,Roboser,hBP03-110,S,1,0,0,8.2,Support
+581,hBP03,ころねすきー,Koronesky,hBP03-111,C,0,0,0,2.2,Support
+582,hBP03,ころねすきー,Koronesky,hBP03-111,S,1,0,0,3.6,Support
+583,hBP03,わためいと,Watamates,hBP03-112,U,0,0,0,2.4,Support
+584,hBP03,わためいと,Watamates,hBP03-112,S,1,0,0,5.8,Support
+585,hBP03,Risuners,Risuners,hBP03-113,C,0,0,0,2.2,Support
+586,hBP03,Risuners,Risuners,hBP03-113,S,1,0,0,3.6,Support
+1495,hBP03,白エール,White Cheer,hY01-004,SY,1,0,0,24.75,White
+1496,hBP03,緑エール,Green Cheer,hY02-003,SY,1,0,0,52.25,Green
+1497,hBP03,赤エール,Red Cheer,hY03-003,SY,1,0,0,39.75,Red
+1498,hBP03,青エール,Blue Cheer,hY04-003,SY,1,0,0,52.25,Blue
+1499,hBP03,紫エール,Purple Cheer,hY05-003,SY,1,0,0,39.75,Purple
+1500,hBP03,黄エール,Yellow Cheer,hY06-002,SY,1,0,0,37.25,Yellow
+587,hBP03,轟はじめ,Todoroki Hajime,hSD05-009,SR,1,0,1,6.6,White
+588,hBP03,風真いろは,Kazama Iroha,hSD06-007,SR,1,0,1,9.2,Green
+589,hBP03,不知火フレア,Shiranui Flare,hSD07-009,SR,1,0,1,5.8,Yellow
+590,hBP04,博衣こより,Hakui Koyori,hBP04-001,OSR,1,0,0,7.3,White
+591,hBP04,博衣こより,Hakui Koyori,hBP04-001,OUR,1,0,0,96.2,White
+592,hBP04,博衣こより,Hakui Koyori,hBP04-001,SEC,1,1,0,836,White
+593,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-002,OSR,1,0,0,11,Green
+594,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-002,OUR,1,0,0,278.7,Green
+595,hBP04,一条莉々華,Ichijou Ririka,hBP04-003,OSR,1,0,0,4.9,Red
+596,hBP04,一条莉々華,Ichijou Ririka,hBP04-003,OUR,1,0,0,0,Red
+597,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,OSR,1,0,0,9.2,Blue
+598,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,OUR,1,0,0,139.4,Blue
+599,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,SEC,1,1,0,495.5,Blue
+600,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,OSR,1,0,0,11,Purple
+601,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,OUR,1,0,0,71.6,Purple
+602,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,SEC,1,1,0,650.3,Purple
+603,hBP04,大空スバル,Oozora Subaru,hBP04-006,OSR,1,0,0,7.3,Yellow
+604,hBP04,大空スバル,Oozora Subaru,hBP04-006,OUR,1,0,0,96.2,Yellow
+605,hBP04,大空スバル,Oozora Subaru,hBP04-006,SEC,1,1,0,0,Yellow
+606,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-007,OSR,1,0,0,4.5,Yellow
+607,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-007,OUR,1,0,0,57.5,Yellow
+608,hBP04,博衣こより,Hakui Koyori,hBP04-008,C,0,0,0,2.8,White
+609,hBP04,博衣こより,Hakui Koyori,hBP04-009,U,0,0,0,2.4,White
+610,hBP04,博衣こより,Hakui Koyori,hBP04-009,S,1,0,0,4,White
+611,hBP04,博衣こより,Hakui Koyori,hBP04-010,C,0,0,0,2.2,White
+612,hBP04,博衣こより,Hakui Koyori,hBP04-010,S,1,0,0,9.2,White
+613,hBP04,博衣こより,Hakui Koyori,hBP04-011,U,0,0,0,2.4,White
+614,hBP04,博衣こより,Hakui Koyori,hBP04-011,S,1,0,0,4.9,White
+615,hBP04,博衣こより,Hakui Koyori,hBP04-012,R,1,0,0,3,White
+616,hBP04,博衣こより,Hakui Koyori,hBP04-012,SR,1,0,0,9.2,White
+617,hBP04,博衣こより,Hakui Koyori,hBP04-013,RR,1,0,0,4,White
+618,hBP04,博衣こより,Hakui Koyori,hBP04-013,SR,1,0,0,7.5,White
+619,hBP04,博衣こより,Hakui Koyori,hBP04-013,UR,1,0,0,51,White
+620,hBP04,白上フブキ,Shirakami Fubuki,hBP04-014,R,1,0,0,3,White
+621,hBP04,白上フブキ,Shirakami Fubuki,hBP04-014,SR,1,0,0,8.2,White
+622,hBP04,IRyS,IRyS,hBP04-015,R,1,0,0,2.4,White
+623,hBP04,IRyS,IRyS,hBP04-015,SR,1,0,0,5.8,White
+624,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-016,C,0,0,0,2.2,White
+625,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-017,C,0,0,0,2.2,White
+626,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-017,S,1,0,0,4.9,White
+627,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-018,U,0,0,0,3,White
+628,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-018,S,1,0,0,0,White
+629,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-019,R,1,0,0,3,White
+630,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-019,SR,1,0,0,6.4,White
+631,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-020,C,0,0,0,3,Green
+632,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-021,U,0,0,0,2.7,Green
+633,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-021,S,1,0,0,4,Green
+634,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-022,C,0,0,0,2.2,Green
+635,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-022,S,1,0,0,3.6,Green
+636,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-023,U,0,0,0,2.4,Green
+637,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-023,S,1,0,0,5.8,Green
+638,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-024,R,1,0,0,3,Green
+639,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-024,SR,1,0,0,8.2,Green
+640,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-025,RR,1,0,0,6.6,Green
+641,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-025,SR,1,0,0,9.2,Green
+642,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-025,UR,1,0,0,63,Green
+643,hBP04,大神ミオ,Ookami Mio,hBP04-026,R,1,0,0,2.7,Green
+644,hBP04,大神ミオ,Ookami Mio,hBP04-026,SR,1,0,0,6.4,Green
+645,hBP04,パヴォリア・レイネ,Pavolia Reine,hBP04-027,R,1,0,0,2.7,Green
+646,hBP04,パヴォリア・レイネ,Pavolia Reine,hBP04-027,SR,1,0,0,4.9,Green
+647,hBP04,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-028,C,0,0,0,2.2,Green
+648,hBP04,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-029,C,0,0,0,2.2,Green
+649,hBP04,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-029,S,1,0,0,3.6,Green
+650,hBP04,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-030,U,0,0,0,2.4,Green
+651,hBP04,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-030,S,1,0,0,0,Green
+652,hBP04,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-031,R,1,0,0,2.4,Green
+653,hBP04,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-031,SR,1,0,0,5.8,Green
+654,hBP04,一条莉々華,Ichijou Ririka,hBP04-032,C,0,0,0,2.7,Red
+655,hBP04,一条莉々華,Ichijou Ririka,hBP04-033,U,0,0,0,2.4,Red
+656,hBP04,一条莉々華,Ichijou Ririka,hBP04-033,S,1,0,0,4.9,Red
+657,hBP04,一条莉々華,Ichijou Ririka,hBP04-034,C,0,0,0,2.2,Red
+658,hBP04,一条莉々華,Ichijou Ririka,hBP04-034,S,1,0,0,4.5,Red
+659,hBP04,一条莉々華,Ichijou Ririka,hBP04-035,U,0,0,0,2.4,Red
+660,hBP04,一条莉々華,Ichijou Ririka,hBP04-035,S,1,0,0,4.9,Red
+661,hBP04,一条莉々華,Ichijou Ririka,hBP04-036,R,1,0,0,2.7,Red
+662,hBP04,一条莉々華,Ichijou Ririka,hBP04-036,SR,1,0,0,7.3,Red
+663,hBP04,一条莉々華,Ichijou Ririka,hBP04-037,RR,1,0,0,3,Red
+664,hBP04,一条莉々華,Ichijou Ririka,hBP04-037,SR,1,0,0,5.8,Red
+665,hBP04,一条莉々華,Ichijou Ririka,hBP04-037,UR,1,0,0,35.2,Red
+666,hBP04,宝鐘マリン,Houshou Marine,hBP04-038,R,1,0,0,2.7,Red
+667,hBP04,宝鐘マリン,Houshou Marine,hBP04-038,SR,1,0,0,11,Red
+668,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-039,C,0,0,0,2.2,Red
+669,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-040,C,0,0,0,2.2,Red
+670,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-040,S,1,0,0,3.6,Red
+671,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-041,U,0,0,0,2.4,Red
+672,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-041,S,1,0,0,3.6,Red
+673,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-042,RR,1,0,0,3,Red
+674,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-042,SR,1,0,0,5.4,Red
+675,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-042,UR,1,0,0,15.7,Red
+676,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-043,C,0,0,0,2.7,Blue
+677,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-044,U,0,0,0,2.4,Blue
+678,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-044,S,1,0,0,5.8,Blue
+679,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-045,C,0,0,0,2.2,Blue
+680,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-045,S,1,0,0,5.6,Blue
+681,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-046,U,0,0,0,2.4,Blue
+682,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-046,S,1,0,0,5.8,Blue
+683,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-047,R,1,0,0,2.4,Blue
+684,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-047,SR,1,0,0,11.9,Blue
+685,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,RR,1,0,0,4.9,Blue
+686,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,SR,1,0,0,8.2,Blue
+687,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,UR,1,0,0,57.5,Blue
+688,hBP04,ムーナ・ホシノヴァ,Moona Hoshinova,hBP04-049,R,1,0,0,2.4,Blue
+689,hBP04,ムーナ・ホシノヴァ,Moona Hoshinova,hBP04-049,SR,1,0,0,6.6,Blue
+690,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-050,C,0,0,0,2.2,Blue
+691,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-051,C,0,0,0,2.2,Blue
+692,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-051,S,1,0,0,3.6,Blue
+693,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-052,U,0,0,0,2.4,Blue
+694,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-052,S,1,0,0,3.6,Blue
+695,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-053,RR,1,0,0,5.8,Blue
+696,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-053,SR,1,0,0,7.3,Blue
+697,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-053,UR,1,0,0,38.9,Blue
+698,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-054,C,0,0,0,3,Purple
+699,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-054,S,1,0,0,15.7,Purple
+700,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-055,U,0,0,0,2.7,Purple
+701,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-055,S,1,0,0,4.5,Purple
+702,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-056,C,0,0,0,2.2,Purple
+703,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-056,S,1,0,0,3.7,Purple
+704,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-057,U,0,0,0,3,Purple
+705,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-057,S,1,0,0,0,Purple
+706,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-058,R,1,0,0,2.4,Purple
+707,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-058,SR,1,0,0,5.8,Purple
+708,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-059,RR,1,0,0,5.8,Purple
+709,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-059,SR,1,0,0,11,Purple
+710,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-059,UR,1,0,0,34.2,Purple
+711,hBP04,紫咲シオン,Murasaki Shion,hBP04-060,R,1,0,0,2.4,Purple
+712,hBP04,紫咲シオン,Murasaki Shion,hBP04-060,SR,1,0,0,7.3,Purple
+713,hBP04,クレイジー・オリー,Kureiji Ollie,hBP04-061,R,1,0,0,2.4,Purple
+714,hBP04,クレイジー・オリー,Kureiji Ollie,hBP04-061,SR,1,0,0,5.8,Purple
+715,hBP04,森カリオペ,Mori Calliope,hBP04-062,R,1,0,0,2.7,Purple
+716,hBP04,森カリオペ,Mori Calliope,hBP04-062,SR,1,0,0,6.6,Purple
+717,hBP04,古石ビジュー,Koseki Bijou,hBP04-063,C,0,0,0,2.4,Purple
+718,hBP04,古石ビジュー,Koseki Bijou,hBP04-064,C,0,0,0,2.4,Purple
+719,hBP04,古石ビジュー,Koseki Bijou,hBP04-064,S,1,0,0,5.4,Purple
+720,hBP04,古石ビジュー,Koseki Bijou,hBP04-065,U,0,0,0,2.7,Purple
+721,hBP04,古石ビジュー,Koseki Bijou,hBP04-065,S,1,0,0,8.2,Purple
+722,hBP04,古石ビジュー,Koseki Bijou,hBP04-066,RR,1,0,0,3.6,Purple
+723,hBP04,古石ビジュー,Koseki Bijou,hBP04-066,SR,1,0,0,8.2,Purple
+724,hBP04,古石ビジュー,Koseki Bijou,hBP04-066,UR,1,0,0,34.2,Purple
+725,hBP04,大空スバル,Oozora Subaru,hBP04-067,C,0,0,0,3,Yellow
+726,hBP04,大空スバル,Oozora Subaru,hBP04-068,U,0,0,0,2.7,Yellow
+727,hBP04,大空スバル,Oozora Subaru,hBP04-068,S,1,0,0,6.6,Yellow
+728,hBP04,大空スバル,Oozora Subaru,hBP04-069,C,0,0,0,2.2,Yellow
+729,hBP04,大空スバル,Oozora Subaru,hBP04-069,S,1,0,0,4.9,Yellow
+730,hBP04,大空スバル,Oozora Subaru,hBP04-070,U,0,0,0,2.4,Yellow
+731,hBP04,大空スバル,Oozora Subaru,hBP04-070,S,1,0,0,7.3,Yellow
+732,hBP04,大空スバル,Oozora Subaru,hBP04-071,R,1,0,0,3.6,Yellow
+733,hBP04,大空スバル,Oozora Subaru,hBP04-071,SR,1,0,0,9.2,Yellow
+734,hBP04,大空スバル,Oozora Subaru,hBP04-072,RR,1,0,0,5.8,Yellow
+735,hBP04,大空スバル,Oozora Subaru,hBP04-072,SR,1,0,0,9.2,Yellow
+736,hBP04,大空スバル,Oozora Subaru,hBP04-072,UR,1,0,0,76,Yellow
+737,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-073,C,0,0,0,2.4,Yellow
+738,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-074,U,0,0,0,2.4,Yellow
+739,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-074,S,1,0,0,4.6,Yellow
+740,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-075,C,0,0,0,2.2,Yellow
+741,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-075,S,1,0,0,4.5,Yellow
+742,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-076,U,0,0,0,2.4,Yellow
+743,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-076,S,1,0,0,4.5,Yellow
+744,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-077,R,1,0,0,2.4,Yellow
+745,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-077,SR,1,0,0,6.6,Yellow
+746,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-078,RR,1,0,0,3,Yellow
+747,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-078,SR,1,0,0,5.8,Yellow
+748,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-078,UR,1,0,0,20.3,Yellow
+749,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-079,C,0,0,0,2.4,Yellow
+750,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-080,C,0,0,0,2.2,Yellow
+751,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-080,S,1,0,0,4.9,Yellow
+752,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-081,U,0,0,0,2.7,Yellow
+753,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-081,S,1,0,0,5.8,Yellow
+754,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-082,RR,1,0,0,3.6,Yellow
+755,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-082,SR,1,0,0,5.4,Yellow
+756,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-082,UR,1,0,0,24.9,Yellow
+757,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-083,C,0,0,0,2.4,Yellow
+758,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-084,C,0,0,0,2.2,Yellow
+759,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-084,S,1,0,0,4,Yellow
+760,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-085,U,0,0,0,3,Yellow
+761,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-085,S,1,0,0,0,Yellow
+762,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-086,RR,1,0,0,3,Yellow
+763,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-086,SR,1,0,0,5.8,Yellow
+764,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-086,UR,1,0,0,20.3,Yellow
+765,hBP04,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP04-087,C,0,0,0,2.2,White
+766,hBP04,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP04-087,S,1,0,0,3.6,White
+767,hBP04,ジジ・ムリン,Gigi Murin,hBP04-088,C,0,0,0,2.7,White
+768,hBP04,ジジ・ムリン,Gigi Murin,hBP04-088,S,1,0,0,3.6,White
+769,hBP04,ツートンカラーパソコン,Two-Tone PC,hBP04-089,U,0,0,0,3,Support
+770,hBP04,ツートンカラーパソコン,Two-Tone PC,hBP04-089,S,1,0,0,13.8,Support
+771,hBP04,作業用パソコン,Work PC,hBP04-090,U,0,0,0,3,Support
+772,hBP04,作業用パソコン,Work PC,hBP04-090,S,1,0,0,4.9,Support
+773,hBP04,限界飯,Struggle Meal,hBP04-091,U,0,0,0,2.4,Support
+774,hBP04,限界飯,Struggle Meal,hBP04-091,S,1,0,0,7.3,Support
+775,hBP04,ねぽらぼ,NePoLaBo,hBP04-092,U,0,0,0,2.4,Support
+776,hBP04,ねぽらぼ,NePoLaBo,hBP04-092,S,1,0,0,4.5,Support
+777,hBP04,ホロライブ2期生,Hololive Gen 2,hBP04-093,U,0,0,0,2.4,Support
+778,hBP04,ホロライブ2期生,Hololive Gen 2,hBP04-093,S,1,0,0,3.6,Support
+779,hBP04,まいたけダンス,Maitake Dance,hBP04-094,U,0,0,0,2.4,Support
+780,hBP04,まいたけダンス,Maitake Dance,hBP04-094,S,1,0,0,6.6,Support
+781,hBP04,マスコットキャッチャー,Mascot Catcher,hBP04-095,U,0,0,0,2.4,Support
+782,hBP04,マスコットキャッチャー,Mascot Catcher,hBP04-095,S,1,0,0,3,Support
+783,hBP04,Advent,Advent,hBP04-096,U,0,0,0,2.4,Support
+784,hBP04,Advent,Advent,hBP04-096,S,1,0,0,4.5,Support
+785,hBP04,緑の試験管,Green Test Tube,hBP04-097,U,0,0,0,2.4,Support
+786,hBP04,緑の試験管,Green Test Tube,hBP04-097,S,1,0,0,4,Support
+787,hBP04,鍛冶ハンマー,Smithing Hammer,hBP04-098,U,0,0,0,2.4,Support
+788,hBP04,鍛冶ハンマー,Smithing Hammer,hBP04-098,S,1,0,0,3.6,Support
+789,hBP04,古代武器,Ancient Weapon,hBP04-099,U,0,0,0,2.4,Support
+790,hBP04,古代武器,Ancient Weapon,hBP04-099,S,1,0,0,4.7,Support
+791,hBP04,ココロ,Kokoro,hBP04-100,C,0,0,0,2.2,Support
+792,hBP04,ココロ,Kokoro,hBP04-100,S,1,0,0,3.6,Support
+793,hBP04,だいふく,Daifuku,hBP04-101,C,0,0,0,2.2,Support
+794,hBP04,だいふく,Daifuku,hBP04-101,S,1,0,0,4,Support
+795,hBP04,やめなー,Yamena,hBP04-102,C,0,0,0,2.2,Support
+796,hBP04,やめなー,Yamena,hBP04-102,S,1,0,0,4.5,Support
+797,hBP04,カラス,Karasu,hBP04-103,C,0,0,0,2.2,Support
+798,hBP04,カラス,Karasu,hBP04-103,S,1,0,0,3.6,Support
+799,hBP04,スバルドダック,Subaru Duck,hBP04-104,C,0,0,0,2.2,Support
+800,hBP04,スバルドダック,Subaru Duck,hBP04-104,S,1,0,0,5.8,Support
+801,hBP04,こよりの助手くん,Koyori's Assistant,hBP04-105,U,0,0,0,2.4,Support
+802,hBP04,こよりの助手くん,Koyori's Assistant,hBP04-105,S,1,0,0,11,Support
+803,hBP04,雪民,Yukimin,hBP04-106,U,0,0,0,2.4,Support
+804,hBP04,雪民,Yukimin,hBP04-106,S,1,0,0,6.6,Support
+1501,hBP04,白エール,White Cheer,hY01-006,SY,1,0,0,27.25,White
+1502,hBP04,緑エール,Green Cheer,hY02-005,SY,1,0,0,21,Green
+1503,hBP04,赤エール,Red Cheer,hY03-004,SY,1,0,0,21,Red
+1504,hBP04,青エール,Blue Cheer,hY04-005,SY,1,0,0,33.5,Blue
+1505,hBP04,紫エール,Purple Cheer,hY05-004,SY,1,0,0,39.75,Purple
+1506,hBP04,黄エール,Yellow Cheer,hY06-004,SY,1,0,0,39.75,Yellow
+807,hBP04,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,3,Support
+808,hBP04,マネちゃん,Mane-chan,hSD01-017,S,1,0,1,20.3,Support
+805,hBP04,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,3.6,Support
+806,hBP04,みっころね24,Mikkorone 24,hBP02-084,SR,1,0,1,57.5,Support
+809,hBP05,白銀ノエル,Shirogane Noel,hBP05-001,OSR,1,0,0,4.5,White
+810,hBP05,白銀ノエル,Shirogane Noel,hBP05-001,OUR,1,0,0,94.6,White
+811,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-002,OSR,1,0,0,3.6,Green
+812,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-002,OUR,1,0,0,39.1,Green
+813,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-002,SEC,1,1,0,169.1,Green
+814,hBP05,尾丸ポルカ,Omaru Polka,hBP05-003,OSR,1,0,0,4.9,Red
+815,hBP05,尾丸ポルカ,Omaru Polka,hBP05-003,OUR,1,0,0,90,Red
+816,hBP05,尾丸ポルカ,Omaru Polka,hBP05-003,SEC,1,1,0,637,Red
+817,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-004,OSR,1,0,0,4.9,Blue
+818,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-004,OUR,1,0,0,185.8,Blue
+819,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,OSR,1,0,0,4.5,Purple
+820,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,OUR,1,0,0,63.2,Purple
+821,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,SEC,1,1,0,464.5,Purple
+822,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-006,OSR,1,0,0,2.8,Purple
+823,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-006,OUR,1,0,0,90,Purple
+824,hBP05,不知火フレア,Shiranui Flare,hBP05-007,OSR,1,0,0,3.6,Yellow
+825,hBP05,不知火フレア,Shiranui Flare,hBP05-007,OUR,1,0,0,44.5,Yellow
+826,hBP05,白銀ノエル,Shirogane Noel,hBP05-008,U,0,0,0,2.4,White
+827,hBP05,白銀ノエル,Shirogane Noel,hBP05-008,S,1,0,0,3.6,White
+828,hBP05,白銀ノエル,Shirogane Noel,hBP05-009,C,0,0,0,2.2,White
+829,hBP05,白銀ノエル,Shirogane Noel,hBP05-009,S,1,0,0,3.6,White
+830,hBP05,白銀ノエル,Shirogane Noel,hBP05-010,U,0,0,0,3,White
+831,hBP05,白銀ノエル,Shirogane Noel,hBP05-010,S,1,0,0,7.3,White
+832,hBP05,白銀ノエル,Shirogane Noel,hBP05-011,R,1,0,0,2.7,White
+833,hBP05,白銀ノエル,Shirogane Noel,hBP05-011,SR,1,0,0,4.9,White
+834,hBP05,白銀ノエル,Shirogane Noel,hBP05-012,RR,1,0,0,3.6,White
+835,hBP05,白銀ノエル,Shirogane Noel,hBP05-012,SR,1,0,0,5.8,White
+836,hBP05,白銀ノエル,Shirogane Noel,hBP05-012,UR,1,0,0,38.9,White
+837,hBP05,ときのそら,Tokino Sora,hBP05-013,R,1,0,0,2.4,White
+838,hBP05,ときのそら,Tokino Sora,hBP05-013,SR,1,0,0,9.2,White
+839,hBP05,兎田ぺこら,Usada Pekora,hBP05-014,C,0,0,0,2.2,White
+840,hBP05,兎田ぺこら,Usada Pekora,hBP05-014,S,1,0,0,3.6,White
+841,hBP05,兎田ぺこら,Usada Pekora,hBP05-015,U,0,0,0,2.7,White
+842,hBP05,兎田ぺこら,Usada Pekora,hBP05-015,S,1,0,0,5.6,White
+843,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,RR,1,0,0,4.5,White
+844,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,SR,1,0,0,13.8,White
+845,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,UR,1,0,0,76,White
+846,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,SEC,1,1,0,0,White
+847,hBP05,姫森ルーナ,Himemori Luna,hBP05-017,R,1,0,0,2.4,White
+848,hBP05,姫森ルーナ,Himemori Luna,hBP05-017,SR,1,0,0,6.6,White
+849,hBP05,ベスティア・ゼータ,Vestia Zeta,hBP05-018,R,1,0,0,3,White
+850,hBP05,ベスティア・ゼータ,Vestia Zeta,hBP05-018,SR,1,0,0,7.3,White
+851,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-019,U,0,0,0,2.4,Green
+852,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-019,S,1,0,0,3.6,Green
+853,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-020,C,0,0,0,2.2,Green
+854,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-020,S,1,0,0,4.9,Green
+855,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-021,U,0,0,0,2.4,Green
+856,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-021,S,1,0,0,3.6,Green
+857,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-022,R,1,0,0,2.4,Green
+858,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-022,SR,1,0,0,5.8,Green
+859,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-023,RR,1,0,0,3,Green
+860,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-023,SR,1,0,0,5.8,Green
+861,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-023,UR,1,0,0,18.4,Green
+862,hBP05,AZKi,AZKi,hBP05-024,R,1,0,0,3,Green
+863,hBP05,AZKi,AZKi,hBP05-024,SR,1,0,0,11,Green
+864,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP05-025,C,0,0,0,2.2,Green
+865,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP05-025,S,1,0,0,3.6,Green
+866,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP05-026,U,0,0,0,2.4,Green
+867,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP05-026,S,1,0,0,3.6,Green
+868,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP05-027,RR,1,0,0,3.6,Green
+869,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP05-027,SR,1,0,0,5.8,Green
+870,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP05-027,UR,1,0,0,20.3,Green
+871,hBP05,獅白ぼたん,Shishiro Botan,hBP05-028,R,1,0,0,2.4,Green
+872,hBP05,獅白ぼたん,Shishiro Botan,hBP05-028,SR,1,0,0,6.6,Green
+873,hBP05,儒烏風亭らでん,Juufuutei Raden,hBP05-029,R,1,0,0,2.7,Green
+874,hBP05,儒烏風亭らでん,Juufuutei Raden,hBP05-029,SR,1,0,0,9.2,Green
+875,hBP05,尾丸ポルカ,Omaru Polka,hBP05-030,U,0,0,0,2.4,Red
+876,hBP05,尾丸ポルカ,Omaru Polka,hBP05-030,S,1,0,0,3.6,Red
+877,hBP05,尾丸ポルカ,Omaru Polka,hBP05-031,C,0,0,0,2.2,Red
+878,hBP05,尾丸ポルカ,Omaru Polka,hBP05-031,S,1,0,0,4,Red
+879,hBP05,尾丸ポルカ,Omaru Polka,hBP05-032,U,0,0,0,2.4,Red
+880,hBP05,尾丸ポルカ,Omaru Polka,hBP05-032,S,1,0,0,4,Red
+881,hBP05,尾丸ポルカ,Omaru Polka,hBP05-033,R,1,0,0,2.4,Red
+882,hBP05,尾丸ポルカ,Omaru Polka,hBP05-033,SR,1,0,0,8.2,Red
+883,hBP05,尾丸ポルカ,Omaru Polka,hBP05-034,RR,1,0,0,3.6,Red
+884,hBP05,尾丸ポルカ,Omaru Polka,hBP05-034,SR,1,0,0,8.2,Red
+885,hBP05,尾丸ポルカ,Omaru Polka,hBP05-034,UR,1,0,0,71.6,Red
+886,hBP05,さくらみこ,Sakura Miko,hBP05-035,R,1,0,0,2.7,Red
+887,hBP05,さくらみこ,Sakura Miko,hBP05-035,SR,1,0,0,9.2,Red
+888,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-036,C,0,0,0,2.2,Red
+889,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-036,S,1,0,0,4,Red
+890,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-037,RR,1,0,0,4,Red
+891,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-037,SR,1,0,0,9.2,Red
+892,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-037,UR,1,0,0,48.2,Red
+893,hBP05,モココ・アビスガード,Mococo Abyssgard,hBP05-038,R,1,0,0,2.4,Red
+894,hBP05,モココ・アビスガード,Mococo Abyssgard,hBP05-038,SR,1,0,0,6.6,Red
+895,hBP05,一条莉々華,Ichijou Ririka,hBP05-039,R,1,0,0,2.4,Red
+896,hBP05,一条莉々華,Ichijou Ririka,hBP05-039,SR,1,0,0,5.8,Red
+897,hBP05,miComet,miComet,hBP05-040,U,0,0,0,2.7,"Red,Blue"
+898,hBP05,miComet,miComet,hBP05-040,S,1,0,0,4.7,"Red,Blue"
+899,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-041,U,0,0,0,2.4,Blue
+900,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-041,S,1,0,0,3.6,Blue
+901,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-042,C,0,0,0,2.2,Blue
+902,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-042,S,1,0,0,3.7,Blue
+903,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-043,U,0,0,0,2.7,Blue
+904,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-043,S,1,0,0,7.3,Blue
+905,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-044,R,1,0,0,3,Blue
+906,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-044,SR,1,0,0,8.2,Blue
+907,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-045,RR,1,0,0,4.5,Blue
+908,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-045,SR,1,0,0,9.2,Blue
+909,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-045,UR,1,0,0,48.2,Blue
+910,hBP05,雪花ラミィ,Yukihana Lamy,hBP05-046,R,1,0,0,2.4,Blue
+911,hBP05,雪花ラミィ,Yukihana Lamy,hBP05-046,SR,1,0,0,8.2,Blue
+912,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-047,C,0,0,0,2.2,Blue
+913,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-047,S,1,0,0,3.6,Blue
+914,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-048,U,0,0,0,2.4,Blue
+915,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-048,S,1,0,0,4,Blue
+916,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-049,RR,1,0,0,3,Blue
+917,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-049,SR,1,0,0,5.8,Blue
+918,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-049,UR,1,0,0,20.3,Blue
+919,hBP05,フワワ・アビスガード,Fuwawa Abyssgard,hBP05-050,R,1,0,0,2.4,Blue
+920,hBP05,フワワ・アビスガード,Fuwawa Abyssgard,hBP05-050,SR,1,0,0,7.3,Blue
+921,hBP05,火威青,Hiodoshi Ao,hBP05-051,R,1,0,0,2.4,Blue
+922,hBP05,火威青,Hiodoshi Ao,hBP05-051,SR,1,0,0,5.8,Blue
+923,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-052,U,0,0,0,2.4,Purple
+924,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-052,S,1,0,0,3,Purple
+925,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-053,C,0,0,0,2.2,Purple
+926,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-053,S,1,0,0,4.7,Purple
+927,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-054,U,0,0,0,2.4,Purple
+928,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-054,S,1,0,0,3.6,Purple
+929,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-055,R,1,0,0,2.7,Purple
+930,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-055,SR,1,0,0,6.6,Purple
+931,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-056,RR,1,0,0,3.6,Purple
+932,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-056,SR,1,0,0,5.8,Purple
+933,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-056,UR,1,0,0,29.6,Purple
+934,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-057,U,0,0,0,2.4,Purple
+935,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-057,S,1,0,0,4,Purple
+936,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-058,C,0,0,0,2.2,Purple
+937,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-058,S,1,0,0,5.8,Purple
+938,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-059,U,0,0,0,2.4,Purple
+939,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-059,S,1,0,0,4.5,Purple
+940,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,R,1,0,0,2.4,Purple
+941,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,SR,1,0,0,6.6,Purple
+942,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-061,RR,1,0,0,3,Purple
+943,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-061,SR,1,0,0,7.3,Purple
+944,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-061,UR,1,0,0,48.2,Purple
+945,hBP05,常闇トワ,Tokoyami Towa,hBP05-062,R,1,0,0,2.4,Purple
+946,hBP05,常闇トワ,Tokoyami Towa,hBP05-062,SR,1,0,0,9.2,Purple
+947,hBP05,不知火フレア,Shiranui Flare,hBP05-063,U,0,0,0,2.4,Yellow
+948,hBP05,不知火フレア,Shiranui Flare,hBP05-063,S,1,0,0,3.6,Yellow
+949,hBP05,不知火フレア,Shiranui Flare,hBP05-064,C,0,0,0,2.2,Yellow
+950,hBP05,不知火フレア,Shiranui Flare,hBP05-064,S,1,0,0,3.6,Yellow
+951,hBP05,不知火フレア,Shiranui Flare,hBP05-065,U,0,0,0,2.4,Yellow
+952,hBP05,不知火フレア,Shiranui Flare,hBP05-065,S,1,0,0,3.6,Yellow
+953,hBP05,不知火フレア,Shiranui Flare,hBP05-066,R,1,0,0,2.4,Yellow
+954,hBP05,不知火フレア,Shiranui Flare,hBP05-066,SR,1,0,0,5.8,Yellow
+955,hBP05,不知火フレア,Shiranui Flare,hBP05-067,RR,1,0,0,3,Yellow
+956,hBP05,不知火フレア,Shiranui Flare,hBP05-067,SR,1,0,0,6.6,Yellow
+957,hBP05,不知火フレア,Shiranui Flare,hBP05-067,UR,1,0,0,20.3,Yellow
+958,hBP05,白上フブキ,Shirakami Fubuki,hBP05-068,C,0,0,0,2.2,Yellow
+959,hBP05,白上フブキ,Shirakami Fubuki,hBP05-068,S,1,0,0,5.4,Yellow
+960,hBP05,白上フブキ,Shirakami Fubuki,hBP05-069,U,0,0,0,2.7,Yellow
+961,hBP05,白上フブキ,Shirakami Fubuki,hBP05-069,S,1,0,0,4.5,Yellow
+962,hBP05,白上フブキ,Shirakami Fubuki,hBP05-070,RR,1,0,0,3.6,Yellow
+963,hBP05,白上フブキ,Shirakami Fubuki,hBP05-070,SR,1,0,0,7.3,Yellow
+964,hBP05,白上フブキ,Shirakami Fubuki,hBP05-070,UR,1,0,0,57.5,Yellow
+965,hBP05,戌神ころね,Inugami Korone,hBP05-071,R,1,0,0,3,Yellow
+966,hBP05,戌神ころね,Inugami Korone,hBP05-071,SR,1,0,0,11,Yellow
+967,hBP05,角巻わため,Tsunomaki Watame,hBP05-072,R,1,0,0,2.7,Yellow
+968,hBP05,角巻わため,Tsunomaki Watame,hBP05-072,SR,1,0,0,6.6,Yellow
+969,hBP05,アユンダ・リス,Ayunda Risu,hBP05-073,R,1,0,0,2.4,Yellow
+970,hBP05,アユンダ・リス,Ayunda Risu,hBP05-073,SR,1,0,0,4.9,Yellow
+971,hBP05,フレンドリーパソコン,,hBP05-074,C,0,0,0,4.9,Support
+972,hBP05,フレンドリーパソコン,,hBP05-074,S,1,0,0,38.9,Support
+973,hBP05,牛丼,,hBP05-075,C,0,0,0,2.2,Support
+974,hBP05,牛丼,,hBP05-075,S,1,0,0,3.6,Support
+975,hBP05,ちょこのビーフストロガノフ,,hBP05-076,U,0,0,0,2.4,Support
+976,hBP05,ちょこのビーフストロガノフ,,hBP05-076,S,1,0,0,4,Support
+977,hBP05,バカタレサーカス,,hBP05-077,U,0,0,0,2.2,Support
+978,hBP05,バカタレサーカス,,hBP05-077,S,1,0,0,3,Support
+979,hBP05,晩酌配信,,hBP05-078,U,0,0,0,2.2,Support
+980,hBP05,晩酌配信,,hBP05-078,S,1,0,0,3,Support
+981,hBP05,み俺恥,,hBP05-079,U,0,0,0,4,Support
+982,hBP05,み俺恥,,hBP05-079,S,1,0,0,11,Support
+983,hBP05,SorAZセレブレーション,,hBP05-080,U,0,0,0,18.4,Support
+984,hBP05,SorAZセレブレーション,,hBP05-080,SR,1,0,0,94.6,Support
+985,hBP05,SorAZセレブレーション,,hBP05-080,SEC,1,1,0,976,Support
+986,hBP05,白銀ノエル,,hBP05-081,U,0,0,0,2.2,Support
+987,hBP05,白銀ノエル,,hBP05-081,S,1,0,0,3.6,Support
+988,hBP05,アキ・ローゼンタール,,hBP05-082,U,0,0,0,2.2,Support
+989,hBP05,アキ・ローゼンタール,,hBP05-082,S,1,0,0,4,Support
+990,hBP05,ネリッサ・レイヴンクロフト,,hBP05-083,U,0,0,0,2.2,Support
+991,hBP05,ネリッサ・レイヴンクロフト,,hBP05-083,S,1,0,0,4,Support
+992,hBP05,角巻わため,,hBP05-084,U,0,0,0,2.7,Support
+993,hBP05,角巻わため,,hBP05-084,S,1,0,0,0,Support
+994,hBP05,みこだにぇー,,hBP05-085,C,0,0,0,2.2,Support
+995,hBP05,みこだにぇー,,hBP05-085,S,1,0,0,3.6,Support
+996,hBP05,Cilus,Cilus,hBP05-086,C,0,0,0,2.2,Support
+997,hBP05,Cilus,Cilus,hBP05-086,S,1,0,0,3.6,Support
+998,hBP05,Jailbird,Jailbird,hBP05-087,U,0,0,0,2.2,Support
+999,hBP05,Jailbird,Jailbird,hBP05-087,S,1,0,0,3.6,Support
+1507,hBP05,白エール,White Cheer,hY01-007,SY,1,0,0,24.75,White
+1508,hBP05,緑エール,Green Cheer,hY02-006,SY,1,0,0,27.25,Green
+1509,hBP05,赤エール,Red Cheer,hY03-009,SY,1,0,0,46,Red
+1510,hBP05,青エール,Blue Cheer,hY04-006,SY,1,0,0,27.25,Blue
+1511,hBP05,紫エール,Purple Cheer,hY05-005,SY,1,0,0,21,Purple
+1512,hBP05,黄エール,Yellow Cheer,hY06-005,SY,1,0,0,18.5,Yellow
+1000,hBP05,猫又おかゆ,Nekomata Okayu,hSD03-002,C,0,0,1,2.7,Blue
+1001,hBP05,癒月ちょこ,Yuzuki Choco,hSD04-002,C,0,0,1,2.7,Purple
+1002,hBP05,不知火フレア,Shiranui Flare,hSD07-002,C,0,0,1,2.7,Yellow
+1003,hBP05,不知火フレア,Shiranui Flare,hSD07-002,HR,1,0,1,29.7,Yellow
+1004,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP01-032,C,0,0,1,2.7,Green
+1005,hBP05,アキ・ローゼンタール,Aki Rosenthal,hBP01-032,HR,1,0,1,29.6,Green
+1006,hBP05,兎田ぺこら,Usada Pekora,hBP01-038,C,0,0,1,2.7,Green
+1007,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-052,C,0,0,1,2.7,Green
+1008,hBP05,尾丸ポルカ,Omaru Polka,hBP01-068,C,0,0,1,2.7,Red
+1009,hBP05,尾丸ポルカ,Omaru Polka,hBP01-068,HR,1,0,1,38.9,Red
+1010,hBP05,星街すいせい,Hoshimachi Suisei,hBP01-076,C,0,0,1,3,Blue
+1011,hBP05,星街すいせい,Hoshimachi Suisei,hBP01-076,HR,1,0,1,113.7,Blue
+1012,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP01-082,C,0,0,1,2.7,Blue
+1782,hBP05,石の斧,Stone Axe,hBP01-114,C,0,0,1,3.6,Support
+1783,hBP05,座員,Troupe Member,hBP01-126,C,0,0,1,3.5,Support
+1013,hBP05,白上フブキ,Shirakami Fubuki,hBP02-008,C,0,0,1,2.7,White
+1014,hBP05,白銀ノエル,Shirogane Noel,hBP02-014,C,0,0,1,2.7,White
+1015,hBP05,白銀ノエル,Shirogane Noel,hBP02-014,HR,1,0,1,39,White
+1016,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-065,C,0,0,1,2.7,Purple
+1017,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-065,HR,1,0,1,29.8,Purple
+1018,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-001,OSR,1,0,0,4.5,White
+1019,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-001,OUR,1,0,0,66.7,White
+1020,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-001,SEC,1,1,0,371.6,White
+1021,hBP06,響咲リオナ,Isaki Riona,hBP06-002,OSR,1,0,0,5.8,White
+1022,hBP06,響咲リオナ,Isaki Riona,hBP06-002,OUR,1,0,0,165.2,White
+1023,hBP06,風真いろは,Kazama Iroha,hBP06-003,OSR,1,0,0,11,Green
+1024,hBP06,風真いろは,Kazama Iroha,hBP06-003,OUR,1,0,0,262.3,Green
+1025,hBP06,風真いろは,Kazama Iroha,hBP06-003,SEC,1,1,0,1283.8,Green
+1026,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,OSR,1,0,0,11,Red
+1027,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,OUR,1,0,0,335.9,Red
+1028,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,SEC,1,1,0,0,Red
+1029,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-005,OSR,1,0,0,4.5,Red
+1030,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-005,OUR,1,0,0,243.4,Red
+1031,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-006,OSR,1,0,0,4.5,Blue
+1032,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-006,OUR,1,0,0,108.7,Blue
+1033,hBP06,ロボ子さん,Roboco-san,hBP06-007,OSR,1,0,0,4,Purple
+1034,hBP06,ロボ子さん,Roboco-san,hBP06-007,OUR,1,0,0,94.6,Purple
+1035,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-008,OSR,1,0,0,4.5,Yellow
+1036,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-008,OUR,1,0,0,85.3,Yellow
+1037,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-008,SEC,1,1,0,464.5,Yellow
+1038,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-009,C,0,0,0,2.2,White
+1039,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-009,S,1,0,0,4.5,White
+1040,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-010,U,0,0,0,2.4,White
+1041,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-011,C,0,0,0,2.2,White
+1042,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-011,S,1,0,0,6.6,White
+1043,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-012,U,0,0,0,2.4,White
+1044,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-012,S,1,0,0,3.6,White
+1045,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-013,R,1,0,0,2.4,White
+1046,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-013,SR,1,0,0,6.6,White
+1047,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-014,RR,1,0,0,3.6,White
+1048,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-014,SR,1,0,0,7.3,White
+1049,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-014,UR,1,0,0,38.9,White
+1050,hBP06,響咲リオナ,Isaki Riona,hBP06-015,C,0,0,0,2.7,White
+1051,hBP06,響咲リオナ,Isaki Riona,hBP06-015,S,1,0,0,48.2,White
+1530,hBP06,響咲リオナ,Isaki Riona,hBP06-015,HR,1,0,0,64.75,White
+1052,hBP06,響咲リオナ,Isaki Riona,hBP06-016,U,0,0,0,2.4,White
+1053,hBP06,響咲リオナ,Isaki Riona,hBP06-017,C,0,0,0,2.2,White
+1054,hBP06,響咲リオナ,Isaki Riona,hBP06-017,S,1,0,0,4,White
+1055,hBP06,響咲リオナ,Isaki Riona,hBP06-018,U,0,0,0,2.4,White
+1056,hBP06,響咲リオナ,Isaki Riona,hBP06-018,S,1,0,0,5.8,White
+1057,hBP06,響咲リオナ,Isaki Riona,hBP06-019,R,1,0,0,2.4,White
+1058,hBP06,響咲リオナ,Isaki Riona,hBP06-019,SR,1,0,0,9.2,White
+1059,hBP06,響咲リオナ,Isaki Riona,hBP06-020,RR,1,0,0,4,White
+1060,hBP06,響咲リオナ,Isaki Riona,hBP06-020,SR,1,0,0,9.2,White
+1061,hBP06,響咲リオナ,Isaki Riona,hBP06-020,UR,1,0,0,57.5,White
+1062,hBP06,博衣こより,Hakui Koyori,hBP06-021,R,1,0,0,2.4,White
+1063,hBP06,博衣こより,Hakui Koyori,hBP06-021,SR,1,0,0,8.2,White
+1064,hBP06,風真いろは,Kazama Iroha,hBP06-022,C,0,0,0,2.2,Green
+1065,hBP06,風真いろは,Kazama Iroha,hBP06-022,S,1,0,0,3.6,Green
+1066,hBP06,風真いろは,Kazama Iroha,hBP06-023,U,0,0,0,2.4,Green
+1067,hBP06,風真いろは,Kazama Iroha,hBP06-024,C,0,0,0,2.2,Green
+1068,hBP06,風真いろは,Kazama Iroha,hBP06-024,S,1,0,0,3,Green
+1069,hBP06,風真いろは,Kazama Iroha,hBP06-025,U,0,0,0,2.4,Green
+1070,hBP06,風真いろは,Kazama Iroha,hBP06-025,S,1,0,0,3.6,Green
+1071,hBP06,風真いろは,Kazama Iroha,hBP06-026,R,1,0,0,3.6,Green
+1072,hBP06,風真いろは,Kazama Iroha,hBP06-026,SR,1,0,0,29.6,Green
+1073,hBP06,風真いろは,Kazama Iroha,hBP06-027,RR,1,0,0,4,Green
+1074,hBP06,風真いろは,Kazama Iroha,hBP06-027,SR,1,0,0,11,Green
+1075,hBP06,風真いろは,Kazama Iroha,hBP06-027,UR,1,0,0,94.6,Green
+1076,hBP06,姫森ルーナ,Himemori Luna,hBP06-028,C,0,0,0,2.2,Green
+1077,hBP06,姫森ルーナ,Himemori Luna,hBP06-028,S,1,0,0,3.7,Green
+1078,hBP06,姫森ルーナ,Himemori Luna,hBP06-029,U,0,0,0,2.4,Green
+1079,hBP06,姫森ルーナ,Himemori Luna,hBP06-029,S,1,0,0,3.6,Green
+1080,hBP06,姫森ルーナ,Himemori Luna,hBP06-030,R,1,0,0,2.4,Green
+1081,hBP06,姫森ルーナ,Himemori Luna,hBP06-030,SR,1,0,0,6.6,Green
+1082,hBP06,姫森ルーナ,Himemori Luna,hBP06-031,RR,1,0,0,3,Green
+1083,hBP06,姫森ルーナ,Himemori Luna,hBP06-031,SR,1,0,0,6.6,Green
+1084,hBP06,姫森ルーナ,Himemori Luna,hBP06-031,UR,1,0,0,29.6,Green
+1085,hBP06,セシリア・イマーグリーン,Cecilia Immergreen,hBP06-032,R,1,0,0,2.4,Green
+1086,hBP06,セシリア・イマーグリーン,Cecilia Immergreen,hBP06-032,SR,1,0,0,8.2,Green
+1087,hBP06,儒烏風亭らでん,Juufuutei Raden,hBP06-033,R,1,0,0,2.7,Green
+1088,hBP06,儒烏風亭らでん,Juufuutei Raden,hBP06-033,SR,1,0,0,11,Green
+1089,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-034,C,0,0,0,2.2,Red
+1090,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-034,S,1,0,0,4,Red
+1091,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-035,U,0,0,0,2.4,Red
+1092,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-036,C,0,0,0,2.2,Red
+1093,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-036,S,1,0,0,3.6,Red
+1094,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-037,U,0,0,0,2.7,Red
+1095,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-037,S,1,0,0,4.9,Red
+1096,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-038,R,1,0,0,2.8,Red
+1097,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-038,SR,1,0,0,15.7,Red
+1098,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-039,RR,1,0,0,4.5,Red
+1099,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-039,SR,1,0,0,15.7,Red
+1100,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-039,UR,1,0,0,113.7,Red
+1101,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-040,C,0,0,0,2.2,Red
+1102,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-040,S,1,0,0,4.9,Red
+1103,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-041,U,0,0,0,2.4,Red
+1104,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-042,C,0,0,0,2.2,Red
+1105,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-042,S,1,0,0,2.8,Red
+1106,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-043,U,0,0,0,2.4,Red
+1107,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-043,S,1,0,0,3.6,Red
+1108,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-044,R,1,0,0,2.4,Red
+1109,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-044,SR,1,0,0,9.2,Red
+1110,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-045,RR,1,0,0,3.6,Red
+1111,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-045,SR,1,0,0,6.6,Red
+1112,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-045,UR,1,0,0,38.9,Red
+1113,hBP06,鷹嶺ルイ,Takane Lui,hBP06-046,R,1,0,0,2.4,Red
+1114,hBP06,鷹嶺ルイ,Takane Lui,hBP06-046,SR,1,0,0,5.8,Red
+1115,hBP06,一条莉々華,Ichijou Ririka,hBP06-047,R,1,0,0,2.4,Red
+1116,hBP06,一条莉々華,Ichijou Ririka,hBP06-047,SR,1,0,0,6.6,Red
+1117,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-048,C,0,0,0,2.2,Blue
+1118,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-048,S,1,0,0,3.6,Blue
+1119,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-049,U,0,0,0,2.4,Blue
+1120,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-050,C,0,0,0,2.2,Blue
+1121,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-050,S,1,0,0,3,Blue
+1122,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-051,U,0,0,0,2.4,Blue
+1123,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-051,S,1,0,0,3,Blue
+1124,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-052,R,1,0,0,2.4,Blue
+1125,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-052,SR,1,0,0,5.8,Blue
+1126,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-053,RR,1,0,0,3,Blue
+1127,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-053,SR,1,0,0,5.8,Blue
+1128,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-053,UR,1,0,0,20.3,Blue
+1129,hBP06,雪花ラミィ,Yukihana Lamy,hBP06-054,R,1,0,0,2.4,Blue
+1130,hBP06,雪花ラミィ,Yukihana Lamy,hBP06-054,SR,1,0,0,7.3,Blue
+1131,hBP06,沙花叉クロヱ,Sakamata Chloe,hBP06-055,R,1,0,0,2.7,Blue
+1132,hBP06,沙花叉クロヱ,Sakamata Chloe,hBP06-055,SR,1,0,0,11,Blue
+1133,hBP06,沙花叉クロヱ,Sakamata Chloe,hBP06-056,R,1,0,0,2.7,Blue
+1134,hBP06,沙花叉クロヱ,Sakamata Chloe,hBP06-056,SR,1,0,0,6.6,Blue
+1135,hBP06,森カリオペ,Mori Calliope,hBP06-057,C,0,0,0,2.7,Blue
+1136,hBP06,森カリオペ,Mori Calliope,hBP06-057,S,1,0,0,7.3,Blue
+1137,hBP06,森カリオペ,Mori Calliope,hBP06-058,U,0,0,0,3,Blue
+1138,hBP06,森カリオペ,Mori Calliope,hBP06-058,S,1,0,0,11,Blue
+1139,hBP06,森カリオペ,Mori Calliope,hBP06-059,R,1,0,0,3,Blue
+1140,hBP06,森カリオペ,Mori Calliope,hBP06-059,SR,1,0,0,15.7,Blue
+1141,hBP06,森カリオペ,Mori Calliope,hBP06-060,RR,1,0,0,4,Blue
+1142,hBP06,森カリオペ,Mori Calliope,hBP06-060,SR,1,0,0,9.2,Blue
+1143,hBP06,森カリオペ,Mori Calliope,hBP06-060,UR,1,0,0,0,Blue
+1144,hBP06,ロボ子さん,Roboco-san,hBP06-061,C,0,0,0,2.2,Purple
+1145,hBP06,ロボ子さん,Roboco-san,hBP06-061,S,1,0,0,3.6,Purple
+1146,hBP06,ロボ子さん,Roboco-san,hBP06-062,U,0,0,0,2.4,Purple
+1147,hBP06,ロボ子さん,Roboco-san,hBP06-063,C,0,0,0,2.2,Purple
+1148,hBP06,ロボ子さん,Roboco-san,hBP06-063,S,1,0,0,4.5,Purple
+1149,hBP06,ロボ子さん,Roboco-san,hBP06-064,U,0,0,0,2.4,Purple
+1150,hBP06,ロボ子さん,Roboco-san,hBP06-064,S,1,0,0,4.5,Purple
+1151,hBP06,ロボ子さん,Roboco-san,hBP06-065,R,1,0,0,2.4,Purple
+1152,hBP06,ロボ子さん,Roboco-san,hBP06-065,SR,1,0,0,5.8,Purple
+1153,hBP06,ロボ子さん,Roboco-san,hBP06-066,RR,1,0,0,3,Purple
+1154,hBP06,ロボ子さん,Roboco-san,hBP06-066,SR,1,0,0,5.8,Purple
+1155,hBP06,ロボ子さん,Roboco-san,hBP06-066,UR,1,0,0,38.9,Purple
+1156,hBP06,戌神ころね,Inugami Korone,hBP06-067,C,0,0,0,2.7,Purple
+1157,hBP06,戌神ころね,Inugami Korone,hBP06-067,S,1,0,0,11,Purple
+1158,hBP06,戌神ころね,Inugami Korone,hBP06-068,U,0,0,0,2.7,Purple
+1159,hBP06,戌神ころね,Inugami Korone,hBP06-068,S,1,0,0,7.3,Purple
+1160,hBP06,戌神ころね,Inugami Korone,hBP06-069,R,1,0,0,3,Purple
+1161,hBP06,戌神ころね,Inugami Korone,hBP06-069,SR,1,0,0,9.2,Purple
+1162,hBP06,戌神ころね,Inugami Korone,hBP06-070,RR,1,0,0,4.5,Purple
+1163,hBP06,戌神ころね,Inugami Korone,hBP06-070,SR,1,0,0,11,Purple
+1164,hBP06,戌神ころね,Inugami Korone,hBP06-070,UR,1,0,0,92.9,Purple
+1165,hBP06,ラプラス・ダークネス,La+ Darknesss,hBP06-071,R,1,0,0,2.7,Purple
+1166,hBP06,ラプラス・ダークネス,La+ Darknesss,hBP06-071,SR,1,0,0,9.2,Purple
+1167,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-072,C,0,0,0,2.2,Yellow
+1168,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-072,S,1,0,0,3.6,Yellow
+1169,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-073,U,0,0,0,2.4,Yellow
+1170,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-074,C,0,0,0,2.2,Yellow
+1171,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-074,S,1,0,0,3.6,Yellow
+1172,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-075,U,0,0,0,2.4,Yellow
+1173,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-075,S,1,0,0,3,Yellow
+1174,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-076,R,1,0,0,2.4,Yellow
+1175,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-076,SR,1,0,0,5.8,Yellow
+1176,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-077,RR,1,0,0,3,Yellow
+1177,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-077,SR,1,0,0,5.8,Yellow
+1178,hBP06,夏色まつり,Natsuiro Matsuri,hBP06-077,UR,1,0,0,24.9,Yellow
+1179,hBP06,大空スバル,Oozora Subaru,hBP06-078,C,0,0,0,2.2,Yellow
+1180,hBP06,大空スバル,Oozora Subaru,hBP06-078,S,1,0,0,3.6,Yellow
+1181,hBP06,大空スバル,Oozora Subaru,hBP06-079,U,0,0,0,2.4,Yellow
+1182,hBP06,大空スバル,Oozora Subaru,hBP06-079,S,1,0,0,4.7,Yellow
+1183,hBP06,大空スバル,Oozora Subaru,hBP06-080,R,1,0,0,2.7,Yellow
+1184,hBP06,大空スバル,Oozora Subaru,hBP06-080,SR,1,0,0,6.6,Yellow
+1185,hBP06,大空スバル,Oozora Subaru,hBP06-081,RR,1,0,0,3.6,Yellow
+1186,hBP06,大空スバル,Oozora Subaru,hBP06-081,SR,1,0,0,6.6,Yellow
+1187,hBP06,大空スバル,Oozora Subaru,hBP06-081,UR,1,0,0,38.9,Yellow
+1188,hBP06,アーニャ・メルフィッサ,Anya Melfissa,hBP06-082,R,1,0,0,2.4,Yellow
+1189,hBP06,アーニャ・メルフィッサ,Anya Melfissa,hBP06-082,SR,1,0,0,6.6,Yellow
+1190,hBP06,ラムダック,,hBP06-083,R,1,0,0,4,Yellow
+1191,hBP06,ラムダック,,hBP06-083,SR,1,0,0,24.9,Yellow
+1192,hBP06,AIこより,AI Koyori,hBP06-084,U,0,0,0,2.4,White
+1193,hBP06,AIこより,AI Koyori,hBP06-084,S,1,0,0,3.6,White
+1194,hBP06,フェイバリットパソコン,,hBP06-085,U,0,0,0,3.6,Support
+1195,hBP06,フェイバリットパソコン,,hBP06-085,S,1,0,0,11,Support
+1196,hBP06,愛情いっぱい召し上がれ♪,,hBP06-086,C,0,0,0,2.4,Support
+1197,hBP06,愛情いっぱい召し上がれ♪,,hBP06-086,S,1,0,0,3.6,Support
+1198,hBP06,しめじダンス,,hBP06-087,U,0,0,0,2.4,Support
+1199,hBP06,しめじダンス,,hBP06-087,S,1,0,0,4.9,Support
+1200,hBP06,ドッキリうさぎ,,hBP06-088,C,0,0,0,2.7,Support
+1201,hBP06,ドッキリうさぎ,,hBP06-088,S,1,0,0,3,Support
+1202,hBP06,ドローイングストリーム,,hBP06-089,C,0,0,0,2.7,Support
+1203,hBP06,ドローイングストリーム,,hBP06-089,S,1,0,0,10.1,Support
+1204,hBP06,ブルームステージ,,hBP06-090,U,0,0,0,5.8,Support
+1205,hBP06,ブルームステージ,,hBP06-090,S,1,0,0,18.4,Support
+1206,hBP06,ホロライブ1期生,,hBP06-091,U,0,0,0,2.4,Support
+1207,hBP06,ホロライブ1期生,,hBP06-091,S,1,0,0,3,Support
+1208,hBP06,マヨネーズちゅっちゅっ,,hBP06-092,C,0,0,0,2.2,Support
+1209,hBP06,マヨネーズちゅっちゅっ,,hBP06-092,S,1,0,0,3.6,Support
+1210,hBP06,山田ルイ54世,,hBP06-093,U,0,0,0,3.6,Support
+1211,hBP06,ワークアウト,,hBP06-094,C,0,0,0,3,Support
+1212,hBP06,ワークアウト,,hBP06-094,S,1,0,0,11,Support
+1213,hBP06,IDENTIFY -AREA 15-,IDENTIFY -AREA 15-,hBP06-095,U,0,0,0,2.4,Support
+1214,hBP06,2人あわせてラムダック！,,hBP06-096,U,0,0,0,2.7,Support
+1215,hBP06,カワイイスタジャン,,hBP06-097,C,0,0,0,2.7,Support
+1216,hBP06,カワイイスタジャン,,hBP06-097,S,1,0,0,7.3,Support
+1217,hBP06,鬼神刀「阿修羅」,,hBP06-098,U,0,0,0,2.4,Support
+1218,hBP06,鬼神刀「阿修羅」,,hBP06-098,S,1,0,0,3.6,Support
+1219,hBP06,ゆび(エラッタ前),,hBP06-099,U,0,0,0,2.7,Support
+1220,hBP06,ゆび(エラッタ前),,hBP06-099,S,1,0,0,4.9,Support
+1221,hBP06,Chattino,Chattino,hBP06-100,C,0,0,0,2.2,Support
+1222,hBP06,Chattino,Chattino,hBP06-100,S,1,0,0,4.5,Support
+1223,hBP06,ムーナびと,,hBP06-101,C,0,0,0,2.2,Support
+1224,hBP06,ムーナびと,,hBP06-101,S,1,0,0,3.6,Support
+1225,hBP06,えびふらいおん,,hBP06-102,C,0,0,0,2.2,Support
+1226,hBP06,えびふらいおん,,hBP06-102,S,1,0,0,3.6,Support
+1227,hBP06,まつりす,,hBP06-103,C,0,0,0,2.2,Support
+1228,hBP06,まつりす,,hBP06-103,S,1,0,0,3.6,Support
+1229,hBP06,スバ友,,hBP06-104,C,0,0,0,2.2,Support
+1230,hBP06,スバ友,,hBP06-104,S,1,0,0,4.7,Support
+1513,hBP06,白エール,White Cheer,hY01-010,SY,1,0,0,18.5,White
+1514,hBP06,緑エール,Green Cheer,hY02-008,SY,1,0,0,33.5,Green
+1515,hBP06,赤エール,Red Cheer,hY03-013,SY,1,0,0,21,Red
+1516,hBP06,青エール,Blue Cheer,hY04-010,SY,1,0,0,14.75,Blue
+1517,hBP06,紫エール,Purple Cheer,hY05-008,SY,1,0,0,21,Purple
+1518,hBP06,黄エール,Yellow Cheer,hY06-007,SY,1,0,0,21,Yellow
+1529,hBP06,百鬼あやめ,Nakiri Ayame,hSD02-002,C,0,0,1,4,Red
+1231,hBP06,百鬼あやめ,Nakiri Ayame,hSD02-002,HR,1,0,1,94.7,Red
+1786,hBP06,ぽよ余,Poyoyo,hSD02-014,C,0,0,1,4,Support
+1232,hBP06,不知火フレア,Shiranui Flare,hSD07-007,SR,1,0,1,5.8,Yellow
+1233,hBP06,兎田ぺこら,Usada Pekora,hBP01-041,SR,1,0,1,27.7,Green
+1234,hBP06,風真いろは,Kazama Iroha,hBP01-048,C,0,0,1,2.7,Green
+1235,hBP06,風真いろは,Kazama Iroha,hBP01-048,HR,1,0,1,94.6,Green
+1236,hBP06,ハコス・ベールズ,Hakos Baelz,hBP01-072,C,0,0,1,2.4,Red
+1237,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,C,0,0,1,2.4,Blue
+1238,hBP06,白銀ノエル,Shirogane Noel,hBP02-016,SR,1,0,1,20.3,White
+1239,hBP06,宝鐘マリン,Houshou Marine,hBP02-031,SR,1,0,1,29.6,Red
+1240,hBP06,森カリオペ,Mori Calliope,hBP02-054,C,0,0,1,2.7,Purple
+1241,hBP06,森カリオペ,Mori Calliope,hBP02-054,HR,1,0,1,52.8,Purple
+1242,hBP06,姫森ルーナ,Himemori Luna,hBP03-009,C,0,0,1,2.4,White
+1243,hBP06,ロボ子さん,Roboco-san,hBP03-057,C,0,0,1,2.4,Purple
+1244,hBP06,戌神ころね,Inugami Korone,hBP03-061,C,0,0,1,3,Yellow
+1784,hBP06,ルーナイト,Lu-knights,hBP03-105,U,0,0,1,2.4,Support
+1785,hBP06,ろぼさー,Roboser,hBP03-110,U,0,0,1,2.2,Support
+1245,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP04-016,C,0,0,1,2.7,White
+1246,hBP06,雪花ラミィ,Yukihana Lamy,hBP04-043,C,0,0,1,2.4,Blue
+1247,hBP06,雪花ラミィ,Yukihana Lamy,hBP04-043,HR,1,0,1,76,Blue
+1248,hBP06,大空スバル,Oozora Subaru,hBP04-067,C,0,0,1,2.7,Yellow
+1249,hBP06,大空スバル,Oozora Subaru,hBP04-067,HR,1,0,1,57.5,Yellow
+1250,hBP06,夏色まつり,Natsuiro Matsuri,hBP04-079,C,0,0,1,2.4,Yellow
+1251,hBP07,角巻わため,Tsunomaki Watame,hBP07-001,OSR,1,0,0,4.9,White
+1252,hBP07,角巻わため,Tsunomaki Watame,hBP07-001,OUR,1,0,0,139.4,White
+1253,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-002,OSR,1,0,0,4.5,White
+1254,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-002,OUR,1,0,0,66.7,White
+1255,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-002,SEC,1,1,0,298.8,White
+1256,hBP07,大神ミオ,Ookami Mio,hBP07-003,OSR,1,0,0,13.8,Green
+1257,hBP07,大神ミオ,Ookami Mio,hBP07-003,OUR,1,0,0,167.2,Green
+1258,hBP07,大神ミオ,Ookami Mio,hBP07-003,SEC,1,1,0,662.2,Green
+1259,hBP07,赤井はあと,Akai Haato,hBP07-004,OSR,1,0,0,5.8,Red
+1260,hBP07,赤井はあと,Akai Haato,hBP07-004,OUR,1,0,0,148.7,Red
+1261,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-005,OSR,1,0,0,11,Blue
+1262,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-005,OUR,1,0,0,166.8,Blue
+1263,hBP07,AZKi,AZKi,hBP07-006,OSR,1,0,0,15.7,Purple
+1264,hBP07,AZKi,AZKi,hBP07-006,OUR,1,0,0,206.5,Purple
+1265,hBP07,AZKi,AZKi,hBP07-006,SEC,1,1,0,1283.8,Purple
+1266,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-007,OSR,1,0,0,4,Yellow
+1267,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-007,OUR,1,0,0,94.6,Yellow
+1268,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-007,SEC,1,1,0,424.7,Yellow
+1269,hBP07,角巻わため,Tsunomaki Watame,hBP07-008,C,0,0,0,2.2,White
+1270,hBP07,角巻わため,Tsunomaki Watame,hBP07-009,U,0,0,0,2.4,White
+1271,hBP07,角巻わため,Tsunomaki Watame,hBP07-009,S,1,0,0,4.9,White
+1272,hBP07,角巻わため,Tsunomaki Watame,hBP07-010,C,0,0,0,2.4,White
+1273,hBP07,角巻わため,Tsunomaki Watame,hBP07-010,S,1,0,0,5.8,White
+1274,hBP07,角巻わため,Tsunomaki Watame,hBP07-011,C,0,0,0,2.2,White
+1275,hBP07,角巻わため,Tsunomaki Watame,hBP07-011,S,1,0,0,5.8,White
+1276,hBP07,角巻わため,Tsunomaki Watame,hBP07-012,R,1,0,0,2.7,White
+1277,hBP07,角巻わため,Tsunomaki Watame,hBP07-012,SR,1,0,0,9.2,White
+1278,hBP07,角巻わため,Tsunomaki Watame,hBP07-013,U,0,0,0,2.4,White
+1279,hBP07,角巻わため,Tsunomaki Watame,hBP07-013,S,1,0,0,5.8,White
+1280,hBP07,角巻わため,Tsunomaki Watame,hBP07-014,RR,1,0,0,3.6,White
+1281,hBP07,角巻わため,Tsunomaki Watame,hBP07-014,SR,1,0,0,13.8,White
+1282,hBP07,角巻わため,Tsunomaki Watame,hBP07-014,UR,1,0,0,92.8,White
+1283,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-015,C,0,0,0,2.2,White
+1284,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-016,U,0,0,0,2.4,White
+1285,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-016,S,1,0,0,4.5,White
+1286,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-017,C,0,0,0,2.2,White
+1287,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-017,S,1,0,0,3.6,White
+1288,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-018,C,0,0,0,2.2,White
+1289,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-018,S,1,0,0,3.6,White
+1290,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-019,R,1,0,0,2.4,White
+1291,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-019,SR,1,0,0,5.8,White
+1292,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-020,U,0,0,0,2.4,White
+1293,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-020,S,1,0,0,4.5,White
+1294,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-021,RR,1,0,0,3.6,White
+1295,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-021,SR,1,0,0,10.1,White
+1296,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP07-021,UR,1,0,0,29.6,White
+1297,hBP07,白銀ノエル,Shirogane Noel,hBP07-022,R,1,0,0,2.4,White
+1298,hBP07,白銀ノエル,Shirogane Noel,hBP07-022,SR,1,0,0,7.3,White
+1299,hBP07,大神ミオ,Ookami Mio,hBP07-023,C,0,0,0,2.2,Green
+1300,hBP07,大神ミオ,Ookami Mio,hBP07-024,U,0,0,0,2.4,Green
+1301,hBP07,大神ミオ,Ookami Mio,hBP07-024,S,1,0,0,12.1,Green
+1302,hBP07,大神ミオ,Ookami Mio,hBP07-025,C,0,0,0,2.2,Green
+1303,hBP07,大神ミオ,Ookami Mio,hBP07-025,S,1,0,0,6.6,Green
+1304,hBP07,大神ミオ,Ookami Mio,hBP07-026,C,0,0,0,2.2,Green
+1305,hBP07,大神ミオ,Ookami Mio,hBP07-026,S,1,0,0,5.8,Green
+1306,hBP07,大神ミオ,Ookami Mio,hBP07-027,R,1,0,0,2.7,Green
+1307,hBP07,大神ミオ,Ookami Mio,hBP07-027,SR,1,0,0,11,Green
+1308,hBP07,大神ミオ,Ookami Mio,hBP07-028,U,0,0,0,2.4,Green
+1309,hBP07,大神ミオ,Ookami Mio,hBP07-028,S,1,0,0,7.3,Green
+1310,hBP07,大神ミオ,Ookami Mio,hBP07-029,RR,1,0,0,3.6,Green
+1311,hBP07,大神ミオ,Ookami Mio,hBP07-029,SR,1,0,0,11,Green
+1312,hBP07,大神ミオ,Ookami Mio,hBP07-029,UR,1,0,0,83.6,Green
+1313,hBP07,風真いろは,Kazama Iroha,hBP07-030,R,1,0,0,2.4,Green
+1314,hBP07,風真いろは,Kazama Iroha,hBP07-030,SR,1,0,0,7.3,Green
+1315,hBP07,アイラニ・イオフィフティーン,Airani Iofifteen,hBP07-031,R,1,0,0,2.4,Green
+1316,hBP07,アイラニ・イオフィフティーン,Airani Iofifteen,hBP07-031,SR,1,0,0,5.8,Green
+1317,hBP07,輪堂千速,Rindo Chihaya,hBP07-032,C,0,0,0,2.2,Green
+1318,hBP07,輪堂千速,Rindo Chihaya,hBP07-033,U,0,0,0,2.4,Green
+1319,hBP07,輪堂千速,Rindo Chihaya,hBP07-033,S,1,0,0,5.8,Green
+1320,hBP07,輪堂千速,Rindo Chihaya,hBP07-034,R,1,0,0,2.7,Green
+1321,hBP07,輪堂千速,Rindo Chihaya,hBP07-034,SR,1,0,0,8.2,Green
+1322,hBP07,輪堂千速,Rindo Chihaya,hBP07-035,RR,1,0,0,3.6,Green
+1323,hBP07,輪堂千速,Rindo Chihaya,hBP07-035,SR,1,0,0,8.2,Green
+1324,hBP07,輪堂千速,Rindo Chihaya,hBP07-035,UR,1,0,0,66.7,Green
+1325,hBP07,赤井はあと,Akai Haato,hBP07-036,C,0,0,0,2.2,Red
+1326,hBP07,赤井はあと,Akai Haato,hBP07-037,U,0,0,0,2.4,Red
+1327,hBP07,赤井はあと,Akai Haato,hBP07-037,S,1,0,0,5.8,Red
+1328,hBP07,赤井はあと,Akai Haato,hBP07-038,C,0,0,0,2.2,Red
+1329,hBP07,赤井はあと,Akai Haato,hBP07-038,S,1,0,0,5.8,Red
+1330,hBP07,赤井はあと,Akai Haato,hBP07-039,C,0,0,0,2.2,Red
+1331,hBP07,赤井はあと,Akai Haato,hBP07-039,S,1,0,0,5.8,Red
+1332,hBP07,赤井はあと,Akai Haato,hBP07-040,R,1,0,0,2.4,Red
+1333,hBP07,赤井はあと,Akai Haato,hBP07-040,SR,1,0,0,9.2,Red
+1334,hBP07,赤井はあと,Akai Haato,hBP07-041,U,0,0,0,2.4,Red
+1335,hBP07,赤井はあと,Akai Haato,hBP07-041,S,1,0,0,4.9,Red
+1336,hBP07,赤井はあと,Akai Haato,hBP07-042,RR,1,0,0,3.6,Red
+1337,hBP07,赤井はあと,Akai Haato,hBP07-042,SR,1,0,0,9.2,Red
+1338,hBP07,赤井はあと,Akai Haato,hBP07-042,UR,1,0,0,83.5,Red
+1339,hBP07,さくらみこ,Sakura Miko,hBP07-043,R,1,0,0,2.4,Red
+1340,hBP07,さくらみこ,Sakura Miko,hBP07-043,SR,1,0,0,15.7,Red
+1341,hBP07,尾丸ポルカ,Omaru Polka,hBP07-044,R,1,0,0,2.4,Red
+1342,hBP07,尾丸ポルカ,Omaru Polka,hBP07-044,SR,1,0,0,8.2,Red
+1343,hBP07,ハコス・ベールズ,Hakos Baelz,hBP07-045,R,1,0,0,3.6,Red
+1344,hBP07,ハコス・ベールズ,Hakos Baelz,hBP07-045,SR,1,0,0,15.7,Red
+1345,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-046,C,0,0,0,2.4,Red
+1346,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-047,U,0,0,0,2.4,Red
+1347,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-047,S,1,0,0,4.9,Red
+1348,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-048,R,1,0,0,3.6,Red
+1349,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-048,SR,1,0,0,13.8,Red
+1350,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-049,RR,1,0,0,3.6,Red
+1351,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-049,SR,1,0,0,7.3,Red
+1352,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-049,UR,1,0,0,34.2,Red
+1353,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-050,C,0,0,0,2.4,Blue
+1354,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-051,U,0,0,0,2.4,Blue
+1355,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-051,S,1,0,0,8.2,Blue
+1356,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-052,C,0,0,0,2.2,Blue
+1357,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-052,S,1,0,0,3.6,Blue
+1358,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-053,C,0,0,0,2.2,Blue
+1359,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-053,S,1,0,0,7.3,Blue
+1360,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-054,R,1,0,0,2.7,Blue
+1361,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-054,SR,1,0,0,13.8,Blue
+1362,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-055,U,0,0,0,2.4,Blue
+1363,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-055,S,1,0,0,7.3,Blue
+1364,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-056,RR,1,0,0,4.5,Blue
+1365,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-056,SR,1,0,0,6.8,Blue
+1366,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-056,UR,1,0,0,78.8,Blue
+1367,hBP07,猫又おかゆ,Nekomata Okayu,hBP07-057,R,1,0,0,2.4,Blue
+1368,hBP07,猫又おかゆ,Nekomata Okayu,hBP07-057,SR,1,0,0,6.6,Blue
+1369,hBP07,こぼ・かなえる,Kobo Kanaeru,hBP07-058,R,1,0,0,2.4,Blue
+1370,hBP07,こぼ・かなえる,Kobo Kanaeru,hBP07-058,SR,1,0,0,5.8,Blue
+1371,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-059,C,0,0,0,2.2,Blue
+1372,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-060,U,0,0,0,2.4,Blue
+1373,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-060,S,1,0,0,3.6,Blue
+1374,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-061,R,1,0,0,2.4,Blue
+1375,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-061,SR,1,0,0,6.6,Blue
+1376,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-062,RR,1,0,0,3.6,Blue
+1377,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-062,SR,1,0,0,5.8,Blue
+1378,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-062,UR,1,0,0,38.9,Blue
+1379,hBP07,AZKi,AZKi,hBP07-063,C,0,0,0,2.7,Purple
+1380,hBP07,AZKi,AZKi,hBP07-064,U,0,0,0,2.4,Purple
+1381,hBP07,AZKi,AZKi,hBP07-064,S,1,0,0,11.9,Purple
+1382,hBP07,AZKi,AZKi,hBP07-065,C,0,0,0,2.4,Purple
+1383,hBP07,AZKi,AZKi,hBP07-065,S,1,0,0,9.2,Purple
+1384,hBP07,AZKi,AZKi,hBP07-066,C,0,0,0,2.7,Purple
+1385,hBP07,AZKi,AZKi,hBP07-066,S,1,0,0,7.3,Purple
+1386,hBP07,AZKi,AZKi,hBP07-067,R,1,0,0,3,Purple
+1387,hBP07,AZKi,AZKi,hBP07-067,SR,1,0,0,29.6,Purple
+1388,hBP07,AZKi,AZKi,hBP07-068,U,0,0,0,2.4,Purple
+1389,hBP07,AZKi,AZKi,hBP07-068,S,1,0,0,5.8,Purple
+1390,hBP07,AZKi,AZKi,hBP07-069,RR,1,0,0,5.8,Purple
+1391,hBP07,AZKi,AZKi,hBP07-069,SR,1,0,0,15.7,Purple
+1392,hBP07,AZKi,AZKi,hBP07-069,UR,1,0,0,113.7,Purple
+1393,hBP07,癒月ちょこ,Yuzuki Choco,hBP07-070,R,1,0,0,2.4,Purple
+1394,hBP07,癒月ちょこ,Yuzuki Choco,hBP07-070,SR,1,0,0,7.3,Purple
+1395,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-071,C,0,0,0,2.2,Purple
+1396,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-071,S,1,0,0,6.6,Purple
+1397,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-072,U,0,0,0,2.4,Purple
+1398,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-072,S,1,0,0,4.9,Purple
+1399,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-073,R,1,0,0,2.4,Purple
+1400,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-073,SR,1,0,0,14,Purple
+1401,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-074,RR,1,0,0,3,Purple
+1402,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-074,SR,1,0,0,5.8,Purple
+1403,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-074,UR,1,0,0,44.5,Purple
+1404,hBP07,古石ビジュー,Koseki Bijou,hBP07-075,R,1,0,0,2.4,Purple
+1405,hBP07,古石ビジュー,Koseki Bijou,hBP07-075,SR,1,0,0,8.2,Purple
+1406,hBP07,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP07-076,R,1,0,0,2.4,Purple
+1407,hBP07,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP07-076,SR,1,0,0,9.2,Purple
+1408,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-077,C,0,0,0,2.2,Yellow
+1409,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-078,U,0,0,0,2.4,Yellow
+1410,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-078,S,1,0,0,6.6,Yellow
+1411,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-079,C,0,0,0,2.2,Yellow
+1412,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-079,S,1,0,0,4.9,Yellow
+1413,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-080,C,0,0,0,2.2,Yellow
+1414,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-080,S,1,0,0,4,Yellow
+1415,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-081,R,1,0,0,2.4,Yellow
+1416,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-081,SR,1,0,0,7.3,Yellow
+1417,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-082,U,0,0,0,2.4,Yellow
+1418,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-082,S,1,0,0,4.9,Yellow
+1419,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-083,RR,1,0,0,3.6,Yellow
+1420,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-083,SR,1,0,0,7.3,Yellow
+1421,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-083,UR,1,0,0,102.2,Yellow
+1422,hBP07,夏色まつり,Natsuiro Matsuri,hBP07-084,R,1,0,0,2.4,Yellow
+1423,hBP07,夏色まつり,Natsuiro Matsuri,hBP07-084,SR,1,0,0,5.8,Yellow
+1424,hBP07,不知火フレア,Shiranui Flare,hBP07-085,R,1,0,0,2.4,Yellow
+1425,hBP07,不知火フレア,Shiranui Flare,hBP07-085,SR,1,0,0,5.8,Yellow
+1426,hBP07,ジジ・ムリン,Gigi Murin,hBP07-086,R,1,0,0,2.4,Yellow
+1427,hBP07,ジジ・ムリン,Gigi Murin,hBP07-086,SR,1,0,0,7.3,Yellow
+1428,hBP07,虎金妃笑虎,Koganei Niko,hBP07-087,C,0,0,0,2.2,Yellow
+1429,hBP07,虎金妃笑虎,Koganei Niko,hBP07-088,U,0,0,0,2.4,Yellow
+1430,hBP07,虎金妃笑虎,Koganei Niko,hBP07-088,S,1,0,0,3.6,Yellow
+1431,hBP07,虎金妃笑虎,Koganei Niko,hBP07-089,R,1,0,0,2.4,Yellow
+1432,hBP07,虎金妃笑虎,Koganei Niko,hBP07-089,SR,1,0,0,5.8,Yellow
+1433,hBP07,虎金妃笑虎,Koganei Niko,hBP07-090,RR,1,0,0,3.6,Yellow
+1434,hBP07,虎金妃笑虎,Koganei Niko,hBP07-090,SR,1,0,0,5.8,Yellow
+1435,hBP07,虎金妃笑虎,Koganei Niko,hBP07-090,UR,1,0,0,24.9,Yellow
+1436,hBP07,ライブスタッフ,,hBP07-091,C,0,0,0,2.7,Support
+1437,hBP07,ライブスタッフ,,hBP07-091,S,1,0,0,11,Support
+1438,hBP07,アーカイブパソコン,,hBP07-092,U,0,0,0,3,Support
+1439,hBP07,アーカイブパソコン,,hBP07-092,S,1,0,0,8.2,Support
+1440,hBP07,うまみー!,,hBP07-093,C,0,0,0,2.2,Support
+1441,hBP07,うまみー!,,hBP07-093,S,1,0,0,3.6,Support
+1442,hBP07,ギリわるロボ,,hBP07-094,U,0,0,0,4.5,Support
+1443,hBP07,クロスインパクト,,hBP07-095,C,0,0,0,2.2,Support
+1444,hBP07,クロスインパクト,,hBP07-095,S,1,0,0,4.7,Support
+1445,hBP07,ちゃま旅,,hBP07-096,U,0,0,0,2.4,Support
+1446,hBP07,ちゃま旅,,hBP07-096,S,1,0,0,6.6,Support
+1447,hBP07,時の支配者 -Promise-,,hBP07-097,U,0,0,0,3,Support
+1448,hBP07,ビッグゴッドミオーンの占い,,hBP07-098,U,0,0,0,2.7,Support
+1449,hBP07,ビッグゴッドミオーンの占い,,hBP07-098,S,1,0,0,7.3,Support
+1450,hBP07,ブヒー！,,hBP07-099,C,0,0,0,2.7,Support
+1451,hBP07,ブヒー！,,hBP07-099,S,1,0,0,13.8,Support
+1452,hBP07,フロンティアスピリット,,hBP07-100,U,0,0,0,2.7,Support
+1453,hBP07,ASMRマイク,,hBP07-101,C,0,0,0,0,Support
+1454,hBP07,ASMRマイク,,hBP07-101,S,1,0,0,5.8,Support
+1455,hBP07,角巻わため,Tsunomaki Watame,hBP07-102,U,0,0,0,2.2,Support
+1456,hBP07,角巻わため,Tsunomaki Watame,hBP07-102,S,1,0,0,5.8,Support
+1457,hBP07,ギラファノコギリクワガタ,,hBP07-103,U,0,0,0,2.2,Support
+1458,hBP07,ギラファノコギリクワガタ,,hBP07-103,S,1,0,0,4,Support
+1459,hBP07,Thorn,Thorn,hBP07-104,U,0,0,0,2.2,Support
+1460,hBP07,Thorn,Thorn,hBP07-104,S,1,0,0,3.6,Support
+1461,hBP07,BAZO,BAZO,hBP07-105,C,0,0,0,2.2,Support
+1462,hBP07,BAZO,BAZO,hBP07-105,S,1,0,0,3.6,Support
+1463,hBP07,ハトタウロス,,hBP07-106,U,0,0,0,2.2,Support
+1464,hBP07,ハトタウロス,,hBP07-106,S,1,0,0,4.9,Support
+1465,hBP07,Boros,Boros,hBP07-107,U,0,0,0,2.2,Support
+1466,hBP07,Boros,Boros,hBP07-107,S,1,0,0,3.6,Support
+1467,hBP07,Zecretary,Zecretary,hBP07-108,C,0,0,0,2.2,Support
+1468,hBP07,Zecretary,Zecretary,hBP07-108,S,1,0,0,3.6,Support
+1469,hBP07,Kronies,Kronies,hBP07-109,C,0,0,0,2.2,Support
+1470,hBP07,Kronies,Kronies,hBP07-109,S,1,0,0,3,Support
+1471,hBP07,ねっ子,,hBP07-110,C,0,0,0,2.2,Support
+1472,hBP07,ねっ子,,hBP07-110,S,1,0,0,5.8,Support
+1519,hBP07,白エール,White Cheer,hY01-012,SY,1,0,0,24.75,White
+1520,hBP07,緑エール,Green Cheer,hY02-010,SY,1,0,0,27.25,Green
+1521,hBP07,赤エール,Red Cheer,hY03-014,SY,1,0,0,27.25,Red
+1522,hBP07,青エール,Blue Cheer,hY04-011,SY,1,0,0,18.5,Blue
+1523,hBP07,紫エール,Purple Cheer,hY05-009,SY,1,0,0,24.75,Purple
+1524,hBP07,黄エール,Yellow Cheer,hY06-009,SY,1,0,0,27.25,Yellow
+1473,hBP07,輪堂千速,Rindo Chihaya,hSD10-002,C,0,0,1,2.7,Green
+1525,hBP07,ふぐ太郎,,hSD10-013,C,0,0,1,3.75,Support
+1474,hBP07,虎金妃笑虎,Koganei Niko,hSD11-002,C,0,0,1,2.4,Yellow
+1475,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP01-024,C,0,0,1,2.4,White
+1476,hBP07,ベスティア・ゼータ,Vestia Zeta,hBP01-024,HR,1,0,1,38.9,White
+1477,hBP07,AZKi,AZKi,hBP01-044,C,0,0,1,3,Green
+1478,hBP07,AZKi,AZKi,hBP01-044,HR,1,0,1,139.4,Green
+1479,hBP07,オーロ・クロニー,Ouro Kronii,hBP01-092,C,0,0,1,2.7,Blue
+1480,hBP07,オーロ・クロニー,Ouro Kronii,hBP01-092,HR,1,0,1,48.2,Blue
+1787,hBP07,開拓者,Pioneers,hBP01-124,C,0,0,1,3.5,Support
+1481,hBP07,大神ミオ,Ookami Mio,hBP02-024,C,0,0,1,2.4,Green
+1788,hBP07,ミオファ,Mio-fam,hBP02-101,C,0,0,1,2.2,Support
+1482,hBP07,さくらみこ,Sakura Miko,hBP03-025,HR,1,0,1,76,Red
+1483,hBP07,赤井はあと,Akai Haato,hBP03-031,C,0,0,1,2.7,Red
+1484,hBP07,角巻わため,Tsunomaki Watame,hBP03-067,C,0,0,1,2.7,Yellow
+1485,hBP07,角巻わため,Tsunomaki Watame,hBP03-067,HR,1,0,1,57.5,Yellow
+1789,hBP07,わためいと,Watamates,hBP03-112,U,0,0,1,2.4,Support
+1486,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP04-050,C,0,0,1,2.4,Blue
+1487,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP04-054,C,0,0,1,2.4,Purple
+1488,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP04-054,HR,1,0,1,57.5,Purple
+1489,hBP07,桃鈴ねね,Momosuzu Nene,hBP04-083,C,0,0,1,2.4,Yellow
+1531,hBP08,IRyS,IRyS,hBP08-001,OSR,1,0,0,7.75,White
+1532,hBP08,IRyS,IRyS,hBP08-001,OUR,1,0,0,252.38,White
+1533,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-002,OSR,1,0,0,6.5,Green
+1534,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-002,OUR,1,0,0,127.38,Green
+1535,hBP08,フワモコ,FUWAMOCO,hBP08-003,OSR,1,0,0,21,Red
+1536,hBP08,フワモコ,FUWAMOCO,hBP08-003,OUR,1,0,0,377.38,Red
+1537,hBP08,フワモコ,FUWAMOCO,hBP08-003,SEC,1,1,0,2477.5,Red
+1538,hBP08,水宮枢,Mizumiya Su,hBP08-004,OSR,1,0,0,14.75,Blue
+1539,hBP08,水宮枢,Mizumiya Su,hBP08-004,OUR,1,0,0,327.38,Blue
+1540,hBP08,水宮枢,Mizumiya Su,hBP08-004,SEC,1,1,0,1602.5,Blue
+1541,hBP08,鷹嶺ルイ,Takane Lui,hBP08-005,OSR,1,0,0,12.25,Purple
+1542,hBP08,鷹嶺ルイ,Takane Lui,hBP08-005,OUR,1,0,0,225,Purple
+1543,hBP08,鷹嶺ルイ,Takane Lui,hBP08-005,SEC,1,1,0,1000,Purple
+1544,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-006,OSR,1,0,0,7.25,Purple
+1545,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-006,OUR,1,0,0,250,Purple
+1546,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-006,SEC,1,1,0,1127.5,Purple
+1547,hBP08,音乃瀬奏,Otonose Kanade,hBP08-007,OSR,1,0,0,7.75,Yellow
+1548,hBP08,音乃瀬奏,Otonose Kanade,hBP08-007,OUR,1,0,0,202.38,Yellow
+1549,hBP08,音乃瀬奏,Otonose Kanade,hBP08-007,SEC,1,1,0,1190,Yellow
+1550,hBP08,IRyS,IRyS,hBP08-008,C,0,0,0,2.88,White
+1551,hBP08,IRyS,IRyS,hBP08-009,U,0,0,0,2.88,White
+1552,hBP08,IRyS,IRyS,hBP08-009,S,1,0,0,6,White
+1553,hBP08,IRyS,IRyS,hBP08-010,C,0,0,0,2.88,White
+1554,hBP08,IRyS,IRyS,hBP08-010,S,1,0,0,6,White
+1555,hBP08,IRyS,IRyS,hBP08-011,C,0,0,0,2.88,White
+1556,hBP08,IRyS,IRyS,hBP08-011,S,1,0,0,6,White
+1557,hBP08,IRyS,IRyS,hBP08-012,R,1,0,0,3.13,White
+1558,hBP08,IRyS,IRyS,hBP08-012,SR,1,0,0,14.75,White
+1559,hBP08,IRyS,IRyS,hBP08-013,U,0,0,0,2.88,White
+1560,hBP08,IRyS,IRyS,hBP08-013,S,1,0,0,6,White
+1561,hBP08,IRyS,IRyS,hBP08-014,RR,1,0,0,4.75,White
+1562,hBP08,IRyS,IRyS,hBP08-014,SR,1,0,0,14.75,White
+1563,hBP08,IRyS,IRyS,hBP08-014,UR,1,0,0,89.75,White
+1564,hBP08,ときのそら,Tokino Sora,hBP08-015,C,0,0,0,2.88,White
+1565,hBP08,ときのそら,Tokino Sora,hBP08-015,S,1,0,0,6,White
+1566,hBP08,ときのそら,Tokino Sora,hBP08-016,U,0,0,0,2.88,White
+1567,hBP08,ときのそら,Tokino Sora,hBP08-016,S,1,0,0,6,White
+1568,hBP08,ときのそら,Tokino Sora,hBP08-017,R,1,0,0,3.13,White
+1569,hBP08,ときのそら,Tokino Sora,hBP08-017,SR,1,0,0,11,White
+1570,hBP08,ときのそら,Tokino Sora,hBP08-018,RR,1,0,0,4,White
+1571,hBP08,ときのそら,Tokino Sora,hBP08-018,SR,1,0,0,12.25,White
+1572,hBP08,ときのそら,Tokino Sora,hBP08-018,UR,1,0,0,64.75,White
+1573,hBP08,ラオーラ・パンテーラ,Raora Panthera,hBP08-019,U,0,0,0,2.88,White
+1574,hBP08,ラオーラ・パンテーラ,Raora Panthera,hBP08-019,S,1,0,0,7.25,White
+1575,hBP08,響咲リオナ,Isaki Riona,hBP08-020,R,1,0,0,3.5,White
+1576,hBP08,響咲リオナ,Isaki Riona,hBP08-020,SR,1,0,0,14.75,White
+1577,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-021,C,0,0,0,2.88,Green
+1578,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-022,U,0,0,0,2.88,Green
+1579,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-022,S,1,0,0,6,Green
+1580,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-023,C,0,0,0,2.88,Green
+1581,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-023,S,1,0,0,6,Green
+1582,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-024,C,0,0,0,2.88,Green
+1583,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-024,S,1,0,0,6.5,Green
+1584,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-025,R,1,0,0,3.13,Green
+1585,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-025,SR,1,0,0,0,Green
+1586,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-026,U,0,0,0,2.88,Green
+1587,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-026,S,1,0,0,6,Green
+1588,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-027,RR,1,0,0,4.75,Green
+1589,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-027,SR,1,0,0,9.75,Green
+1590,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-027,UR,1,0,0,0,Green
+1591,hBP08,アキ・ローゼンタール,Aki Rosenthal,hBP08-028,R,1,0,0,3.13,Green
+1592,hBP08,アキ・ローゼンタール,Aki Rosenthal,hBP08-028,SR,1,0,0,9.75,Green
+1593,hBP08,風真いろは,Kazama Iroha,hBP08-029,U,0,0,0,2.88,Green
+1594,hBP08,風真いろは,Kazama Iroha,hBP08-029,S,1,0,0,7.75,Green
+1595,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-030,C,0,0,0,2.88,Green
+1596,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-030,S,1,0,0,6,Green
+1597,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-031,R,1,0,0,3.13,Green
+1598,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-031,SR,1,0,0,11,Green
+1599,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-032,U,0,0,0,2.88,Green
+1600,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-032,S,1,0,0,6,Green
+1601,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-033,RR,1,0,0,4,Green
+1602,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-033,SR,1,0,0,9.75,Green
+1603,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP08-033,UR,1,0,0,77.25,Green
+1604,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-034,C,0,0,0,2.88,Red
+1605,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-035,U,0,0,0,2.88,Red
+1606,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-035,S,1,0,0,8.75,Red
+1607,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-036,C,0,0,0,2.88,Red
+1608,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-036,S,1,0,0,7.75,Red
+1609,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-037,R,1,0,0,3.5,Red
+1610,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-037,SR,1,0,0,33.5,Red
+1611,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-038,R,1,0,0,3.13,Red
+1612,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-038,SR,1,0,0,14.75,Red
+1613,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-039,RR,1,0,0,6.5,Red
+1614,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-039,SR,1,0,0,27.25,Red
+1615,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-039,UR,1,0,0,150,Red
+1616,hBP08,百鬼あやめ,Nakiri Ayame,hBP08-040,R,1,0,0,3.13,Red
+1617,hBP08,百鬼あやめ,Nakiri Ayame,hBP08-040,SR,1,0,0,18.5,Red
+1618,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-041,C,0,0,0,2.33,Red
+1619,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-041,S,1,0,0,0,Red
+1620,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-042,U,0,0,0,2.88,Red
+1621,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-042,S,1,0,0,6,Red
+1622,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-043,R,1,0,0,3.13,Red
+1623,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-043,SR,1,0,0,12.25,Red
+1624,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-044,RR,1,0,0,4,Red
+1625,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-044,SR,1,0,0,12.25,Red
+1626,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-044,UR,1,0,0,0,Red
+1627,hBP08,ハコス・ベールズ,Hakos Baelz,hBP08-045,R,1,0,0,3.13,Red
+1628,hBP08,ハコス・ベールズ,Hakos Baelz,hBP08-045,SR,1,0,0,0,Red
+1629,hBP08,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP08-046,R,1,0,0,3.13,Red
+1630,hBP08,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP08-046,SR,1,0,0,11,Red
+1631,hBP08,水宮枢,Mizumiya Su,hBP08-047,C,0,0,0,2.88,Blue
+1632,hBP08,水宮枢,Mizumiya Su,hBP08-048,U,0,0,0,2.88,Blue
+1633,hBP08,水宮枢,Mizumiya Su,hBP08-048,S,1,0,0,14.75,Blue
+1634,hBP08,水宮枢,Mizumiya Su,hBP08-049,C,0,0,0,2.88,Blue
+1635,hBP08,水宮枢,Mizumiya Su,hBP08-049,S,1,0,0,12.25,Blue
+1636,hBP08,水宮枢,Mizumiya Su,hBP08-050,C,0,0,0,2.88,Blue
+1637,hBP08,水宮枢,Mizumiya Su,hBP08-050,S,1,0,0,9.75,Blue
+1638,hBP08,水宮枢,Mizumiya Su,hBP08-051,R,1,0,0,3.5,Blue
+1639,hBP08,水宮枢,Mizumiya Su,hBP08-051,SR,1,0,0,24.75,Blue
+1640,hBP08,水宮枢,Mizumiya Su,hBP08-052,U,0,0,0,2.88,Blue
+1641,hBP08,水宮枢,Mizumiya Su,hBP08-052,S,1,0,0,8.75,Blue
+1642,hBP08,水宮枢,Mizumiya Su,hBP08-053,RR,1,0,0,6.5,Blue
+1643,hBP08,水宮枢,Mizumiya Su,hBP08-053,SR,1,0,0,21,Blue
+1644,hBP08,水宮枢,Mizumiya Su,hBP08-053,UR,1,0,0,162.5,Blue
+1645,hBP08,ムーナ・ホシノヴァ,Moona Hoshinova,hBP08-054,R,1,0,0,3.13,Blue
+1646,hBP08,ムーナ・ホシノヴァ,Moona Hoshinova,hBP08-054,SR,1,0,0,9.75,Blue
+1647,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-055,C,0,0,0,2.88,Blue
+1648,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-055,S,1,0,0,8.5,Blue
+1649,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-056,U,0,0,0,2.88,Blue
+1650,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-056,S,1,0,0,12.25,Blue
+1651,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-057,R,1,0,0,3.13,Blue
+1652,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-057,SR,1,0,0,17.25,Blue
+1653,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-058,R,1,0,0,3.13,Blue
+1654,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-058,SR,1,0,0,14.75,Blue
+1655,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-059,RR,1,0,0,6.5,Blue
+1656,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-059,SR,1,0,0,24.75,Blue
+1657,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-059,UR,1,0,0,164.88,Blue
+1658,hBP08,フワモコ,FUWAMOCO,hBP08-060,R,1,0,0,3.13,"Blue,Red"
+1659,hBP08,フワモコ,FUWAMOCO,hBP08-060,SR,1,0,0,21,"Blue,Red"
+1660,hBP08,鷹嶺ルイ,Takane Lui,hBP08-061,C,0,0,0,2.88,Purple
+1661,hBP08,鷹嶺ルイ,Takane Lui,hBP08-062,U,0,0,0,2.88,Purple
+1662,hBP08,鷹嶺ルイ,Takane Lui,hBP08-062,S,1,0,0,10,Purple
+1663,hBP08,鷹嶺ルイ,Takane Lui,hBP08-063,C,0,0,0,2.88,Purple
+1664,hBP08,鷹嶺ルイ,Takane Lui,hBP08-063,S,1,0,0,8.75,Purple
+1665,hBP08,鷹嶺ルイ,Takane Lui,hBP08-064,C,0,0,0,2.88,Purple
+1666,hBP08,鷹嶺ルイ,Takane Lui,hBP08-064,S,1,0,0,8.75,Purple
+1667,hBP08,鷹嶺ルイ,Takane Lui,hBP08-065,R,1,0,0,3.13,Purple
+1668,hBP08,鷹嶺ルイ,Takane Lui,hBP08-065,SR,1,0,0,9.88,Purple
+1669,hBP08,鷹嶺ルイ,Takane Lui,hBP08-066,U,0,0,0,2.88,Purple
+1670,hBP08,鷹嶺ルイ,Takane Lui,hBP08-066,S,1,0,0,7.5,Purple
+1671,hBP08,鷹嶺ルイ,Takane Lui,hBP08-067,RR,1,0,0,6.5,Purple
+1672,hBP08,鷹嶺ルイ,Takane Lui,hBP08-067,SR,1,0,0,14.75,Purple
+1673,hBP08,鷹嶺ルイ,Takane Lui,hBP08-067,UR,1,0,0,127.25,Purple
+1674,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-068,C,0,0,0,2.88,Purple
+1675,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-069,U,0,0,0,2.88,Purple
+1676,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-069,S,1,0,0,7.5,Purple
+1677,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-070,C,0,0,0,2.88,Purple
+1678,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-070,S,1,0,0,7.5,Purple
+1679,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-071,C,0,0,0,2.88,Purple
+1680,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-071,S,1,0,0,7.25,Purple
+1681,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-072,R,1,0,0,3.13,Purple
+1682,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-072,SR,1,0,0,11,Purple
+1683,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-073,U,0,0,0,2.88,Purple
+1684,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-073,S,1,0,0,7.25,Purple
+1685,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-074,RR,1,0,0,4.75,Purple
+1686,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-074,SR,1,0,0,9.75,Purple
+1687,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-074,UR,1,0,0,114.75,Purple
+1688,hBP08,ロボ子さん,Roboco-san,hBP08-075,R,1,0,0,3.13,Purple
+1689,hBP08,ロボ子さん,Roboco-san,hBP08-075,SR,1,0,0,0,Purple
+1690,hBP08,癒月ちょこ,Yuzuki Choco,hBP08-076,R,1,0,0,3.13,Purple
+1691,hBP08,癒月ちょこ,Yuzuki Choco,hBP08-076,SR,1,0,0,7.25,Purple
+1692,hBP08,音乃瀬奏,Otonose Kanade,hBP08-077,C,0,0,0,2.88,Yellow
+1693,hBP08,音乃瀬奏,Otonose Kanade,hBP08-078,U,0,0,0,2.88,Yellow
+1694,hBP08,音乃瀬奏,Otonose Kanade,hBP08-078,S,1,0,0,6,Yellow
+1695,hBP08,音乃瀬奏,Otonose Kanade,hBP08-079,C,0,0,0,2.88,Yellow
+1696,hBP08,音乃瀬奏,Otonose Kanade,hBP08-079,S,1,0,0,6,Yellow
+1697,hBP08,音乃瀬奏,Otonose Kanade,hBP08-080,C,0,0,0,2.88,Yellow
+1698,hBP08,音乃瀬奏,Otonose Kanade,hBP08-080,S,1,0,0,4.75,Yellow
+1699,hBP08,音乃瀬奏,Otonose Kanade,hBP08-081,R,1,0,0,3.13,Yellow
+1700,hBP08,音乃瀬奏,Otonose Kanade,hBP08-081,SR,1,0,0,12.25,Yellow
+1701,hBP08,音乃瀬奏,Otonose Kanade,hBP08-082,U,0,0,0,2.88,Yellow
+1702,hBP08,音乃瀬奏,Otonose Kanade,hBP08-082,S,1,0,0,6,Yellow
+1703,hBP08,音乃瀬奏,Otonose Kanade,hBP08-083,RR,1,0,0,4.75,Yellow
+1704,hBP08,音乃瀬奏,Otonose Kanade,hBP08-083,SR,1,0,0,11,Yellow
+1705,hBP08,音乃瀬奏,Otonose Kanade,hBP08-083,UR,1,0,0,87.25,Yellow
+1706,hBP08,夏色まつり,Natsuiro Matsuri,hBP08-084,R,1,0,0,3.13,Yellow
+1707,hBP08,夏色まつり,Natsuiro Matsuri,hBP08-084,SR,1,0,0,9.75,Yellow
+1708,hBP08,不知火フレア,Shiranui Flare,hBP08-085,C,0,0,0,2.88,Yellow
+1709,hBP08,不知火フレア,Shiranui Flare,hBP08-085,S,1,0,0,6,Yellow
+1710,hBP08,不知火フレア,Shiranui Flare,hBP08-086,U,0,0,0,2.88,Yellow
+1711,hBP08,不知火フレア,Shiranui Flare,hBP08-086,S,1,0,0,0,Yellow
+1712,hBP08,不知火フレア,Shiranui Flare,hBP08-087,R,1,0,0,3.13,Yellow
+1713,hBP08,不知火フレア,Shiranui Flare,hBP08-087,SR,1,0,0,12.25,Yellow
+1714,hBP08,不知火フレア,Shiranui Flare,hBP08-088,RR,1,0,0,4,Yellow
+1715,hBP08,不知火フレア,Shiranui Flare,hBP08-088,SR,1,0,0,11,Yellow
+1716,hBP08,不知火フレア,Shiranui Flare,hBP08-088,UR,1,0,0,56,Yellow
+1717,hBP08,ジジ・ムリン,Gigi Murin,hBP08-089,R,1,0,0,3.13,Yellow
+1718,hBP08,ジジ・ムリン,Gigi Murin,hBP08-089,SR,1,0,0,11,Yellow
+1719,hBP08,エレガントパソコン,,hBP08-090,C,0,0,0,3.13,Support
+1720,hBP08,エレガントパソコン,,hBP08-090,S,1,0,0,0,Support
+1721,hBP08,クリエイターパソコン,,hBP08-091,U,0,0,0,6,Support
+1722,hBP08,クリエイターパソコン,,hBP08-091,S,1,0,0,33.5,Support
+1723,hBP08,思い出のドーナツショップ,,hBP08-092,U,0,0,0,4,Support
+1724,hBP08,ちょこのなすユッケ,,hBP08-093,U,0,0,0,2.88,Support
+1725,hBP08,ちょこのなすユッケ,,hBP08-093,S,1,0,0,7.75,Support
+1726,hBP08,パパは仕事を辞める,,hBP08-094,U,0,0,0,4,Support
+1727,hBP08,破滅の呪文,,hBP08-095,C,0,0,0,2.88,Support
+1728,hBP08,破滅の呪文,,hBP08-095,S,1,0,0,12.25,Support
+1729,hBP08,優しいモンスター,,hBP08-096,U,0,0,0,2.88,Support
+1730,hBP08,優しいモンスター,,hBP08-096,S,1,0,0,6,Support
+1731,hBP08,りっちしょこらのハンバーグ,,hBP08-097,C,0,0,0,2.88,Support
+1732,hBP08,りっちしょこらのハンバーグ,,hBP08-097,S,1,0,0,6,Support
+1733,hBP08,hololive Mythology,hololive Mythology,hBP08-098,U,0,0,0,4,Support
+1734,hBP08,hololive Mythology,hololive Mythology,hBP08-098,S,1,0,0,14.75,Support
+1735,hBP08,HOLOTORI,HOLOTORI,hBP08-099,U,0,0,0,4,Support
+1736,hBP08,HOLOTORI,HOLOTORI,hBP08-099,S,1,0,0,21,Support
+1737,hBP08,Myth,Myth,hBP08-100,U,0,0,0,2.88,Support
+1738,hBP08,Myth,Myth,hBP08-100,S,1,0,0,6,Support
+1739,hBP08,We are ReGLOSS,We are ReGLOSS,hBP08-101,U,0,0,0,4,Support
+1740,hBP08,We are ReGLOSS,We are ReGLOSS,hBP08-101,S,1,0,0,0,Support
+1741,hBP08,クールなパーカー,,hBP08-102,C,0,0,0,2.88,Support
+1742,hBP08,クールなパーカー,,hBP08-102,S,1,0,0,6,Support
+1743,hBP08,ホロマント,,hBP08-103,U,0,0,0,2.88,Support
+1744,hBP08,ホロマント,,hBP08-103,S,1,0,0,6.5,Support
+1745,hBP08,けはい,,hBP08-104,C,0,0,0,3.13,Support
+1746,hBP08,けはい,,hBP08-104,S,1,0,0,9.75,Support
+1747,hBP08,Bloom＆Gloom,Bloom＆Gloom,hBP08-105,C,0,0,0,2.88,Support
+1748,hBP08,Bloom＆Gloom,Bloom＆Gloom,hBP08-105,S,1,0,0,4.75,Support
+1749,hBP08,GuyRyS,GuyRyS,hBP08-106,C,0,0,0,2.88,Support
+1750,hBP08,GuyRyS,GuyRyS,hBP08-106,S,1,0,0,4.75,Support
+1751,hBP08,Otomo,Otomo,hBP08-107,C,0,0,0,2.88,Support
+1752,hBP08,Otomo,Otomo,hBP08-107,S,1,0,0,6,Support
+1753,hBP08,いたずらなRuffians,,hBP08-108,C,0,0,0,2.88,Support
+1754,hBP08,いたずらなRuffians,,hBP08-108,S,1,0,0,6.5,Support
+1755,hBP08,ルイ友,,hBP08-109,C,0,0,0,2.88,Support
+1756,hBP08,ルイ友,,hBP08-109,S,1,0,0,6,Support
+1757,hBP08,Takodachi,Takodachi,hBP08-110,C,0,0,0,2.88,Support
+1758,hBP08,Takodachi,Takodachi,hBP08-110,S,1,0,0,6.25,Support
+1762,hBP08,白エール,White Cheer,hY01-013,SY,1,0,0,21,White
+1763,hBP08,緑エール,Green Cheer,hY02-011,SY,1,0,0,18.5,Green
+1764,hBP08,赤エール,Red Cheer,hY03-015,SY,1,0,0,39.75,Red
+1765,hBP08,青エール,Blue Cheer,hY04-012,SY,1,0,0,39.75,Blue
+1766,hBP08,紫エール,Purple Cheer,hY05-010,SY,1,0,0,27.25,Purple
+1767,hBP08,黄エール,Yellow Cheer,hY06-010,SY,1,0,0,18.5,Yellow
+1759,hBP08,水宮枢,Mizumiya Su,hSD11-007,C,0,0,1,3.5,Blue
+1760,hBP08,水宮枢,Mizumiya Su,hSD11-007,HR,1,0,1,89.75,Blue
+1761,hBP08,holoAN,holoAN,hSD14-010,C,0,0,1,4,Support
+1768,hBP08,IRyS,IRyS,hBP01-028,C,0,0,1,3.13,White
+1769,hBP08,IRyS,IRyS,hBP01-028,HR,1,0,1,64.75,White
+1770,hBP08,鷹嶺ルイ,Takane Lui,hBP01-056,C,0,0,1,3.13,Red
+1771,hBP08,鷹嶺ルイ,Takane Lui,hBP01-056,HR,1,0,1,127.25,Red
+1772,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP01-062,C,0,0,1,3.13,Red
+1773,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP02-018,C,0,0,1,3.13,Green
+1774,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP02-018,HR,1,0,1,0,Green
+1775,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP02-061,C,0,0,1,3.13,Purple
+1776,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP02-061,HR,1,0,1,64.88,Purple
+1777,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP03-037,C,0,0,1,3.5,Red
+1778,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-040,C,0,0,1,3.5,Blue
+1779,hBP08,音乃瀬奏,Otonose Kanade,hBP03-080,C,0,0,1,3.13,Yellow
+1780,hBP08,音乃瀬奏,Otonose Kanade,hBP03-080,HR,1,0,1,89.88,Yellow
+1781,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-028,C,0,0,1,3.13,Green
+,hBP09,,,hBP09-001,OSR,1,0,0,,
+,hBP09,,,hBP09-001,OUR,1,0,0,,
+,hBP09,,,hBP09-002,OSR,1,0,0,,
+,hBP09,,,hBP09-002,OUR,1,0,0,,
+,hBP09,,,hBP09-002,SEC,1,1,0,,
+,hBP09,,,hBP09-003,OSR,1,0,0,,
+,hBP09,,,hBP09-003,OUR,1,0,0,,
+,hBP09,,,hBP09-003,SEC,1,1,0,,
+,hBP09,,,hBP09-004,OSR,1,0,0,,
+,hBP09,,,hBP09-004,OUR,1,0,0,,
+,hBP09,,,hBP09-004,SEC,1,1,0,,
+,hBP09,,,hBP09-005,OSR,1,0,0,,
+,hBP09,,,hBP09-005,OUR,1,0,0,,
+,hBP09,,,hBP09-006,OSR,1,0,0,,
+,hBP09,,,hBP09-006,OUR,1,0,0,,
+,hBP09,,,hBP09-006,SEC,1,1,0,,
+,hBP09,,,hBP09-007,OSR,1,0,0,,
+,hBP09,,,hBP09-007,OUR,1,0,0,,
+,hBP09,,,hBP09-008,C,0,0,0,,
+,hBP09,,,hBP09-008,S,1,0,0,,
+,hBP09,,,hBP09-009,U,0,0,0,,
+,hBP09,,,hBP09-010,C,0,0,0,,
+,hBP09,,,hBP09-010,S,1,0,0,,
+,hBP09,,,hBP09-011,C,0,0,0,,
+,hBP09,,,hBP09-011,S,1,0,0,,
+,hBP09,,,hBP09-012,R,1,0,0,,
+,hBP09,,,hBP09-012,SR,1,0,0,,
+,hBP09,,,hBP09-013,U,0,0,0,,
+,hBP09,,,hBP09-013,S,1,0,0,,
+,hBP09,,,hBP09-014,RR,1,0,0,,
+,hBP09,,,hBP09-014,SR,1,0,0,,
+,hBP09,,,hBP09-014,UR,1,0,0,,
+,hBP09,,,hBP09-015,C,0,0,0,,
+,hBP09,,,hBP09-015,S,1,0,0,,
+,hBP09,,,hBP09-016,U,0,0,0,,
+,hBP09,,,hBP09-017,C,0,0,0,,
+,hBP09,,,hBP09-017,S,1,0,0,,
+,hBP09,,,hBP09-018,C,0,0,0,,
+,hBP09,,,hBP09-018,S,1,0,0,,
+,hBP09,,,hBP09-019,R,1,0,0,,
+,hBP09,,,hBP09-019,SR,1,0,0,,
+,hBP09,,,hBP09-020,U,0,0,0,,
+,hBP09,,,hBP09-020,S,1,0,0,,
+,hBP09,,,hBP09-021,RR,1,0,0,,
+,hBP09,,,hBP09-021,SR,1,0,0,,
+,hBP09,,,hBP09-021,UR,1,0,0,,
+,hBP09,,,hBP09-022,R,1,0,0,,
+,hBP09,,,hBP09-022,SR,1,0,0,,
+,hBP09,,,hBP09-023,R,1,0,0,,
+,hBP09,,,hBP09-023,SR,1,0,0,,
+,hBP09,,,hBP09-024,R,1,0,0,,
+,hBP09,,,hBP09-024,SR,1,0,0,,
+,hBP09,,,hBP09-025,C,0,0,0,,
+,hBP09,,,hBP09-025,S,1,0,0,,
+,hBP09,,,hBP09-026,U,0,0,0,,
+,hBP09,,,hBP09-027,C,0,0,0,,
+,hBP09,,,hBP09-027,S,1,0,0,,
+,hBP09,,,hBP09-028,C,0,0,0,,
+,hBP09,,,hBP09-028,S,1,0,0,,
+,hBP09,,,hBP09-029,R,1,0,0,,
+,hBP09,,,hBP09-029,SR,1,0,0,,
+,hBP09,,,hBP09-030,U,0,0,0,,
+,hBP09,,,hBP09-030,S,1,0,0,,
+,hBP09,,,hBP09-031,RR,1,0,0,,
+,hBP09,,,hBP09-031,SR,1,0,0,,
+,hBP09,,,hBP09-031,UR,1,0,0,,
+,hBP09,,,hBP09-032,C,0,0,0,,
+,hBP09,,,hBP09-032,S,1,0,0,,
+,hBP09,,,hBP09-033,U,0,0,0,,
+,hBP09,,,hBP09-033,S,1,0,0,,
+,hBP09,,,hBP09-034,R,1,0,0,,
+,hBP09,,,hBP09-034,SR,1,0,0,,
+,hBP09,,,hBP09-035,RR,1,0,0,,
+,hBP09,,,hBP09-035,SR,1,0,0,,
+,hBP09,,,hBP09-035,UR,1,0,0,,
+,hBP09,,,hBP09-036,R,1,0,0,,
+,hBP09,,,hBP09-036,SR,1,0,0,,
+,hBP09,,,hBP09-037,R,1,0,0,,
+,hBP09,,,hBP09-037,SR,1,0,0,,
+,hBP09,,,hBP09-038,C,0,0,0,,
+,hBP09,,,hBP09-038,S,1,0,0,,
+,hBP09,,,hBP09-039,U,0,0,0,,
+,hBP09,,,hBP09-040,C,0,0,0,,
+,hBP09,,,hBP09-040,S,1,0,0,,
+,hBP09,,,hBP09-041,C,0,0,0,,
+,hBP09,,,hBP09-041,S,1,0,0,,
+,hBP09,,,hBP09-042,R,1,0,0,,
+,hBP09,,,hBP09-042,SR,1,0,0,,
+,hBP09,,,hBP09-043,U,0,0,0,,
+,hBP09,,,hBP09-043,S,1,0,0,,
+,hBP09,,,hBP09-044,RR,1,0,0,,
+,hBP09,,,hBP09-044,SR,1,0,0,,
+,hBP09,,,hBP09-044,UR,1,0,0,,
+,hBP09,,,hBP09-045,R,1,0,0,,
+,hBP09,,,hBP09-045,SR,1,0,0,,
+,hBP09,,,hBP09-046,U,0,0,0,,
+,hBP09,,,hBP09-046,S,1,0,0,,
+,hBP09,,,hBP09-047,C,0,0,0,,
+,hBP09,,,hBP09-047,S,1,0,0,,
+,hBP09,,,hBP09-048,U,0,0,0,,
+,hBP09,,,hBP09-048,S,1,0,0,,
+,hBP09,,,hBP09-049,R,1,0,0,,
+,hBP09,,,hBP09-049,SR,1,0,0,,
+,hBP09,,,hBP09-050,RR,1,0,0,,
+,hBP09,,,hBP09-050,SR,1,0,0,,
+,hBP09,,,hBP09-050,UR,1,0,0,,
+,hBP09,,,hBP09-051,C,0,0,0,,
+,hBP09,,,hBP09-051,S,1,0,0,,
+,hBP09,,,hBP09-052,U,0,0,0,,
+,hBP09,,,hBP09-053,C,0,0,0,,
+,hBP09,,,hBP09-053,S,1,0,0,,
+,hBP09,,,hBP09-054,C,0,0,0,,
+,hBP09,,,hBP09-054,S,1,0,0,,
+,hBP09,,,hBP09-055,R,1,0,0,,
+,hBP09,,,hBP09-055,SR,1,0,0,,
+,hBP09,,,hBP09-056,U,0,0,0,,
+,hBP09,,,hBP09-056,S,1,0,0,,
+,hBP09,,,hBP09-057,RR,1,0,0,,
+,hBP09,,,hBP09-057,SR,1,0,0,,
+,hBP09,,,hBP09-057,UR,1,0,0,,
+,hBP09,,,hBP09-058,R,1,0,0,,
+,hBP09,,,hBP09-058,SR,1,0,0,,
+,hBP09,,,hBP09-059,C,0,0,0,,
+,hBP09,,,hBP09-059,S,1,0,0,,
+,hBP09,,,hBP09-060,U,0,0,0,,
+,hBP09,,,hBP09-060,S,1,0,0,,
+,hBP09,,,hBP09-061,R,1,0,0,,
+,hBP09,,,hBP09-061,SR,1,0,0,,
+,hBP09,,,hBP09-062,RR,1,0,0,,
+,hBP09,,,hBP09-062,SR,1,0,0,,
+,hBP09,,,hBP09-062,UR,1,0,0,,
+,hBP09,,,hBP09-063,R,1,0,0,,
+,hBP09,,,hBP09-063,SR,1,0,0,,
+,hBP09,,,hBP09-064,C,0,0,0,,
+,hBP09,,,hBP09-064,S,1,0,0,,
+,hBP09,,,hBP09-065,U,0,0,0,,
+,hBP09,,,hBP09-066,C,0,0,0,,
+,hBP09,,,hBP09-066,S,1,0,0,,
+,hBP09,,,hBP09-067,C,0,0,0,,
+,hBP09,,,hBP09-067,S,1,0,0,,
+,hBP09,,,hBP09-068,R,1,0,0,,
+,hBP09,,,hBP09-068,SR,1,0,0,,
+,hBP09,,,hBP09-069,U,0,0,0,,
+,hBP09,,,hBP09-069,S,1,0,0,,
+,hBP09,,,hBP09-070,RR,1,0,0,,
+,hBP09,,,hBP09-070,SR,1,0,0,,
+,hBP09,,,hBP09-070,UR,1,0,0,,
+,hBP09,,,hBP09-071,R,1,0,0,,
+,hBP09,,,hBP09-071,SR,1,0,0,,
+,hBP09,,,hBP09-072,R,1,0,0,,
+,hBP09,,,hBP09-072,SR,1,0,0,,
+,hBP09,,,hBP09-073,C,0,0,0,,
+,hBP09,,,hBP09-073,S,1,0,0,,
+,hBP09,,,hBP09-074,U,0,0,0,,
+,hBP09,,,hBP09-074,S,1,0,0,,
+,hBP09,,,hBP09-075,R,1,0,0,,
+,hBP09,,,hBP09-075,SR,1,0,0,,
+,hBP09,,,hBP09-076,RR,1,0,0,,
+,hBP09,,,hBP09-076,SR,1,0,0,,
+,hBP09,,,hBP09-076,UR,1,0,0,,
+,hBP09,,,hBP09-077,C,0,0,0,,
+,hBP09,,,hBP09-077,S,1,0,0,,
+,hBP09,,,hBP09-078,U,0,0,0,,
+,hBP09,,,hBP09-079,C,0,0,0,,
+,hBP09,,,hBP09-079,S,1,0,0,,
+,hBP09,,,hBP09-080,C,0,0,0,,
+,hBP09,,,hBP09-080,S,1,0,0,,
+,hBP09,,,hBP09-081,R,1,0,0,,
+,hBP09,,,hBP09-081,SR,1,0,0,,
+,hBP09,,,hBP09-082,U,0,0,0,,
+,hBP09,,,hBP09-082,S,1,0,0,,
+,hBP09,,,hBP09-083,RR,1,0,0,,
+,hBP09,,,hBP09-083,SR,1,0,0,,
+,hBP09,,,hBP09-083,UR,1,0,0,,
+,hBP09,,,hBP09-084,C,0,0,0,,
+,hBP09,,,hBP09-084,S,1,0,0,,
+,hBP09,,,hBP09-085,U,0,0,0,,
+,hBP09,,,hBP09-085,S,1,0,0,,
+,hBP09,,,hBP09-086,R,1,0,0,,
+,hBP09,,,hBP09-086,SR,1,0,0,,
+,hBP09,,,hBP09-087,RR,1,0,0,,
+,hBP09,,,hBP09-087,SR,1,0,0,,
+,hBP09,,,hBP09-087,UR,1,0,0,,
+,hBP09,,,hBP09-088,R,1,0,0,,
+,hBP09,,,hBP09-088,SR,1,0,0,,
+,hBP09,,,hBP09-089,R,1,0,0,,
+,hBP09,,,hBP09-089,SR,1,0,0,,
+,hBP09,,,hBP09-090,C,0,0,0,,
+,hBP09,,,hBP09-090,S,1,0,0,,
+,hBP09,,,hBP09-091,U,0,0,0,,
+,hBP09,,,hBP09-091,S,1,0,0,,
+,hBP09,,,hBP09-092,C,0,0,0,,
+,hBP09,,,hBP09-092,S,1,0,0,,
+,hBP09,,,hBP09-093,C,0,0,0,,
+,hBP09,,,hBP09-093,S,1,0,0,,
+,hBP09,,,hBP09-094,U,0,0,0,,
+,hBP09,,,hBP09-095,C,0,0,0,,
+,hBP09,,,hBP09-095,S,1,0,0,,
+,hBP09,,,hBP09-096,U,0,0,0,,
+,hBP09,,,hBP09-096,S,1,0,0,,
+,hBP09,,,hBP09-097,U,0,0,0,,
+,hBP09,,,hBP09-097,S,1,0,0,,
+,hBP09,,,hBP09-098,C,0,0,0,,
+,hBP09,,,hBP09-098,S,1,0,0,,
+,hBP09,,,hBP09-099,C,0,0,0,,
+,hBP09,,,hBP09-099,S,1,0,0,,
+,hBP09,,,hBP09-100,U,0,0,0,,
+,hBP09,,,hBP09-100,S,1,0,0,,
+,hBP09,,,hBP09-101,U,0,0,0,,
+,hBP09,,,hBP09-101,S,1,0,0,,
+,hBP09,,,hBP09-102,C,0,0,0,,
+,hBP09,,,hBP09-102,S,1,0,0,,
+,hBP09,,,hBP09-103,C,0,0,0,,
+,hBP09,,,hBP09-103,S,1,0,0,,
+,hBP09,,,hBP09-104,C,0,0,0,,
+,hBP09,,,hBP09-104,S,1,0,0,,
+,hBP09,,,hBP09-105,U,0,0,0,,
+,hBP09,,,hBP09-105,SR,1,0,0,,
+,hBP09,,,hBP09-106,C,0,0,0,,
+,hBP09,,,hBP09-106,S,1,0,0,,
+,hBP09,,,hBP09-107,U,0,0,0,,
+,hBP09,,,hBP09-107,S,1,0,0,,
+,hBP09,,,hBP09-108,C,0,0,0,,
+,hBP09,,,hBP09-108,S,1,0,0,,
+,hBP09,,,hBP09-109,U,0,0,0,,
+,hBP09,,,hBP09-109,S,1,0,0,,
+,hBP09,,,hBP09-110,U,0,0,0,,
+,hBP09,,,hBP09-111,C,0,0,0,,
+,hBP09,,,hBP09-111,S,1,0,0,,
+,hBP09,,,hSD05-002,C,0,0,1,,
+,hBP09,,,hSD05-002,HR,1,0,1,,
+,hBP09,,,hSD10-007,C,0,0,1,,
+,hBP09,ハコス・ベールズ,Hakos Baelz,hBP01-072,C,0,0,1,,Red
+,hBP09,ハコス・ベールズ,Hakos Baelz,hBP01-072,HR,1,0,1,,Red
+,hBP09,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,C,0,0,1,,Blue
+,hBP09,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,HR,1,0,1,,Blue
+,hBP09,白銀ノエル,Shirogane Noel,hBP02-014,C,0,0,1,,White
+,hBP09,大神ミオ,Ookami Mio,hBP02-024,C,0,0,1,,Green
+,hBP09,大神ミオ,Ookami Mio,hBP02-024,HR,1,0,1,,Green
+,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-065,C,0,0,1,,Purple
+,hBP09,常闇トワ,Tokoyami Towa,hBP03-051,C,0,0,1,,Purple
+,hBP09,常闇トワ,Tokoyami Towa,hBP03-051,HR,1,0,1,,Purple
+,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-039,C,0,0,1,,Red
+,hBP09,雪花ラミィ,Yukihana Lamy,hBP04-043,C,0,0,1,,Blue
+,hBP09,大空スバル,Oozora Subaru,hBP04-067,C,0,0,1,,Yellow
+,hBP09,夏色まつり,Natsuiro Matsuri,hBP04-079,C,0,0,1,,Yellow
+,hBP09,夏色まつり,Natsuiro Matsuri,hBP04-079,HR,1,0,1,,Yellow
+,hBP09,雪民,Yukimin,hBP04-106,U,0,0,1,,Support
+,hBP09,牛丼,,hBP05-075,C,0,0,1,,Support
+,hBP09,,,hY01-015,SY,1,0,1,,
+,hBP09,,,hY02-013,SY,1,0,1,,
+,hBP09,,,hY03-017,SY,1,0,1,,
+,hBP09,,,hY04-014,SY,1,0,1,,
+,hBP09,,,hY05-012,SY,1,0,1,,
+,hBP09,,,hY06-012,SY,1,0,1,,
+,hEB01,,,hEB01-001,OSR,1,0,0,,
+,hEB01,,,hEB01-001,OUR,1,0,0,,
+,hEB01,,,hEB01-001,SEC,1,1,0,,
+,hEB01,,,hEB01-002,OSR,1,0,0,,
+,hEB01,,,hEB01-002,OUR,1,0,0,,
+,hEB01,,,hEB01-002,SEC,1,1,0,,
+,hEB01,,,hEB01-003,OSR,1,0,0,,
+,hEB01,,,hEB01-003,OUR,1,0,0,,
+,hEB01,,,hEB01-003,SEC,1,1,0,,
+,hEB01,,,hEB01-004,C,0,0,0,,
+,hEB01,,,hEB01-004,SR,1,0,0,,
+,hEB01,,,hEB01-005,U,0,0,0,,
+,hEB01,,,hEB01-005,SR,1,0,0,,
+,hEB01,,,hEB01-006,C,0,0,0,,
+,hEB01,,,hEB01-006,SR,1,0,0,,
+,hEB01,,,hEB01-007,U,0,0,0,,
+,hEB01,,,hEB01-007,SR,1,0,0,,
+,hEB01,,,hEB01-008,R,1,0,0,,
+,hEB01,,,hEB01-008,SR,1,0,0,,
+,hEB01,,,hEB01-009,R,1,0,0,,
+,hEB01,,,hEB01-009,SR,1,0,0,,
+,hEB01,,,hEB01-010,RR,1,0,0,,
+,hEB01,,,hEB01-010,SR,1,0,0,,
+,hEB01,,,hEB01-010,UR,1,0,0,,
+,hEB01,,,hEB01-011,C,0,0,0,,
+,hEB01,,,hEB01-011,SR,1,0,0,,
+,hEB01,,,hEB01-012,U,0,0,0,,
+,hEB01,,,hEB01-012,SR,1,0,0,,
+,hEB01,,,hEB01-013,C,0,0,0,,
+,hEB01,,,hEB01-013,SR,1,0,0,,
+,hEB01,,,hEB01-014,U,0,0,0,,
+,hEB01,,,hEB01-014,SR,1,0,0,,
+,hEB01,,,hEB01-015,R,1,0,0,,
+,hEB01,,,hEB01-015,SR,1,0,0,,
+,hEB01,,,hEB01-016,R,1,0,0,,
+,hEB01,,,hEB01-016,SR,1,0,0,,
+,hEB01,,,hEB01-017,RR,1,0,0,,
+,hEB01,,,hEB01-017,SR,1,0,0,,
+,hEB01,,,hEB01-017,UR,1,0,0,,
+,hEB01,,,hEB01-018,C,0,0,0,,
+,hEB01,,,hEB01-018,SR,1,0,0,,
+,hEB01,,,hEB01-019,U,0,0,0,,
+,hEB01,,,hEB01-019,SR,1,0,0,,
+,hEB01,,,hEB01-020,C,0,0,0,,
+,hEB01,,,hEB01-020,SR,1,0,0,,
+,hEB01,,,hEB01-021,U,0,0,0,,
+,hEB01,,,hEB01-021,SR,1,0,0,,
+,hEB01,,,hEB01-022,R,1,0,0,,
+,hEB01,,,hEB01-022,SR,1,0,0,,
+,hEB01,,,hEB01-023,R,1,0,0,,
+,hEB01,,,hEB01-023,SR,1,0,0,,
+,hEB01,,,hEB01-024,RR,1,0,0,,
+,hEB01,,,hEB01-024,SR,1,0,0,,
+,hEB01,,,hEB01-024,UR,1,0,0,,
+,hEB01,,,hEB01-025,C,0,0,0,,
+,hEB01,,,hEB01-026,U,0,0,0,,
+,hEB01,,,hEB01-027,C,0,0,0,,
+,hEB01,,,hEB01-028,C,0,0,0,,
+,hEB01,,,hEB01-029,C,0,0,0,,
+,hEB01,,,hEB01-030,U,0,0,0,,
+,hEB01,,,hEB01-031,C,0,0,0,,
+,hEB01,,,hEB01-032,U,0,0,0,,
+,hEB01,,,hEB01-033,C,0,0,0,,
+,hEB01,,,hEB01-034,U,0,0,0,,
+,hEB01,,,hSD01-018,C,0,0,1,,
+,hEB01,,,hSD02-006,C,0,0,1,,
+,hEB01,,,hSD02-006,SR,1,0,1,,
+,hEB01,,,hSD02-007,U,0,0,1,,
+,hEB01,,,hSD02-007,SR,1,0,1,,
+,hEB01,,,hSD03-007,U,0,0,1,,
+,hEB01,,,hSD03-007,SR,1,0,1,,
+,hEB01,,,hSD04-007,U,0,0,1,,
+,hEB01,,,hSD04-007,SR,1,0,1,,
+,hEB01,,,hSD05-007,U,0,0,1,,
+,hEB01,,,hSD05-007,SR,1,0,1,,
+,hEB01,,,hSD06-005,C,0,0,1,,
+,hEB01,,,hSD06-005,SR,1,0,1,,
+,hEB01,,,hSD06-011,C,0,0,1,,
+,hEB01,,,hSD08-007,C,0,0,1,,
+,hEB01,,,hSD08-007,SR,1,0,1,,
+,hEB01,,,hSD09-002,U,0,0,1,,
+,hEB01,,,hSD09-002,SR,1,0,1,,
+,hEB01,ときのそら,Tokino Sora,hBP01-021,C,0,0,1,,White
+,hEB01,ときのそら,Tokino Sora,hBP01-021,HR,1,0,1,,White
+,hEB01,ベスティア・ゼータ,Vestia Zeta,hBP01-026,U,0,0,1,,White
+,hEB01,ベスティア・ゼータ,Vestia Zeta,hBP01-026,SR,1,0,1,,White
+,hEB01,IRyS,IRyS,hBP01-031,R,1,0,1,,White
+,hEB01,IRyS,IRyS,hBP01-031,SR,1,0,1,,White
+,hEB01,兎田ぺこら,Usada Pekora,hBP01-039,U,0,0,1,,Green
+,hEB01,兎田ぺこら,Usada Pekora,hBP01-039,SR,1,0,1,,Green
+,hEB01,兎田ぺこら,Usada Pekora,hBP01-041,U,0,0,1,,Green
+,hEB01,兎田ぺこら,Usada Pekora,hBP01-041,SR,1,0,1,,Green
+,hEB01,風真いろは,Kazama Iroha,hBP01-050,U,0,0,1,,Green
+,hEB01,風真いろは,Kazama Iroha,hBP01-050,SR,1,0,1,,Green
+,hEB01,風真いろは,Kazama Iroha,hBP01-051,RR,1,0,1,,Green
+,hEB01,風真いろは,Kazama Iroha,hBP01-051,SR,1,0,1,,Green
+,hEB01,風真いろは,Kazama Iroha,hBP01-051,UR,1,0,1,,Green
+,hEB01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-054,U,0,0,1,,Green
+,hEB01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-054,SR,1,0,1,,Green
+,hEB01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-055,R,1,0,1,,Green
+,hEB01,アイラニ・イオフィフティーン,Airani Iofifteen,hBP01-055,SR,1,0,1,,Green
+,hEB01,鷹嶺ルイ,Takane Lui,hBP01-060,U,0,0,1,,Red
+,hEB01,鷹嶺ルイ,Takane Lui,hBP01-060,SR,1,0,1,,Red
+,hEB01,鷹嶺ルイ,Takane Lui,hBP01-061,R,1,0,1,,Red
+,hEB01,鷹嶺ルイ,Takane Lui,hBP01-061,SR,1,0,1,,Red
+,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-065,U,0,0,1,,Red
+,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-065,SR,1,0,1,,Red
+,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,RR,1,0,1,,Red
+,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,SR,1,0,1,,Red
+,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,UR,1,0,1,,Red
+,hEB01,尾丸ポルカ,Omaru Polka,hBP01-070,U,0,0,1,,Red
+,hEB01,尾丸ポルカ,Omaru Polka,hBP01-070,SR,1,0,1,,Red
+,hEB01,ハコス・ベールズ,Hakos Baelz,hBP01-074,U,0,0,1,,Red
+,hEB01,ハコス・ベールズ,Hakos Baelz,hBP01-074,SR,1,0,1,,Red
+,hEB01,星街すいせい,Hoshimachi Suisei,hBP01-081,RR,1,0,1,,Blue
+,hEB01,星街すいせい,Hoshimachi Suisei,hBP01-081,SR,1,0,1,,Blue
+,hEB01,星街すいせい,Hoshimachi Suisei,hBP01-081,UR,1,0,1,,Blue
+,hEB01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-090,U,0,0,1,,Blue
+,hEB01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-090,SR,1,0,1,,Blue
+,hEB01,オーロ・クロニー,Ouro Kronii,hBP01-094,U,0,0,1,,Blue
+,hEB01,オーロ・クロニー,Ouro Kronii,hBP01-094,SR,1,0,1,,Blue
+,hEB01,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support
+,hEB01,アンコール,Encore,hBP01-107,C,0,0,1,,Support
+,hEB01,あん肝,Ankimo,hBP01-118,C,0,0,1,,Support
+,hEB01,白上フブキ,Shirakami Fubuki,hBP02-011,U,0,0,1,,White
+,hEB01,白上フブキ,Shirakami Fubuki,hBP02-011,SR,1,0,1,,White
+,hEB01,白銀ノエル,Shirogane Noel,hBP02-016,U,0,0,1,,White
+,hEB01,白銀ノエル,Shirogane Noel,hBP02-016,SR,1,0,1,,White
+,hEB01,白銀ノエル,Shirogane Noel,hBP02-017,RR,1,0,1,,White
+,hEB01,白銀ノエル,Shirogane Noel,hBP02-017,SR,1,0,1,,White
+,hEB01,白銀ノエル,Shirogane Noel,hBP02-017,UR,1,0,1,,White
+,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-022,R,1,0,1,,Green
+,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-022,SR,1,0,1,,Green
+,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-023,RR,1,0,1,,Green
+,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-023,SR,1,0,1,,Green
+,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-023,UR,1,0,1,,Green
+,hEB01,大神ミオ,Ookami Mio,hBP02-026,U,0,0,1,,Green
+,hEB01,大神ミオ,Ookami Mio,hBP02-026,SR,1,0,1,,Green
+,hEB01,大神ミオ,Ookami Mio,hBP02-027,RR,1,0,1,,Green
+,hEB01,大神ミオ,Ookami Mio,hBP02-027,SR,1,0,1,,Green
+,hEB01,大神ミオ,Ookami Mio,hBP02-027,UR,1,0,1,,Green
+,hEB01,宝鐘マリン,Houshou Marine,hBP02-028,C,0,0,1,,Red
+,hEB01,宝鐘マリン,Houshou Marine,hBP02-028,HR,1,0,1,,Red
+,hEB01,宝鐘マリン,Houshou Marine,hBP02-033,RR,1,0,1,,Red
+,hEB01,宝鐘マリン,Houshou Marine,hBP02-033,SR,1,0,1,,Red
+,hEB01,宝鐘マリン,Houshou Marine,hBP02-033,UR,1,0,1,,Red
+,hEB01,森カリオペ,Mori Calliope,hBP02-058,R,1,0,1,,Purple
+,hEB01,森カリオペ,Mori Calliope,hBP02-058,SR,1,0,1,,Purple
+,hEB01,森カリオペ,Mori Calliope,hBP02-059,RR,1,0,1,,Purple
+,hEB01,森カリオペ,Mori Calliope,hBP02-059,SR,1,0,1,,Purple
+,hEB01,森カリオペ,Mori Calliope,hBP02-059,UR,1,0,1,,Purple
+,hEB01,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-067,U,0,0,1,,Purple
+,hEB01,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-067,SR,1,0,1,,Purple
+,hEB01,爆発の魔法,Explosion Magic,hBP02-079,U,0,0,1,,Support
+,hEB01,ドクロくん,Dokuro-kun,hBP02-095,C,0,0,1,,Support
+,hEB01,兎田ぺこら,Usada Pekora,hBP03-023,R,1,0,1,,Green
+,hEB01,兎田ぺこら,Usada Pekora,hBP03-023,SR,1,0,1,,Green
+,hEB01,さくらみこ,Sakura Miko,hBP03-029,R,1,0,1,,Red
+,hEB01,さくらみこ,Sakura Miko,hBP03-029,SR,1,0,1,,Red
+,hEB01,赤井はあと,Akai Haato,hBP03-034,RR,1,0,1,,Red
+,hEB01,赤井はあと,Akai Haato,hBP03-034,SR,1,0,1,,Red
+,hEB01,赤井はあと,Akai Haato,hBP03-034,UR,1,0,1,,Red
+,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP03-036,R,1,0,1,,Red
+,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP03-036,SR,1,0,1,,Red
+,hEB01,星街すいせい,Hoshimachi Suisei,hBP03-044,R,1,0,1,,Blue
+,hEB01,星街すいせい,Hoshimachi Suisei,hBP03-044,SR,1,0,1,,Blue
+,hEB01,フワモコ,FUWAMOCO,hBP03-050,R,1,0,1,,"Blue,Red"
+,hEB01,フワモコ,FUWAMOCO,hBP03-050,SR,1,0,1,,"Blue,Red"
+,hEB01,ロボ子さん,Roboco-san,hBP03-059,U,0,0,1,,Purple
+,hEB01,ロボ子さん,Roboco-san,hBP03-059,SR,1,0,1,,Purple
+,hEB01,ロボ子さん,Roboco-san,hBP03-060,R,1,0,1,,Purple
+,hEB01,ロボ子さん,Roboco-san,hBP03-060,SR,1,0,1,,Purple
+,hEB01,戌神ころね,Inugami Korone,hBP03-065,R,1,0,1,,Yellow
+,hEB01,戌神ころね,Inugami Korone,hBP03-065,SR,1,0,1,,Yellow
+,hEB01,角巻わため,Tsunomaki Watame,hBP03-070,U,0,0,1,,Yellow
+,hEB01,角巻わため,Tsunomaki Watame,hBP03-070,SR,1,0,1,,Yellow
+,hEB01,凸待ち,Totsumachi,hBP03-088,U,0,0,1,,Support
+,hEB01,博衣こより,Hakui Koyori,hBP04-008,C,0,0,1,,White
+,hEB01,博衣こより,Hakui Koyori,hBP04-008,HR,1,0,1,,White
+,hEB01,博衣こより,Hakui Koyori,hBP04-012,R,1,0,1,,White
+,hEB01,博衣こより,Hakui Koyori,hBP04-012,SR,1,0,1,,White
+,hEB01,雪花ラミィ,Yukihana Lamy,hBP04-047,R,1,0,1,,Blue
+,hEB01,雪花ラミィ,Yukihana Lamy,hBP04-047,SR,1,0,1,,Blue
+,hEB01,大空スバル,Oozora Subaru,hBP04-071,R,1,0,1,,Yellow
+,hEB01,大空スバル,Oozora Subaru,hBP04-071,SR,1,0,1,,Yellow
+,hEB01,大空スバル,Oozora Subaru,hBP04-072,RR,1,0,1,,Yellow
+,hEB01,大空スバル,Oozora Subaru,hBP04-072,SR,1,0,1,,Yellow
+,hEB01,大空スバル,Oozora Subaru,hBP04-072,UR,1,0,1,,Yellow
+,hEB01,桃鈴ねね,Momosuzu Nene,hBP04-085,U,0,0,1,,Yellow
+,hEB01,桃鈴ねね,Momosuzu Nene,hBP04-085,SR,1,0,1,,Yellow
+,hEB01,こよりの助手くん,Koyori's Assistant,hBP04-105,U,0,0,1,,Support
+,hEB01,兎田ぺこら,Usada Pekora,hBP05-016,RR,1,0,1,,White
+,hEB01,兎田ぺこら,Usada Pekora,hBP05-016,SR,1,0,1,,White
+,hEB01,兎田ぺこら,Usada Pekora,hBP05-016,UR,1,0,1,,White
+,hEB01,猫又おかゆ,Nekomata Okayu,hBP05-045,RR,1,0,1,,Blue
+,hEB01,猫又おかゆ,Nekomata Okayu,hBP05-045,SR,1,0,1,,Blue
+,hEB01,猫又おかゆ,Nekomata Okayu,hBP05-045,UR,1,0,1,,Blue
+,hEB01,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,R,1,0,1,,Purple
+,hEB01,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,SR,1,0,1,,Purple
+,hEB01,フレンドリーパソコン,,hBP05-074,C,0,0,1,,Support
+,hEB01,SorAZセレブレーション,,hBP05-080,U,0,0,1,,Support
+,hEB01,SorAZセレブレーション,,hBP05-080,SR,1,0,1,,Support
+,hEB01,,,hY01-001,S,1,0,1,,
+,hEB01,,,hY01-014,SY,1,0,1,,
+,hEB01,,,hY02-001,S,1,0,1,,
+,hEB01,,,hY02-012,SY,1,0,1,,
+,hEB01,,,hY03-001,S,1,0,1,,
+,hEB01,,,hY03-016,SY,1,0,1,,
+,hEB01,,,hY04-001,S,1,0,1,,
+,hEB01,,,hY04-013,SY,1,0,1,,
+,hEB01,,,hY05-001,S,1,0,1,,
+,hEB01,,,hY05-011,SY,1,0,1,,
+,hEB01,,,hY06-001,S,1,0,1,,
+,hEB01,,,hY06-011,SY,1,0,1,,

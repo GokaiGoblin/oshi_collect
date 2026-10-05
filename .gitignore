@@ -50,3 +50,10 @@ app.*.map.json
 # Windows download markers (WSL)
 *:Zone.Identifier
 /android/build/
+
+# Local-only development notes (kept on this PC, not shared)
+/CLAUDE.md
+/background_implementation_addendum.md
+/background_implementation_instructions.md
+/bg_gradient_spec.md
+/bg_implementation_instructions.md

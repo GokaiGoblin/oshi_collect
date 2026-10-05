@@ -96,10 +96,7 @@ class CatalogueProvider extends ChangeNotifier {
     _filtered = _allCards.where((c) {
       if (_searchQuery.isNotEmpty) {
         final q = normalizeCardNumberQuery(_searchQuery.toLowerCase());
-        final matchesSearch = c.nameJp.toLowerCase().contains(q) ||
-            (c.nameEn?.toLowerCase().contains(q) ?? false) ||
-            c.cardNumber.toLowerCase().contains(q);
-        if (!matchesSearch) return false;
+        if (!c.matchesSearch(q)) return false;
       }
 
       if (_foilFilter == FoilFilter.foilOnly && !c.isFoil) return false;

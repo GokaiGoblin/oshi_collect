@@ -388,10 +388,7 @@ class _CardGrid extends StatelessWidget {
       if (collection.duplicateCount(card.cardId) <= 0) return false;
 
       if (query.isNotEmpty) {
-        final matchesSearch = card.nameJp.toLowerCase().contains(query) ||
-            (card.nameEn?.toLowerCase().contains(query) ?? false) ||
-            card.cardNumber.toLowerCase().contains(query);
-        if (!matchesSearch) return false;
+        if (!card.matchesSearch(query)) return false;
       }
 
       if (filterState.foil == FoilFilter.foilOnly && !card.isFoil) return false;

@@ -14,6 +14,10 @@ class CardModel {
   // (C or U). Precomputed in the DB so the image URL resolves in one request.
   // NULL for all non-S cards.
   final String? artworkRarity;
+  // hololive members illustrated on or related to the card, comma-separated
+  // (e.g. "Juufuutei Raden"). Lets cards whose name doesn't mention the
+  // member — Cheer cards, Support items, multi-member art — show up in search.
+  final String? members;
 
   // Populated from the sets table JOIN. Used to construct the correct R2 path.
   final String? setType;    // 'booster' | 'starter' | 'starter_deck' | 'promo'
@@ -32,6 +36,7 @@ class CardModel {
     required this.priceUsd,
     this.archetype,
     this.artworkRarity,
+    this.members,
     this.setType,
     this.setNameEn,
   });
@@ -49,9 +54,18 @@ class CardModel {
         priceUsd: (map['price_usd'] as num).toDouble(),
         archetype: map['archetype'] as String?,
         artworkRarity: map['artwork_rarity'] as String?,
+        members: map['members'] as String?,
         setType: map['set_type'] as String?,
         setNameEn: map['set_name_en'] as String?,
       );
+
+  /// True if [query] (already lower-cased and normalised) appears in the JP
+  /// name, EN name, card number or tagged members. Shared by every search bar.
+  bool matchesSearch(String query) =>
+      nameJp.toLowerCase().contains(query) ||
+      (nameEn?.toLowerCase().contains(query) ?? false) ||
+      cardNumber.toLowerCase().contains(query) ||
+      (members?.toLowerCase().contains(query) ?? false);
 
   // Constructs the R2 image URL based on set_type and set name folder.
   // Uses artworkRarity for S cards so the URL resolves to the correct sibling

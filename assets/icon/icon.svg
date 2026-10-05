@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="cardDark" x1="2%" y1="35%" x2="95%" y2="55%">
+    <stop offset="0%" stop-color="#4A4278"/>
+    <stop offset="32%" stop-color="#2E2750"/>
+    <stop offset="100%" stop-color="#16132A"/>
+  </linearGradient>
+  <linearGradient id="cardLight" x1="98%" y1="35%" x2="5%" y2="55%">
+    <stop offset="0%" stop-color="#A99CD4"/>
+    <stop offset="32%" stop-color="#665A9E"/>
+    <stop offset="100%" stop-color="#2E2750"/>
+  </linearGradient>
+  <linearGradient id="cardMid" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#675FA0"/>
+    <stop offset="100%" stop-color="#403A68"/>
+  </linearGradient>
+  <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E0C068"/>
+    <stop offset="100%" stop-color="#A8843A"/>
+  </linearGradient>
+  <linearGradient id="foilBand" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F8C8C8"/>
+    <stop offset="20%" stop-color="#F8E898"/>
+    <stop offset="40%" stop-color="#C8F0C8"/>
+    <stop offset="60%" stop-color="#C0E0F8"/>
+    <stop offset="80%" stop-color="#D8C8F8"/>
+    <stop offset="100%" stop-color="#F8C8E8"/>
+  </linearGradient>
+</defs>
+
+<g transform="translate(256,268)">
+  <rect x="-198" y="-208" width="232" height="318" rx="22" fill="url(#cardDark)" stroke="#C9A84C" stroke-width="3.5" transform="rotate(-16)"/>
+  <rect x="-34" y="-208" width="232" height="318" rx="22" fill="url(#cardLight)" stroke="#C9A84C" stroke-width="3.5" transform="rotate(15)"/>
+  <rect x="-116" y="-210" width="232" height="318" rx="22" fill="url(#cardMid)" stroke="#C9A84C" stroke-width="4.5"/>
+
+  <g transform="translate(0,-46) rotate(45)">
+    <rect x="-26" y="-26" width="52" height="52" rx="7" fill="url(#diamondGrad)" stroke="#000000" stroke-width="1.5" stroke-opacity="0.35"/>
+  </g>
+</g>
+
+<g transform="translate(256,420)">
+  <polygon points="-186,-50 186,-50 218,0 186,50 -186,50 -218,0" fill="url(#foilBand)" stroke="#F5F2FB" stroke-width="4"/>
+  <text x="0" y="17" font-family="Arial, sans-serif" font-size="60" font-weight="700" fill="#241A30" text-anchor="middle">Oshi Col</text>
+</g>
+</svg>

@@ -3,7 +3,7 @@ class SetModel {
   final String name;        // name_en
   final String? nameJp;
   final String setType;     // e.g. 'booster'
-  final String releaseDate; // ISO date string, e.g. '2024-09-20'
+  final String releaseDate; // ISO date string, e.g. '2024-09-20'; '' for promo events
   final int cardCount;      // official set size from DB
   final bool isAvailable;   // false → shown as "coming soon"
 
@@ -22,7 +22,7 @@ class SetModel {
         name: map['name_en'] as String,
         nameJp: map['name_jp'] as String?,
         setType: map['set_type'] as String,
-        releaseDate: map['release_date'] as String,
+        releaseDate: map['release_date'] as String? ?? '',
         cardCount: map['card_count'] as int,
         isAvailable: (map['is_available'] as int) == 1,
       );

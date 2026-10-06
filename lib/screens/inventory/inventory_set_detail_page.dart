@@ -55,7 +55,7 @@ class _InventorySetDetailPageState extends State<InventorySetDetailPage> {
     final db = context.read<CatalogueDb>();
     context.read<CollectionProvider>().loadAll();
 
-    final sets = await db.getSets();
+    final sets = await db.getBoosterSets();
     final cards = await db.getCardsBySetOrdered(_setCode);
 
     if (!mounted) return;
@@ -415,13 +415,13 @@ class _CardGrid extends StatelessWidget {
         break;
       case InventorySort.highestTotalValue:
         filtered.sort((a, b) {
-          final aTotal = collection.duplicateCount(a.cardId) * a.priceUsd;
-          final bTotal = collection.duplicateCount(b.cardId) * b.priceUsd;
+          final aTotal = collection.duplicateCount(a.cardId) * a.priceOrZero;
+          final bTotal = collection.duplicateCount(b.cardId) * b.priceOrZero;
           return bTotal.compareTo(aTotal);
         });
         break;
       case InventorySort.highestSingleValue:
-        filtered.sort((a, b) => b.priceUsd.compareTo(a.priceUsd));
+        filtered.sort((a, b) => b.priceOrZero.compareTo(a.priceOrZero));
         break;
     }
 
@@ -472,7 +472,7 @@ class _CardGrid extends StatelessWidget {
       card: card,
       gridSize: gridSize,
       dupeQuantity: dupes,
-      totalValue: dupes * card.priceUsd,
+      totalValue: dupes * card.priceOrZero,
       onTap: () {
         final idx = cards.indexWhere((c) => c.cardId == card.cardId);
         Navigator.of(context).push(

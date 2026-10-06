@@ -12,7 +12,7 @@ class CatalogueDb {
 
   // Bump this number each time assets/db/holo_catalogue.db is replaced with
   // updated card data — it forces the cached copy to be refreshed on next launch.
-  static const int _dbVersion = 19;
+  static const int _dbVersion = 20;
 
   Database? _db;
 
@@ -85,8 +85,8 @@ class CatalogueDb {
 
   Future<List<CardModel>> getAllCards() async {
     final d = await db;
-    // Join with sets to order by type group (booster→starter→promo) then
-    // release_date ASC so cards arrive in the order the grid displays them.
+    // Join with sets to order by type group (booster→starter→promo) then the
+    // set's sort_order so cards arrive in the order the grid displays them.
     // Also selects set_type and set name_en for imageUrl construction.
     final rows = await d.rawQuery('''
       SELECT cards.*, sets.set_type AS set_type, sets.name_en AS set_name_en
@@ -100,7 +100,7 @@ class CatalogueDb {
           WHEN 'promo'   THEN 2
           ELSE 3
         END ASC,
-        sets.release_date ASC,
+        sets.sort_order ASC,
         CASE
           WHEN cards.is_reprint = 0 THEN 0
           WHEN cards.card_number LIKE 'hSD%' THEN 1
@@ -135,9 +135,23 @@ class CatalogueDb {
     return {for (final r in rows) r['card_id'].toString()};
   }
 
+  /// Every set — boosters and promo events — in display order (sort_order:
+  /// boosters by release date, then promo events by name, e.g. vol.2 before vol.10).
   Future<List<SetModel>> getSets() async {
     final d = await db;
-    final rows = await d.query('sets', orderBy: 'set_code ASC');
+    final rows = await d.query('sets', orderBy: 'sort_order ASC');
+    return rows.map(SetModel.fromMap).toList();
+  }
+
+  /// Booster sets only, in release order — for Portfolio and Inventory,
+  /// which list booster sets and keep promo events out.
+  Future<List<SetModel>> getBoosterSets() async {
+    final d = await db;
+    final rows = await d.query(
+      'sets',
+      where: "set_type = 'booster'",
+      orderBy: 'sort_order ASC',
+    );
     return rows.map(SetModel.fromMap).toList();
   }
 }

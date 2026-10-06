@@ -37,7 +37,7 @@ class _InventorySetsPageState extends State<InventorySetsPage> {
     final db = context.read<CatalogueDb>();
     context.read<CollectionProvider>().loadAll();
 
-    final sets = await db.getSets();
+    final sets = await db.getBoosterSets();
     final allCards = await db.getAllCards();
 
     final grouped = <String, List<CardModel>>{};
@@ -222,8 +222,8 @@ class _SetsList extends StatelessWidget {
           final dupes = collection.duplicateCount(card.cardId);
           if (dupes <= 0) continue;
           duplicateCount += dupes;
-          totalValue += dupes * card.priceUsd;
-          if (highestValueDupe == null || card.priceUsd > highestValueDupe.priceUsd) {
+          totalValue += dupes * card.priceOrZero;
+          if (highestValueDupe == null || card.priceOrZero > highestValueDupe.priceOrZero) {
             highestValueDupe = card;
           }
         }
@@ -239,7 +239,7 @@ class _SetsList extends StatelessWidget {
           totalValue: totalValue,
           highestValueCardNumber: highestValueDupe?.cardNumber,
           highestValueCardRarity: highestValueDupe?.rarity,
-          highestValueCardValue: highestValueDupe?.priceUsd,
+          highestValueCardValue: highestValueDupe?.priceJpy,
           onTap: () => Navigator.of(context).push(
             MaterialPageRoute(builder: (_) => InventorySetDetailPage(setCode: set.code)),
           ),

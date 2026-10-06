@@ -658,7 +658,7 @@ class _InfoPanel extends StatelessWidget {
       ('Card number', card.cardNumber, valueColor),
       ('Set', setName, valueColor),
       ('Rarity', _rarityLabel(card), AppColours.gold),
-      ('Estimated value', formatPrice(card.priceUsd, prefs.currencyCode, prefs.fxRates), AppColours.gold),
+      ('Estimated value', card.priceJpy == null ? 'No price yet' : formatPrice(card.priceJpy, prefs.currencyCode, prefs.fxRates), AppColours.gold),
     ];
 
     return Padding(
@@ -706,11 +706,11 @@ class _InfoPanel extends StatelessWidget {
                   ],
                 ),
               ),
-            if (prefs.fxRatesUpdatedAt == null && prefs.currencyCode != 'USD')
+            if (card.priceJpy != null && !prefs.fxRates.containsKey(prefs.currencyCode))
               Padding(
                 padding: const EdgeInsets.only(top: 2, bottom: 2),
                 child: Text(
-                  'Exchange rates unavailable — showing USD',
+                  'Exchange rates unavailable — showing JPY',
                   textAlign: TextAlign.right,
                   style: TextStyle(fontSize: 9.5, color: mutedColor),
                 ),

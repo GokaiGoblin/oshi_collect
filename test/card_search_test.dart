@@ -11,7 +11,7 @@ CardModel _card({String nameEn = 'Green Cheer', String? members}) => CardModel(
       isFoil: true,
       isSigned: false,
       isReprint: false,
-      priceUsd: 0,
+      priceJpy: null,
       members: members,
     );
 

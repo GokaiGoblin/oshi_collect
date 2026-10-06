@@ -9,21 +9,20 @@ class PreferencesProvider extends ChangeNotifier {
   static const _themeModeKey = 'theme_mode';
   static const _cardViewColumnsKey = 'card_view_columns';
   static const _currencyCodeKey = 'currency_code';
-  static const _fxRatesUpdatedAtKey = 'fx_rates_updated_at';
+  // Rates are now quoted per yen (prices are stored in JPY). New key names so
+  // rates cached by older versions — quoted per US dollar — are never reused.
+  static const _fxRatesUpdatedAtKey = 'fx_jpy_rates_updated_at';
+  static const _fxRateKeyPrefix = 'fx_jpy_rate_';
+  static const _rateCurrencies = ['USD', 'GBP', 'EUR', 'AUD', 'CAD'];
 
   int _cardViewColumns = 2;
   ThemeMode _themeMode = ThemeMode.light;
-  String _currencyCode = 'USD';
+  String _currencyCode = 'JPY';
   int? _fxRatesUpdatedAt;
 
-  final Map<String, double> _fxRates = {
-    'USD': 1.0,
-    'GBP': 1.0,
-    'EUR': 1.0,
-    'JPY': 1.0,
-    'AUD': 1.0,
-    'CAD': 1.0,
-  };
+  // How much of each currency one yen buys. Only JPY is known until rates
+  // are downloaded; formatPrice shows yen for any currency without a rate.
+  final Map<String, double> _fxRates = {'JPY': 1.0};
 
   int get cardViewColumns => _cardViewColumns;
   GridSize get gridSize => _cardViewColumns == 3 ? GridSize.three : GridSize.two;
@@ -56,8 +55,8 @@ class PreferencesProvider extends ChangeNotifier {
 
     _fxRatesUpdatedAt = prefs.getInt(_fxRatesUpdatedAtKey);
 
-    for (final code in ['GBP', 'EUR', 'JPY', 'AUD', 'CAD']) {
-      final rate = prefs.getDouble('fx_rate_$code');
+    for (final code in _rateCurrencies) {
+      final rate = prefs.getDouble('$_fxRateKeyPrefix$code');
       if (rate != null) _fxRates[code] = rate;
     }
 
@@ -70,7 +69,7 @@ class PreferencesProvider extends ChangeNotifier {
     if (_fxRatesUpdatedAt != null && now - _fxRatesUpdatedAt! < 86400000) return;
     try {
       final uri = Uri.parse(
-          'https://api.frankfurter.app/latest?from=USD&to=GBP,EUR,JPY,AUD,CAD');
+          'https://api.frankfurter.app/latest?from=JPY&to=${_rateCurrencies.join(',')}');
       final response = await http.get(uri);
       if (response.statusCode != 200) return;
       final data = jsonDecode(response.body) as Map<String, dynamic>;
@@ -79,12 +78,12 @@ class PreferencesProvider extends ChangeNotifier {
         final rate = (entry.value as num).toDouble();
         _fxRates[entry.key] = rate;
       }
-      _fxRates['USD'] = 1.0;
+      _fxRates['JPY'] = 1.0;
       _fxRatesUpdatedAt = now;
       final prefs = await SharedPreferences.getInstance();
       await prefs.setInt(_fxRatesUpdatedAtKey, now);
       for (final entry in rates.entries) {
-        await prefs.setDouble('fx_rate_${entry.key}', (entry.value as num).toDouble());
+        await prefs.setDouble('$_fxRateKeyPrefix${entry.key}', (entry.value as num).toDouble());
       }
       notifyListeners();
     } catch (_) {}
@@ -95,9 +94,11 @@ class PreferencesProvider extends ChangeNotifier {
     await prefs.clear();
     _themeMode = ThemeMode.light;
     _cardViewColumns = 2;
-    _currencyCode = 'USD';
+    _currencyCode = 'JPY';
     _fxRatesUpdatedAt = null;
-    _fxRates.updateAll((k, v) => 1.0);
+    _fxRates
+      ..clear()
+      ..['JPY'] = 1.0;
     notifyListeners();
   }
 

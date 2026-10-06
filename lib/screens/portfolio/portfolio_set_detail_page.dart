@@ -54,7 +54,7 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
     final db = context.read<CatalogueDb>();
     context.read<CollectionProvider>().loadAll();
 
-    final sets = await db.getSets();
+    final sets = await db.getBoosterSets();
     final cards = await db.getCardsBySetOrdered(_setCode);
 
     if (!mounted) return;

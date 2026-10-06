@@ -153,7 +153,9 @@ class CardTile extends StatelessWidget {
                                       ),
                                       const Spacer(),
                                       Text(
-                                        formatPrice(totalValue!, prefs.currencyCode, prefs.fxRates),
+                                        // Unpriced cards show a dash rather than ¥0
+                                        formatPrice(card.priceJpy == null ? null : totalValue,
+                                            prefs.currencyCode, prefs.fxRates),
                                         style: const TextStyle(
                                           fontSize: 9.0,
                                           fontWeight: FontWeight.w500,

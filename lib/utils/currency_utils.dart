@@ -1,15 +1,25 @@
+/// Formats a price for display.
+///
+/// Prices are stored in Japanese yen (the market they come from). [rates] holds
+/// how much of each currency one yen buys (JPY itself is always 1.0). If the
+/// rate for [currencyCode] hasn't been downloaded yet, the price is shown in
+/// yen rather than converted with a made-up rate.
+///
+/// A null [jpyAmount] means no price is known for the card.
 String formatPrice(
-  double usdAmount,
+  double? jpyAmount,
   String currencyCode,
   Map<String, double> rates,
 ) {
-  final rate = rates[currencyCode] ?? 1.0;
-  final converted = usdAmount * rate;
+  if (jpyAmount == null) return '—';
 
+  final rate = rates[currencyCode];
+  if (currencyCode == 'JPY' || rate == null) {
+    return '¥${_commaSeparate(jpyAmount.round())}';
+  }
+
+  final converted = jpyAmount * rate;
   switch (currencyCode) {
-    case 'JPY':
-      final yen = converted.round();
-      return '¥${_commaSeparate(yen)}';
     case 'GBP':
       return '£${converted.toStringAsFixed(2)}';
     case 'EUR':
@@ -20,7 +30,7 @@ String formatPrice(
       return 'C\$${converted.toStringAsFixed(2)}';
     case 'USD':
     default:
-      return '\$${(usdAmount * (rates['USD'] ?? 1.0)).toStringAsFixed(2)}';
+      return '\$${converted.toStringAsFixed(2)}';
   }
 }
 

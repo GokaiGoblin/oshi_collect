@@ -111,7 +111,8 @@ class CatalogueProvider extends ChangeNotifier {
         if (!cardArchetypes.any(_archetypes.contains)) return false;
       }
 
-      if (_maxPrice != null && c.priceUsd > _maxPrice!) return false;
+      // Cards with no known price can't be shown as under a price limit.
+      if (_maxPrice != null && (c.priceJpy == null || c.priceJpy! > _maxPrice!)) return false;
 
       return true;
     }).toList();

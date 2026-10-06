@@ -35,12 +35,13 @@ class _CatalogueFilterSheetState extends State<CatalogueFilterSheet> {
     (FoilFilter.nonFoilOnly, 'Non-foil only'),
   ];
 
+  // Prices are stored in yen, so the limits are in yen too.
   static const _priceOptions = [
-    (label: '≤ £5', value: 5.0),
-    (label: '≤ £10', value: 10.0),
-    (label: '≤ £20', value: 20.0),
-    (label: '≤ £50', value: 50.0),
-    (label: '≤ £150', value: 150.0),
+    (label: '≤ ¥500', value: 500.0),
+    (label: '≤ ¥1,000', value: 1000.0),
+    (label: '≤ ¥3,000', value: 3000.0),
+    (label: '≤ ¥10,000', value: 10000.0),
+    (label: '≤ ¥30,000', value: 30000.0),
   ];
 
   @override

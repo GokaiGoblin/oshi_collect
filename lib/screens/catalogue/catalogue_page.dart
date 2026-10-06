@@ -192,10 +192,11 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
     final dividerColour = isDark ? const Color(0x12FFFFFF) : const Color(0x33B4A0DC);
     final activeItemBg = isDark ? const Color(0x14FFFFFF) : const Color(0x14000000);
 
+    // catalogue.sets already arrives in display order (release date, then
+    // promo events by name).
     final filteredSets = catalogue.sets
         .where((s) => s.isAvailable && s.setType == _activeType)
-        .toList()
-      ..sort((a, b) => a.releaseDate.compareTo(b.releaseDate));
+        .toList();
 
     void select(String? code) {
       context.read<CatalogueProvider>().selectSet(code);
@@ -717,11 +718,14 @@ class _CardGridState extends State<_CardGrid> {
 
         if (item is _SetHeader) {
           // Per-set sub-header: "{set_code} - {set_name}", left-aligned.
+          // Promo events have internal codes, so they show their name only.
           final prevIsGroupHeader = index > 0 && items[index - 1] is String;
           return Padding(
             padding: EdgeInsets.fromLTRB(2, prevIsGroupHeader ? 4 : 18, 2, 6),
             child: Text(
-              '${item.setCode} - ${item.setName}',
+              setLookup[item.setCode]?.setType == 'promo'
+                  ? item.setName
+                  : '${item.setCode} - ${item.setName}',
               style: TextStyle(
                 fontSize: 11,
                 fontWeight: FontWeight.w600,

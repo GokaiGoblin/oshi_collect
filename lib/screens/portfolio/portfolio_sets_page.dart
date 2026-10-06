@@ -37,7 +37,7 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
     final db = context.read<CatalogueDb>();
     context.read<CollectionProvider>().loadAll();
 
-    final sets = await db.getSets();
+    final sets = await db.getBoosterSets();
     final allCards = await db.getAllCards();
 
     final grouped = <String, List<CardModel>>{};
@@ -211,7 +211,7 @@ class _SetsList extends StatelessWidget {
 
         final cards = cardsBySet[set.code] ?? const [];
         final ownedCards = cards.where((c) => collection.isOwned(c.cardId));
-        final estimatedValue = ownedCards.fold<double>(0, (sum, c) => sum + c.priceUsd);
+        final estimatedValue = ownedCards.fold<double>(0, (sum, c) => sum + c.priceOrZero);
 
         return SetCard(
           mode: SetCardMode.portfolio,

@@ -8,7 +8,9 @@ class CardModel {
   final bool isFoil;
   final bool isSigned;
   final bool isReprint;
-  final double priceUsd;
+  // Market price in Japanese yen (Yuyutei). Null when no shop price was found —
+  // never 0, so "unknown" and "worthless" stay distinguishable.
+  final double? priceJpy;
   final String? archetype;
   // For S-rarity cards: the rarity of the sibling that shares the same artwork
   // (C or U). Precomputed in the DB so the image URL resolves in one request.
@@ -18,6 +20,9 @@ class CardModel {
   // (e.g. "Juufuutei Raden"). Lets cards whose name doesn't mention the
   // member — Cheer cards, Support items, multi-member art — show up in search.
   final String? members;
+  // Promo cards only: which of several promo versions of the same card number
+  // this is ("02", "03", …). Matches the image filename suffix. Null otherwise.
+  final String? imageVariant;
 
   // Populated from the sets table JOIN. Used to construct the correct R2 path.
   final String? setType;    // 'booster' | 'starter' | 'starter_deck' | 'promo'
@@ -33,10 +38,11 @@ class CardModel {
     required this.isFoil,
     required this.isSigned,
     required this.isReprint,
-    required this.priceUsd,
+    required this.priceJpy,
     this.archetype,
     this.artworkRarity,
     this.members,
+    this.imageVariant,
     this.setType,
     this.setNameEn,
   });
@@ -51,13 +57,17 @@ class CardModel {
         isFoil: (map['is_foil'] as int) == 1,
         isSigned: (map['is_signed'] as int) == 1,
         isReprint: (map['is_reprint'] as int) == 1,
-        priceUsd: (map['price_usd'] as num).toDouble(),
+        priceJpy: (map['price_jpy'] as num?)?.toDouble(),
         archetype: map['archetype'] as String?,
         artworkRarity: map['artwork_rarity'] as String?,
         members: map['members'] as String?,
+        imageVariant: map['image_variant'] as String?,
         setType: map['set_type'] as String?,
         setNameEn: map['set_name_en'] as String?,
       );
+
+  /// Price for totals and sorting: an unknown price counts as nothing.
+  double get priceOrZero => priceJpy ?? 0;
 
   /// True if [query] (already lower-cased and normalised) appears in the JP
   /// name, EN name, card number or tagged members. Shared by every search bar.
@@ -81,7 +91,10 @@ class CardModel {
       case 'starter_deck':
         return '$base/Deck/$setCode-$folderName/$filename';
       case 'promo':
-        return '$base/Promo/$filename';
+        // Promo images are named by card number, with a version suffix when a
+        // card has several promo versions: hBP01-104-P.png, hBP01-104-P-02.png
+        final suffix = imageVariant == null ? '' : '-$imageVariant';
+        return '$base/Promo/$cardNumber-P$suffix.png';
       case 'booster':
       default:
         return '$base/Booster/$setCode-$folderName/$filename';

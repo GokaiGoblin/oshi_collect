@@ -286,9 +286,11 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
                 ),
               )
             else
-              ListView.builder(
+              // Flexible lets a long list (the promo events) scroll inside the
+              // sheet; short lists still size to their content.
+              Flexible(
+                child: ListView.builder(
                 shrinkWrap: true,
-                physics: const NeverScrollableScrollPhysics(),
                 padding: const EdgeInsets.only(bottom: 8),
                 itemCount: filteredSets.length,
                 itemBuilder: (context, index) {
@@ -310,17 +312,19 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
                           crossAxisAlignment: CrossAxisAlignment.baseline,
                           textBaseline: TextBaseline.alphabetic,
                           children: [
-                            SizedBox(
-                              width: 52,
-                              child: Text(
-                                set.code,
-                                style: const TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w500,
-                                  color: AppColours.gold,
+                            // Promo events have internal codes — show the name only.
+                            if (set.setType != 'promo')
+                              SizedBox(
+                                width: 52,
+                                child: Text(
+                                  set.code,
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w500,
+                                    color: AppColours.gold,
+                                  ),
                                 ),
                               ),
-                            ),
                             Expanded(
                               child: Text(
                                 set.name,
@@ -333,6 +337,7 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
                     ),
                   );
                 },
+                ),
               ),
           ],
         ),

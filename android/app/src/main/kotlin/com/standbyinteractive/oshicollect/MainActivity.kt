@@ -1,4 +1,4 @@
-package com.example.holo_tcg_tracker
+package com.standbyinteractive.oshicollect
 
 import io.flutter.embedding.android.FlutterActivity
 

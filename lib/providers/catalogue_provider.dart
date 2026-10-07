@@ -14,7 +14,11 @@ class CatalogueProvider extends ChangeNotifier {
   List<CardModel> _filtered = [];
   List<SetModel> _sets = [];
   String _searchQuery = '';
-  String? _selectedSet; // null = "All Sets"
+  /// Special selection value meaning "every promo event at once".
+  /// Not a real set code — it never appears in the database.
+  static const allPromos = '__all_promos__';
+
+  String? _selectedSet; // null = "All Sets", allPromos = "All Promos"
   bool _isLoading = false;
 
   // Filter sheet state — "owned" is applied by the catalogue grid itself
@@ -24,6 +28,9 @@ class CatalogueProvider extends ChangeNotifier {
   FoilFilter _foilFilter = FoilFilter.all;
   Set<String> _rarities = {};
   Set<String> _archetypes = {};
+  // Price band: cards priced above _minPrice and at or below _maxPrice.
+  // Either end can be null (no lower limit / no upper limit).
+  double? _minPrice;
   double? _maxPrice;
 
   List<CardModel> get cards => _filtered;
@@ -35,6 +42,7 @@ class CatalogueProvider extends ChangeNotifier {
   FoilFilter get foilFilter => _foilFilter;
   Set<String> get rarities => _rarities;
   Set<String> get archetypes => _archetypes;
+  double? get minPrice => _minPrice;
   double? get maxPrice => _maxPrice;
 
   Future<void> load() async {
@@ -61,9 +69,14 @@ class CatalogueProvider extends ChangeNotifier {
   }
 
   Future<void> _loadCards() async {
-    _allCards = _selectedSet == null
-        ? await _db.getAllCards()
-        : await _db.getCardsBySetOrdered(_selectedSet!);
+    if (_selectedSet == null) {
+      _allCards = await _db.getAllCards();
+    } else if (_selectedSet == allPromos) {
+      // getAllCards already returns promos in event display order.
+      _allCards = (await _db.getAllCards()).where((c) => c.setType == 'promo').toList();
+    } else {
+      _allCards = await _db.getCardsBySetOrdered(_selectedSet!);
+    }
     _applyFilters();
   }
 
@@ -81,12 +94,14 @@ class CatalogueProvider extends ChangeNotifier {
     required FoilFilter foil,
     required Set<String> rarities,
     required Set<String> archetypes,
+    double? minPrice,
     double? maxPrice,
   }) {
     _ownedFilter = owned;
     _foilFilter = foil;
     _rarities = rarities;
     _archetypes = archetypes;
+    _minPrice = minPrice;
     _maxPrice = maxPrice;
     _applyFilters();
     notifyListeners();
@@ -111,8 +126,14 @@ class CatalogueProvider extends ChangeNotifier {
         if (!cardArchetypes.any(_archetypes.contains)) return false;
       }
 
-      // Cards with no known price can't be shown as under a price limit.
-      if (_maxPrice != null && (c.priceJpy == null || c.priceJpy! > _maxPrice!)) return false;
+      // Price band. Cards with no known price can't be placed in a band,
+      // so they're hidden whenever a band is selected.
+      if (_minPrice != null || _maxPrice != null) {
+        final price = c.priceJpy;
+        if (price == null) return false;
+        if (_minPrice != null && price <= _minPrice!) return false;
+        if (_maxPrice != null && price > _maxPrice!) return false;
+      }
 
       return true;
     }).toList();

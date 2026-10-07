@@ -3,7 +3,7 @@
 Run from the project root:   python3 tool/build_catalogue_db.py
 
 What it does
-  * Booster cards come from assets/holo_tcg_cards_sorted.csv (card_id kept).
+  * Booster cards come from assets/holo_tcg_cards.csv (card_id kept).
   * Promo cards come from assets/holo_tcg_promos.csv. Rows with a blank
     card_id get a new id from the shared counter (never reused) and the id is
     written back into the promo CSV so it stays stable for future rebuilds.
@@ -24,7 +24,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB = os.path.join(ROOT, 'assets', 'db', 'holo_catalogue.db')
-BOOSTER_CSV = os.path.join(ROOT, 'assets', 'holo_tcg_cards_sorted.csv')
+BOOSTER_CSV = os.path.join(ROOT, 'assets', 'holo_tcg_cards.csv')
 PROMO_CSV = os.path.join(ROOT, 'assets', 'holo_tcg_promos.csv')
 
 # The highest card_id ever issued before this script assigned promo ids.
@@ -170,14 +170,22 @@ def main():
         CREATE INDEX idx_cards_set    ON cards(set_code);
         CREATE INDEX idx_cards_rarity ON cards(rarity);
     ''')
-    # --- display order: dated sets by release date, then promo events by name --
+    # --- display order: dated sets by release date, then promo events --------
+    # Promo events: Basic PR Packs first, then Super PR Packs (the main,
+    # widely circulated volumes), then everything else by name.
     cols = [c[1] for c in cur.execute('PRAGMA table_info(sets)')]
     if 'sort_order' not in cols:
         cur.execute('ALTER TABLE sets ADD COLUMN sort_order INTEGER')
     dated = [r[0] for r in cur.execute(
         'SELECT set_code FROM sets WHERE release_date IS NOT NULL ORDER BY release_date')]
+    def promo_rank(name):
+        if name.startswith('Basic PR Pack'):
+            return 0
+        if name.startswith('Super PR Pack'):
+            return 1
+        return 2
     undated = sorted(cur.execute('SELECT set_code, name_en FROM sets WHERE release_date IS NULL'),
-                     key=lambda r: natural_key(r[1]))
+                     key=lambda r: (promo_rank(r[1]), natural_key(r[1])))
     for i, code in enumerate(dated + [c for c, _ in undated], start=1):
         cur.execute('UPDATE sets SET sort_order = ? WHERE set_code = ?', (i, code))
 

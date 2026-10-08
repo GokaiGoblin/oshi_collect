@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'db/catalogue_db.dart';
+import 'db/price_updates.dart';
 import 'db/user_db.dart';
 import 'providers/catalogue_provider.dart';
 import 'providers/collection_provider.dart';
@@ -13,20 +14,36 @@ import 'screens/portfolio/portfolio_sets_page.dart';
 import 'screens/inventory/inventory_sets_page.dart';
 
 void main() {
-  runApp(const HoloTcgApp());
+  // Needed before anything touches plugins (the price cache uses path_provider).
+  WidgetsFlutterBinding.ensureInitialized();
+  // Created once here (not in build) so a rebuild can't start a second
+  // database or price download.
+  final prices = PriceUpdates();
+  final catalogueDb = CatalogueDb(prices);
+  final userDb = UserDb();
+  // Check R2 for newer prices in the background — the app never waits on it.
+  prices.refresh();
+  runApp(HoloTcgApp(prices: prices, catalogueDb: catalogueDb, userDb: userDb));
 }
 
 class HoloTcgApp extends StatelessWidget {
-  const HoloTcgApp({super.key});
+  final PriceUpdates prices;
+  final CatalogueDb catalogueDb;
+  final UserDb userDb;
+
+  const HoloTcgApp({
+    super.key,
+    required this.prices,
+    required this.catalogueDb,
+    required this.userDb,
+  });
 
   @override
   Widget build(BuildContext context) {
-    final catalogueDb = CatalogueDb();
-    final userDb = UserDb();
-
     return MultiProvider(
       providers: [
         Provider<CatalogueDb>.value(value: catalogueDb),
+        ChangeNotifierProvider<PriceUpdates>.value(value: prices),
         ChangeNotifierProvider(create: (_) => PreferencesProvider()),
         ChangeNotifierProvider(create: (_) => CatalogueProvider(catalogueDb)),
         ChangeNotifierProvider(create: (_) => CollectionProvider(userDb)),

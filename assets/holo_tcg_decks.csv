@@ -1,0 +1,369 @@
+card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint,price_jpy,archetype,members
+2708,hSD01,ときのそら,Tokino Sora,hSD01-001,OSR,1,0,0,180,White,Tokino Sora
+2709,hSD01,AZKi,AZKi,hSD01-002,OSR,1,0,0,220,Green,AZKi
+2710,hSD01,ときのそら,Tokino Sora,hSD01-003,C,0,0,0,30,White,Tokino Sora
+2711,hSD01,ときのそら,Tokino Sora,hSD01-004,R,1,0,0,120,White,Tokino Sora
+2712,hSD01,ときのそら,Tokino Sora,hSD01-005,U,0,0,0,80,White,Tokino Sora
+2713,hSD01,ときのそら,Tokino Sora,hSD01-006,RR,1,0,0,120,White,Tokino Sora
+2714,hSD01,IRyS,IRyS,hSD01-007,C,0,0,0,180,White,IRyS
+2715,hSD01,AZKi,AZKi,hSD01-008,C,0,0,0,30,Green,AZKi
+2716,hSD01,AZKi,AZKi,hSD01-009,R,1,0,0,320,Green,AZKi
+2717,hSD01,AZKi,AZKi,hSD01-010,U,0,0,0,50,Green,AZKi
+2718,hSD01,AZKi,AZKi,hSD01-011,RR,1,0,0,180,Green,AZKi
+2719,hSD01,アイラニ・イオフィフティーン,Airani Iofifteen,hSD01-012,C,0,0,0,180,Green,Airani Iofifteen
+2720,hSD01,SorAZ,SorAZ,hSD01-013,R,1,0,0,220,"White,Green","Tokino Sora, AZKi"
+2721,hSD01,天音かなた,Amane Kanata,hSD01-014,U,0,0,0,50,,Amane Kanata
+2722,hSD01,博衣こより,Hakui Koyori,hSD01-015,U,0,0,0,50,,Hakui Koyori
+2723,hSD01,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,0,180,Support,Harusaki Nodoka
+2724,hSD01,マネちゃん,Mane-chan,hSD01-017,C,0,0,0,80,Support,
+2725,hSD01,サブパソコン,Sub PC,hSD01-018,C,0,0,0,220,Support,
+2726,hSD01,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,0,50,Support,
+2727,hSD01,ホロリスの輪,Circle of hololive Listeners,hSD01-020,C,0,0,0,80,Support,
+2728,hSD01,First Gravity,First Gravity,hSD01-021,C,0,0,0,80,Support,"Tokino Sora, AZKi"
+2729,hSD01,白エール,White Cheer,hY01-001,C,0,0,0,30,White,
+2730,hSD01,緑エール,Green Cheer,hY02-001,C,0,0,0,30,Green,
+2731,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-001,OC,0,0,0,80,Red,Nakiri Ayame
+2732,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-002,C,0,0,0,120,Red,Nakiri Ayame
+2733,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-003,C,0,0,0,120,Red,Nakiri Ayame
+2734,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-004,U,0,0,0,220,Red,Nakiri Ayame
+2735,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-005,C,0,0,0,80,Red,Nakiri Ayame
+2736,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-006,C,0,0,0,280,Red,Nakiri Ayame
+2737,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-007,U,0,0,0,120,Red,Nakiri Ayame
+2738,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-008,R,1,0,0,120,Red,Nakiri Ayame
+2739,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-009,RR,1,0,0,220,Red,Nakiri Ayame
+2740,hSD02,白上フブキ,Shirakami Fubuki,hSD02-010,U,0,0,0,80,,Shirakami Fubuki
+2741,hSD02,大神ミオ,Ookami Mio,hSD02-011,U,0,0,0,50,,Ookami Mio
+2742,hSD02,いろはにほへっと あやふぶみ,Iroha with AyaFubuMi,hSD02-012,U,0,0,0,120,Support,"Kazama Iroha, Nakiri Ayame, Shirakami Fubuki, Ookami Mio"
+2743,hSD02,阿修羅＆羅刹,Asura & Rakshasa,hSD02-013,C,0,0,0,320,Support,Nakiri Ayame
+2744,hSD02,ぽよ余,Poyoyo,hSD02-014,C,0,0,0,120,Support,Nakiri Ayame
+2745,hSD02,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2746,hSD02,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
+2747,hSD02,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2748,hSD02,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2749,hSD02,サブパソコン,Sub PC,hSD01-018,C,0,0,1,220,Support,
+2750,hSD02,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
+2751,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-001,OC,0,0,0,80,Blue,Nekomata Okayu
+2752,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-002,C,0,0,0,120,Blue,Nekomata Okayu
+2753,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-003,C,0,0,0,180,Blue,Nekomata Okayu
+2754,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-004,U,0,0,0,120,Blue,Nekomata Okayu
+2755,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-005,C,0,0,0,30,Blue,Nekomata Okayu
+2756,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-006,C,0,0,0,50,Blue,Nekomata Okayu
+2757,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-007,U,0,0,0,180,Blue,Nekomata Okayu
+2758,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-008,R,1,0,0,120,Blue,Nekomata Okayu
+2759,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-009,RR,1,0,0,180,Blue,Nekomata Okayu
+2760,hSD03,戌神ころね,Inugami Korone,hSD03-010,U,0,0,0,50,,Inugami Korone
+2761,hSD03,ラプラス・ダークネス,La+ Darknesss,hSD03-011,U,0,0,0,50,,La+ Darknesss
+2762,hSD03,泥棒建設,Dorobo Construction,hSD03-012,U,0,0,0,80,Support,"Takane Lui, Inugami Korone, Nekomata Okayu, La+ Darknesss, Ookami Mio, Shirakami Fubuki"
+2763,hSD03,おかにゃん,Okanyan,hSD03-013,C,0,0,0,180,Support,Nekomata Okayu
+2764,hSD03,おにぎりゃー,Onigiryaa,hSD03-014,C,0,0,0,30,Support,Nekomata Okayu
+2765,hSD03,ペンライト,Penlight,hBP01-105,U,0,0,1,80,Support,
+2766,hSD03,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
+2767,hSD03,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2768,hSD03,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2769,hSD03,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+2770,hSD03,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
+2771,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-001,OC,0,0,0,80,Purple,Yuzuki Choco
+2772,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-002,C,0,0,0,80,Purple,Yuzuki Choco
+2773,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-003,C,0,0,0,80,Purple,Yuzuki Choco
+2774,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-004,U,0,0,0,180,Purple,Yuzuki Choco
+2775,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-005,C,0,0,0,30,Purple,Yuzuki Choco
+2776,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-006,C,0,0,0,30,Purple,Yuzuki Choco
+2777,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-007,U,0,0,0,180,Purple,Yuzuki Choco
+2778,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-008,R,1,0,0,120,Purple,Yuzuki Choco
+2779,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-009,RR,1,0,0,120,Purple,Yuzuki Choco
+2780,hSD04,大空スバル,Oozora Subaru,hSD04-010,U,0,0,0,50,,Oozora Subaru
+2781,hSD04,姫森ルーナ,Himemori Luna,hSD04-011,U,0,0,0,50,,Himemori Luna
+2782,hSD04,スバちょこルーナ,SubaChocoLuna,hSD04-012,U,0,0,0,50,Support,"Oozora Subaru, Himemori Luna, Yuzuki Choco"
+2783,hSD04,ちょこのオムライス,Choco's Omurice,hSD04-013,C,0,0,0,280,Support,Yuzuki Choco
+2784,hSD04,しょこら,Chocolat,hSD04-014,C,0,0,0,50,Support,Yuzuki Choco
+2785,hSD04,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2786,hSD04,あとは任せた！,I leave the rest to you!,hBP01-106,U,0,0,1,80,Support,
+2787,hSD04,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2788,hSD04,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2789,hSD04,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+2790,hSD04,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+2791,hSD05,轟はじめ,Todoroki Hajime,hSD05-001,OC,0,0,0,80,White,Todoroki Hajime
+2792,hSD05,轟はじめ,Todoroki Hajime,hSD05-002,C,0,0,0,80,White,Todoroki Hajime
+2793,hSD05,轟はじめ,Todoroki Hajime,hSD05-003,C,0,0,0,30,White,Todoroki Hajime
+2794,hSD05,轟はじめ,Todoroki Hajime,hSD05-004,U,0,0,0,50,White,Todoroki Hajime
+2795,hSD05,轟はじめ,Todoroki Hajime,hSD05-005,C,0,0,0,30,White,Todoroki Hajime
+2796,hSD05,轟はじめ,Todoroki Hajime,hSD05-006,C,0,0,0,30,White,Todoroki Hajime
+2797,hSD05,轟はじめ,Todoroki Hajime,hSD05-007,U,0,0,0,180,White,Todoroki Hajime
+2798,hSD05,轟はじめ,Todoroki Hajime,hSD05-008,R,1,0,0,80,White,Todoroki Hajime
+2799,hSD05,轟はじめ,Todoroki Hajime,hSD05-009,RR,1,0,0,180,White,Todoroki Hajime
+2800,hSD05,儒烏風亭らでん,Juufuutei Raden,hSD05-010,U,0,0,0,120,Green,Juufuutei Raden
+2801,hSD05,一条莉々華,Ichijou Ririka,hSD05-011,U,0,0,0,280,Red,Ichijou Ririka
+2802,hSD05,火威青,Hiodoshi Ao,hSD05-012,U,0,0,0,220,Blue,Hiodoshi Ao
+2803,hSD05,音乃瀬奏,Otonose Kanade,hSD05-013,U,0,0,0,120,Yellow,Otonose Kanade
+2804,hSD05,ばんぺん,Banpen,hSD05-014,C,0,0,0,30,Support,Todoroki Hajime
+2805,hSD05,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2806,hSD05,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
+2807,hSD05,ReGLOSS,ReGLOSS,hPR-002,U,0,0,1,50,Support,"Juufuutei Raden, Hiodoshi Ao, Ichijou Ririka, Otonose Kanade, Todoroki Hajime"
+2808,hSD05,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2809,hSD05,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2810,hSD05,白エール,White Cheer,hY01-001,C,0,0,1,30,White,
+2811,hSD06,風真いろは,Kazama Iroha,hSD06-001,OC,0,0,0,120,Green,Kazama Iroha
+2812,hSD06,風真いろは,Kazama Iroha,hSD06-002,C,0,0,0,30,Green,Kazama Iroha
+2813,hSD06,風真いろは,Kazama Iroha,hSD06-003,U,0,0,0,80,Green,Kazama Iroha
+2814,hSD06,風真いろは,Kazama Iroha,hSD06-004,C,0,0,0,30,Green,Kazama Iroha
+2815,hSD06,風真いろは,Kazama Iroha,hSD06-005,C,0,0,0,120,Green,Kazama Iroha
+2816,hSD06,風真いろは,Kazama Iroha,hSD06-006,R,1,0,0,320,Green,Kazama Iroha
+2817,hSD06,風真いろは,Kazama Iroha,hSD06-007,RR,1,0,0,220,Green,Kazama Iroha
+2818,hSD06,博衣こより,Hakui Koyori,hSD06-008,U,0,0,0,280,White,Hakui Koyori
+2819,hSD06,鷹嶺ルイ,Takane Lui,hSD06-009,U,0,0,0,50,Red,Takane Lui
+2820,hSD06,ラプラス・ダークネス,La+ Darknesss,hSD06-010,U,0,0,0,120,Purple,La+ Darknesss
+2821,hSD06,チャキ丸,Chakimaru,hSD06-011,C,0,0,0,80,Support,Kazama Iroha
+2822,hSD06,ぽこべぇ,Pokobe,hSD06-012,C,0,0,0,180,Support,Kazama Iroha
+2823,hSD06,風真いろは,Kazama Iroha,hBP01-048,C,0,0,1,120,Green,Kazama Iroha
+2824,hSD06,風真いろは,Kazama Iroha,hBP01-050,U,0,0,1,320,Green,Kazama Iroha
+2825,hSD06,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2826,hSD06,カスタムパソコン,Custom PC,hBP02-076,C,0,0,1,120,Support,Tokino Sora
+2827,hSD06,秘密結社holoX,holoX,hBP02-080,U,0,0,1,50,Support,"Takane Lui, La+ Darknesss, Kazama Iroha, Hakui Koyori, Sakamata Chloe"
+2828,hSD06,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2829,hSD06,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2830,hSD06,緑エール,Green Cheer,hY02-001,C,0,0,1,30,Green,
+2831,hSD07,不知火フレア,Shiranui Flare,hSD07-001,OC,0,0,0,80,Yellow,Shiranui Flare
+2832,hSD07,不知火フレア,Shiranui Flare,hSD07-002,C,0,0,0,80,Yellow,Shiranui Flare
+2833,hSD07,不知火フレア,Shiranui Flare,hSD07-003,C,0,0,0,80,Yellow,Shiranui Flare
+2834,hSD07,不知火フレア,Shiranui Flare,hSD07-004,U,0,0,0,80,Yellow,Shiranui Flare
+2835,hSD07,不知火フレア,Shiranui Flare,hSD07-005,C,0,0,0,30,Yellow,Shiranui Flare
+2836,hSD07,不知火フレア,Shiranui Flare,hSD07-006,C,0,0,0,80,Yellow,Shiranui Flare
+2837,hSD07,不知火フレア,Shiranui Flare,hSD07-007,U,0,0,0,120,Yellow,Shiranui Flare
+2838,hSD07,不知火フレア,Shiranui Flare,hSD07-008,R,1,0,0,80,Yellow,Shiranui Flare
+2839,hSD07,不知火フレア,Shiranui Flare,hSD07-009,RR,1,0,0,180,Yellow,Shiranui Flare
+2840,hSD07,白銀ノエル,Shirogane Noel,hSD07-010,U,0,0,0,50,White,Shirogane Noel
+2841,hSD07,さくらみこ,Sakura Miko,hSD07-011,U,0,0,0,80,Red,Sakura Miko
+2842,hSD07,尾丸ポルカ,Omaru Polka,hSD07-012,U,0,0,0,50,Red,Omaru Polka
+2843,hSD07,星街すいせい,Hoshimachi Suisei,hSD07-013,U,0,0,0,80,Blue,Hoshimachi Suisei
+2844,hSD07,不知火建設,Shiranui Construction,hSD07-014,U,0,0,0,50,Support,"Hoshimachi Suisei, Omaru Polka, Shiranui Flare, Shirogane Noel, Sakura Miko"
+2845,hSD07,エルフレンド,Elfriend,hSD07-015,C,0,0,0,80,Support,Shiranui Flare
+2846,hSD07,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2847,hSD07,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2848,hSD07,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2849,hSD07,サブパソコン,Sub PC,hSD01-018,C,0,0,1,220,Support,
+2850,hSD07,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+2851,hSD08,天音かなた,Amane Kanata,hSD08-001,OC,0,0,0,80,White,Amane Kanata
+2852,hSD08,天音かなた,Amane Kanata,hSD08-002,U,0,0,0,50,White,Amane Kanata
+2853,hSD08,天音かなた,Amane Kanata,hSD08-003,R,1,0,0,80,White,Amane Kanata
+2854,hSD08,天音かなた,Amane Kanata,hSD08-004,RR,1,0,0,180,White,Amane Kanata
+2855,hSD08,姫森ルーナ,Himemori Luna,hSD08-005,C,0,0,0,50,White,Himemori Luna
+2856,hSD08,常闇トワ,Tokoyami Towa,hSD08-006,C,0,0,0,80,Purple,Tokoyami Towa
+2857,hSD08,角巻わため,Tsunomaki Watame,hSD08-007,C,0,0,0,180,Yellow,Tsunomaki Watame
+2858,hSD08,天音かなた,Amane Kanata,hBP01-009,C,0,0,1,80,White,Amane Kanata
+2859,hSD08,天音かなた,Amane Kanata,hBP01-011,C,0,0,1,80,White,Amane Kanata
+2860,hSD08,天音かなた,Amane Kanata,hBP01-013,R,1,0,1,120,White,Amane Kanata
+2861,hSD08,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
+2862,hSD08,うぱお,Upao,hBP01-116,C,0,0,1,80,Support,Amane Kanata
+2863,hSD08,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+2864,hSD08,ホロライブ4期生,hololive Gen 4,hBP03-093,U,0,0,1,50,Support,"Amane Kanata, Tsunomaki Watame, Tokoyami Towa, Himemori Luna"
+2865,hSD08,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,220,Support,Harusaki Nodoka
+2866,hSD08,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2867,hSD08,白エール,White Cheer,hY01-001,C,0,0,1,30,White,
+2868,hSD09,宝鐘マリン,Houshou Marine,hSD09-001,OC,0,0,0,80,Red,Houshou Marine
+2869,hSD09,宝鐘マリン,Houshou Marine,hSD09-002,U,0,0,0,120,Red,Houshou Marine
+2870,hSD09,宝鐘マリン,Houshou Marine,hSD09-003,R,1,0,0,80,Red,Houshou Marine
+2871,hSD09,宝鐘マリン,Houshou Marine,hSD09-004,RR,1,0,0,180,Red,Houshou Marine
+2872,hSD09,白銀ノエル,Shirogane Noel,hSD09-005,C,0,0,0,180,White,Shirogane Noel
+2873,hSD09,兎田ぺこら,Usada Pekora,hSD09-006,C,0,0,0,180,Green,Usada Pekora
+2874,hSD09,不知火フレア,Shiranui Flare,hSD09-007,C,0,0,0,120,Yellow,Shiranui Flare
+2875,hSD09,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
+2876,hSD09,宝鐘マリン,Houshou Marine,hBP02-028,C,0,0,1,30,Red,Houshou Marine
+2877,hSD09,宝鐘マリン,Houshou Marine,hBP02-030,C,0,0,1,50,Red,Houshou Marine
+2878,hSD09,宝鐘マリン,Houshou Marine,hBP02-032,R,1,0,1,120,Red,Houshou Marine
+2879,hSD09,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+2880,hSD09,HOLOLIVE FANTASY,HOLOLIVE FANTASY,hBP02-085,U,0,0,1,50,Support,"Houshou Marine, Usada Pekora, Shiranui Flare, Shirogane Noel"
+2881,hSD09,ドクロくん,Dokuro-kun,hBP02-095,C,0,0,1,30,Support,Houshou Marine
+2882,hSD09,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2883,hSD09,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2884,hSD09,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
+2885,hSD10,輪堂千速,Rindo Chihaya,hSD10-001,OSR,1,0,0,220,Green,Rindo Chihaya
+2886,hSD10,輪堂千速,Rindo Chihaya,hSD10-002,C,0,0,0,120,Green,Rindo Chihaya
+2887,hSD10,輪堂千速,Rindo Chihaya,hSD10-003,C,0,0,0,50,Green,Rindo Chihaya
+2888,hSD10,輪堂千速,Rindo Chihaya,hSD10-004,U,0,0,0,680,Green,Rindo Chihaya
+2889,hSD10,輪堂千速,Rindo Chihaya,hSD10-005,U,0,0,0,420,Green,Rindo Chihaya
+2890,hSD10,輪堂千速,Rindo Chihaya,hSD10-006,RR,1,0,0,120,Green,Rindo Chihaya
+2891,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-007,C,0,0,0,120,Purple,Kikirara Vivi
+2892,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-008,C,0,0,0,680,Purple,Kikirara Vivi
+2893,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-009,RR,1,0,0,780,Purple,Kikirara Vivi
+2894,hSD10,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,0,180,,Isaki Riona
+2895,hSD10,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
+2896,hSD10,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,0,50,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
+2897,hSD10,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,0,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
+2898,hSD10,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2899,hSD10,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+2900,hSD10,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2901,hSD10,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2902,hSD10,緑エール,Green Cheer,hY02-001,C,0,0,1,30,Green,
+2903,hSD10,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+2904,hSD11,虎金妃笑虎,Koganei Niko,hSD11-001,OSR,1,0,0,280,Yellow,Koganei Niko
+2905,hSD11,虎金妃笑虎,Koganei Niko,hSD11-002,C,0,0,0,120,Yellow,Koganei Niko
+2906,hSD11,虎金妃笑虎,Koganei Niko,hSD11-003,C,0,0,0,50,Yellow,Koganei Niko
+2907,hSD11,虎金妃笑虎,Koganei Niko,hSD11-004,U,0,0,0,220,Yellow,Koganei Niko
+2908,hSD11,虎金妃笑虎,Koganei Niko,hSD11-005,U,0,0,0,220,Yellow,Koganei Niko
+2909,hSD11,虎金妃笑虎,Koganei Niko,hSD11-006,RR,1,0,0,120,Yellow,Koganei Niko
+2910,hSD11,水宮枢,Mizumiya Su,hSD11-007,C,0,0,0,120,Blue,Mizumiya Su
+2911,hSD11,水宮枢,Mizumiya Su,hSD11-008,C,0,0,0,420,Blue,Mizumiya Su
+2912,hSD11,水宮枢,Mizumiya Su,hSD11-009,RR,1,0,0,680,Blue,Mizumiya Su
+2913,hSD11,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2914,hSD11,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2915,hSD11,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2916,hSD11,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+2917,hSD11,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,1,180,,Isaki Riona
+2918,hSD11,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,1,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
+2919,hSD11,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,1,50,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
+2920,hSD11,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,1,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
+2921,hSD11,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
+2922,hSD11,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+2923,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-001,OSR,1,0,0,220,Blue,Shiori Novella
+2924,hSD12,古石ビジュー,Koseki Bijou,hSD12-002,OSR,1,0,0,220,Purple,Koseki Bijou
+2925,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-003,C,0,0,0,120,Blue,Shiori Novella
+2926,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-004,C,0,0,0,120,Blue,Shiori Novella
+2927,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-005,U,0,0,0,180,Blue,Shiori Novella
+2928,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-006,R,1,0,0,180,Blue,Shiori Novella
+2929,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-007,RR,1,0,0,180,Blue,Shiori Novella
+2930,hSD12,古石ビジュー,Koseki Bijou,hSD12-008,C,0,0,0,120,Purple,Koseki Bijou
+2931,hSD12,古石ビジュー,Koseki Bijou,hSD12-009,C,0,0,0,180,Purple,Koseki Bijou
+2932,hSD12,古石ビジュー,Koseki Bijou,hSD12-010,U,0,0,0,80,Purple,Koseki Bijou
+2933,hSD12,古石ビジュー,Koseki Bijou,hSD12-011,RR,1,0,0,180,Purple,Koseki Bijou
+2934,hSD12,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hSD12-012,C,0,0,0,120,Purple,Nerissa Ravencroft
+2935,hSD12,モココ・アビスガード,Mococo Abyssgard,hSD12-013,C,0,0,0,1280,Red,Mococo Abyssgard
+2936,hSD12,フワワ・アビスガード,Fuwawa Abyssgard,hSD12-014,C,0,0,0,980,Blue,Fuwawa Abyssgard
+2937,hSD12,脱獄を果たした共犯者たち,Escaped Convicts,hSD12-015,U,0,0,0,1480,Support,"Nerissa Ravencroft, Fuwawa Abyssgard, Shiori Novella, Mococo Abyssgard, Koseki Bijou"
+2938,hSD12,GEOW,GEOW,hSD12-016,C,0,0,0,50,Support,
+2939,hSD12,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2940,hSD12,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
+2941,hSD12,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+2942,hSD12,シオリ・ノヴェラ,Shiori Novella,hBP04-050,C,0,0,1,80,Blue,Shiori Novella
+2943,hSD12,古石ビジュー,Koseki Bijou,hBP04-063,C,0,0,1,80,Purple,Koseki Bijou
+2944,hSD12,Advent,Advent,hBP04-096,U,0,0,1,50,Support,"Shiori Novella, Nerissa Ravencroft, Fuwawa Abyssgard, Mococo Abyssgard, Koseki Bijou"
+2945,hSD12,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,320,Support,"Inugami Korone, Nekomata Okayu"
+2946,hSD12,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2947,hSD12,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
+2948,hSD12,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+2949,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-001,OSR,1,0,0,220,Red,Elizabeth Rose Bloodflame
+2950,hSD13,ジジ・ムリン,Gigi Murin,hSD13-002,OSR,1,0,0,220,Yellow,Gigi Murin
+2951,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-003,C,0,0,0,180,Red,Elizabeth Rose Bloodflame
+2952,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-004,C,0,0,0,120,Red,Elizabeth Rose Bloodflame
+2953,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-005,U,0,0,0,180,Red,Elizabeth Rose Bloodflame
+2954,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-006,U,0,0,0,120,Red,Elizabeth Rose Bloodflame
+2955,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-007,RR,1,0,0,180,Red,Elizabeth Rose Bloodflame
+2956,hSD13,ジジ・ムリン,Gigi Murin,hSD13-008,C,0,0,0,120,Yellow,Gigi Murin
+2957,hSD13,ジジ・ムリン,Gigi Murin,hSD13-009,C,0,0,0,180,Yellow,Gigi Murin
+2958,hSD13,ジジ・ムリン,Gigi Murin,hSD13-010,C,0,0,0,80,Yellow,Gigi Murin
+2959,hSD13,ジジ・ムリン,Gigi Murin,hSD13-011,U,0,0,0,220,Yellow,Gigi Murin
+2960,hSD13,ジジ・ムリン,Gigi Murin,hSD13-012,U,0,0,0,220,Yellow,Gigi Murin
+2961,hSD13,ジジ・ムリン,Gigi Murin,hSD13-013,RR,1,0,0,180,Yellow,Gigi Murin
+2962,hSD13,セシリア・イマーグリーン,Cecilia Immergreen,hSD13-014,C,0,0,0,80,,Cecilia Immergreen
+2963,hSD13,ラオーラ・パンテーラ,Raora Panthera,hSD13-015,C,0,0,0,80,,Raora Panthera
+2964,hSD13,Justice,Justice,hSD13-016,U,0,0,0,120,Support,"Raora Panthera, Cecilia Immergreen, Elizabeth Rose Bloodflame, Gigi Murin"
+2965,hSD13,"JUSTICE, JUST LIKE THAT!!!!","JUSTICE, JUST LIKE THAT!!!!",hSD13-017,U,0,0,0,220,Support,"Raora Panthera, Cecilia Immergreen, Elizabeth Rose Bloodflame, Gigi Murin"
+2966,hSD13,Popo,Popo,hSD13-018,C,0,0,0,120,Support,Gigi Murin
+2967,hSD13,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2968,hSD13,凸待ち,Totsumachi,hBP03-088,U,0,0,1,220,Support,"Tokoyami Towa, La+ Darknesss"
+2969,hSD13,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,280,Support,"Inugami Korone, Nekomata Okayu"
+2970,hSD13,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2971,hSD13,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+2972,hSD13,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
+2973,hSD13,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+2974,hSD14,白上フブキ,Shirakami Fubuki,hSD14-001,OC,0,0,0,80,White,Shirakami Fubuki
+2975,hSD14,白上フブキ,Shirakami Fubuki,hSD14-002,C,0,0,0,30,White,Shirakami Fubuki
+2976,hSD14,白上フブキ,Shirakami Fubuki,hSD14-003,C,0,0,0,30,White,Shirakami Fubuki
+2977,hSD14,白上フブキ,Shirakami Fubuki,hSD14-004,C,0,0,0,50,White,Shirakami Fubuki
+2978,hSD14,白上フブキ,Shirakami Fubuki,hSD14-005,U,0,0,0,50,White,Shirakami Fubuki
+2979,hSD14,白上フブキ,Shirakami Fubuki,hSD14-006,C,0,0,0,30,White,Shirakami Fubuki
+2980,hSD14,白上フブキ,Shirakami Fubuki,hSD14-007,U,0,0,0,30,White,Shirakami Fubuki
+2981,hSD14,白上フブキ,Shirakami Fubuki,hSD14-008,R,1,0,0,50,White,Shirakami Fubuki
+2982,hSD14,白上フブキ,Shirakami Fubuki,hSD14-009,RR,1,0,0,120,White,Shirakami Fubuki
+2983,hSD14,holoAN,holoAN,hSD14-010,C,0,0,0,120,Support,Izuki Michiru
+2984,hSD14,ありよりのアリゲーター,Totally Acceptable Alligator,hSD14-011,C,0,0,0,50,Support,Shirakami Fubuki
+2985,hSD14,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
+2986,hSD14,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+2987,hSD14,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+2988,hSD14,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+2989,hSD14,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+2990,hSD14,白エール,White Cheer,hY01-001,C,0,0,1,30,White,
+2991,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-001,OC,0,0,0,80,Green,Juufuutei Raden
+2992,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-002,C,0,0,0,30,Green,Juufuutei Raden
+2993,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-003,C,0,0,0,30,Green,Juufuutei Raden
+2994,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-004,C,0,0,0,50,Green,Juufuutei Raden
+2995,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-005,U,0,0,0,50,Green,Juufuutei Raden
+2996,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-006,C,0,0,0,30,Green,Juufuutei Raden
+2997,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-007,U,0,0,0,50,Green,Juufuutei Raden
+2998,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-008,R,1,0,0,30,Green,Juufuutei Raden
+2999,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-009,RR,1,0,0,30,Green,Juufuutei Raden
+3000,hSD15,まつたけダンス,Matsutake Dance,hSD15-010,C,0,0,0,80,Support,Juufuutei Raden
+3001,hSD15,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
+3002,hSD15,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+3003,hSD15,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+3004,hSD15,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+3005,hSD15,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+3006,hSD15,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
+3007,hSD15,緑エール,Green Cheer,hY02-001,C,0,0,1,30,Green,
+3008,hSD16,さくらみこ,Sakura Miko,hSD16-001,OC,0,0,0,80,Red,Sakura Miko
+3009,hSD16,さくらみこ,Sakura Miko,hSD16-002,C,0,0,0,30,Red,Sakura Miko
+3010,hSD16,さくらみこ,Sakura Miko,hSD16-003,C,0,0,0,30,Red,Sakura Miko
+3011,hSD16,さくらみこ,Sakura Miko,hSD16-004,C,0,0,0,50,Red,Sakura Miko
+3012,hSD16,さくらみこ,Sakura Miko,hSD16-005,U,0,0,0,30,Red,Sakura Miko
+3013,hSD16,さくらみこ,Sakura Miko,hSD16-006,C,0,0,0,30,Red,Sakura Miko
+3014,hSD16,さくらみこ,Sakura Miko,hSD16-007,U,0,0,0,30,Red,Sakura Miko
+3015,hSD16,さくらみこ,Sakura Miko,hSD16-008,R,1,0,0,30,Red,Sakura Miko
+3016,hSD16,さくらみこ,Sakura Miko,hSD16-009,RR,1,0,0,30,Red,Sakura Miko
+3017,hSD16,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
+3018,hSD16,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+3019,hSD16,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+3020,hSD16,35P,35P,hBP03-107,U,0,0,1,50,Support,Sakura Miko
+3021,hSD16,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+3022,hSD16,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+3023,hSD16,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
+3024,hSD16,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
+3025,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-001,OC,0,0,0,80,Blue,Hoshimachi Suisei
+3026,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-002,C,0,0,0,30,Blue,Hoshimachi Suisei
+3027,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-003,C,0,0,0,30,Blue,Hoshimachi Suisei
+3028,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-004,C,0,0,0,30,Blue,Hoshimachi Suisei
+3029,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-005,U,0,0,0,50,Blue,Hoshimachi Suisei
+3030,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-006,C,0,0,0,30,Blue,Hoshimachi Suisei
+3031,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-007,U,0,0,0,30,Blue,Hoshimachi Suisei
+3032,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-008,R,1,0,0,30,Blue,Hoshimachi Suisei
+3033,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-009,RR,1,0,0,30,Blue,Hoshimachi Suisei
+3034,hSD17,ステラ,Stellar,hSD17-010,C,0,0,0,280,Support,Hoshimachi Suisei
+3035,hSD17,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
+3036,hSD17,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+3037,hSD17,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+3038,hSD17,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+3039,hSD17,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+3040,hSD17,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
+3041,hSD17,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
+3042,hSD18,森カリオペ,Mori Calliope,hSD18-001,OC,0,0,0,80,Purple,Mori Calliope
+3043,hSD18,森カリオペ,Mori Calliope,hSD18-002,C,0,0,0,30,Purple,Mori Calliope
+3044,hSD18,森カリオペ,Mori Calliope,hSD18-003,C,0,0,0,30,Purple,Mori Calliope
+3045,hSD18,森カリオペ,Mori Calliope,hSD18-004,C,0,0,0,50,Purple,Mori Calliope
+3046,hSD18,森カリオペ,Mori Calliope,hSD18-005,U,0,0,0,50,Purple,Mori Calliope
+3047,hSD18,森カリオペ,Mori Calliope,hSD18-006,C,0,0,0,30,Purple,Mori Calliope
+3048,hSD18,森カリオペ,Mori Calliope,hSD18-007,U,0,0,0,30,Purple,Mori Calliope
+3049,hSD18,森カリオペ,Mori Calliope,hSD18-008,R,1,0,0,30,Purple,Mori Calliope
+3050,hSD18,森カリオペ,Mori Calliope,hSD18-009,RR,1,0,0,30,Purple,Mori Calliope
+3051,hSD18,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
+3052,hSD18,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+3053,hSD18,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+3054,hSD18,森カリオペの鎌,Mori Calliope's Scythe,hBP02-088,U,0,0,1,30,Support,Mori Calliope
+3055,hSD18,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+3056,hSD18,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
+3057,hSD18,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+3058,hSD19,大空スバル,Oozora Subaru,hSD19-001,OC,0,0,0,80,Yellow,Oozora Subaru
+3059,hSD19,大空スバル,Oozora Subaru,hSD19-002,C,0,0,0,30,Yellow,Oozora Subaru
+3060,hSD19,大空スバル,Oozora Subaru,hSD19-003,C,0,0,0,30,Yellow,Oozora Subaru
+3061,hSD19,大空スバル,Oozora Subaru,hSD19-004,C,0,0,0,50,Yellow,Oozora Subaru
+3062,hSD19,大空スバル,Oozora Subaru,hSD19-005,U,0,0,0,30,Yellow,Oozora Subaru
+3063,hSD19,大空スバル,Oozora Subaru,hSD19-006,C,0,0,0,30,Yellow,Oozora Subaru
+3064,hSD19,大空スバル,Oozora Subaru,hSD19-007,U,0,0,0,50,Yellow,Oozora Subaru
+3065,hSD19,大空スバル,Oozora Subaru,hSD19-008,R,1,0,0,30,Yellow,Oozora Subaru
+3066,hSD19,大空スバル,Oozora Subaru,hSD19-009,RR,1,0,0,30,Yellow,Oozora Subaru
+3067,hSD19,ごきげんカレー,Happy-Go-Lucky Curry,hSD19-010,C,0,0,0,80,Support,Oozora Subaru
+3068,hSD19,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
+3069,hSD19,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
+3070,hSD19,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
+3071,hSD19,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
+3072,hSD19,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
+3073,hSD19,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
+3074,hSD19,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+1051,hSD2025,青エール,Blue Cheer,hY04-007,S,1,0,0,5980,Blue,"Usada Pekora, Oozora Subaru, Mori Calliope, Kobo Kanaeru"

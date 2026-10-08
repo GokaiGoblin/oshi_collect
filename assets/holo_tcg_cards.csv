@@ -126,10 +126,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 125,hBP01,ペンライト,Penlight,hBP01-105,U,0,0,0,80,Support,
 126,hBP01,あとは任せた！,I leave the rest to you!,hBP01-106,U,0,0,0,80,Support,
 127,hBP01,アンコール,Encore,hBP01-107,C,0,0,0,80,Support,
-128,hBP01,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,0,500,Support,Tokino Sora
+128,hBP01,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,0,500,Support,"Kazama Iroha, Tokino Sora"
 129,hBP01,月と兎の物語,Tale of the Moon and the Rabbit,hBP01-109,U,0,0,0,80,Support,"Usada Pekora, Moona Hoshinova"
 130,hBP01,鈍器でぶっ叩くわよ！,I'll smack you with a blunt weapon!,hBP01-110,U,0,0,0,50,Support,Nanashi Mumei
-131,hBP01,ホロライブインドネシア3期生,Hololive Indonesia Gen 3,hBP01-111,U,0,0,0,80,Support,"Vestia Zeta, Kaela Kovalskia, Kobo Kanaeru"
+131,hBP01,ホロライブインドネシア3期生,hololive Indonesia Gen 3,hBP01-111,U,0,0,0,80,Support,"Vestia Zeta, Kaela Kovalskia, Kobo Kanaeru"
 132,hBP01,わくわくいたずらタイム,Exciting Prank Time,hBP01-112,U,0,0,0,50,Support,Kobo Kanaeru
 133,hBP01,Promise,Promise,hBP01-113,U,0,0,0,120,Support,"Ceres Fauna, IRyS, Hakos Baelz, Ouro Kronii, Nanashi Mumei"
 134,hBP01,石の斧,Stone Axe,hBP01-114,C,0,0,0,180,Support,Aki Rosenthal
@@ -147,7 +147,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 146,hBP01,座員,Troupe Member,hBP01-126,C,0,0,0,80,Support,Omaru Polka
 1526,hBP01,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 1527,hBP01,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
-1528,hBP01,ホロリスの輪,Circle of Hololive Listeners,hSD01-020,C,0,0,1,80,Support,
+1528,hBP01,ホロリスの輪,Circle of hololive Listeners,hSD01-020,C,0,0,1,80,Support,
 147,hBP02,白上フブキ,Shirakami Fubuki,hBP02-001,OSR,1,0,0,1780,White,Shirakami Fubuki
 148,hBP02,白上フブキ,Shirakami Fubuki,hBP02-001,OUR,1,0,0,29800,White,Shirakami Fubuki
 149,hBP02,白上フブキ,Shirakami Fubuki,hBP02-001,SEC,1,1,0,148000,White,Shirakami Fubuki
@@ -309,10 +309,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 307,hBP02,爆発の魔法,Explosion Magic,hBP02-079,S,1,0,0,680,Support,Murasaki Shion
 308,hBP02,秘密結社holoX,holoX,hBP02-080,U,0,0,0,50,Support,"Takane Lui, La+ Darknesss, Kazama Iroha, Hakui Koyori, Sakamata Chloe"
 309,hBP02,秘密結社holoX,holoX,hBP02-080,S,1,0,0,320,Support,"Takane Lui, La+ Darknesss, Kazama Iroha, Hakui Koyori, Sakamata Chloe"
-310,hBP02,ホロライブ インドネシア2期生,Hololive Indonesia Gen 2,hBP02-081,U,0,0,0,80,Support,"Kureiji Ollie, Anya Melfissa, Pavolia Reine"
-311,hBP02,ホロライブ インドネシア2期生,Hololive Indonesia Gen 2,hBP02-081,S,1,0,0,180,Support,"Kureiji Ollie, Anya Melfissa, Pavolia Reine"
-312,hBP02,ホロライブゲーマーズ,Hololive GAMERS,hBP02-082,U,0,0,0,120,Support,"Nekomata Okayu, Inugami Korone, Shirakami Fubuki, Ookami Mio"
-313,hBP02,ホロライブゲーマーズ,Hololive GAMERS,hBP02-082,S,1,0,0,280,Support,"Nekomata Okayu, Inugami Korone, Shirakami Fubuki, Ookami Mio"
+310,hBP02,ホロライブ インドネシア2期生,hololive Indonesia Gen 2,hBP02-081,U,0,0,0,80,Support,"Kureiji Ollie, Anya Melfissa, Pavolia Reine"
+311,hBP02,ホロライブ インドネシア2期生,hololive Indonesia Gen 2,hBP02-081,S,1,0,0,180,Support,"Kureiji Ollie, Anya Melfissa, Pavolia Reine"
+312,hBP02,ホロライブゲーマーズ,hololive GAMERS,hBP02-082,U,0,0,0,120,Support,"Nekomata Okayu, Inugami Korone, Shirakami Fubuki, Ookami Mio"
+313,hBP02,ホロライブゲーマーズ,hololive GAMERS,hBP02-082,S,1,0,0,280,Support,"Nekomata Okayu, Inugami Korone, Shirakami Fubuki, Ookami Mio"
 314,hBP02,魔法のタンス,Magical Dresser,hBP02-083,U,0,0,0,30,Support,Murasaki Shion
 315,hBP02,魔法のタンス,Magical Dresser,hBP02-083,S,1,0,0,180,Support,Murasaki Shion
 316,hBP02,みっころね24,Mikkorone 24,hBP02-084,U,0,0,0,80,Support,"Sakura Miko, Inugami Korone"
@@ -545,12 +545,12 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 538,hBP03,ファンミーティング,Fan Meeting,hBP03-089,S,1,0,0,180,Support,
 539,hBP03,ホロライブ言えるかな？,Can You Do the hololive?,hBP03-090,U,0,0,0,220,Support,Tsunomaki Watame
 540,hBP03,ホロライブ言えるかな？,Can You Do the hololive?,hBP03-090,S,1,0,0,980,Support,Tsunomaki Watame
-541,hBP03,ホロライブインドネシア1期生,Hololive Indonesia Gen 1,hBP03-091,U,0,0,0,30,Support,"Ayunda Risu, Moona Hoshinova, Airani Iofifteen"
-542,hBP03,ホロライブインドネシア1期生,Hololive Indonesia Gen 1,hBP03-091,S,1,0,0,220,Support,"Ayunda Risu, Moona Hoshinova, Airani Iofifteen"
-543,hBP03,ホロライブ0期性,Hololive Gen 0,hBP03-092,U,0,0,0,80,Support,"Hoshimachi Suisei, AZKi, Tokino Sora, Sakura Miko, Roboco-san"
-544,hBP03,ホロライブ0期性,Hololive Gen 0,hBP03-092,S,1,0,0,220,Support,"Hoshimachi Suisei, AZKi, Tokino Sora, Sakura Miko, Roboco-san"
-545,hBP03,ホロライブ4期生,Hololive Gen 4,hBP03-093,U,0,0,0,50,Support,"Amane Kanata, Tsunomaki Watame, Tokoyami Towa, Himemori Luna"
-546,hBP03,ホロライブ4期生,Hololive Gen 4,hBP03-093,S,1,0,0,280,Support,"Amane Kanata, Tsunomaki Watame, Tokoyami Towa, Himemori Luna"
+541,hBP03,ホロライブインドネシア1期生,hololive Indonesia Gen 1,hBP03-091,U,0,0,0,30,Support,"Ayunda Risu, Moona Hoshinova, Airani Iofifteen"
+542,hBP03,ホロライブインドネシア1期生,hololive Indonesia Gen 1,hBP03-091,S,1,0,0,220,Support,"Ayunda Risu, Moona Hoshinova, Airani Iofifteen"
+543,hBP03,ホロライブ0期性,hololive Gen 0,hBP03-092,U,0,0,0,80,Support,"Hoshimachi Suisei, AZKi, Tokino Sora, Sakura Miko, Roboco-san"
+544,hBP03,ホロライブ0期性,hololive Gen 0,hBP03-092,S,1,0,0,220,Support,"Hoshimachi Suisei, AZKi, Tokino Sora, Sakura Miko, Roboco-san"
+545,hBP03,ホロライブ4期生,hololive Gen 4,hBP03-093,U,0,0,0,50,Support,"Amane Kanata, Tsunomaki Watame, Tokoyami Towa, Himemori Luna"
+546,hBP03,ホロライブ4期生,hololive Gen 4,hBP03-093,S,1,0,0,280,Support,"Amane Kanata, Tsunomaki Watame, Tokoyami Towa, Himemori Luna"
 547,hBP03,FPS配信,FPS Stream,hBP03-094,U,0,0,0,50,Support,Tokoyami Towa
 548,hBP03,FPS配信,FPS Stream,hBP03-094,S,1,0,0,180,Support,Tokoyami Towa
 549,hBP03,ホロキャップ,holoCap,hBP03-095,C,0,0,0,30,Support,Sakura Miko
@@ -787,8 +787,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 774,hBP04,限界飯,Struggle Meal,hBP04-091,S,1,0,0,680,Support,Ichijou Ririka
 775,hBP04,ねぽらぼ,NePoLaBo,hBP04-092,U,0,0,0,50,Support,"Omaru Polka, Shishiro Botan, Yukihana Lamy, Momosuzu Nene"
 776,hBP04,ねぽらぼ,NePoLaBo,hBP04-092,S,1,0,0,220,Support,"Omaru Polka, Shishiro Botan, Yukihana Lamy, Momosuzu Nene"
-777,hBP04,ホロライブ2期生,Hololive Gen 2,hBP04-093,U,0,0,0,50,Support,"Nakiri Ayame, Oozora Subaru, Murasaki Shion, Yuzuki Choco"
-778,hBP04,ホロライブ2期生,Hololive Gen 2,hBP04-093,S,1,0,0,120,Support,"Nakiri Ayame, Oozora Subaru, Murasaki Shion, Yuzuki Choco"
+777,hBP04,ホロライブ2期生,hololive Gen 2,hBP04-093,U,0,0,0,50,Support,"Nakiri Ayame, Oozora Subaru, Murasaki Shion, Yuzuki Choco"
+778,hBP04,ホロライブ2期生,hololive Gen 2,hBP04-093,S,1,0,0,120,Support,"Nakiri Ayame, Oozora Subaru, Murasaki Shion, Yuzuki Choco"
 779,hBP04,まいたけダンス,Maitake Dance,hBP04-094,U,0,0,0,50,Support,Juufuutei Raden
 780,hBP04,まいたけダンス,Maitake Dance,hBP04-094,S,1,0,0,500,Support,Juufuutei Raden
 781,hBP04,マスコットキャッチャー,Mascot Catcher,hBP04-095,U,0,0,0,50,Support,
@@ -1075,7 +1075,6 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1048,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-014,SR,1,0,0,420,White,Raora Panthera
 1049,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-014,UR,1,0,0,2980,White,Raora Panthera
 1050,hBP06,響咲リオナ,Isaki Riona,hBP06-015,C,0,0,0,120,White,Isaki Riona
-1051,hBP06,響咲リオナ,Isaki Riona,hBP06-015,S,1,0,0,,White,Isaki Riona
 1530,hBP06,響咲リオナ,Isaki Riona,hBP06-015,HR,1,0,0,5980,White,Isaki Riona
 1052,hBP06,響咲リオナ,Isaki Riona,hBP06-016,U,0,0,0,50,White,Isaki Riona
 1053,hBP06,響咲リオナ,Isaki Riona,hBP06-017,C,0,0,0,30,White,Isaki Riona
@@ -1231,8 +1230,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1203,hBP06,ドローイングストリーム,Drawing Stream,hBP06-089,S,1,0,0,980,Support,Raora Panthera
 1204,hBP06,ブルームステージ,Bloom Stage,hBP06-090,U,0,0,0,980,Support,Houshou Marine
 1205,hBP06,ブルームステージ,Bloom Stage,hBP06-090,S,1,0,0,1980,Support,Houshou Marine
-1206,hBP06,ホロライブ1期生,Hololive Gen 1,hBP06-091,U,0,0,0,50,Support,"Aki Rosenthal, Akai Haato, Shirakami Fubuki, Natsuiro Matsuri"
-1207,hBP06,ホロライブ1期生,Hololive Gen 1,hBP06-091,S,1,0,0,120,Support,"Aki Rosenthal, Akai Haato, Shirakami Fubuki, Natsuiro Matsuri"
+1206,hBP06,ホロライブ1期生,hololive Gen 1,hBP06-091,U,0,0,0,50,Support,"Aki Rosenthal, Akai Haato, Shirakami Fubuki, Natsuiro Matsuri"
+1207,hBP06,ホロライブ1期生,hololive Gen 1,hBP06-091,S,1,0,0,120,Support,"Aki Rosenthal, Akai Haato, Shirakami Fubuki, Natsuiro Matsuri"
 1208,hBP06,マヨネーズちゅっちゅっ,Sipping Mayonnaise,hBP06-092,C,0,0,0,30,Support,Hakui Koyori
 1209,hBP06,マヨネーズちゅっちゅっ,Sipping Mayonnaise,hBP06-092,S,1,0,0,180,Support,Hakui Koyori
 1210,hBP06,山田ルイ54世,Yamada Lui the 54th,hBP06-093,U,0,0,0,280,Support,"Takane Lui, La+ Darknesss, Hakui Koyori, Kazama Iroha"
@@ -1771,7 +1770,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1767,hBP08,黄エール,Yellow Cheer,hY06-010,SY,1,0,0,1280,Yellow,Koganei Niko
 1759,hBP08,水宮枢,Mizumiya Su,hSD11-007,C,0,0,1,80,Blue,Mizumiya Su
 1760,hBP08,水宮枢,Mizumiya Su,hSD11-007,HR,1,0,1,6980,Blue,Mizumiya Su
-1761,hBP08,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Hanazono Sayaka
+1761,hBP08,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
 1768,hBP08,IRyS,IRyS,hBP01-028,C,0,0,1,50,White,IRyS
 1769,hBP08,IRyS,IRyS,hBP01-028,HR,1,0,1,3980,White,IRyS
 1770,hBP08,鷹嶺ルイ,Takane Lui,hBP01-056,C,0,0,1,50,Red,Takane Lui
@@ -2000,8 +1999,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2001,hBP09,ばんちょーダンス,Bancho Dance,hBP09-102,S,1,0,0,500,Support,Todoroki Hajime
 2002,hBP09,変な動き,Strange movement,hBP09-103,C,0,0,0,30,Support,Shirogane Noel
 2003,hBP09,変な動き,Strange movement,hBP09-103,S,1,0,0,580,Support,Shirogane Noel
-2004,hBP09,ホロライブ体力王決定戦,Hololive Stamina King Championship,hBP09-104,C,0,0,0,50,Support,Yukihana Lamy
-2005,hBP09,ホロライブ体力王決定戦,Hololive Stamina King Championship,hBP09-104,S,1,0,0,320,Support,Yukihana Lamy
+2004,hBP09,ホロライブ体力王決定戦,hololive Stamina King Championship,hBP09-104,C,0,0,0,50,Support,Yukihana Lamy
+2005,hBP09,ホロライブ体力王決定戦,hololive Stamina King Championship,hBP09-104,S,1,0,0,320,Support,Yukihana Lamy
 2006,hBP09,BIG3,BIG3,hBP09-105,U,0,0,0,120,Support,"Yukihana Lamy, Oozora Subaru, Shirogane Noel"
 2007,hBP09,BIG3,BIG3,hBP09-105,SR,1,0,0,2480,Support,"Yukihana Lamy, Oozora Subaru, Shirogane Noel"
 2008,hBP09,カエラが作ったホロシールド,The HoloShield created by Kaela,hBP09-106,C,0,0,0,30,Support,Kaela Kovalskia

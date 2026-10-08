@@ -57,6 +57,10 @@ app.*.map.json
 /background_implementation_instructions.md
 /bg_gradient_spec.md
 /bg_implementation_instructions.md
+/truth_sources.md
 
 # Local-only: downloaded fullahead pages/images (reference material)
 /tool/fullahead_cache/
+
+# Generated price file for R2 (made by tool/export_prices.py)
+/tool/prices_out/

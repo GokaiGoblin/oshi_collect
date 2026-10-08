@@ -8,7 +8,22 @@ import '../utils/search_utils.dart';
 class CatalogueProvider extends ChangeNotifier {
   final CatalogueDb _db;
 
-  CatalogueProvider(this._db);
+  CatalogueProvider(this._db) {
+    // When newer prices arrive from R2, reload so the grid shows them.
+    _db.prices.addListener(_onPricesUpdated);
+  }
+
+  Future<void> _onPricesUpdated() async {
+    if (_isLoading) return; // a load in progress will pick them up anyway
+    await _loadCards();
+    notifyListeners();
+  }
+
+  @override
+  void dispose() {
+    _db.prices.removeListener(_onPricesUpdated);
+    super.dispose();
+  }
 
   List<CardModel> _allCards = [];
   List<CardModel> _filtered = [];

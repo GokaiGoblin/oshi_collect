@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:provider/provider.dart';
 
+import '../db/price_updates.dart';
 import '../providers/collection_provider.dart';
 import '../providers/preferences_provider.dart';
 import '../theme/app_colours.dart';
@@ -279,6 +280,12 @@ class _CurrencyDialog extends StatelessWidget {
     final selectedBg = isDark ? const Color(0x1FC9A84C) : const Color(0x38544D85);
     final unselectedBg = isDark ? const Color(0x0DFFFFFF) : const Color(0x12544D85);
 
+    final pricesOn = context.watch<PriceUpdates>().updatedOn;
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    final pricesText = pricesOn == null
+        ? 'Card prices: as built into this app version.'
+        : 'Card prices as of ${pricesOn.day} ${months[pricesOn.month - 1]} ${pricesOn.year}.';
+
     final updatedAt = prefs.fxRatesUpdatedAt;
     final String lastUpdatedText;
     if (updatedAt == null) {
@@ -358,6 +365,8 @@ class _CurrencyDialog extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(height: 4),
+            Text(pricesText, style: TextStyle(fontSize: 9.5, color: secondary)),
           ],
         ),
       ),

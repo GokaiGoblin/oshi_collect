@@ -8,7 +8,7 @@ import '../theme/app_colours.dart';
 /// tapped. Keeping the chrome here means that design only needs maintaining
 /// in one place.
 
-const List<String> standardRarities = ['C', 'U', 'S', 'R', 'RR'];
+const List<String> standardRarities = ['C', 'U', 'S', 'R', 'RR', 'OC'];
 const List<String> goldRarities = ['SR', 'UR', 'HR', 'OSR', 'OUR', 'SEC', 'SY', 'P'];
 
 /// One Archetype chip's colour dot — differs between light and dark themes,

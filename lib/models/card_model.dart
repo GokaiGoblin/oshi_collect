@@ -89,12 +89,20 @@ class CardModel {
     switch (setType) {
       case 'starter':
       case 'starter_deck':
-        return '$base/Deck/$setCode-$folderName/$filename';
+        // Deck names read "Starter: Nakiri Ayame" / "Live: Shirakami Fubuki";
+        // the image folder drops that prefix (folders can't contain ":"):
+        // Deck/hSD02-NakiriAyame/hSD02-hSD02-001-OC.png
+        final deckFolder = (setNameEn ?? '')
+            .replaceFirst(RegExp(r'^(Starter|Live):\s*'), '')
+            .replaceAll(' ', '');
+        return '$base/Deck/$setCode-$deckFolder/$filename';
       case 'promo':
-        // Promo images are named by card number, with a version suffix when a
-        // card has several promo versions: hBP01-104-P.png, hBP01-104-P-02.png
+        // Promo images are named by card number + the card's rarity (almost
+        // always P; Anniversary Celebration Set cards are SR), with a version
+        // suffix when a card has several promo versions:
+        // hBP01-104-P.png, hBP01-104-P-02.png, hBP03-030-SR-02.png
         final suffix = imageVariant == null ? '' : '-$imageVariant';
-        return '$base/Promo/$cardNumber-P$suffix.png';
+        return '$base/Promo/$cardNumber-$rarity$suffix.png';
       case 'booster':
       default:
         return '$base/Booster/$setCode-$folderName/$filename';

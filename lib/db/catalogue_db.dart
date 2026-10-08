@@ -5,14 +5,22 @@ import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import '../models/card_model.dart';
 import '../models/set_model.dart';
+import 'price_updates.dart';
 
 class CatalogueDb {
+  /// Live prices from R2 (see price_updates.dart). They're laid over the
+  /// built-in price_jpy whenever a card is read, so a price update never
+  /// needs a new APK or a change to the read-only database.
+  final PriceUpdates prices;
+
+  CatalogueDb(this.prices);
+
   static const String _dbName = 'holo_catalogue.db';
   static const String _versionFileName = 'holo_catalogue.version';
 
   // Bump this number each time assets/db/holo_catalogue.db is replaced with
   // updated card data — it forces the cached copy to be refreshed on next launch.
-  static const int _dbVersion = 22;
+  static const int _dbVersion = 26;
 
   Database? _db;
 
@@ -35,7 +43,18 @@ class CatalogueDb {
       await versionFile.writeAsString('$_dbVersion');
     }
 
+    // Saved prices must be in place before the first card is read.
+    await prices.loadCached();
     return openDatabase(dbFile.path, readOnly: true);
+  }
+
+  /// Builds a card from a database row, swapping in the live price when the
+  /// downloaded price file has one for this card.
+  CardModel _card(Map<String, Object?> row) {
+    final id = row['card_id'] as int;
+    final live = prices.prices;
+    if (!live.containsKey(id)) return CardModel.fromMap(row);
+    return CardModel.fromMap({...row, 'price_jpy': live[id]});
   }
 
   Future<List<CardModel>> getCardsBySet(String setCode) async {
@@ -47,7 +66,7 @@ class CatalogueDb {
       'ORDER BY cards.card_number ASC',
       [setCode],
     );
-    return rows.map(CardModel.fromMap).toList();
+    return rows.map(_card).toList();
   }
 
   /// Like [getCardsBySet] but applies the canonical set-detail ordering:
@@ -73,12 +92,13 @@ class CatalogueDb {
     return 2;
   }
 
-  // C=1 U=2 S=3 R=4 RR=5 SR=6 UR=7 HR=8 OSR=9 OUR=10 SEC=11 SY=12 P=13
+  // C=1 U=2 S=3 R=4 RR=5 SR=6 UR=7 HR=8 OC/OSR=9 OUR=10 SEC=11 SY=12 P=13
+  // (OC = Oshi Common, the non-foil oshi card in starter decks)
   static int _rarityRank(String rarity) {
     const ranks = {
       'C': 1, 'U': 2, 'S': 3,
       'R': 4, 'RR': 5, 'SR': 6, 'UR': 7, 'HR': 8,
-      'OSR': 9, 'OUR': 10, 'SEC': 11, 'SY': 12, 'P': 13,
+      'OC': 9, 'OSR': 9, 'OUR': 10, 'SEC': 11, 'SY': 12, 'P': 13,
     };
     return ranks[rarity] ?? 99;
   }
@@ -111,11 +131,11 @@ class CatalogueDb {
           WHEN 'C'   THEN 1  WHEN 'U'   THEN 2  WHEN 'S'   THEN 3
           WHEN 'R'   THEN 4  WHEN 'RR'  THEN 5  WHEN 'SR'  THEN 6
           WHEN 'UR'  THEN 7  WHEN 'HR'  THEN 8
-          WHEN 'OSR' THEN 9  WHEN 'OUR' THEN 10 WHEN 'SEC' THEN 11
+          WHEN 'OC'  THEN 9  WHEN 'OSR' THEN 9  WHEN 'OUR' THEN 10 WHEN 'SEC' THEN 11
           WHEN 'SY'  THEN 12 WHEN 'P'   THEN 13 ELSE 99
         END ASC
     ''');
-    return rows.map(CardModel.fromMap).toList();
+    return rows.map(_card).toList();
   }
 
   Future<CardModel?> getCard(String cardId) async {
@@ -126,7 +146,7 @@ class CatalogueDb {
       'WHERE cards.card_id = ?',
       [cardId],
     );
-    return rows.isEmpty ? null : CardModel.fromMap(rows.first);
+    return rows.isEmpty ? null : _card(rows.first);
   }
 
   Future<Set<String>> getAllCardIds() async {

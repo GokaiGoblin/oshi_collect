@@ -157,7 +157,7 @@ class SettingsMenu extends StatelessWidget {
           enabled: false,
           height: 28,
           child: Text(
-            'Build: $kBuildStamp',
+            'Version $kAppVersion',
             style: TextStyle(fontSize: 10),
           ),
         ),

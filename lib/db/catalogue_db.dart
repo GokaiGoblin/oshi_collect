@@ -12,7 +12,7 @@ class CatalogueDb {
 
   // Bump this number each time assets/db/holo_catalogue.db is replaced with
   // updated card data — it forces the cached copy to be refreshed on next launch.
-  static const int _dbVersion = 21;
+  static const int _dbVersion = 22;
 
   Database? _db;
 

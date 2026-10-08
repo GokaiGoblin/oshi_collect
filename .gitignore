@@ -57,3 +57,6 @@ app.*.map.json
 /background_implementation_instructions.md
 /bg_gradient_spec.md
 /bg_implementation_instructions.md
+
+# Local-only: downloaded fullahead pages/images (reference material)
+/tool/fullahead_cache/

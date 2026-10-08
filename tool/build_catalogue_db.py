@@ -9,11 +9,14 @@ What it does
     written back into the promo CSV so it stays stable for future rebuilds.
   * Each promo event (the promo CSV's set_code column) becomes a set with
     set_type 'promo'. Promos with no event go into "Other Promos".
+  * Promo events listed in UNRELEASED_PROMO_EVENTS are built with
+    is_available = 0, so the app hides them until they're in circulation.
   * Prices are Japanese yen (price_jpy). A blank price stays NULL - never 0.
   * members is stored as "EN tags, JP names" so searches in either language
     match; JP names are looked up from the existing booster data.
 
-After running it, bump _dbVersion in lib/db/catalogue_db.dart.
+Bump _dbVersion in lib/db/catalogue_db.dart only when pushing to GitHub or
+building a test APK (once per push/build, not after every rebuild).
 """
 import csv
 import os
@@ -21,6 +24,13 @@ import re
 import shutil
 import sqlite3
 import sys
+
+# Promo events that are announced/on pre-order but not shipped yet. Their cards
+# stay in the CSV (keeping their card_ids) but the app hides them. Remove an
+# event from this set once the cards are actually in circulation.
+UNRELEASED_PROMO_EVENTS = {
+    '2nd Anniversary Celebration Set',  # official pre-order only (Oct 2026)
+}
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB = os.path.join(ROOT, 'assets', 'db', 'holo_catalogue.db')
@@ -152,7 +162,8 @@ def main():
         events.setdefault(r['set_code'].strip() or 'Other Promos', []).append(r)
     for name in sorted(events, key=natural_key):
         cur.execute('INSERT INTO sets (set_code, name_en, name_jp, set_type, release_date, card_count, is_available) '
-                    "VALUES (?, ?, NULL, 'promo', NULL, ?, 1)", (slug(name), name, len(events[name])))
+                    "VALUES (?, ?, NULL, 'promo', NULL, ?, ?)",
+                    (slug(name), name, len(events[name]), 0 if name in UNRELEASED_PROMO_EVENTS else 1))
     for name, rows in events.items():
         for r in rows:
             variant = r['image_variant'].strip()

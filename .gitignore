@@ -64,3 +64,4 @@ app.*.map.json
 
 # Generated price file for R2 (made by tool/export_prices.py)
 /tool/prices_out/
+/tool/price_cache/

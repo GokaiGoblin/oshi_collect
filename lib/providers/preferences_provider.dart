@@ -9,6 +9,7 @@ class PreferencesProvider extends ChangeNotifier {
   static const _themeModeKey = 'theme_mode';
   static const _cardViewColumnsKey = 'card_view_columns';
   static const _currencyCodeKey = 'currency_code';
+  static const _japaneseNamesKey = 'japanese_card_names';
   // Rates are now quoted per yen (prices are stored in JPY). New key names so
   // rates cached by older versions — quoted per US dollar — are never reused.
   static const _fxRatesUpdatedAtKey = 'fx_jpy_rates_updated_at';
@@ -18,6 +19,8 @@ class PreferencesProvider extends ChangeNotifier {
   int _cardViewColumns = 2;
   ThemeMode _themeMode = ThemeMode.light;
   String _currencyCode = 'JPY';
+  // Card names show in English unless the user switches to Japanese.
+  bool _japaneseNames = false;
   int? _fxRatesUpdatedAt;
 
   // How much of each currency one yen buys. Only JPY is known until rates
@@ -28,6 +31,7 @@ class PreferencesProvider extends ChangeNotifier {
   GridSize get gridSize => _cardViewColumns == 3 ? GridSize.three : GridSize.two;
   ThemeMode get themeMode => _themeMode;
   String get currencyCode => _currencyCode;
+  bool get japaneseNames => _japaneseNames;
   int? get fxRatesUpdatedAt => _fxRatesUpdatedAt;
   Map<String, double> get fxRates => Map.unmodifiable(_fxRates);
 
@@ -52,6 +56,8 @@ class PreferencesProvider extends ChangeNotifier {
 
     final savedCurrency = prefs.getString(_currencyCodeKey);
     if (savedCurrency != null) _currencyCode = savedCurrency;
+
+    _japaneseNames = prefs.getBool(_japaneseNamesKey) ?? false;
 
     _fxRatesUpdatedAt = prefs.getInt(_fxRatesUpdatedAtKey);
 
@@ -95,6 +101,7 @@ class PreferencesProvider extends ChangeNotifier {
     _themeMode = ThemeMode.light;
     _cardViewColumns = 2;
     _currencyCode = 'JPY';
+    _japaneseNames = false;
     _fxRatesUpdatedAt = null;
     _fxRates
       ..clear()
@@ -123,6 +130,13 @@ class PreferencesProvider extends ChangeNotifier {
     notifyListeners();
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_currencyCodeKey, code);
+  }
+
+  Future<void> toggleCardNameLanguage() async {
+    _japaneseNames = !_japaneseNames;
+    notifyListeners();
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_japaneseNamesKey, _japaneseNames);
   }
 
   Future<void> toggleTheme() async {

@@ -151,6 +151,7 @@ class _ProfileNavBar extends StatelessWidget {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final navColour = isDark ? AppColours.darkNavBar : AppColours.lightNavBar;
     final navText = isDark ? AppColours.darkSelectedNav : AppColours.lightSelectedNav;
+    final japaneseNames = context.watch<PreferencesProvider>().japaneseNames;
 
     return Container(
       color: navColour,
@@ -182,8 +183,9 @@ class _ProfileNavBar extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: [
+                      // Chosen language large, the other one small beneath.
                       Text(
-                        card.nameJp,
+                        card.displayName(japanese: japaneseNames),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
@@ -193,9 +195,9 @@ class _ProfileNavBar extends StatelessWidget {
                           height: 1.3,
                         ),
                       ),
-                      if (card.nameEn != null)
+                      if (card.otherName(japanese: japaneseNames) != null)
                         Text(
-                          card.nameEn!,
+                          card.otherName(japanese: japaneseNames)!,
                           style: TextStyle(
                             fontSize: 11,
                             color: navText.withValues(alpha: 0.75),

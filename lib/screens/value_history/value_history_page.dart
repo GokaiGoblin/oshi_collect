@@ -421,7 +421,7 @@ class _MoversPanel extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            top[i].$1.nameJp,
+                            top[i].$1.displayName(japanese: prefs.japaneseNames),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: text),

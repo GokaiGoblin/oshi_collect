@@ -66,6 +66,14 @@ class CardModel {
         setNameEn: map['set_name_en'] as String?,
       );
 
+  /// The card's name in the language chosen in the ••• menu (English by
+  /// default; Japanese if the card somehow has no English name).
+  String displayName({required bool japanese}) =>
+      japanese ? nameJp : (nameEn ?? nameJp);
+
+  /// The name in the other language, or null if there isn't one.
+  String? otherName({required bool japanese}) => japanese ? nameEn : nameJp;
+
   /// Price for totals and sorting: an unknown price counts as nothing.
   double get priceOrZero => priceJpy ?? 0;
 

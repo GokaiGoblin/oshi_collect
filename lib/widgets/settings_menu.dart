@@ -11,7 +11,7 @@ import '../utils/build_info.dart';
 import 'import_export_dialog.dart';
 import 'report_issue_sheet.dart';
 
-enum _MenuAction { cardView, theme, currency, report, importExport, resetData }
+enum _MenuAction { cardView, cardNames, theme, currency, report, importExport, resetData }
 
 class SettingsMenu extends StatelessWidget {
   final Color iconColor;
@@ -44,6 +44,8 @@ class SettingsMenu extends StatelessWidget {
         switch (action) {
           case _MenuAction.cardView:
             prefs.toggleCardViewColumns();
+          case _MenuAction.cardNames:
+            prefs.toggleCardNameLanguage();
           case _MenuAction.theme:
             prefs.toggleTheme();
           case _MenuAction.currency:
@@ -100,6 +102,16 @@ class SettingsMenu extends StatelessWidget {
           ),
           const PopupMenuDivider(),
         ],
+        PopupMenuItem<_MenuAction>(
+          value: _MenuAction.cardNames,
+          child: Row(
+            children: [
+              Icon(Icons.translate, size: 18, color: menuIconColour),
+              const SizedBox(width: 8),
+              Text(prefs.japaneseNames ? 'English Card Names' : 'Japanese Card Names'),
+            ],
+          ),
+        ),
         PopupMenuItem<_MenuAction>(
           value: _MenuAction.theme,
           child: Row(

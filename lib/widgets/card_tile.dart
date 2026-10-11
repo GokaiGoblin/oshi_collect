@@ -62,8 +62,8 @@ class CardTile extends StatelessWidget {
     this.onTap,
   });
 
-  String _semanticLabel() {
-    final name = card.nameEn ?? card.nameJp;
+  String _semanticLabel(bool japanese) {
+    final name = card.displayName(japanese: japanese);
     final rarityStr = card.isFoil ? '${card.rarity}, Foil' : card.rarity;
     final parts = <String>[name, card.cardNumber, rarityStr];
     if (isUnowned) {
@@ -90,7 +90,7 @@ class CardTile extends StatelessWidget {
     final panelHeight = infoHeight(isThree, hasValueRow, textScale: textScale);
 
     return Semantics(
-      label: _semanticLabel(),
+      label: _semanticLabel(prefs.japaneseNames),
       button: onTap != null,
       onTap: onTap,
       excludeSemantics: true,
@@ -143,8 +143,23 @@ class CardTile extends StatelessWidget {
                                     ),
                                   ],
                                 ),
+                                // Name fills the middle so the price row
+                                // always sits at the bottom of the panel.
+                                Expanded(
+                                  child: Text(
+                                    card.displayName(japanese: prefs.japaneseNames),
+                                    maxLines: 2,
+                                    overflow: TextOverflow.ellipsis,
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                      fontSize: isThree ? 10.0 : 12.0,
+                                      fontWeight: FontWeight.w500,
+                                      color: panelText,
+                                    ),
+                                  ),
+                                ),
                                 if (hasValueRow) ...[
-                                  const SizedBox(height: 2),
+                                  const SizedBox(height: 1),
                                   Row(
                                     children: [
                                       // Expanded (not Spacer) so on a narrow
@@ -184,17 +199,6 @@ class CardTile extends StatelessWidget {
                                     ],
                                   ),
                                 ],
-                                Text(
-                                  card.nameJp,
-                                  maxLines: 2,
-                                  overflow: TextOverflow.ellipsis,
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                    fontSize: isThree ? 10.0 : 12.0,
-                                    fontWeight: FontWeight.w500,
-                                    color: panelText,
-                                  ),
-                                ),
                               ],
                             ),
                             if (showDupeDot) const DupeDot(),

@@ -93,11 +93,19 @@ class Fetcher:
         site = '/'.join(url.split('/')[:3])
         if site not in self.robots:
             rp = urllib.robotparser.RobotFileParser(site + '/robots.txt')
+            self._wait()
+            req = urllib.request.Request(site + '/robots.txt', headers={'User-Agent': USER_AGENT})
             try:
-                self._wait()
-                rp.read()
+                with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as r:
+                    rp.parse(r.read().decode('utf-8', errors='replace').splitlines())
+            except urllib.error.HTTPError as e:
+                if e.code in (401, 403, 429, 503):
+                    # The site is refusing us outright (e.g. it blocks cloud
+                    # servers) - not the same as robots.txt saying no.
+                    sys.exit(f'{site} answered {e.code} even for robots.txt (blocked) - stopping.')
+                rp = None   # no robots.txt = no stated restrictions
             except Exception:
-                rp = None   # no readable robots.txt = no stated restrictions
+                rp = None
             self.robots[site] = rp
         rp = self.robots[site]
         return rp is None or rp.can_fetch(USER_AGENT, url)

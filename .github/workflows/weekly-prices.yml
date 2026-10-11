@@ -1,48 +1,39 @@
-# Weekly card price update.
+# Publish card prices to R2.
 #
-# Every Sunday at 18:30 UTC (18:30 GMT in winter, 19:30 on UK clocks in
-# summer; GitHub often starts scheduled runs a few minutes late):
-#   1. tool/scrape_prices.py --write   Yuyutei, then Fullahead for gaps.
-#                                       Stops (and fails the run) if the
-#                                       safety checks fail or a site blocks us.
-#   2. tool/export_prices.py           prices.csv + data/price_history.csv
-#   3. upload both to R2 (data/prices.csv, data/price_history.csv)
-#   4. commit the updated CSVs + history back to main
-# A failed run sends GitHub's usual failure email and uploads nothing.
+# Yuyutei blocks GitHub's cloud servers, so the scraping happens on the home
+# PC (tool/weekly_prices.sh, Sundays 18:30 via Windows Task Scheduler), which
+# pushes the updated CSVs + data/price_history.csv. That push starts this
+# workflow, which rebuilds prices.csv and uploads both files to R2:
+#   data/price_history.csv  -> R2 data/price_history.csv
+#   prices.csv              -> R2 data/prices.csv
+# The R2 keys live only in this repo's secrets, never on the PC.
+# A failed run sends GitHub's usual failure email.
 #
-# Manual runs: Actions tab -> "Weekly price update" -> Run workflow. Leave
-# "publish" unticked for a dry run (scrape + report only, nothing changed).
-# The scrape report is attached to every run under "Artifacts".
+# It can also be started by hand: Actions tab -> "Publish prices" -> Run workflow.
 #
-# R2 secrets (Settings -> Secrets and variables -> Actions):
+# Secrets (Settings -> Secrets and variables -> Actions):
 #   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY
 # The token only needs Object Read & Write on bucket holo-tcg-tracker-assets.
 
-name: Weekly price update
+name: Publish prices
 
 on:
-  schedule:
-    - cron: '30 18 * * 0'
+  push:
+    branches: [main]
+    paths: [data/price_history.csv]
   workflow_dispatch:
-    inputs:
-      publish:
-        description: 'Publish: update CSVs, upload to R2 and commit (untick for a dry run)'
-        type: boolean
-        default: false
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: weekly-prices
+  group: publish-prices
   cancel-in-progress: false
 
 jobs:
-  prices:
+  publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-    env:
-      PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -50,28 +41,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Scrape prices
+      - name: Build prices.csv
         run: |
-          if [ "$PUBLISH" = "true" ]; then
-            python3 tool/scrape_prices.py --write
-          else
-            python3 tool/scrape_prices.py
-          fi
-
-      - name: Keep the scrape report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: scrape-report
-          path: tool/prices_out/scrape_report.txt
-          if-no-files-found: ignore
-
-      - name: Export prices and history
-        if: env.PUBLISH == 'true'
-        run: python3 tool/export_prices.py
+          # Date it as the latest update in the history, not today, so a run
+          # that starts after midnight doesn't record an extra (empty) week.
+          latest=$(tail -n 1 data/price_history.csv | cut -d, -f1)
+          python3 tool/export_prices.py --date "$latest"
+          git diff --exit-code data/price_history.csv \
+            || { echo 'price_history.csv was out of step with the CSVs - fix locally first.'; exit 1; }
 
       - name: Upload to R2
-        if: env.PUBLISH == 'true'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -86,16 +65,3 @@ jobs:
             --endpoint-url "$ENDPOINT" --content-type 'text/csv; charset=utf-8'
           aws s3 cp tool/prices_out/prices.csv s3://holo-tcg-tracker-assets/data/prices.csv \
             --endpoint-url "$ENDPOINT" --content-type 'text/csv; charset=utf-8'
-
-      - name: Commit updated prices
-        if: env.PUBLISH == 'true'
-        run: |
-          git config user.name 'Oshi Collect price bot'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/holo_tcg_cards.csv assets/holo_tcg_decks.csv assets/holo_tcg_promos.csv data/price_history.csv
-          if git diff --cached --quiet; then
-            echo 'No price changes to commit.'
-          else
-            git commit -q -m "Weekly prices $(date -u +%F)"
-            git push
-          fi

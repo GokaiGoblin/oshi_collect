@@ -108,7 +108,7 @@ class SettingsMenu extends StatelessWidget {
             children: [
               Icon(Icons.translate, size: 18, color: menuIconColour),
               const SizedBox(width: 8),
-              Text(prefs.japaneseNames ? 'English Card Names' : 'Japanese Card Names'),
+              Text(prefs.japaneseNames ? 'EN Names' : 'JP Names'),
             ],
           ),
         ),

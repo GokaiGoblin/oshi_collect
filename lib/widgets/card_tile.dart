@@ -28,8 +28,13 @@ class CardTile extends StatelessWidget {
   // subtracted from the Stack height in build).
   // textScale should be MediaQuery.textScalerOf(context).scale(1.0) so the
   // panel grows proportionally when the user increases font size.
+  // Line height used by every line of text in the panel. Set explicitly on
+  // each Text (not left to the font) so the reserved height matches what's
+  // drawn exactly, with no empty band under the name.
+  static const double _lineHeight = 1.25;
+
   static double infoHeight(bool isThree, bool hasValue, {double textScale = 1.0}) {
-    const lh = 1.4;
+    const lh = _lineHeight;
     const pad = 6.0 + _artworkOverlap; // 3 px top + 3 px bottom + overlap
     // 4px margin instead of 2 so sub-pixel rounding at non-1.0 text scales
     // doesn't cause a micro-overflow in the inner Column.
@@ -37,8 +42,8 @@ class CardTile extends StatelessWidget {
     final namePx = (isThree ? 10.0 : 12.0) * textScale;
     final numPx = (isThree ? 8.0 : 10.0) * textScale;
     final base = namePx * lh * 2.0 + numPx * lh + pad + margin;
-    // Value row uses 8 px text + 2 px gap above it.
-    return hasValue ? base + 8.0 * textScale * lh + 2.0 : base;
+    // Value row: 9 px price text + 1 px gap above it.
+    return hasValue ? base + 9.0 * textScale * lh + 1.0 : base;
   }
 
   final CardModel card;
@@ -134,27 +139,33 @@ class CardTile extends StatelessWidget {
                                   children: [
                                     Text(
                                       card.cardNumber,
-                                      style: TextStyle(fontSize: isThree ? 8.0 : 10.0, color: panelText),
+                                      style: TextStyle(fontSize: isThree ? 8.0 : 10.0, height: _lineHeight, color: panelText),
                                     ),
                                     const SizedBox(width: 4),
                                     Text(
                                       card.rarity,
-                                      style: TextStyle(fontSize: isThree ? 8.0 : 10.0, color: panelText),
+                                      style: TextStyle(fontSize: isThree ? 8.0 : 10.0, height: _lineHeight, color: panelText),
                                     ),
                                   ],
                                 ),
                                 // Name fills the middle so the price row
                                 // always sits at the bottom of the panel.
+                                // Full width, so one-line names are centred
+                                // like two-line ones.
                                 Expanded(
-                                  child: Text(
-                                    card.displayName(japanese: prefs.japaneseNames),
-                                    maxLines: 2,
-                                    overflow: TextOverflow.ellipsis,
-                                    textAlign: TextAlign.center,
-                                    style: TextStyle(
-                                      fontSize: isThree ? 10.0 : 12.0,
-                                      fontWeight: FontWeight.w500,
-                                      color: panelText,
+                                  child: SizedBox(
+                                    width: double.infinity,
+                                    child: Text(
+                                      card.displayName(japanese: prefs.japaneseNames),
+                                      maxLines: 2,
+                                      overflow: TextOverflow.ellipsis,
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontSize: isThree ? 10.0 : 12.0,
+                                        fontWeight: FontWeight.w500,
+                                        height: _lineHeight,
+                                        color: panelText,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -173,6 +184,7 @@ class CardTile extends StatelessWidget {
                                                 overflow: TextOverflow.ellipsis,
                                                 style: TextStyle(
                                                   fontSize: 8.0,
+                                                  height: _lineHeight,
                                                   fontWeight: FontWeight.w500,
                                                   color: totalValueLabel,  // navWhite light / muted dark
                                                 ),
@@ -192,6 +204,7 @@ class CardTile extends StatelessWidget {
                                             prefs.fxRates),
                                         style: const TextStyle(
                                           fontSize: 9.0,
+                                          height: _lineHeight,
                                           fontWeight: FontWeight.w500,
                                           color: AppColours.gold,
                                         ),

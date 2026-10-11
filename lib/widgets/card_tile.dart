@@ -42,8 +42,9 @@ class CardTile extends StatelessWidget {
     final namePx = (isThree ? 10.0 : 12.0) * textScale;
     final numPx = (isThree ? 8.0 : 10.0) * textScale;
     final base = namePx * lh * 2.0 + numPx * lh + pad + margin;
-    // Value row: 9 px price text + 1 px gap above it.
-    return hasValue ? base + 9.0 * textScale * lh + 1.0 : base;
+    // Value row: 9 px price text + 1 px gap above it, plus 1.75 px of extra
+    // room for the gap above the name (see the 2.45 px spacer in build).
+    return hasValue ? base + 9.0 * textScale * lh + 2.75 : base;
   }
 
   final CardModel card;
@@ -148,13 +149,21 @@ class CardTile extends StatelessWidget {
                                     ),
                                   ],
                                 ),
+                                // Space under the number row: 1.45 px more
+                                // than the 1 px above the price row, because
+                                // Inter draws its letters a little high in
+                                // the line. Measured on device, this makes
+                                // the visible gaps above and below the name
+                                // equal (22 device px each on a 3-card tile).
+                                if (hasValueRow) const SizedBox(height: 2.45),
                                 // Name fills the middle so the price row
-                                // always sits at the bottom of the panel.
-                                // Full width, so one-line names are centred
-                                // like two-line ones.
+                                // always sits at the bottom of the panel;
+                                // centred both ways (full width, and
+                                // vertically within the space it fills).
                                 Expanded(
-                                  child: SizedBox(
+                                  child: Container(
                                     width: double.infinity,
+                                    alignment: Alignment.center,
                                     child: Text(
                                       card.displayName(japanese: prefs.japaneseNames),
                                       maxLines: 2,

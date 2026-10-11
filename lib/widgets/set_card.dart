@@ -323,7 +323,7 @@ class _InfoPanel extends StatelessWidget {
   // Top padding includes the 10 px hidden behind the artwork's rounded
   // bottom edge.
   static const _portfolioSpacing = (top: 15.07, rowGap: 1.51, extraGap: 0.0, bottom: 4.82);
-  static const _inventorySpacing = (top: 16.13, rowGap: 2.58, extraGap: 1.16, bottom: 5.53);
+  static const _inventorySpacing = (top: 16.13, rowGap: 2.58, extraGap: 2.58, bottom: 6.60);
 
   // The gold value text, with the trend triangle in front when known.
   Widget _valueWithTrend(String text) {
@@ -425,23 +425,35 @@ class _InfoPanel extends StatelessWidget {
 
           if (mode == SetCardMode.inventory && highestValueCardNumber != null) ...[
             SizedBox(height: spacing.extraGap),
+            // Same size as the set code line. Card details in sky blue, which
+            // reads clearly on the panel (the old pink was hard to see).
             Row(
+              crossAxisAlignment: CrossAxisAlignment.baseline,
+              textBaseline: TextBaseline.alphabetic,
               children: [
-                Text('Highest Value', style: TextStyle(fontSize: 10, color: highestValueLabel)),
-                const SizedBox(width: 6),
                 Text(
-                  '$highestValueCardNumber  ${highestValueCardRarity ?? ''}',
-                  style: TextStyle(
-                    fontSize: 10,
-                    fontWeight: FontWeight.w600,
-                    color: dupePink,
+                  'Highest Value',
+                  style: TextStyle(fontSize: _topSize, height: _lineHeight, color: highestValueLabel),
+                ),
+                const SizedBox(width: 6),
+                Expanded(
+                  child: Text(
+                    '$highestValueCardNumber  ${highestValueCardRarity ?? ''}',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      fontSize: _topSize,
+                      height: _lineHeight,
+                      fontWeight: FontWeight.w600,
+                      color: AppColours.lightSkyBlue,
+                    ),
                   ),
                 ),
-                const Spacer(),
                 Text(
                   fmt(highestValueCardValue),
                   style: const TextStyle(
-                    fontSize: 11,
+                    fontSize: _topSize,
+                    height: _lineHeight,
                     fontWeight: FontWeight.w600,
                     color: AppColours.gold,
                   ),

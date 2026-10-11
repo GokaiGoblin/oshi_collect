@@ -33,6 +33,10 @@ class CardTile extends StatelessWidget {
   // drawn exactly, with no empty band under the name.
   static const double _lineHeight = 1.25;
 
+  // How far Japanese names are lifted, as a share of the name's font size
+  // (measured on device: ~5 device px too low at 10 px text without it).
+  static const double _japaneseLift = 0.18;
+
   static double infoHeight(bool isThree, bool hasValue, {double textScale = 1.0}) {
     const lh = _lineHeight;
     const pad = 6.0 + _artworkOverlap; // 3 px top + 3 px bottom + overlap
@@ -164,16 +168,29 @@ class CardTile extends StatelessWidget {
                                   child: Container(
                                     width: double.infinity,
                                     alignment: Alignment.center,
-                                    child: Text(
-                                      card.displayName(japanese: prefs.japaneseNames),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                      textAlign: TextAlign.center,
-                                      style: TextStyle(
-                                        fontSize: isThree ? 10.0 : 12.0,
-                                        fontWeight: FontWeight.w500,
-                                        height: _lineHeight,
-                                        color: panelText,
+                                    // Japanese names use the phone's own
+                                    // Japanese font (Inter has none), which
+                                    // draws lower in the line than Inter —
+                                    // so they're lifted by a share of the
+                                    // font size to sit centred like English.
+                                    child: Transform.translate(
+                                      offset: Offset(
+                                        0,
+                                        prefs.japaneseNames
+                                            ? -_japaneseLift * (isThree ? 10.0 : 12.0) * textScale
+                                            : 0,
+                                      ),
+                                      child: Text(
+                                        card.displayName(japanese: prefs.japaneseNames),
+                                        maxLines: 2,
+                                        overflow: TextOverflow.ellipsis,
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                          fontSize: isThree ? 10.0 : 12.0,
+                                          fontWeight: FontWeight.w500,
+                                          height: _lineHeight,
+                                          color: panelText,
+                                        ),
                                       ),
                                     ),
                                   ),

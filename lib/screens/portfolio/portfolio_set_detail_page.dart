@@ -13,6 +13,7 @@ import '../../providers/preferences_provider.dart';
 import '../../theme/app_colours.dart';
 import '../../utils/search_utils.dart';
 import '../../widgets/card_tile.dart';
+import '../../widgets/frosted_panel.dart';
 import '../../widgets/app_background.dart';
 import '../../widgets/search_filter_bar.dart';
 import '../../widgets/settings_menu.dart';
@@ -305,7 +306,7 @@ class _FilterSegmentedControl extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(10),
         child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+          filter: ImageFilter.blur(sigmaX: FrostedPanel.blurSigma, sigmaY: FrostedPanel.blurSigma),
           child: Container(
             decoration: BoxDecoration(
               color: trackColour,

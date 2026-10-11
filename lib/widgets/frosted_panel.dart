@@ -2,7 +2,17 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import '../theme/app_colours.dart';
 
+// Soft dark halo behind light-theme panel text.
+const _lightTextShadows = [
+  Shadow(color: Color(0x73000000), blurRadius: 3),
+];
+
 class FrostedPanel extends StatelessWidget {
+  /// How strongly panels blur the background behind them. Kept light (was 6)
+  /// so the triangle background shows through. Also used by the Portfolio
+  /// All / Owned / Unowned control.
+  static const double blurSigma = 2;
+
   final Widget child;
   final EdgeInsetsGeometry? padding;
   final BorderRadius? borderRadius;
@@ -29,11 +39,18 @@ class FrostedPanel extends StatelessWidget {
     return ClipRRect(
       borderRadius: br,
       child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+        filter: ImageFilter.blur(sigmaX: blurSigma, sigmaY: blurSigma),
         child: Container(
           decoration: BoxDecoration(color: bgColor, borderRadius: br),
           padding: padding ?? const EdgeInsets.all(12),
-          child: child,
+          // Light theme: a soft shadow behind all text in the panel, so it
+          // stays readable over the bright background with a lighter panel.
+          child: isDark
+              ? child
+              : DefaultTextStyle.merge(
+                  style: const TextStyle(shadows: _lightTextShadows),
+                  child: child,
+                ),
         ),
       ),
     );

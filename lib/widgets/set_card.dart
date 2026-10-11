@@ -317,13 +317,14 @@ class _InfoPanel extends StatelessWidget {
   static const double _topSize = 12;
   static const double _mainSize = 15;
   static const double _lineHeight = 1.25;
-  // Spacing, measured on device so every visible gap is equal (banner → first
-  // line, between lines, last line → panel bottom) without changing the
-  // panel's height. Portfolio has two lines; Inventory adds "Highest Value".
-  // Top padding includes the 10 px hidden behind the artwork's rounded
-  // bottom edge.
+  // Spacing, measured on device so every visible gap is equal (24 device px
+  // on the test phone): banner → first line, between lines, last line →
+  // panel bottom. Inventory uses the same gaps plus one more line ("Highest
+  // Value"); its bottom padding differs only because that line's text is
+  // smaller than the set name. Top padding includes the 10 px hidden behind
+  // the artwork's rounded bottom edge.
   static const _portfolioSpacing = (top: 15.07, rowGap: 1.51, extraGap: 0.0, bottom: 4.82);
-  static const _inventorySpacing = (top: 16.13, rowGap: 2.58, extraGap: 2.58, bottom: 6.60);
+  static const _inventorySpacing = (top: 15.07, rowGap: 1.51, extraGap: 1.51, bottom: 5.53);
 
   // The gold value text, with the trend triangle in front when known.
   Widget _valueWithTrend(String text) {

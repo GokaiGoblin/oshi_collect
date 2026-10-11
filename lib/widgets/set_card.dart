@@ -312,12 +312,21 @@ class _InfoPanel extends StatelessWidget {
     this.valueTrend,
   });
 
+  // Text sizes: the set code and card count share one size, the set name
+  // and value another, so each line reads as one.
+  static const double _topSize = 12;
+  static const double _mainSize = 15;
+  static const double _lineHeight = 1.25;
+  static const double _rowGap = 4;
+  static const double _bottomPadding = 3.4;
+
   // The gold value text, with the trend triangle in front when known.
   Widget _valueWithTrend(String text) {
     final value = Text(
       text,
       style: const TextStyle(
-        fontSize: 13,
+        fontSize: _mainSize,
+        height: _lineHeight,
         fontWeight: FontWeight.w600,
         color: AppColours.gold,
       ),
@@ -326,7 +335,7 @@ class _InfoPanel extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        TrendTriangle(trend: valueTrend!, size: 8),
+        TrendTriangle(trend: valueTrend!, size: 9),
         const SizedBox(width: 5),
         value,
       ],
@@ -350,52 +359,65 @@ class _InfoPanel extends StatelessWidget {
     return FrostedPanel(
       backgroundColor: panelColour,
       borderRadius: BorderRadius.zero,
-      padding: const EdgeInsets.fromLTRB(14, 14, 14, 8),
+      // Top padding includes the 10 px hidden behind the artwork's rounded
+      // bottom; the bottom padding is set so the visible space under the text
+      // matches the space between the artwork and the set code (measured on
+      // device).
+      padding: const EdgeInsets.fromLTRB(14, 14, 14, _bottomPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.min,
         children: [
+          // Two lines, each pair the same size and on one baseline:
+          //   set code ............ card count (or duplicate count)
+          //   set name ............ value
           Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.baseline,
+            textBaseline: TextBaseline.alphabetic,
             children: [
               Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(setCode, style: TextStyle(fontSize: 11, color: infoMuted)),
-                    Text(
-                      setName,
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w600,
-                        color: infoText,
-                      ),
-                    ),
-                  ],
+                child: Text(
+                  setCode,
+                  style: TextStyle(fontSize: _topSize, height: _lineHeight, color: infoMuted),
                 ),
               ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: mode == SetCardMode.portfolio
-                    ? [
-                        Text(
-                          '$ownedCount/$totalCount',
-                          style: TextStyle(fontSize: 12, color: infoSecondary),
-                        ),
-                        _valueWithTrend(fmt(estimatedValue)),
-                      ]
-                    : [
-                        Text(
-                          '${duplicateCount ?? 0}',
-                          style: TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w700,
-                            color: dupePink,
-                          ),
-                        ),
-                        _valueWithTrend(fmt(totalValue)),
-                      ],
+              if (mode == SetCardMode.portfolio)
+                Text(
+                  '$ownedCount/$totalCount',
+                  style: TextStyle(fontSize: _topSize, height: _lineHeight, color: infoSecondary),
+                )
+              else
+                Text(
+                  '${duplicateCount ?? 0}',
+                  style: TextStyle(
+                    fontSize: _topSize,
+                    height: _lineHeight,
+                    fontWeight: FontWeight.w700,
+                    color: dupePink,
+                  ),
+                ),
+            ],
+          ),
+          const SizedBox(height: _rowGap),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.baseline,
+            textBaseline: TextBaseline.alphabetic,
+            children: [
+              Expanded(
+                child: Text(
+                  setName,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    fontSize: _mainSize,
+                    height: _lineHeight,
+                    fontWeight: FontWeight.w600,
+                    color: infoText,
+                  ),
+                ),
               ),
+              const SizedBox(width: 8),
+              _valueWithTrend(fmt(mode == SetCardMode.portfolio ? estimatedValue : totalValue)),
             ],
           ),
 

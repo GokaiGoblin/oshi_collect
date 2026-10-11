@@ -14,6 +14,7 @@ import '../../providers/preferences_provider.dart';
 import '../../theme/app_colours.dart';
 import '../../widgets/card_tile.dart';
 import '../../widgets/frosted_panel.dart';
+import '../../widgets/search_filter_bar.dart';
 import '../../widgets/settings_menu.dart';
 import '../card_profile/card_profile_page.dart';
 import 'catalogue_filter_sheet.dart';
@@ -462,7 +463,7 @@ class _SearchBar extends StatelessWidget {
     final hintColour = isDark ? AppColours.darkMutedText : AppColours.lightNavWhite;
 
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 14, 16, 10),
+      padding: const EdgeInsets.fromLTRB(16, SearchFilterBar.topGap, 16, SearchFilterBar.bottomGap),
       child: SizedBox(
         height: _barHeight,
         child: Stack(
@@ -651,7 +652,7 @@ class _CardGridState extends State<_CardGrid> {
       final rowCount = (cards.length / columns).ceil();
       return ListView.builder(
         controller: _scrollController,
-        padding: const EdgeInsets.fromLTRB(14, 74, 14, 16),
+        padding: const EdgeInsets.fromLTRB(14, SearchFilterBar.gridTopPadding, 14, 16),
         itemCount: rowCount,
         itemBuilder: (context, rowIndex) {
           final start = rowIndex * columns;
@@ -749,7 +750,7 @@ class _CardGridState extends State<_CardGrid> {
 
     return ListView.builder(
       controller: _scrollController,
-      padding: const EdgeInsets.fromLTRB(14, 74, 14, 16),
+      padding: const EdgeInsets.fromLTRB(14, SearchFilterBar.gridTopPadding, 14, 16),
       itemCount: items.length,
       itemBuilder: (context, index) {
         final item = items[index];

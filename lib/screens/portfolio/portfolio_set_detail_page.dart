@@ -443,7 +443,7 @@ class _CardGrid extends StatelessWidget {
     return ListView.builder(
       controller: scrollController,
       // Top padding leaves room for the search bar floating over the grid.
-      padding: const EdgeInsets.fromLTRB(14, 74, 14, 16),
+      padding: const EdgeInsets.fromLTRB(14, SearchFilterBar.gridTopPadding, 14, 16),
       itemCount: rowCount,
       itemBuilder: (context, rowIndex) {
         final start = rowIndex * columns;

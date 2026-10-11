@@ -5,7 +5,7 @@ import 'frosted_panel.dart';
 
 /// Frosted search bar with the round filter button overlapping its right
 /// end — used on the Inventory and Portfolio set-detail grids. Place it over
-/// the top of the grid (the grid leaves 74px of top padding for it).
+/// the top of the grid (the grid leaves [gridTopPadding] of space for it).
 class SearchFilterBar extends StatelessWidget {
   final String query;
   final ValueChanged<String> onChanged;
@@ -14,6 +14,13 @@ class SearchFilterBar extends StatelessWidget {
   const SearchFilterBar({super.key, required this.query, required this.onChanged, required this.onOpenFilters});
 
   static const double _barHeight = 46;
+
+  // Space above and below the bar. The grids underneath start at
+  // [gridTopPadding] so the first row sits just below the bar — change these
+  // together. Shared with the Catalogue's own search bar.
+  static const double topGap = 6;
+  static const double bottomGap = 6;
+  static const double gridTopPadding = topGap + _barHeight + bottomGap + 4;
   static const double _buttonSize = 52;
 
   @override
@@ -24,7 +31,7 @@ class SearchFilterBar extends StatelessWidget {
     final hintColour = isDark ? AppColours.darkMutedText : AppColours.lightNavWhite;
 
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 14, 16, 10),
+      padding: const EdgeInsets.fromLTRB(16, topGap, 16, bottomGap),
       child: SizedBox(
         height: _barHeight,
         child: Stack(

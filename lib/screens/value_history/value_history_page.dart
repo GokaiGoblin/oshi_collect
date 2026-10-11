@@ -118,12 +118,17 @@ class _ValueHistoryPageState extends State<ValueHistoryPage> {
     final isPortfolio = widget.kind == HoldingsKind.portfolio;
     final cardCount = holdings.values.fold<int>(0, (a, b) => a + b);
     final current = holdingsValue(holdings, widget.allCards);
-    final points = _inRange(history.valueSeries(holdings));
+    final series = history.valueSeries(holdings);
+    final points = _inRange(series);
     final values = [for (final p in points) p.value];
 
     final change = points.length >= 2 ? points.last.value - points.first.value : null;
-    final rangeName = _rangeNames[_range] ??
-        (points.isEmpty ? '' : 'since ${formatShortDate(points.first.date)}');
+    // When the range reaches back past the first update ("3M" with only a few
+    // weeks of history), name the real start date instead of the range.
+    final coversAll = points.length == series.length;
+    final rangeName = points.isEmpty
+        ? ''
+        : (coversAll ? 'since ${formatShortDate(points.first.date)}' : _rangeNames[_range]!);
 
     return FrostedPanel(
       backgroundColor: isDark ? AppColours.darkCardPanel : AppColours.lightCardPanel,

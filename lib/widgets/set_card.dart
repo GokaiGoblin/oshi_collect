@@ -317,8 +317,13 @@ class _InfoPanel extends StatelessWidget {
   static const double _topSize = 12;
   static const double _mainSize = 15;
   static const double _lineHeight = 1.25;
-  static const double _rowGap = 4;
-  static const double _bottomPadding = 3.4;
+  // Spacing, measured on device so every visible gap is equal (banner → first
+  // line, between lines, last line → panel bottom) without changing the
+  // panel's height. Portfolio has two lines; Inventory adds "Highest Value".
+  // Top padding includes the 10 px hidden behind the artwork's rounded
+  // bottom edge.
+  static const _portfolioSpacing = (top: 15.07, rowGap: 1.51, extraGap: 0.0, bottom: 4.82);
+  static const _inventorySpacing = (top: 16.13, rowGap: 2.58, extraGap: 1.16, bottom: 5.53);
 
   // The gold value text, with the trend triangle in front when known.
   Widget _valueWithTrend(String text) {
@@ -355,15 +360,12 @@ class _InfoPanel extends StatelessWidget {
         isDark ? AppColours.darkHighestValueLabel : AppColours.lightNavWhite;
     final prefs = context.watch<PreferencesProvider>();
     String fmt(double? v) => formatPrice(v ?? 0, prefs.currencyCode, prefs.fxRates);
+    final spacing = mode == SetCardMode.portfolio ? _portfolioSpacing : _inventorySpacing;
 
     return FrostedPanel(
       backgroundColor: panelColour,
       borderRadius: BorderRadius.zero,
-      // Top padding includes the 10 px hidden behind the artwork's rounded
-      // bottom; the bottom padding is set so the visible space under the text
-      // matches the space between the artwork and the set code (measured on
-      // device).
-      padding: const EdgeInsets.fromLTRB(14, 14, 14, _bottomPadding),
+      padding: EdgeInsets.fromLTRB(14, spacing.top, 14, spacing.bottom),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.min,
@@ -398,7 +400,7 @@ class _InfoPanel extends StatelessWidget {
                 ),
             ],
           ),
-          const SizedBox(height: _rowGap),
+          SizedBox(height: spacing.rowGap),
           Row(
             crossAxisAlignment: CrossAxisAlignment.baseline,
             textBaseline: TextBaseline.alphabetic,
@@ -422,7 +424,7 @@ class _InfoPanel extends StatelessWidget {
           ),
 
           if (mode == SetCardMode.inventory && highestValueCardNumber != null) ...[
-            const SizedBox(height: 4),
+            SizedBox(height: spacing.extraGap),
             Row(
               children: [
                 Text('Highest Value', style: TextStyle(fontSize: 10, color: highestValueLabel)),

@@ -33,11 +33,13 @@ class CardTile extends StatelessWidget {
   // drawn exactly, with no empty band under the name.
   static const double _lineHeight = 1.25;
 
-  // How far Japanese names are lifted, as a share of the name's font size
-  // (measured on device: ~5 device px too low at 10 px text without it).
-  static const double _japaneseLift = 0.18;
+  // How far Japanese names are lifted, as a share of the name's font size.
+  // Measured on device: 3-card view needs 0.18; 2-card view only 0.06, as its
+  // smaller spacer above the name (see build) already raises the name.
+  static const double _japaneseLift3 = 0.18;
+  static const double _japaneseLift2 = 0.06;
 
-  static double infoHeight(bool isThree, bool hasValue, {double textScale = 1.0}) {
+  static double infoHeight(bool isThree, bool hasValue, {double textScale = 1.0, int nameLines = 2}) {
     const lh = _lineHeight;
     const pad = 6.0 + _artworkOverlap; // 3 px top + 3 px bottom + overlap
     // 4px margin instead of 2 so sub-pixel rounding at non-1.0 text scales
@@ -45,10 +47,38 @@ class CardTile extends StatelessWidget {
     const margin = 4.0;
     final namePx = (isThree ? 10.0 : 12.0) * textScale;
     final numPx = (isThree ? 8.0 : 10.0) * textScale;
-    final base = namePx * lh * 2.0 + numPx * lh + pad + margin;
+    final base = namePx * lh * nameLines + numPx * lh + pad + margin;
     // Value row: 9 px price text + 1 px gap above it, plus 1.75 px of extra
     // room for the gap above the name (see the 2.45 px spacer in build).
     return hasValue ? base + 9.0 * textScale * lh + 2.75 : base;
+  }
+
+  /// How many lines of name a row of tiles needs. In the 2-card view most
+  /// names fit on one line, so a row where every name does gets shorter info
+  /// panels; any longer name keeps the row at two lines. The 3-card view
+  /// always allows two. Tiles in one row must all get the same value.
+  ///
+  /// Assumes the grids' layout: 14 px side padding, 10 px between tiles.
+  static int nameLinesForRow(BuildContext context, List<CardModel> rowCards, int columns, bool japanese) {
+    if (columns != 2) return 2;
+    final tileWidth = (MediaQuery.sizeOf(context).width - 28 - 10 * (columns - 1)) / columns;
+    final textWidth = tileWidth - 8; // panel's 4 px side padding
+    final scaler = MediaQuery.textScalerOf(context);
+    final style = DefaultTextStyle.of(context).style.merge(
+          const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500, height: _lineHeight),
+        );
+    for (final card in rowCards) {
+      final painter = TextPainter(
+        text: TextSpan(text: card.displayName(japanese: japanese), style: style),
+        textDirection: TextDirection.ltr,
+        textScaler: scaler,
+        maxLines: 1,
+      )..layout(maxWidth: textWidth);
+      final fits = !painter.didExceedMaxLines;
+      painter.dispose();
+      if (!fits) return 2;
+    }
+    return 1;
   }
 
   final CardModel card;
@@ -58,6 +88,9 @@ class CardTile extends StatelessWidget {
   final double? totalValue; // "Total Value" row — duplicates × price (Inventory only)
   final bool showPrice;     // card's price row, no label (Catalogue / Portfolio)
   final bool isUnowned;     // greyed overlay with UNOWNED pill (Portfolio)
+  // Lines of name the panel makes room for. 2 normally; a 2-card row whose
+  // names all fit on one line uses 1 (see [nameLinesForRow]).
+  final int nameLines;
   final VoidCallback? onTap;
 
   const CardTile({
@@ -69,6 +102,7 @@ class CardTile extends StatelessWidget {
     this.totalValue,
     this.showPrice = false,
     this.isUnowned = false,
+    this.nameLines = 2,
     this.onTap,
   });
 
@@ -97,7 +131,7 @@ class CardTile extends StatelessWidget {
 
     final textScale = MediaQuery.textScalerOf(context).scale(1.0);
     final hasValueRow = totalValue != null || showPrice;
-    final panelHeight = infoHeight(isThree, hasValueRow, textScale: textScale);
+    final panelHeight = infoHeight(isThree, hasValueRow, textScale: textScale, nameLines: nameLines);
 
     return Semantics(
       label: _semanticLabel(prefs.japaneseNames),
@@ -159,7 +193,9 @@ class CardTile extends StatelessWidget {
                                 // the line. Measured on device, this makes
                                 // the visible gaps above and below the name
                                 // equal (22 device px each on a 3-card tile).
-                                if (hasValueRow) const SizedBox(height: 2.45),
+                                // (2-card view has larger text and needs
+                                // less: 0.3 px, also measured on device.)
+                                if (hasValueRow) SizedBox(height: isThree ? 2.45 : 0.3),
                                 // Name fills the middle so the price row
                                 // always sits at the bottom of the panel;
                                 // centred both ways (full width, and
@@ -177,12 +213,12 @@ class CardTile extends StatelessWidget {
                                       offset: Offset(
                                         0,
                                         prefs.japaneseNames
-                                            ? -_japaneseLift * (isThree ? 10.0 : 12.0) * textScale
+                                            ? -(isThree ? _japaneseLift3 * 10.0 : _japaneseLift2 * 12.0) * textScale
                                             : 0,
                                       ),
                                       child: Text(
                                         card.displayName(japanese: prefs.japaneseNames),
-                                        maxLines: 2,
+                                        maxLines: nameLines,
                                         overflow: TextOverflow.ellipsis,
                                         textAlign: TextAlign.center,
                                         style: TextStyle(

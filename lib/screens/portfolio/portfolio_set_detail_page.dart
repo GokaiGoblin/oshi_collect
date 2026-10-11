@@ -447,6 +447,8 @@ class _CardGrid extends StatelessWidget {
       itemBuilder: (context, rowIndex) {
         final start = rowIndex * columns;
         final rowCards = filtered.sublist(start, min(start + columns, filtered.length));
+        final nameLines = CardTile.nameLinesForRow(
+            context, rowCards, columns, context.read<PreferencesProvider>().japaneseNames);
 
         return Padding(
           padding: const EdgeInsets.only(bottom: _spacing),
@@ -457,7 +459,7 @@ class _CardGrid extends StatelessWidget {
                 if (i > 0) const SizedBox(width: _spacing),
                 Expanded(
                   child: i < rowCards.length
-                      ? _buildTile(context, rowCards[i], gridSize, collection)
+                      ? _buildTile(context, rowCards[i], gridSize, collection, nameLines)
                       : const SizedBox.shrink(),
                 ),
               ],
@@ -473,10 +475,12 @@ class _CardGrid extends StatelessWidget {
     CardModel card,
     GridSize gridSize,
     CollectionProvider collection,
+    int nameLines,
   ) {
     return CardTile(
       card: card,
       gridSize: gridSize,
+      nameLines: nameLines,
       showPrice: true,
       isUnowned: !collection.isOwned(card.cardId),
       showDupeDot: collection.duplicateCount(card.cardId) > 0,

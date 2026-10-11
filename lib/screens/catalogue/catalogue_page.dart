@@ -815,6 +815,8 @@ class _CardGridState extends State<_CardGrid> {
     GridSize gridSize,
     CollectionProvider collection,
   ) {
+    final nameLines = CardTile.nameLinesForRow(
+        context, rowCards, columns, context.read<PreferencesProvider>().japaneseNames);
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -822,7 +824,7 @@ class _CardGridState extends State<_CardGrid> {
           if (i > 0) const SizedBox(width: _spacing),
           Expanded(
             child: i < rowCards.length
-                ? _buildTile(context, rowCards[i], gridSize, collection)
+                ? _buildTile(context, rowCards[i], gridSize, collection, nameLines)
                 : const SizedBox.shrink(),
           ),
         ],
@@ -835,10 +837,12 @@ class _CardGridState extends State<_CardGrid> {
     CardModel card,
     GridSize gridSize,
     CollectionProvider collection,
+    int nameLines,
   ) {
     return CardTile(
       card: card,
       gridSize: gridSize,
+      nameLines: nameLines,
       showPrice: true,
       showDupeDot: collection.duplicateCount(card.cardId) > 0,
       onTap: () async {

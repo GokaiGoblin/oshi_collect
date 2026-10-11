@@ -758,7 +758,7 @@ class _CardGridState extends State<_CardGrid> {
         if (item is String) {
           // Divider-style type group header: label centred between two rules.
           return Padding(
-            padding: EdgeInsets.fromLTRB(2, index == 0 ? 10 : 20, 2, 8),
+            padding: EdgeInsets.fromLTRB(2, index == 0 ? 4 : 16, 2, 6),
             child: Row(
               children: [
                 Expanded(child: Divider(color: lineColour, thickness: 1.0, height: 1)),
@@ -784,7 +784,7 @@ class _CardGridState extends State<_CardGrid> {
           // Promo events have internal codes, so they show their name only.
           final prevIsGroupHeader = index > 0 && items[index - 1] is String;
           return Padding(
-            padding: EdgeInsets.fromLTRB(2, prevIsGroupHeader ? 4 : 18, 2, 6),
+            padding: EdgeInsets.fromLTRB(2, prevIsGroupHeader ? 2 : 14, 2, 5),
             child: Text(
               setLookup[item.setCode]?.setType == 'promo'
                   ? item.setName

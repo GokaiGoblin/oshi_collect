@@ -48,9 +48,11 @@ class CardTile extends StatelessWidget {
     final namePx = (isThree ? 10.0 : 12.0) * textScale;
     final numPx = (isThree ? 8.0 : 10.0) * textScale;
     final base = namePx * lh * nameLines + numPx * lh + pad + margin;
-    // Value row: 9 px price text + 1 px gap above it, plus 1.75 px of extra
+    // Value row: price text (9 px, or 10 px in 2-card view to match the card
+    // number) + 1 px gap above it, plus 1.75 px of extra
     // room for the gap above the name (see the 2.45 px spacer in build).
-    return hasValue ? base + 9.0 * textScale * lh + 2.75 : base;
+    final valuePx = (isThree ? 9.0 : 10.0) * textScale;
+    return hasValue ? base + valuePx * lh + 2.75 : base;
   }
 
   /// How many lines of name a row of tiles needs. In the 2-card view most
@@ -245,7 +247,7 @@ class CardTile extends StatelessWidget {
                                                 maxLines: 1,
                                                 overflow: TextOverflow.ellipsis,
                                                 style: TextStyle(
-                                                  fontSize: 8.0,
+                                                  fontSize: isThree ? 8.0 : 9.0,
                                                   height: _lineHeight,
                                                   fontWeight: FontWeight.w500,
                                                   color: totalValueLabel,  // navWhite light / muted dark
@@ -254,7 +256,7 @@ class CardTile extends StatelessWidget {
                                       ),
                                       // Which way this card's price moved at
                                       // the last weekly update (if known).
-                                      CardTrendTriangle(cardId: card.cardId, size: 6),
+                                      CardTrendTriangle(cardId: card.cardId, size: isThree ? 6 : 7),
                                       const SizedBox(width: 3),
                                       Text(
                                         // Unpriced cards show a dash rather than ¥0
@@ -264,8 +266,9 @@ class CardTile extends StatelessWidget {
                                                 : (totalValue ?? card.priceJpy),
                                             prefs.currencyCode,
                                             prefs.fxRates),
-                                        style: const TextStyle(
-                                          fontSize: 9.0,
+                                        // Same size as the card number in 2-card view.
+                                        style: TextStyle(
+                                          fontSize: isThree ? 9.0 : 10.0,
                                           height: _lineHeight,
                                           fontWeight: FontWeight.w500,
                                           color: AppColours.gold,

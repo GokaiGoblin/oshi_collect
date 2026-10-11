@@ -120,7 +120,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2377,Bloom Cup,星街すいせい,Hoshimachi Suisei,hBP01-077,P,1,0,1,9980,Blue,Hoshimachi Suisei,
 2378,Entry PR Pack vol.2,星街すいせい,Hoshimachi Suisei,hBP01-079,P,1,0,1,1480,Blue,Hoshimachi Suisei,
 2379,Super PR Pack vol.3,星街すいせい,Hoshimachi Suisei,hBP01-080,P,1,0,1,1280,Blue,Hoshimachi Suisei,
-2702,1st Anniversary Celebration Set,星街すいせい,Hoshimachi Suisei,hBP01-081,SR,1,0,1,1780,Blue,Hoshimachi Suisei,
+2702,1st Anniversary Celebration Set,星街すいせい,Hoshimachi Suisei,hBP01-081,SR,1,0,1,2480,Blue,Hoshimachi Suisei,
 2380,Entry PR Pack vol.1,こぼ・かなえる,Kobo Kanaeru,hBP01-082,P,1,0,1,580,Blue,Kobo Kanaeru,
 2381,Entry PR Pack vol.2,こぼ・かなえる,Kobo Kanaeru,hBP01-086,P,1,0,1,280,Blue,Kobo Kanaeru,
 2382,Super PR Pack vol.1,こぼ・かなえる,Kobo Kanaeru,hBP01-087,P,1,0,1,6980,Blue,Kobo Kanaeru,
@@ -151,10 +151,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2407,Bloom Cup,白上フブキ,Shirakami Fubuki,hBP02-011,P,1,0,1,19800,White,Shirakami Fubuki,02
 2408,Hololive Dreams PR Pack vol.2,白上フブキ,Shirakami Fubuki,hBP02-011,P,,0,1,,White,Shirakami Fubuki,03
 2707,Hololive Twin Wafers,白上フブキ,Shirakami Fubuki,hBP02-011,P,,0,1,1280,White,Shirakami Fubuki,04
-2703,1st Anniversary Celebration Set,白上フブキ,Shirakami Fubuki,hBP02-013,SR,1,0,1,1780,White,Shirakami Fubuki,
+2703,1st Anniversary Celebration Set,白上フブキ,Shirakami Fubuki,hBP02-013,SR,1,0,1,1980,White,Shirakami Fubuki,
 2409,Entry PR Pack vol.3,白銀ノエル,Shirogane Noel,hBP02-014,P,1,0,1,500,White,Shirogane Noel,
 2410,Entry PR Pack vol.3,パヴォリア・レイネ,Pavolia Reine,hBP02-018,P,1,0,1,320,Green,Pavolia Reine,
-2411,Hololive Dreams PR Pack vol.1,パヴォリア・レイネ,Pavolia Reine,hBP02-019,P,1,0,1,320,Green,Pavolia Reine,
+2411,Hololive Dreams PR Pack vol.1,パヴォリア・レイネ,Pavolia Reine,hBP02-019,P,1,0,1,220,Green,Pavolia Reine,
 2412,Mio - My Sparkle - 1st Press,大神ミオ,Ookami Mio,hBP02-024,P,1,0,1,2980,Green,Ookami Mio,02
 2413,Basic PR Pack vol.3,大神ミオ,Ookami Mio,hBP02-024,P,1,0,1,280,Green,Ookami Mio,
 2414,Marine - Ahoy!! You're All Pirates♡ - Limited Edition,宝鐘マリン,Houshou Marine,hBP02-028,P,1,0,1,12800,Red,Houshou Marine,02
@@ -168,7 +168,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2422,Basic PR Pack vol.3,クレイジー・オリー,Kureiji Ollie,hBP02-048,P,1,0,1,280,Purple,Kureiji Ollie,
 2423,Calliope - DISASTERPIECE - Limited Edition,森カリオペ,Mori Calliope,hBP02-054,P,,0,1,,Purple,Mori Calliope,03
 2424,Basic PR Pack vol.3,森カリオペ,Mori Calliope,hBP02-054,P,1,0,1,500,Purple,Mori Calliope,
-2425,Entry PR Pack vol.3,一伊那尓栖,Ninomae Ina'nis,hBP02-061,P,1,0,1,580,Purple,Ninomae Ina'nis,
+2425,Entry PR Pack vol.3,一伊那尓栖,Ninomae Ina'nis,hBP02-061,P,1,0,1,420,Purple,Ninomae Ina'nis,
 2426,Basic PR Pack vol.6,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-065,P,1,0,1,220,Purple,Nerissa Ravencroft,
 2427,Hololive Dreams PR Pack vol.1,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-067,P,1,0,1,580,Purple,Nerissa Ravencroft,
 2428,Basic PR Pack vol.6,爆発の魔法,Explosion Magic,hBP02-079,P,1,0,1,9980,Support,Murasaki Shion,
@@ -184,7 +184,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2438,Basic PR Pack vol.5,さくらみこ,Sakura Miko,hBP03-025,P,1,0,1,420,Red,Sakura Miko,
 2439,V Jump (2025-05),さくらみこ,Sakura Miko,hBP03-026,P,1,0,1,220,Red,Sakura Miko,
 2440,Bloom Cup,さくらみこ,Sakura Miko,hBP03-030,P,1,0,1,158000,Red,Sakura Miko,
-2704,1st Anniversary Celebration Set,さくらみこ,Sakura Miko,hBP03-030,SR,1,0,1,980,Red,Sakura Miko,02
+2704,1st Anniversary Celebration Set,さくらみこ,Sakura Miko,hBP03-030,SR,1,0,1,1480,Red,Sakura Miko,02
 2441,Basic PR Pack vol.4,赤井はあと,Akai Haato,hBP03-031,P,1,0,1,420,Red,Akai Haato,
 2442,Hololive Dreams PR Pack vol.1,小鳥遊キアラ,Takanashi Kiara,hBP03-036,P,1,0,1,320,Red,Takanashi Kiara,
 2443,Basic PR Pack vol.6,モココ・アビスガード,Mococo Abyssgard,hBP03-037,P,1,0,1,220,Red,Mococo Abyssgard,
@@ -217,7 +217,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2470,V Jump (2025-08),博衣こより,Hakui Koyori,hBP04-009,P,1,0,1,320,White,Hakui Koyori,02
 2471,Hololive Dreams PR Pack vol.2,博衣こより,Hakui Koyori,hBP04-012,P,,0,1,,White,Hakui Koyori,
 2472,World Grand Prix,博衣こより,Hakui Koyori,hBP04-013,P,1,0,1,69800,White,Hakui Koyori,
-2705,1st Anniversary Celebration Set,博衣こより,Hakui Koyori,hBP04-013,SR,1,0,1,980,White,Hakui Koyori,02
+2705,1st Anniversary Celebration Set,博衣こより,Hakui Koyori,hBP04-013,SR,1,0,1,1480,White,Hakui Koyori,02
 2473,Basic PR Pack vol.6,ラオーラ・パンテーラ,Raora Panthera,hBP04-016,P,1,0,1,120,White,Raora Panthera,
 2474,Basic PR Pack vol.6,儒烏風亭らでん,Juufuutei Raden,hBP04-020,P,1,0,1,320,Green,Juufuutei Raden,
 2475,Basic PR Pack vol.6,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-028,P,1,0,1,320,Green,Cecilia Immergreen,
@@ -230,7 +230,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2482,Lawson x Red Bull Collab,ラプラス・ダークネス,La+ Darknesss,hBP04-054,P,,0,1,,Purple,La+ Darknesss,02
 2483,Basic PR Pack vol.6,ラプラス・ダークネス,La+ Darknesss,hBP04-054,P,1,0,1,320,Purple,La+ Darknesss,
 2484,Hololive Dreams PR Pack vol.1,ラプラス・ダークネス,La+ Darknesss,hBP04-058,P,1,0,1,120,Purple,La+ Darknesss,
-2706,1st Anniversary Celebration Set,ラプラス・ダークネス,La+ Darknesss,hBP04-059,SR,1,0,1,1580,Purple,La+ Darknesss,
+2706,1st Anniversary Celebration Set,ラプラス・ダークネス,La+ Darknesss,hBP04-059,SR,1,0,1,1480,Purple,La+ Darknesss,
 2485,Exstreamer Cup,森カリオペ,Mori Calliope,hBP04-062,P,1,0,1,2980,Purple,Mori Calliope,
 2486,Basic PR Pack vol.7,古石ビジュー,Koseki Bijou,hBP04-063,P,1,0,1,320,Purple,Koseki Bijou,
 2487,Basic PR Pack vol.6,大空スバル,Oozora Subaru,hBP04-067,P,1,0,1,320,Yellow,Oozora Subaru,
@@ -282,10 +282,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2533,Basic PR Pack vol.10,夏色まつり,Natsuiro Matsuri,hBP06-073,P,1,0,1,220,Yellow,Natsuiro Matsuri,
 2534,Basic PR Pack vol.9,ブルームステージ,Bloom Stage,hBP06-090,P,1,0,1,12800,Support,Houshou Marine,
 2535,Basic PR Pack vol.9,山田ルイ54世,Yamada Lui the 54th,hBP06-093,P,1,0,1,680,Support,"Takane Lui, La+ Darknesss, Hakui Koyori, Kazama Iroha",
-2536,Basic PR Pack vol.11,IDENTIFY -AREA 15-,IDENTIFY -AREA 15-,hBP06-095,P,1,0,1,180,Support,"Ayunda Risu, Moona Hoshinova, Airani Iofifteen",
+2536,Basic PR Pack vol.11,IDENTIFY -AREA 15-,IDENTIFY -AREA 15-,hBP06-095,P,1,0,1,500,Support,"Ayunda Risu, Moona Hoshinova, Airani Iofifteen",
 2537,Basic PR Pack vol.9,2人あわせてラムダック！,2 of Us Form LAMBDUCK!,hBP06-096,P,1,0,1,220,Support,"Oozora Subaru, Tsunomaki Watame",
 2538,World Grand Prix,角巻わため,Tsunomaki Watame,hBP07-001,P,1,0,1,278000,White,Tsunomaki Watame,
-2539,Basic PR Pack vol.11,角巻わため,Tsunomaki Watame,hBP07-008,P,1,0,1,180,White,Tsunomaki Watame,
+2539,Basic PR Pack vol.11,角巻わため,Tsunomaki Watame,hBP07-008,P,1,0,1,320,White,Tsunomaki Watame,
 2540,V Jump (2026-05),角巻わため,Tsunomaki Watame,hBP07-009,P,1,0,1,420,White,Tsunomaki Watame,
 2541,Hololive Dreams PR Pack vol.2,角巻わため,Tsunomaki Watame,hBP07-010,P,,0,1,,White,Tsunomaki Watame,
 2542,Hololive Dreams PR Pack vol.2,ベスティア・ゼータ,Vestia Zeta,hBP07-019,P,,0,1,,White,Vestia Zeta,
@@ -297,8 +297,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2548,Hololive Dreams PR Pack vol.2,赤井はあと,Akai Haato,hBP07-037,P,,0,1,,Red,Akai Haato,
 2549,Sakura Miko POP UP SHOP,さくらみこ,Sakura Miko,hBP07-043,P,,0,1,1980,Red,Sakura Miko,01
 2550,Sakura Miko POP UP SHOP,さくらみこ,Sakura Miko,hBP07-043,P,,0,1,2480,Red,Sakura Miko,02
-2551,Basic PR Pack vol.10,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-046,P,1,0,1,220,Red,Elizabeth Rose Bloodflame,
-2552,Basic PR Pack vol.11,オーロ・クロニー,Ouro Kronii,hBP07-050,P,1,0,1,180,Blue,Ouro Kronii,
+2551,Basic PR Pack vol.10,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-046,P,1,0,1,180,Red,Elizabeth Rose Bloodflame,
+2552,Basic PR Pack vol.11,オーロ・クロニー,Ouro Kronii,hBP07-050,P,1,0,1,220,Blue,Ouro Kronii,
 2553,Basic PR Pack vol.11,オーロ・クロニー,Ouro Kronii,hBP07-055,P,1,0,1,12800,Blue,Ouro Kronii,
 2554,Basic PR Pack vol.11,シオリ・ノヴェラ,Shiori Novella,hBP07-059,P,1,0,1,220,Blue,Shiori Novella,
 2555,Basic PR Pack vol.11,AZKi,AZKi,hBP07-063,P,1,0,1,180,Purple,AZKi,
@@ -311,9 +311,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2562,Basic PR Pack vol.11,桃鈴ねね,Momosuzu Nene,hBP07-077,P,1,0,1,180,Yellow,Momosuzu Nene,
 2563,Hololive Dreams PR Pack vol.2,桃鈴ねね,Momosuzu Nene,hBP07-081,P,,0,1,,Yellow,Momosuzu Nene,
 2564,Basic PR Pack vol.10,虎金妃笑虎,Koganei Niko,hBP07-087,P,1,0,1,180,Yellow,Koganei Niko,
-2565,Basic PR Pack vol.11,ギリわるロボ,Not-so-bad Robot,hBP07-094,P,1,0,1,680,Support,Tsunomaki Watame,
+2565,Basic PR Pack vol.11,ギリわるロボ,Not-so-bad Robot,hBP07-094,P,1,0,1,780,Support,Tsunomaki Watame,
 2566,Basic PR Pack vol.11,時の支配者 -Promise-,Ruler of Time -Promise-,hBP07-097,P,1,0,1,220,Support,Ouro Kronii,
-2567,Basic PR Pack vol.10,フロンティアスピリット,Frontier Spirit,hBP07-100,P,1,0,1,220,Support,AZKi,
+2567,Basic PR Pack vol.10,フロンティアスピリット,Frontier Spirit,hBP07-100,P,1,0,1,180,Support,AZKi,
 2568,Exstreamer Cup,鷹嶺ルイ,Takane Lui,hBP08-005,P,1,0,1,84800,Purple,Takane Lui,
 2569,Basic PR Pack vol.12,IRyS,IRyS,hBP08-008,P,1,0,1,220,White,IRyS,
 2570,Hololive Dreams PR Pack vol.2,IRyS,IRyS,hBP08-012,P,,0,1,,White,IRyS,
@@ -325,14 +325,14 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2576,Grand Stage,水宮枢,Mizumiya Su,hBP08-053,P,1,0,1,,Blue,Mizumiya Su,
 2577,Hololive Dreams PR Pack vol.2,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-057,P,,0,1,,Blue,Fuwawa Abyssgard,
 2578,V Jump (2026-08),フワモコ,FUWAMOCO,hBP08-060,P,1,0,1,220,"Blue,Red","Fuwawa Abyssgard, Mococo Abyssgard",
-2579,Basic PR Pack vol.12,鷹嶺ルイ,Takane Lui,hBP08-061,P,1,0,1,180,Purple,Takane Lui,
+2579,Basic PR Pack vol.12,鷹嶺ルイ,Takane Lui,hBP08-061,P,1,0,1,320,Purple,Takane Lui,
 2580,Hololive Dreams PR Pack vol.2,鷹嶺ルイ,Takane Lui,hBP08-063,P,,0,1,,Purple,Takane Lui,
-2581,Basic PR Pack vol.12,一伊那尓栖,Ninomae Ina'nis,hBP08-068,P,1,0,1,220,Purple,Ninomae Ina'nis,
+2581,Basic PR Pack vol.12,一伊那尓栖,Ninomae Ina'nis,hBP08-068,P,1,0,1,420,Purple,Ninomae Ina'nis,
 2582,Hololive Dreams PR Pack vol.2,一伊那尓栖,Ninomae Ina'nis,hBP08-070,P,,0,1,,Purple,Ninomae Ina'nis,
-2583,Basic PR Pack vol.12,音乃瀬奏,Otonose Kanade,hBP08-077,P,1,0,1,220,Yellow,Otonose Kanade,
+2583,Basic PR Pack vol.12,音乃瀬奏,Otonose Kanade,hBP08-077,P,1,0,1,180,Yellow,Otonose Kanade,
 2584,Hololive Dreams PR Pack vol.2,音乃瀬奏,Otonose Kanade,hBP08-079,P,,0,1,,Yellow,Otonose Kanade,
 2585,Hololive Dreams PR Pack vol.2,不知火フレア,Shiranui Flare,hBP08-085,P,,0,1,,Yellow,Shiranui Flare,
-2586,Basic PR Pack vol.12,思い出のドーナツショップ,Memorable Donut Shop,hBP08-092,P,1,0,1,320,Support,"Fuwawa Abyssgard, Mococo Abyssgard",
+2586,Basic PR Pack vol.12,思い出のドーナツショップ,Memorable Donut Shop,hBP08-092,P,1,0,1,420,Support,"Fuwawa Abyssgard, Mococo Abyssgard",
 2587,Basic PR Pack vol.12,パパは仕事を辞める,Dad is Quitting Work,hBP08-094,P,1,0,1,420,Support,,
 2588,Selection Cup,大空スバル,Oozora Subaru,hBP09-001,P,,0,1,,White,Oozora Subaru,
 2589,Selection Cup,白銀ノエル,Shirogane Noel,hBP09-003,P,,0,1,,Green,Shirogane Noel,
@@ -426,7 +426,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2677,Basic PR Pack vol.11,holoAN,holoAN,hSD14-010,P,1,0,1,680,Support,Izuki Michiru,
 2678,Basic PR Pack vol.13,儒烏風亭らでん,Juufuutei Raden,hSD15-004,P,,0,1,,,,
 2679,Basic PR Pack vol.13,さくらみこ,Sakura Miko,hSD16-004,P,,0,1,,,,
-2680,Basic PR Pack vol.12,星街すいせい,Hoshimachi Suisei,hSD17-004,P,1,0,1,220,Blue,Hoshimachi Suisei,
+2680,Basic PR Pack vol.12,星街すいせい,Hoshimachi Suisei,hSD17-004,P,1,0,1,180,Blue,Hoshimachi Suisei,
 2681,Super PR Pack vol.5,ステラ,Stellar,hSD17-010,P,,0,1,1280,,Hoshimachi Suisei,01
 2682,Basic PR Pack vol.12,森カリオペ,Mori Calliope,hSD18-004,P,1,0,1,180,Purple,Mori Calliope,
 2683,Basic PR Pack vol.12,大空スバル,Oozora Subaru,hSD19-004,P,1,0,1,180,Yellow,Oozora Subaru,

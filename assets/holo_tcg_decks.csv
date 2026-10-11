@@ -20,8 +20,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2726,hSD01,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,0,50,Support,
 2727,hSD01,ホロリスの輪,Circle of hololive Listeners,hSD01-020,C,0,0,0,80,Support,
 2728,hSD01,First Gravity,First Gravity,hSD01-021,C,0,0,0,80,Support,"Tokino Sora, AZKi"
-2729,hSD01,白エール,White Cheer,hY01-001,C,0,0,0,30,White,
-2730,hSD01,緑エール,Green Cheer,hY02-001,C,0,0,0,30,Green,
+2729,hSD01,白エール,White Cheer,hY01-001,C,0,0,0,50,White,
+2730,hSD01,緑エール,Green Cheer,hY02-001,C,0,0,0,50,Green,
 2731,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-001,OC,0,0,0,80,Red,Nakiri Ayame
 2732,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-002,C,0,0,0,120,Red,Nakiri Ayame
 2733,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-003,C,0,0,0,120,Red,Nakiri Ayame
@@ -81,7 +81,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2787,hSD04,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2788,hSD04,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2789,hSD04,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
-2790,hSD04,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+2790,hSD04,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
 2791,hSD05,轟はじめ,Todoroki Hajime,hSD05-001,OC,0,0,0,80,White,Todoroki Hajime
 2792,hSD05,轟はじめ,Todoroki Hajime,hSD05-002,C,0,0,0,80,White,Todoroki Hajime
 2793,hSD05,轟はじめ,Todoroki Hajime,hSD05-003,C,0,0,0,30,White,Todoroki Hajime
@@ -101,7 +101,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2807,hSD05,ReGLOSS,ReGLOSS,hPR-002,U,0,0,1,50,Support,"Juufuutei Raden, Hiodoshi Ao, Ichijou Ririka, Otonose Kanade, Todoroki Hajime"
 2808,hSD05,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2809,hSD05,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
-2810,hSD05,白エール,White Cheer,hY01-001,C,0,0,1,30,White,
+2810,hSD05,白エール,White Cheer,hY01-001,C,0,0,1,50,White,
 2811,hSD06,風真いろは,Kazama Iroha,hSD06-001,OC,0,0,0,120,Green,Kazama Iroha
 2812,hSD06,風真いろは,Kazama Iroha,hSD06-002,C,0,0,0,30,Green,Kazama Iroha
 2813,hSD06,風真いろは,Kazama Iroha,hSD06-003,U,0,0,0,80,Green,Kazama Iroha
@@ -121,14 +121,14 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2827,hSD06,秘密結社holoX,holoX,hBP02-080,U,0,0,1,50,Support,"Takane Lui, La+ Darknesss, Kazama Iroha, Hakui Koyori, Sakamata Chloe"
 2828,hSD06,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2829,hSD06,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
-2830,hSD06,緑エール,Green Cheer,hY02-001,C,0,0,1,30,Green,
+2830,hSD06,緑エール,Green Cheer,hY02-001,C,0,0,1,50,Green,
 2831,hSD07,不知火フレア,Shiranui Flare,hSD07-001,OC,0,0,0,80,Yellow,Shiranui Flare
 2832,hSD07,不知火フレア,Shiranui Flare,hSD07-002,C,0,0,0,80,Yellow,Shiranui Flare
 2833,hSD07,不知火フレア,Shiranui Flare,hSD07-003,C,0,0,0,80,Yellow,Shiranui Flare
 2834,hSD07,不知火フレア,Shiranui Flare,hSD07-004,U,0,0,0,80,Yellow,Shiranui Flare
 2835,hSD07,不知火フレア,Shiranui Flare,hSD07-005,C,0,0,0,30,Yellow,Shiranui Flare
 2836,hSD07,不知火フレア,Shiranui Flare,hSD07-006,C,0,0,0,80,Yellow,Shiranui Flare
-2837,hSD07,不知火フレア,Shiranui Flare,hSD07-007,U,0,0,0,120,Yellow,Shiranui Flare
+2837,hSD07,不知火フレア,Shiranui Flare,hSD07-007,U,0,0,0,80,Yellow,Shiranui Flare
 2838,hSD07,不知火フレア,Shiranui Flare,hSD07-008,R,1,0,0,80,Yellow,Shiranui Flare
 2839,hSD07,不知火フレア,Shiranui Flare,hSD07-009,RR,1,0,0,180,Yellow,Shiranui Flare
 2840,hSD07,白銀ノエル,Shirogane Noel,hSD07-010,U,0,0,0,50,White,Shirogane Noel
@@ -141,7 +141,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2847,hSD07,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2848,hSD07,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2849,hSD07,サブパソコン,Sub PC,hSD01-018,C,0,0,1,220,Support,
-2850,hSD07,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+2850,hSD07,黄エール,Yellow Cheer,hY06-001,C,0,0,1,50,Yellow,
 2851,hSD08,天音かなた,Amane Kanata,hSD08-001,OC,0,0,0,80,White,Amane Kanata
 2852,hSD08,天音かなた,Amane Kanata,hSD08-002,U,0,0,0,50,White,Amane Kanata
 2853,hSD08,天音かなた,Amane Kanata,hSD08-003,R,1,0,0,80,White,Amane Kanata
@@ -158,7 +158,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2864,hSD08,ホロライブ4期生,hololive Gen 4,hBP03-093,U,0,0,1,50,Support,"Amane Kanata, Tsunomaki Watame, Tokoyami Towa, Himemori Luna"
 2865,hSD08,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,220,Support,Harusaki Nodoka
 2866,hSD08,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
-2867,hSD08,白エール,White Cheer,hY01-001,C,0,0,1,30,White,
+2867,hSD08,白エール,White Cheer,hY01-001,C,0,0,1,50,White,
 2868,hSD09,宝鐘マリン,Houshou Marine,hSD09-001,OC,0,0,0,80,Red,Houshou Marine
 2869,hSD09,宝鐘マリン,Houshou Marine,hSD09-002,U,0,0,0,120,Red,Houshou Marine
 2870,hSD09,宝鐘マリン,Houshou Marine,hSD09-003,R,1,0,0,80,Red,Houshou Marine
@@ -193,8 +193,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2899,hSD10,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
 2900,hSD10,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2901,hSD10,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
-2902,hSD10,緑エール,Green Cheer,hY02-001,C,0,0,1,30,Green,
-2903,hSD10,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+2902,hSD10,緑エール,Green Cheer,hY02-001,C,0,0,1,50,Green,
+2903,hSD10,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
 2904,hSD11,虎金妃笑虎,Koganei Niko,hSD11-001,OSR,1,0,0,280,Yellow,Koganei Niko
 2905,hSD11,虎金妃笑虎,Koganei Niko,hSD11-002,C,0,0,0,120,Yellow,Koganei Niko
 2906,hSD11,虎金妃笑虎,Koganei Niko,hSD11-003,C,0,0,0,50,Yellow,Koganei Niko
@@ -213,7 +213,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2919,hSD11,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,1,50,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2920,hSD11,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,1,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
 2921,hSD11,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
-2922,hSD11,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+2922,hSD11,黄エール,Yellow Cheer,hY06-001,C,0,0,1,50,Yellow,
 2923,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-001,OSR,1,0,0,220,Blue,Shiori Novella
 2924,hSD12,古石ビジュー,Koseki Bijou,hSD12-002,OSR,1,0,0,220,Purple,Koseki Bijou
 2925,hSD12,シオリ・ノヴェラ,Shiori Novella,hSD12-003,C,0,0,0,120,Blue,Shiori Novella
@@ -239,7 +239,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2945,hSD12,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,320,Support,"Inugami Korone, Nekomata Okayu"
 2946,hSD12,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2947,hSD12,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
-2948,hSD12,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+2948,hSD12,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
 2949,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-001,OSR,1,0,0,220,Red,Elizabeth Rose Bloodflame
 2950,hSD13,ジジ・ムリン,Gigi Murin,hSD13-002,OSR,1,0,0,220,Yellow,Gigi Murin
 2951,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-003,C,0,0,0,180,Red,Elizabeth Rose Bloodflame
@@ -264,7 +264,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2970,hSD13,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2971,hSD13,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
 2972,hSD13,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
-2973,hSD13,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+2973,hSD13,黄エール,Yellow Cheer,hY06-001,C,0,0,1,50,Yellow,
 2974,hSD14,白上フブキ,Shirakami Fubuki,hSD14-001,OC,0,0,0,80,White,Shirakami Fubuki
 2975,hSD14,白上フブキ,Shirakami Fubuki,hSD14-002,C,0,0,0,30,White,Shirakami Fubuki
 2976,hSD14,白上フブキ,Shirakami Fubuki,hSD14-003,C,0,0,0,30,White,Shirakami Fubuki
@@ -281,7 +281,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2987,hSD14,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
 2988,hSD14,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2989,hSD14,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
-2990,hSD14,白エール,White Cheer,hY01-001,C,0,0,1,30,White,
+2990,hSD14,白エール,White Cheer,hY01-001,C,0,0,1,50,White,
 2991,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-001,OC,0,0,0,80,Green,Juufuutei Raden
 2992,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-002,C,0,0,0,30,Green,Juufuutei Raden
 2993,hSD15,儒烏風亭らでん,Juufuutei Raden,hSD15-003,C,0,0,0,30,Green,Juufuutei Raden
@@ -298,7 +298,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3004,hSD15,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 3005,hSD15,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
 3006,hSD15,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
-3007,hSD15,緑エール,Green Cheer,hY02-001,C,0,0,1,30,Green,
+3007,hSD15,緑エール,Green Cheer,hY02-001,C,0,0,1,50,Green,
 3008,hSD16,さくらみこ,Sakura Miko,hSD16-001,OC,0,0,0,80,Red,Sakura Miko
 3009,hSD16,さくらみこ,Sakura Miko,hSD16-002,C,0,0,0,30,Red,Sakura Miko
 3010,hSD16,さくらみこ,Sakura Miko,hSD16-003,C,0,0,0,30,Red,Sakura Miko
@@ -348,7 +348,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3054,hSD18,森カリオペの鎌,Mori Calliope's Scythe,hBP02-088,U,0,0,1,30,Support,Mori Calliope
 3055,hSD18,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 3056,hSD18,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
-3057,hSD18,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
+3057,hSD18,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
 3058,hSD19,大空スバル,Oozora Subaru,hSD19-001,OC,0,0,0,80,Yellow,Oozora Subaru
 3059,hSD19,大空スバル,Oozora Subaru,hSD19-002,C,0,0,0,30,Yellow,Oozora Subaru
 3060,hSD19,大空スバル,Oozora Subaru,hSD19-003,C,0,0,0,30,Yellow,Oozora Subaru
@@ -365,5 +365,5 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3071,hSD19,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 3072,hSD19,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
 3073,hSD19,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
-3074,hSD19,黄エール,Yellow Cheer,hY06-001,C,0,0,1,120,Yellow,
+3074,hSD19,黄エール,Yellow Cheer,hY06-001,C,0,0,1,50,Yellow,
 1051,hSD2025,青エール,Blue Cheer,hY04-007,S,1,0,0,5980,Blue,"Usada Pekora, Oozora Subaru, Mori Calliope, Kobo Kanaeru"

@@ -587,7 +587,7 @@ class _CardGridState extends State<_CardGrid> {
     final cols = _prefetchColumns;
     final colW = (screenW - hPad - _spacing * (cols - 1)) / cols;
     // Artwork height = colW × (7/5) because CardTile aspect ratio is 5/7.
-    final rowH = colW * (7.0 / 5.0) + CardTile.infoHeight(cols == 3, false, textScale: textScale) + _spacing;
+    final rowH = colW * (7.0 / 5.0) + CardTile.infoHeight(cols == 3, true, textScale: textScale) + _spacing;
     final offset = _scrollController.offset;
     final viewH = _scrollController.position.viewportDimension;
     final bottomRow = ((offset + viewH) / rowH).floor();
@@ -839,6 +839,7 @@ class _CardGridState extends State<_CardGrid> {
     return CardTile(
       card: card,
       gridSize: gridSize,
+      showPrice: true,
       showDupeDot: collection.duplicateCount(card.cardId) > 0,
       onTap: () async {
         final db = context.read<CatalogueDb>();

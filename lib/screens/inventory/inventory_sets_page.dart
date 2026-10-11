@@ -2,12 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../db/catalogue_db.dart';
+import '../../db/price_history.dart';
+import '../../db/price_updates.dart';
 import '../../models/card_model.dart';
 import '../../models/set_model.dart';
 import '../../providers/collection_provider.dart';
 import '../../theme/app_colours.dart';
+import '../../utils/holdings.dart';
 import '../../widgets/set_card.dart';
 import '../../widgets/settings_menu.dart';
+import '../../widgets/value_summary_panel.dart';
+import '../value_history/value_history_page.dart';
 import 'inventory_set_detail_page.dart';
 
 String _setArtworkUrl(String setCode) =>
@@ -24,20 +29,36 @@ class _InventorySetsPageState extends State<InventorySetsPage> {
   bool _isLoading = true;
   List<SetModel> _sets = [];
   Map<String, List<CardModel>> _cardsBySet = {};
+  List<CardModel> _allCards = [];
+  List<SetModel> _allSets = [];
+  PriceUpdates? _prices;
 
   @override
   void initState() {
     super.initState();
+    // Reload when newer prices arrive from R2 so the values stay current.
+    _prices = context.read<PriceUpdates>()..addListener(_reloadCards);
     // Defer to after the first frame — providers call notifyListeners()
     // synchronously and must not do so mid-build.
     WidgetsBinding.instance.addPostFrameCallback((_) => _load());
   }
 
-  Future<void> _load() async {
+  @override
+  void dispose() {
+    _prices?.removeListener(_reloadCards);
+    super.dispose();
+  }
+
+  void _reloadCards() {
+    if (!_isLoading) _load(reloadCollection: false);
+  }
+
+  Future<void> _load({bool reloadCollection = true}) async {
     final db = context.read<CatalogueDb>();
-    context.read<CollectionProvider>().loadAll();
+    if (reloadCollection) context.read<CollectionProvider>().loadAll();
 
     final sets = await db.getBoosterSets();
+    final allSets = await db.getSets();
     final allCards = await db.getAllCards();
 
     final grouped = <String, List<CardModel>>{};
@@ -49,6 +70,8 @@ class _InventorySetsPageState extends State<InventorySetsPage> {
     setState(() {
       _sets = sets;
       _cardsBySet = grouped;
+      _allCards = allCards;
+      _allSets = allSets;
       _isLoading = false;
     });
   }
@@ -61,7 +84,7 @@ class _InventorySetsPageState extends State<InventorySetsPage> {
         Expanded(
           child: _isLoading
               ? const Center(child: CircularProgressIndicator())
-              : _SetsList(sets: _sets, cardsBySet: _cardsBySet),
+              : _SetsList(sets: _sets, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets),
         ),
       ],
     );
@@ -181,19 +204,47 @@ class _ViewSelector extends StatelessWidget {
 class _SetsList extends StatelessWidget {
   final List<SetModel> sets;
   final Map<String, List<CardModel>> cardsBySet;
+  final List<CardModel> allCards; // boosters, decks and promos
+  final List<SetModel> allSets;
 
-  const _SetsList({required this.sets, required this.cardsBySet});
+  const _SetsList({
+    required this.sets,
+    required this.cardsBySet,
+    required this.allCards,
+    required this.allSets,
+  });
 
   @override
   Widget build(BuildContext context) {
     final collection = context.watch<CollectionProvider>();
+    final history = context.watch<PriceHistory>().data;
+    // Every card counted, across boosters, decks and promos — not only the
+    // booster sets listed below.
+    final holdings = holdingsFor(HoldingsKind.duplicates, allCards, collection);
 
     return ListView.separated(
       padding: const EdgeInsets.fromLTRB(12, 10, 12, 16),
-      itemCount: sets.length,
+      // Item 0 is the value summary panel, then one card per set.
+      itemCount: sets.length + 1,
       separatorBuilder: (_, _) => const SizedBox(height: 10),
       itemBuilder: (context, index) {
-        final set = sets[index];
+        if (index == 0) {
+          return ValueSummaryPanel(
+            label: 'Duplicates value',
+            currentValue: holdingsValue(holdings, allCards),
+            holdings: holdings,
+            onViewHistory: () => Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (_) => ValueHistoryPage(
+                  kind: HoldingsKind.duplicates,
+                  allCards: allCards,
+                  sets: allSets,
+                ),
+              ),
+            ),
+          );
+        }
+        final set = sets[index - 1];
         final isUpcoming = !set.isAvailable;
 
         if (isUpcoming) {
@@ -237,6 +288,7 @@ class _SetsList extends StatelessWidget {
           totalCount: cards.length,
           duplicateCount: duplicateCount,
           totalValue: totalValue,
+          valueTrend: _trend(history, holdingsFor(HoldingsKind.duplicates, cards, collection)),
           highestValueCardNumber: highestValueDupe?.cardNumber,
           highestValueCardRarity: highestValueDupe?.rarity,
           highestValueCardValue: highestValueDupe?.priceJpy,
@@ -247,4 +299,12 @@ class _SetsList extends StatelessWidget {
       },
     );
   }
+}
+
+/// Which way a set's duplicates value moved at the last price update
+/// (null = unknown or no duplicates).
+Trend? _trend(PriceHistoryData history, Map<String, int> holdings) {
+  if (holdings.isEmpty) return null;
+  final change = history.valueChange(holdings);
+  return change == null ? null : trendOf(change);
 }

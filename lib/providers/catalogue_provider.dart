@@ -39,6 +39,7 @@ class CatalogueProvider extends ChangeNotifier {
   // Filter sheet state — "owned" is applied by the catalogue grid itself
   // (it needs CollectionProvider, which this provider has no access to);
   // everything else is applied here in _applyFilters.
+  ValueSort _sort = ValueSort.cardNumber;
   OwnedFilter _ownedFilter = OwnedFilter.all;
   FoilFilter _foilFilter = FoilFilter.all;
   Set<String> _rarities = {};
@@ -53,6 +54,7 @@ class CatalogueProvider extends ChangeNotifier {
   String? get selectedSet => _selectedSet;
   bool get isLoading => _isLoading;
 
+  ValueSort get sort => _sort;
   OwnedFilter get ownedFilter => _ownedFilter;
   FoilFilter get foilFilter => _foilFilter;
   Set<String> get rarities => _rarities;
@@ -105,6 +107,7 @@ class CatalogueProvider extends ChangeNotifier {
   /// "owned" is stored here purely so the sheet can read it back when
   /// re-opened — the actual owned/unowned split happens in the grid.
   void applyFilters({
+    required ValueSort sort,
     required OwnedFilter owned,
     required FoilFilter foil,
     required Set<String> rarities,
@@ -112,6 +115,7 @@ class CatalogueProvider extends ChangeNotifier {
     double? minPrice,
     double? maxPrice,
   }) {
+    _sort = sort;
     _ownedFilter = owned;
     _foilFilter = foil;
     _rarities = rarities;
@@ -152,5 +156,6 @@ class CatalogueProvider extends ChangeNotifier {
 
       return true;
     }).toList();
+    _filtered = sortByValueWithinSets(_filtered, _sort);
   }
 }

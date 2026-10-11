@@ -43,3 +43,19 @@ String _commaSeparate(int n) {
   }
   return buf.toString();
 }
+
+/// Formats a price change with its sign: "+¥1,500", "−£2.40", "±¥0".
+String formatPriceChange(
+  double jpyChange,
+  String currencyCode,
+  Map<String, double> rates,
+) {
+  final amount = formatPrice(jpyChange.abs(), currencyCode, rates);
+  if (jpyChange.abs() < 1) return '±$amount';
+  return jpyChange > 0 ? '+$amount' : '−$amount';
+}
+
+const _months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+/// "11 Oct" — the short date used next to price changes and on charts.
+String formatShortDate(DateTime d) => '${d.day} ${_months[d.month - 1]}';

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../models/enums.dart';
 import '../theme/app_colours.dart';
 
 /// Shared building blocks for the Catalogue and Inventory filter sheets —
@@ -42,6 +43,27 @@ const List<ArchetypeDotOption> archetypeOptions = [
   ArchetypeDotOption('Yellow', lightDot: Color(0xFFE0C040), darkDot: Color(0xFF8A7020)),
   ArchetypeDotOption('Support'),
 ];
+
+/// The "Sort By" section shared by the Catalogue and Portfolio sheets.
+/// Cards stay grouped in their sets; the sort orders them within each set.
+FilterSection valueSortSection(ValueSort selected, ValueChanged<ValueSort> onSelect) {
+  const options = [
+    (ValueSort.cardNumber, 'Card Number'),
+    (ValueSort.valueHighToLow, 'Value: High to Low'),
+    (ValueSort.valueLowToHigh, 'Value: Low to High'),
+  ];
+  return FilterSection(
+    label: 'Sort By',
+    chips: [
+      for (final option in options)
+        FilterChipData(
+          label: option.$2,
+          active: selected == option.$1,
+          onTap: () => onSelect(option.$1),
+        ),
+    ],
+  );
+}
 
 /// One chip's appearance + behaviour. The `gold` variant is used for the
 /// rare/secret rarity tiers; `dot` renders an Archetype colour swatch.

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../db/price_history.dart';
 import '../../models/card_model.dart';
 import '../../providers/catalogue_provider.dart';
 import '../../providers/collection_provider.dart';
@@ -9,6 +10,7 @@ import '../../widgets/card_artwork_image.dart';
 import '../../widgets/frosted_panel.dart';
 import '../../widgets/app_background.dart';
 import '../../widgets/rarity_badge.dart';
+import '../../widgets/trend_triangle.dart';
 import '../../providers/preferences_provider.dart';
 import '../../utils/currency_utils.dart';
 import '../../widgets/settings_menu.dart';
@@ -661,6 +663,13 @@ class _InfoPanel extends StatelessWidget {
       ('Estimated value', card.priceJpy == null ? 'No price yet' : formatPrice(card.priceJpy, prefs.currencyCode, prefs.fxRates), AppColours.gold),
     ];
 
+    // How the price moved at the last weekly update, shown on the price row
+    // and as a "+¥1,500 since 4 Oct" line under it.
+    final priceRow = rows.length - 1;
+    final history = context.watch<PriceHistory>().data;
+    final change = history.changeFor(card.cardId);
+    final trend = change == null ? null : trendOf(change);
+
     return Padding(
       padding: const EdgeInsets.fromLTRB(28, 0, 28, 12),
       child: FrostedPanel(
@@ -692,18 +701,46 @@ class _InfoPanel extends StatelessWidget {
                     Expanded(
                       child: Padding(
                         padding: const EdgeInsets.only(left: 24),
-                        child: Text(
-                          rows[i].$2,
-                          textAlign: TextAlign.right,
-                          style: TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w400,
-                            color: rows[i].$3,
-                          ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            // Price row: triangle for last week's price move.
+                            if (i == priceRow && trend != null) ...[
+                              TrendTriangle(trend: trend, size: 8),
+                              const SizedBox(width: 6),
+                            ],
+                            Flexible(
+                              child: Text(
+                                rows[i].$2,
+                                textAlign: TextAlign.right,
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w400,
+                                  color: rows[i].$3,
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ),
                   ],
+                ),
+              ),
+            if (change != null && trend != null)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 4),
+                child: Text(
+                  trend == Trend.flat
+                      ? 'No change since ${formatShortDate(history.previousDate!)}'
+                      : '${formatPriceChange(change, prefs.currencyCode, prefs.fxRates)} '
+                          'since ${formatShortDate(history.previousDate!)}',
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    fontSize: 10.5,
+                    fontWeight: FontWeight.w600,
+                    color: TrendTriangle.colourFor(context, trend),
+                  ),
                 ),
               ),
             if (card.priceJpy != null && !prefs.fxRates.containsKey(prefs.currencyCode))

@@ -5,8 +5,8 @@ import '../../models/enums.dart';
 import '../../providers/catalogue_provider.dart';
 import '../../widgets/filter_sheet_widgets.dart';
 
-/// Bottom sheet for the Catalogue grid — Owned, Foil, Rarity, Archetype and
-/// Estimated Value filters. Holds its own draft selections (seeded from the
+/// Bottom sheet for the Catalogue grid — Sort By, plus Owned, Foil, Rarity,
+/// Archetype and Estimated Value filters. Holds its own draft selections (seeded from the
 /// current CatalogueProvider state) and only commits them on "Apply Filters",
 /// so dismissing the sheet without applying leaves the grid untouched.
 class CatalogueFilterSheet extends StatefulWidget {
@@ -17,6 +17,7 @@ class CatalogueFilterSheet extends StatefulWidget {
 }
 
 class _CatalogueFilterSheetState extends State<CatalogueFilterSheet> {
+  late ValueSort _sort;
   late OwnedFilter _owned;
   late FoilFilter _foil;
   late Set<String> _rarities;
@@ -52,6 +53,7 @@ class _CatalogueFilterSheetState extends State<CatalogueFilterSheet> {
   void initState() {
     super.initState();
     final catalogue = context.read<CatalogueProvider>();
+    _sort = catalogue.sort;
     _owned = catalogue.ownedFilter;
     _foil = catalogue.foilFilter;
     _rarities = Set.of(catalogue.rarities);
@@ -66,6 +68,7 @@ class _CatalogueFilterSheetState extends State<CatalogueFilterSheet> {
 
   void _resetAll() {
     setState(() {
+      _sort = ValueSort.cardNumber;
       _owned = OwnedFilter.all;
       _foil = FoilFilter.all;
       _rarities = {};
@@ -92,6 +95,7 @@ class _CatalogueFilterSheetState extends State<CatalogueFilterSheet> {
 
   void _apply() {
     context.read<CatalogueProvider>().applyFilters(
+          sort: _sort,
           owned: _owned,
           foil: _foil,
           rarities: _rarities,
@@ -105,11 +109,12 @@ class _CatalogueFilterSheetState extends State<CatalogueFilterSheet> {
   @override
   Widget build(BuildContext context) {
     return FilterSheetScaffold(
-      title: 'Filters',
+      title: 'Sort & Filter',
       onResetAll: _resetAll,
-      applyLabel: 'Apply Filters',
+      applyLabel: 'Apply',
       onApply: _apply,
       sections: [
+        valueSortSection(_sort, (s) => setState(() => _sort = s)),
         FilterSection(
           label: 'Owned',
           chips: [

@@ -32,6 +32,14 @@ class AppColours {
   static const Color darkDupePink       = Color(0xFFB07090);
   static const Color darkHighestValueLabel = Color(0xFFA09880);
 
+  // --- Price trend triangles (soft pastels, not solid red/green) ---
+  static const Color lightTrendUp       = Color(0xFF9ED9B2); // mint
+  static const Color lightTrendDown     = Color(0xFFEFA3A3); // rose
+  static const Color lightTrendFlat     = Color(0xFFEDE8F7); // lavender-white
+  static const Color darkTrendUp        = Color(0xFF8CC7A0);
+  static const Color darkTrendDown      = Color(0xFFD99595);
+  static const Color darkTrendFlat      = Color(0xFFD4CEB8);
+
   // --- Shared ---
   static const Color gold               = Color(0xFFC9A84C);
 }

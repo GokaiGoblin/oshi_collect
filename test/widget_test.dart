@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:holo_tcg_tracker/db/catalogue_db.dart';
+import 'package:holo_tcg_tracker/db/price_history.dart';
 import 'package:holo_tcg_tracker/db/price_updates.dart';
 import 'package:holo_tcg_tracker/db/user_db.dart';
 import 'package:holo_tcg_tracker/main.dart';
@@ -13,6 +14,7 @@ void main() {
     final prices = PriceUpdates();
     await tester.pumpWidget(HoloTcgApp(
       prices: prices,
+      history: PriceHistory(),
       catalogueDb: CatalogueDb(prices),
       userDb: UserDb(),
     ));

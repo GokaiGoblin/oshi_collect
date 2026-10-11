@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:provider/provider.dart';
+import '../db/price_history.dart';
 import '../providers/preferences_provider.dart';
 import '../theme/app_colours.dart';
 import '../utils/currency_utils.dart';
 import 'frosted_panel.dart';
 import 'gradient_placeholder.dart';
+import 'trend_triangle.dart';
 
 // Which screen is hosting the card — controls the info panel layout and
 // whether the progress bar is shown over the artwork.
@@ -35,6 +37,10 @@ class SetCard extends StatelessWidget {
   final String? highestValueCardRarity;
   final double? highestValueCardValue;
 
+  // Which way the value shown (est. value / total value) moved at the last
+  // weekly price update. Null = not known yet, no triangle.
+  final Trend? valueTrend;
+
   final bool isComingSoon;
   final VoidCallback? onTap;
 
@@ -52,6 +58,7 @@ class SetCard extends StatelessWidget {
     this.highestValueCardNumber,
     this.highestValueCardRarity,
     this.highestValueCardValue,
+    this.valueTrend,
     this.isComingSoon = false,
     this.onTap,
   });
@@ -98,6 +105,7 @@ class SetCard extends StatelessWidget {
                   highestValueCardNumber: highestValueCardNumber,
                   highestValueCardRarity: highestValueCardRarity,
                   highestValueCardValue: highestValueCardValue,
+                  valueTrend: valueTrend,
                 ),
               ],
             ),
@@ -287,6 +295,7 @@ class _InfoPanel extends StatelessWidget {
   final String? highestValueCardNumber;
   final String? highestValueCardRarity;
   final double? highestValueCardValue;
+  final Trend? valueTrend;
 
   const _InfoPanel({
     required this.mode,
@@ -300,7 +309,29 @@ class _InfoPanel extends StatelessWidget {
     this.highestValueCardNumber,
     this.highestValueCardRarity,
     this.highestValueCardValue,
+    this.valueTrend,
   });
+
+  // The gold value text, with the trend triangle in front when known.
+  Widget _valueWithTrend(String text) {
+    final value = Text(
+      text,
+      style: const TextStyle(
+        fontSize: 13,
+        fontWeight: FontWeight.w600,
+        color: AppColours.gold,
+      ),
+    );
+    if (valueTrend == null) return value;
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        TrendTriangle(trend: valueTrend!, size: 8),
+        const SizedBox(width: 5),
+        value,
+      ],
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -351,14 +382,7 @@ class _InfoPanel extends StatelessWidget {
                           '$ownedCount/$totalCount',
                           style: TextStyle(fontSize: 12, color: infoSecondary),
                         ),
-                        Text(
-                          fmt(estimatedValue),
-                          style: const TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w600,
-                            color: AppColours.gold,
-                          ),
-                        ),
+                        _valueWithTrend(fmt(estimatedValue)),
                       ]
                     : [
                         Text(
@@ -369,14 +393,7 @@ class _InfoPanel extends StatelessWidget {
                             color: dupePink,
                           ),
                         ),
-                        Text(
-                          fmt(totalValue),
-                          style: const TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w600,
-                            color: AppColours.gold,
-                          ),
-                        ),
+                        _valueWithTrend(fmt(totalValue)),
                       ],
               ),
             ],

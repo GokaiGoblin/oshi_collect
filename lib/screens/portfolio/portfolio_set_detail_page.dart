@@ -11,10 +11,13 @@ import '../../models/set_model.dart';
 import '../../providers/collection_provider.dart';
 import '../../providers/preferences_provider.dart';
 import '../../theme/app_colours.dart';
+import '../../utils/search_utils.dart';
 import '../../widgets/card_tile.dart';
 import '../../widgets/app_background.dart';
+import '../../widgets/search_filter_bar.dart';
 import '../../widgets/settings_menu.dart';
 import '../card_profile/card_profile_page.dart';
+import 'portfolio_filter_sheet.dart';
 
 enum _OwnershipFilter { all, owned, unowned }
 
@@ -30,6 +33,8 @@ class PortfolioSetDetailPage extends StatefulWidget {
 class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
   late String _setCode;
   _OwnershipFilter _filter = _OwnershipFilter.all;
+  String _searchQuery = '';
+  PortfolioFilterState _filterState = const PortfolioFilterState();
   bool _isLoading = true;
   List<SetModel> _sets = [];
   List<CardModel> _cards = [];
@@ -63,6 +68,19 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
       _cards = cards;
       _isLoading = false;
     });
+  }
+
+  void _openFilterSheet() {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      barrierColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (_) => PortfolioFilterSheet(
+        current: _filterState,
+        onApply: (state) => setState(() => _filterState = state),
+      ),
+    );
   }
 
   Future<void> _selectSet(String code) async {
@@ -102,9 +120,31 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
               onChanged: (f) => setState(() => _filter = f),
             ),
             Expanded(
-              child: _isLoading
-                  ? const Center(child: CircularProgressIndicator())
-                  : _CardGrid(cards: _cards, filter: _filter, scrollController: _scrollController),
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    child: _isLoading
+                        ? const Center(child: CircularProgressIndicator())
+                        : _CardGrid(
+                            cards: _cards,
+                            filter: _filter,
+                            searchQuery: _searchQuery,
+                            filterState: _filterState,
+                            scrollController: _scrollController,
+                          ),
+                  ),
+                  Positioned(
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    child: SearchFilterBar(
+                      query: _searchQuery,
+                      onChanged: (q) => setState(() => _searchQuery = q),
+                      onOpenFilters: _openFilterSheet,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
@@ -347,9 +387,17 @@ class _SegmentButton extends StatelessWidget {
 class _CardGrid extends StatelessWidget {
   final List<CardModel> cards;
   final _OwnershipFilter filter;
+  final String searchQuery;
+  final PortfolioFilterState filterState;
   final ScrollController? scrollController;
 
-  const _CardGrid({required this.cards, required this.filter, this.scrollController});
+  const _CardGrid({
+    required this.cards,
+    required this.filter,
+    required this.searchQuery,
+    required this.filterState,
+    this.scrollController,
+  });
 
   static const double _spacing = 10;
 
@@ -359,17 +407,29 @@ class _CardGrid extends StatelessWidget {
     final columns = context.watch<PreferencesProvider>().cardViewColumns;
     final gridSize = columns == 3 ? GridSize.three : GridSize.two;
 
-    final filtered = cards.where((card) {
+    final query = normalizeCardNumberQuery(searchQuery.trim().toLowerCase());
+
+    final matching = cards.where((card) {
       final owned = collection.isOwned(card.cardId);
-      switch (filter) {
-        case _OwnershipFilter.all:
-          return true;
-        case _OwnershipFilter.owned:
-          return owned;
-        case _OwnershipFilter.unowned:
-          return !owned;
+      if (filter == _OwnershipFilter.owned && !owned) return false;
+      if (filter == _OwnershipFilter.unowned && owned) return false;
+
+      if (query.isNotEmpty && !card.matchesSearch(query)) return false;
+
+      if (filterState.foil == FoilFilter.foilOnly && !card.isFoil) return false;
+      if (filterState.foil == FoilFilter.nonFoilOnly && card.isFoil) return false;
+
+      if (filterState.rarities.isNotEmpty && !filterState.rarities.contains(card.rarity)) return false;
+
+      if (filterState.archetypes.isNotEmpty) {
+        // archetype is stored as a comma-separated string (e.g. "Blue,Red") —
+        // match if any of the card's archetypes are in the selected set
+        final cardArchetypes = (card.archetype ?? '').split(',').map((a) => a.trim());
+        if (!cardArchetypes.any(filterState.archetypes.contains)) return false;
       }
+      return true;
     }).toList();
+    final filtered = sortByValueWithinSets(matching, filterState.sort);
 
     if (filtered.isEmpty) {
       final isDark = Theme.of(context).brightness == Brightness.dark;
@@ -381,7 +441,8 @@ class _CardGrid extends StatelessWidget {
 
     return ListView.builder(
       controller: scrollController,
-      padding: const EdgeInsets.fromLTRB(14, 4, 14, 16),
+      // Top padding leaves room for the search bar floating over the grid.
+      padding: const EdgeInsets.fromLTRB(14, 74, 14, 16),
       itemCount: rowCount,
       itemBuilder: (context, rowIndex) {
         final start = rowIndex * columns;
@@ -416,6 +477,7 @@ class _CardGrid extends StatelessWidget {
     return CardTile(
       card: card,
       gridSize: gridSize,
+      showPrice: true,
       isUnowned: !collection.isOwned(card.cardId),
       showDupeDot: collection.duplicateCount(card.cardId) > 0,
       onTap: () {

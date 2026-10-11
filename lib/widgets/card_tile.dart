@@ -9,6 +9,7 @@ import 'card_artwork_image.dart';
 import 'dupe_dot.dart';
 import 'frosted_panel.dart';
 import 'gradient_placeholder.dart';
+import 'trend_triangle.dart';
 
 class CardTile extends StatelessWidget {
   // Standard trading-card ratio (~63×88mm). Artwork is fixed to this ratio
@@ -45,6 +46,7 @@ class CardTile extends StatelessWidget {
   final bool showDupeDot;   // small 8×8 owned indicator (Catalogue / Portfolio)
   final int? dupeQuantity;  // count badge on artwork (Inventory only)
   final double? totalValue; // "Total Value" row — duplicates × price (Inventory only)
+  final bool showPrice;     // card's price row, no label (Catalogue / Portfolio)
   final bool isUnowned;     // greyed overlay with UNOWNED pill (Portfolio)
   final VoidCallback? onTap;
 
@@ -55,6 +57,7 @@ class CardTile extends StatelessWidget {
     this.showDupeDot = false,
     this.dupeQuantity,
     this.totalValue,
+    this.showPrice = false,
     this.isUnowned = false,
     this.onTap,
   });
@@ -83,7 +86,8 @@ class CardTile extends StatelessWidget {
     final prefs = context.watch<PreferencesProvider>();
 
     final textScale = MediaQuery.textScalerOf(context).scale(1.0);
-    final panelHeight = infoHeight(isThree, totalValue != null, textScale: textScale);
+    final hasValueRow = totalValue != null || showPrice;
+    final panelHeight = infoHeight(isThree, hasValueRow, textScale: textScale);
 
     return Semantics(
       label: _semanticLabel(),
@@ -139,23 +143,38 @@ class CardTile extends StatelessWidget {
                                     ),
                                   ],
                                 ),
-                                if (totalValue != null) ...[
+                                if (hasValueRow) ...[
                                   const SizedBox(height: 2),
                                   Row(
                                     children: [
-                                      Text(
-                                        'Total Value',
-                                        style: TextStyle(
-                                          fontSize: 8.0,
-                                          fontWeight: FontWeight.w500,
-                                          color: totalValueLabel,  // navWhite light / muted dark
-                                        ),
+                                      // Expanded (not Spacer) so on a narrow
+                                      // tile the label gives way to the price.
+                                      Expanded(
+                                        child: totalValue == null
+                                            ? const SizedBox.shrink()
+                                            : Text(
+                                                'Total Value',
+                                                maxLines: 1,
+                                                overflow: TextOverflow.ellipsis,
+                                                style: TextStyle(
+                                                  fontSize: 8.0,
+                                                  fontWeight: FontWeight.w500,
+                                                  color: totalValueLabel,  // navWhite light / muted dark
+                                                ),
+                                              ),
                                       ),
-                                      const Spacer(),
+                                      // Which way this card's price moved at
+                                      // the last weekly update (if known).
+                                      CardTrendTriangle(cardId: card.cardId, size: 6),
+                                      const SizedBox(width: 3),
                                       Text(
                                         // Unpriced cards show a dash rather than ¥0
-                                        formatPrice(card.priceJpy == null ? null : totalValue,
-                                            prefs.currencyCode, prefs.fxRates),
+                                        formatPrice(
+                                            card.priceJpy == null
+                                                ? null
+                                                : (totalValue ?? card.priceJpy),
+                                            prefs.currencyCode,
+                                            prefs.fxRates),
                                         style: const TextStyle(
                                           fontSize: 9.0,
                                           fontWeight: FontWeight.w500,

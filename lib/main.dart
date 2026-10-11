@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'db/catalogue_db.dart';
+import 'db/price_history.dart';
 import 'db/price_updates.dart';
 import 'db/user_db.dart';
 import 'providers/catalogue_provider.dart';
@@ -19,21 +20,26 @@ void main() {
   // Created once here (not in build) so a rebuild can't start a second
   // database or price download.
   final prices = PriceUpdates();
+  final history = PriceHistory();
   final catalogueDb = CatalogueDb(prices);
   final userDb = UserDb();
   // Check R2 for newer prices in the background — the app never waits on it.
+  // Same for the week-by-week history behind the value chart and triangles.
   prices.refresh();
-  runApp(HoloTcgApp(prices: prices, catalogueDb: catalogueDb, userDb: userDb));
+  history.refresh();
+  runApp(HoloTcgApp(prices: prices, history: history, catalogueDb: catalogueDb, userDb: userDb));
 }
 
 class HoloTcgApp extends StatelessWidget {
   final PriceUpdates prices;
+  final PriceHistory history;
   final CatalogueDb catalogueDb;
   final UserDb userDb;
 
   const HoloTcgApp({
     super.key,
     required this.prices,
+    required this.history,
     required this.catalogueDb,
     required this.userDb,
   });
@@ -44,6 +50,7 @@ class HoloTcgApp extends StatelessWidget {
       providers: [
         Provider<CatalogueDb>.value(value: catalogueDb),
         ChangeNotifierProvider<PriceUpdates>.value(value: prices),
+        ChangeNotifierProvider<PriceHistory>.value(value: history),
         ChangeNotifierProvider(create: (_) => PreferencesProvider()),
         ChangeNotifierProvider(create: (_) => CatalogueProvider(catalogueDb)),
         ChangeNotifierProvider(create: (_) => CollectionProvider(userDb)),

@@ -14,3 +14,7 @@ enum OwnedFilter { all, owned, notOwned }
 enum FoilFilter { all, foilOnly, nonFoilOnly }
 
 enum InventorySort { cardNumber, mostDuplicates, highestTotalValue, highestSingleValue }
+
+/// Card order for Catalogue and Portfolio set detail. Cards always stay
+/// grouped in their sets; this orders them within each set.
+enum ValueSort { cardNumber, valueHighToLow, valueLowToHigh }

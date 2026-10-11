@@ -31,8 +31,8 @@ main() {
   }
 
   git pull -q --ff-only origin main || fail 'could not update from GitHub'
-  python3 tool/scrape_prices.py --write || fail 'scrape stopped (blocked, or safety checks failed - see scrape_report.txt)'
-  python3 tool/export_prices.py || fail 'export refused the prices'
+  python3 -u tool/scrape_prices.py --write || fail 'scrape stopped (blocked, or safety checks failed - see scrape_report.txt)'
+  python3 -u tool/export_prices.py || fail 'export refused the prices'
 
   git add assets/holo_tcg_cards.csv assets/holo_tcg_decks.csv assets/holo_tcg_promos.csv data/price_history.csv
   if git diff --cached --quiet; then

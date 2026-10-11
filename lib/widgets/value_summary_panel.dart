@@ -27,6 +27,11 @@ class ValueSummaryPanel extends StatelessWidget {
 
   static const _chartPoints = 12;
 
+  // Kept compact so the set list starts higher up the screen.
+  static const _padding = EdgeInsets.fromLTRB(14, 10, 14, 10);
+  static const _gap = 6.0;
+  static const _chartHeight = 40.0;
+
   const ValueSummaryPanel({
     super.key,
     required this.label,
@@ -51,7 +56,7 @@ class ValueSummaryPanel extends StatelessWidget {
     return FrostedPanel(
       backgroundColor: panelColour,
       borderRadius: BorderRadius.circular(12),
-      padding: const EdgeInsets.fromLTRB(14, 14, 14, 12),
+      padding: _padding,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisSize: MainAxisSize.min,
@@ -64,7 +69,6 @@ class ValueSummaryPanel extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(label, style: TextStyle(fontSize: 11, color: text)),
-                    const SizedBox(height: 2),
                     Text(
                       formatPrice(currentValue, prefs.currencyCode, prefs.fxRates),
                       style: const TextStyle(
@@ -88,18 +92,18 @@ class ValueSummaryPanel extends StatelessWidget {
                 ),
             ],
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: _gap),
           if (history.hasTrend)
             Semantics(
               label: 'Chart of value over the last ${recent.length} price updates',
-              child: ValueChart(values: [for (final p in recent) p.value], height: 56),
+              child: ValueChart(values: [for (final p in recent) p.value], height: _chartHeight),
             )
           else
             Text(
               'Your value history builds up with each weekly price update.',
               style: TextStyle(fontSize: 11, color: text.withValues(alpha: 0.8)),
             ),
-          const SizedBox(height: 10),
+          const SizedBox(height: _gap),
           Row(
             children: [
               Expanded(
@@ -189,8 +193,8 @@ class ViewHistoryButton extends StatelessWidget {
         onTap: onTap,
         customBorder: const StadiumBorder(),
         child: ConstrainedBox(
-          // 44px tall touch target; the pill itself looks slimmer.
-          constraints: const BoxConstraints(minHeight: 36, minWidth: 44),
+          // Slim pill (32 px) to keep the summary panel compact.
+          constraints: const BoxConstraints(minHeight: 32, minWidth: 44),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 14),
             child: Center(

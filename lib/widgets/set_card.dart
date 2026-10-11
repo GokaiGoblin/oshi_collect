@@ -355,7 +355,6 @@ class _InfoPanel extends StatelessWidget {
     final infoText = isDark ? AppColours.darkPrimaryText : AppColours.lightNavWhite;
     final infoMuted = isDark ? AppColours.darkMutedText : AppColours.lightNavWhite;
     final infoSecondary = isDark ? AppColours.darkSecondaryText : AppColours.lightNavWhite;
-    final dupePink = isDark ? AppColours.darkDupePink : AppColours.lightDupePink;
     final highestValueLabel =
         isDark ? AppColours.darkHighestValueLabel : AppColours.lightNavWhite;
     final prefs = context.watch<PreferencesProvider>();
@@ -391,11 +390,13 @@ class _InfoPanel extends StatelessWidget {
               else
                 Text(
                   '${duplicateCount ?? 0}',
-                  style: TextStyle(
+                  // Sky blue like the Highest Value card details (pink was
+                  // hard to read on the panel).
+                  style: const TextStyle(
                     fontSize: _topSize,
                     height: _lineHeight,
                     fontWeight: FontWeight.w700,
-                    color: dupePink,
+                    color: AppColours.lightSkyBlue,
                   ),
                 ),
             ],

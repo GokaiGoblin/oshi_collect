@@ -8,9 +8,9 @@ Run from the project root:
 
 Then, as before:  python3 tool/export_prices.py  and upload prices.csv to R2.
 
-STATUS (2026-10-09): first version, not yet run end-to-end. Run it by hand
-for a week or two and compare against the manual price update before it is
-trusted to run on a schedule (GitHub Actions is the plan).
+STATUS (2026-10-11): runs weekly on GitHub Actions, Sundays 18:30 UTC
+(.github/workflows/weekly-prices.yml), which also exports, uploads to R2 and
+commits. Can still be run by hand as below.
 
 How it works
 ------------

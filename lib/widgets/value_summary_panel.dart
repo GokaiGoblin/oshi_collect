@@ -172,23 +172,20 @@ String formatPercentChange(double change, double before) {
   return '${pct > 0 ? '+' : '−'}${pct.abs().toStringAsFixed(1)}%';
 }
 
-/// The pill button that opens the Value History page — sky blue in light
-/// theme, dark gold in dark theme (the app's standard button colours).
+/// The pill button that opens the Value History page — sky blue in both
+/// themes (gold is kept for money; this button isn't a price).
 class ViewHistoryButton extends StatelessWidget {
   final VoidCallback onTap;
   const ViewHistoryButton({super.key, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final bg = isDark ? AppColours.darkGoldButton : AppColours.lightSkyBlue;
-    final fg = isDark ? AppColours.gold : AppColours.lightButtonText;
+    const bg = AppColours.lightSkyBlue;
+    const fg = AppColours.lightButtonText;
 
     return Material(
       color: bg,
-      shape: StadiumBorder(
-        side: isDark ? const BorderSide(color: AppColours.darkButtonBorder) : BorderSide.none,
-      ),
+      shape: const StadiumBorder(),
       child: InkWell(
         onTap: onTap,
         customBorder: const StadiumBorder(),

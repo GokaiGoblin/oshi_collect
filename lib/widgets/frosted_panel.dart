@@ -8,10 +8,10 @@ const _lightTextShadows = [
 ];
 
 class FrostedPanel extends StatelessWidget {
-  /// How strongly panels blur the background behind them. Kept light (was 6)
+  /// How strongly panels blur the background behind them. Kept light (was 6, then 2)
   /// so the triangle background shows through. Also used by the Portfolio
   /// All / Owned / Unowned control.
-  static const double blurSigma = 2;
+  static const double blurSigma = 1;
 
   final Widget child;
   final EdgeInsetsGeometry? padding;

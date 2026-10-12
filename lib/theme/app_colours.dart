@@ -10,7 +10,7 @@ class AppColours {
   static const Color lightNavWhite      = Color(0xFFF5F2FB); // panel text on dark frosted bg
   static const Color lightUnselectedNav = Color(0xFFCCC4EC); // was A89CC8; new ratio ~4.6:1 vs nav bar
   static const Color lightFrostedPanel  = Color(0x33000000); // rgba(0,0,0,0.20)
-  static const Color lightCardPanel     = Color(0x39000000); // rgba(0,0,0,0.225) — was 0.35; text gets a soft shadow (FrostedPanel)
+  static const Color lightCardPanel     = Color(0x46000000); // rgba(0,0,0,0.275) — was 0.225; text gets a soft shadow (FrostedPanel)
   static const Color lightSkyBlue       = Color(0xFFB8D4EC);
   static const Color lightButtonText    = Color(0xFF1A5C8A);
   static const Color lightFrameBorder   = Color(0xFFC4B8E8);

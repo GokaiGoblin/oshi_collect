@@ -37,6 +37,13 @@ UNRELEASED_PROMO_EVENTS = {
     '2nd Anniversary Celebration Set',  # official pre-order only (Oct 2026)
 }
 
+# Promo events that have an official set code of their own (from the official
+# card list URL, e.g. cardsearch/?expansion=hCO01). Every other event gets a
+# code made from its name ("PR-basic-pr-pack-vol-6").
+PROMO_EVENT_CODES = {
+    'Hololive Collection: 2025 Live Set': 'hCO01',  # オフィシャルホロカコレクション-2025ライブセット-
+}
+
 # Starter decks: code -> (EN name, JP name, release date, available).
 # EN names are "Starter: <member>" or "Live: <member>" (Live Start Decks).
 # The R2 image folder is the code + the name WITHOUT that prefix and spaces:
@@ -113,6 +120,8 @@ def price(v):
 
 
 def slug(text):
+    if text in PROMO_EVENT_CODES:
+        return PROMO_EVENT_CODES[text]
     return 'PR-' + re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
 
 

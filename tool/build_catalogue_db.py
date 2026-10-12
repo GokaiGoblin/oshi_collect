@@ -42,6 +42,7 @@ UNRELEASED_PROMO_EVENTS = {
 # code made from its name ("PR-basic-pr-pack-vol-6").
 PROMO_EVENT_CODES = {
     'Hololive Collection: 2025 Live Set': 'hCO01',  # オフィシャルホロカコレクション-2025ライブセット-
+    'Exstreamer Cup 25-26 Final Collection A': 'hCO02',  # エクストリーマーカップ25-26 Final オフィシャルホロカコレクションA
 }
 
 # Starter decks: code -> (EN name, JP name, release date, available).

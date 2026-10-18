@@ -1,12 +1,12 @@
 card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint,price_jpy,archetype,members
 1,hBP01,天音かなた,Amane Kanata,hBP01-001,OSR,1,0,0,680,White,Amane Kanata
-2,hBP01,天音かなた,Amane Kanata,hBP01-001,OUR,1,0,0,19800,White,Amane Kanata
+2,hBP01,天音かなた,Amane Kanata,hBP01-001,OUR,1,0,0,17800,White,Amane Kanata
 3,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-002,OSR,1,0,0,280,White,Nanashi Mumei
 4,hBP01,七詩ムメイ,Nanashi Mumei,hBP01-002,OUR,1,0,0,19800,White,Nanashi Mumei
 5,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-003,OSR,1,0,0,180,Green,Aki Rosenthal
 6,hBP01,アキ・ローゼンタール,Aki Rosenthal,hBP01-003,OUR,1,0,0,5980,Green,Aki Rosenthal
 7,hBP01,兎田ぺこら,Usada Pekora,hBP01-004,OSR,1,0,0,500,Green,Usada Pekora
-8,hBP01,兎田ぺこら,Usada Pekora,hBP01-004,OUR,1,0,0,29800,Green,Usada Pekora
+8,hBP01,兎田ぺこら,Usada Pekora,hBP01-004,OUR,1,0,0,24800,Green,Usada Pekora
 9,hBP01,鷹嶺ルイ,Takane Lui,hBP01-005,OSR,1,0,0,280,Red,Takane Lui
 10,hBP01,鷹嶺ルイ,Takane Lui,hBP01-005,OUR,1,0,0,6980,Red,Takane Lui
 11,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-006,OSR,1,0,0,280,Red,Takanashi Kiara
@@ -14,7 +14,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 13,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-006,SEC,1,1,0,19800,Red,Takanashi Kiara
 14,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-007,OSR,1,0,0,1780,Blue,Hoshimachi Suisei
 15,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-007,OUR,1,0,0,24800,Blue,Hoshimachi Suisei
-16,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-007,SEC,1,1,0,108000,Blue,Hoshimachi Suisei
+16,hBP01,星街すいせい,Hoshimachi Suisei,hBP01-007,SEC,1,1,0,99800,Blue,Hoshimachi Suisei
 17,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-008,OSR,1,0,0,280,Blue,Kobo Kanaeru
 18,hBP01,こぼ・かなえる,Kobo Kanaeru,hBP01-008,OUR,1,0,0,14800,Blue,Kobo Kanaeru
 19,hBP01,天音かなた,Amane Kanata,hBP01-009,C,0,0,0,80,White,Amane Kanata
@@ -57,7 +57,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 56,hBP01,兎田ぺこら,Usada Pekora,hBP01-043,RR,1,0,0,120,Green,Usada Pekora
 57,hBP01,兎田ぺこら,Usada Pekora,hBP01-043,UR,1,0,0,580,Green,Usada Pekora
 58,hBP01,AZKi,AZKi,hBP01-044,C,0,0,0,180,Green,AZKi
-59,hBP01,AZKi,AZKi,hBP01-045,U,0,0,0,220,Green,AZKi
+59,hBP01,AZKi,AZKi,hBP01-045,U,0,0,0,120,Green,AZKi
 60,hBP01,AZKi,AZKi,hBP01-046,C,0,0,0,180,Green,AZKi
 61,hBP01,AZKi,AZKi,hBP01-047,RR,1,0,0,180,Green,AZKi
 62,hBP01,AZKi,AZKi,hBP01-047,UR,1,0,0,580,Green,AZKi
@@ -74,7 +74,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 73,hBP01,鷹嶺ルイ,Takane Lui,hBP01-057,U,0,0,0,80,Red,Takane Lui
 74,hBP01,鷹嶺ルイ,Takane Lui,hBP01-058,C,0,0,0,30,Red,Takane Lui
 75,hBP01,鷹嶺ルイ,Takane Lui,hBP01-059,C,0,0,0,50,Red,Takane Lui
-76,hBP01,鷹嶺ルイ,Takane Lui,hBP01-060,U,0,0,0,320,Red,Takane Lui
+76,hBP01,鷹嶺ルイ,Takane Lui,hBP01-060,U,0,0,0,180,Red,Takane Lui
 77,hBP01,鷹嶺ルイ,Takane Lui,hBP01-061,R,1,0,0,180,Red,Takane Lui
 78,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-062,C,0,0,0,180,Red,Takanashi Kiara
 79,hBP01,小鳥遊キアラ,Takanashi Kiara,hBP01-063,U,0,0,0,80,Red,Takanashi Kiara
@@ -112,7 +112,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 111,hBP01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-091,UR,1,0,0,680,Blue,Moona Hoshinova
 112,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-092,C,0,0,0,180,Blue,Ouro Kronii
 113,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-093,C,0,0,0,80,Blue,Ouro Kronii
-114,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-094,U,0,0,0,500,Blue,Ouro Kronii
+114,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-094,U,0,0,0,220,Blue,Ouro Kronii
 115,hBP01,オーロ・クロニー,Ouro Kronii,hBP01-095,R,1,0,0,220,Blue,Ouro Kronii
 116,hBP01,兎田ぺこら,Usada Pekora,hBP01-096,R,1,0,0,120,White,Usada Pekora
 117,hBP01,不知火フレア,Shiranui Flare,hBP01-097,R,1,0,0,120,White,Shiranui Flare
@@ -154,7 +154,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 150,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-002,OSR,1,0,0,280,Green,Pavolia Reine
 151,hBP02,パヴォリア・レイネ,Pavolia Reine,hBP02-002,OUR,1,0,0,5980,Green,Pavolia Reine
 152,hBP02,宝鐘マリン,Houshou Marine,hBP02-003,OSR,1,0,0,420,Red,Houshou Marine
-153,hBP02,宝鐘マリン,Houshou Marine,hBP02-003,OUR,1,0,0,14800,Red,Houshou Marine
+153,hBP02,宝鐘マリン,Houshou Marine,hBP02-003,OUR,1,0,0,12800,Red,Houshou Marine
 154,hBP02,宝鐘マリン,Houshou Marine,hBP02-003,SEC,1,1,0,99800,Red,Houshou Marine
 155,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-004,OSR,1,0,0,320,Blue,Sakamata Chloe
 156,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-004,OUR,1,0,0,24800,Blue,Sakamata Chloe
@@ -162,9 +162,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 158,hBP02,紫咲シオン,Murasaki Shion,hBP02-005,OSR,1,0,0,280,Purple,Murasaki Shion
 159,hBP02,紫咲シオン,Murasaki Shion,hBP02-005,OUR,1,0,0,19800,Purple,Murasaki Shion
 160,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-006,OSR,1,0,0,320,Purple,Kureiji Ollie
-161,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-006,OUR,1,0,0,8980,Purple,Kureiji Ollie
+161,hBP02,クレイジー・オリー,Kureiji Ollie,hBP02-006,OUR,1,0,0,7980,Purple,Kureiji Ollie
 162,hBP02,森カリオペ,Mori Calliope,hBP02-007,OSR,1,0,0,580,Purple,Mori Calliope
-163,hBP02,森カリオペ,Mori Calliope,hBP02-007,OUR,1,0,0,19800,Purple,Mori Calliope
+163,hBP02,森カリオペ,Mori Calliope,hBP02-007,OUR,1,0,0,14800,Purple,Mori Calliope
 164,hBP02,白上フブキ,Shirakami Fubuki,hBP02-008,C,0,0,0,120,White,Shirakami Fubuki
 165,hBP02,白上フブキ,Shirakami Fubuki,hBP02-009,U,0,0,0,50,White,Shirakami Fubuki
 166,hBP02,白上フブキ,Shirakami Fubuki,hBP02-010,C,0,0,0,50,White,Shirakami Fubuki
@@ -173,10 +173,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 169,hBP02,白上フブキ,Shirakami Fubuki,hBP02-011,S,1,0,0,580,White,Shirakami Fubuki
 170,hBP02,白上フブキ,Shirakami Fubuki,hBP02-012,R,1,0,0,120,White,Shirakami Fubuki
 171,hBP02,白上フブキ,Shirakami Fubuki,hBP02-012,SR,1,0,0,420,White,Shirakami Fubuki
-172,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,RR,1,0,0,320,White,Shirakami Fubuki
+172,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,RR,1,0,0,420,White,Shirakami Fubuki
 173,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,SR,1,0,0,780,White,Shirakami Fubuki
-174,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,UR,1,0,0,6980,White,Shirakami Fubuki
-175,hBP02,白銀ノエル,Shirogane Noel,hBP02-014,C,0,0,0,120,White,Shirogane Noel
+174,hBP02,白上フブキ,Shirakami Fubuki,hBP02-013,UR,1,0,0,5980,White,Shirakami Fubuki
+175,hBP02,白銀ノエル,Shirogane Noel,hBP02-014,C,0,0,0,80,White,Shirogane Noel
 176,hBP02,白銀ノエル,Shirogane Noel,hBP02-015,C,0,0,0,50,White,Shirogane Noel
 177,hBP02,白銀ノエル,Shirogane Noel,hBP02-015,S,1,0,0,280,White,Shirogane Noel
 178,hBP02,白銀ノエル,Shirogane Noel,hBP02-016,U,0,0,0,80,White,Shirogane Noel
@@ -213,21 +213,21 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 209,hBP02,宝鐘マリン,Houshou Marine,hBP02-032,R,1,0,0,120,Red,Houshou Marine
 210,hBP02,宝鐘マリン,Houshou Marine,hBP02-032,SR,1,0,0,2480,Red,Houshou Marine
 211,hBP02,宝鐘マリン,Houshou Marine,hBP02-033,RR,1,0,0,580,Red,Houshou Marine
-212,hBP02,宝鐘マリン,Houshou Marine,hBP02-033,SR,1,0,0,1280,Red,Houshou Marine
+212,hBP02,宝鐘マリン,Houshou Marine,hBP02-033,SR,1,0,0,1480,Red,Houshou Marine
 213,hBP02,宝鐘マリン,Houshou Marine,hBP02-033,UR,1,0,0,8980,Red,Houshou Marine
 214,hBP02,百鬼あやめ,Nakiri Ayame,hBP02-034,RR,1,0,0,120,Red,Nakiri Ayame
 215,hBP02,百鬼あやめ,Nakiri Ayame,hBP02-034,SR,1,0,0,580,Red,Nakiri Ayame
 216,hBP02,百鬼あやめ,Nakiri Ayame,hBP02-034,UR,1,0,0,2980,Red,Nakiri Ayame
-217,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-035,C,0,0,0,500,Blue,Sakamata Chloe
+217,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-035,C,0,0,0,580,Blue,Sakamata Chloe
 218,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-036,U,0,0,0,80,Blue,Sakamata Chloe
 219,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-036,S,1,0,0,320,Blue,Sakamata Chloe
 220,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-037,C,0,0,0,80,Blue,Sakamata Chloe
 221,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-037,S,1,0,0,420,Blue,Sakamata Chloe
-222,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-038,U,0,0,0,280,Blue,Sakamata Chloe
+222,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-038,U,0,0,0,180,Blue,Sakamata Chloe
 223,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-038,S,1,0,0,2480,Blue,Sakamata Chloe
 224,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-039,R,1,0,0,80,Blue,Sakamata Chloe
 225,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-039,SR,1,0,0,580,Blue,Sakamata Chloe
-226,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-040,RR,1,0,0,220,Blue,Sakamata Chloe
+226,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-040,RR,1,0,0,320,Blue,Sakamata Chloe
 227,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-040,SR,1,0,0,1280,Blue,Sakamata Chloe
 228,hBP02,沙花叉クロヱ,Sakamata Chloe,hBP02-040,UR,1,0,0,17800,Blue,Sakamata Chloe
 229,hBP02,猫又おかゆ,Nekomata Okayu,hBP02-041,RR,1,0,0,220,Blue,Nekomata Okayu
@@ -317,7 +317,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 315,hBP02,魔法のタンス,Magical Dresser,hBP02-083,S,1,0,0,180,Support,Murasaki Shion
 316,hBP02,みっころね24,Mikkorone 24,hBP02-084,U,0,0,0,80,Support,"Sakura Miko, Inugami Korone"
 317,hBP02,みっころね24,Mikkorone 24,hBP02-084,S,1,0,0,1280,Support,"Sakura Miko, Inugami Korone"
-318,hBP02,みっころね24,Mikkorone 24,hBP02-084,SEC,1,1,0,89800,Support,"Sakura Miko, Inugami Korone"
+318,hBP02,みっころね24,Mikkorone 24,hBP02-084,SEC,1,1,0,79800,Support,"Sakura Miko, Inugami Korone"
 319,hBP02,HOLOLIVE FANTASY,HOLOLIVE FANTASY,hBP02-085,U,0,0,0,120,Support,"Houshou Marine, Usada Pekora, Shiranui Flare, Shirogane Noel"
 320,hBP02,HOLOLIVE FANTASY,HOLOLIVE FANTASY,hBP02-085,S,1,0,0,180,Support,"Houshou Marine, Usada Pekora, Shiranui Flare, Shirogane Noel"
 321,hBP02,ホロスパークリング,holoSparkling,hBP02-086,C,0,0,0,120,Support,
@@ -360,26 +360,26 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1493,hBP02,青エール,Blue Cheer,hY04-002,SY,1,0,0,2480,Blue,Sakamata Chloe
 1494,hBP02,紫エール,Purple Cheer,hY05-002,SY,1,0,0,1780,Purple,Murasaki Shion
 355,hBP02,百鬼あやめ,Nakiri Ayame,hSD02-009,SR,1,0,1,500,Red,Nakiri Ayame
-356,hBP02,猫又おかゆ,Nekomata Okayu,hSD03-009,SR,1,0,1,320,Blue,Nekomata Okayu
+356,hBP02,猫又おかゆ,Nekomata Okayu,hSD03-009,SR,1,0,1,220,Blue,Nekomata Okayu
 357,hBP02,癒月ちょこ,Yuzuki Choco,hSD04-009,SR,1,0,1,580,Purple,Yuzuki Choco
 358,hBP03,姫森ルーナ,Himemori Luna,hBP03-001,OSR,1,0,0,320,White,Himemori Luna
-359,hBP03,姫森ルーナ,Himemori Luna,hBP03-001,OUR,1,0,0,14800,White,Himemori Luna
+359,hBP03,姫森ルーナ,Himemori Luna,hBP03-001,OUR,1,0,0,12800,White,Himemori Luna
 360,hBP03,獅白ぼたん,Shishiro Botan,hBP03-002,OSR,1,0,0,220,Green,Shishiro Botan
 361,hBP03,獅白ぼたん,Shishiro Botan,hBP03-002,OUR,1,0,0,7980,Green,Shishiro Botan
-362,hBP03,獅白ぼたん,Shishiro Botan,hBP03-002,SEC,1,1,0,59800,Green,Shishiro Botan
+362,hBP03,獅白ぼたん,Shishiro Botan,hBP03-002,SEC,1,1,0,49800,Green,Shishiro Botan
 363,hBP03,さくらみこ,Sakura Miko,hBP03-003,OSR,1,0,0,980,Red,Sakura Miko
 364,hBP03,さくらみこ,Sakura Miko,hBP03-003,OUR,1,0,0,19800,Red,Sakura Miko
-365,hBP03,さくらみこ,Sakura Miko,hBP03-003,SEC,1,1,0,108000,Red,Sakura Miko
+365,hBP03,さくらみこ,Sakura Miko,hBP03-003,SEC,1,1,0,99800,Red,Sakura Miko
 366,hBP03,フワモコ,FUWAMOCO,hBP03-004,OSR,1,0,0,780,Blue,"Fuwawa Abyssgard, Mococo Abyssgard"
 367,hBP03,フワモコ,FUWAMOCO,hBP03-004,OUR,1,0,0,19800,Blue,"Fuwawa Abyssgard, Mococo Abyssgard"
 368,hBP03,常闇トワ,Tokoyami Towa,hBP03-005,OSR,1,0,0,320,Purple,Tokoyami Towa
 369,hBP03,常闇トワ,Tokoyami Towa,hBP03-005,OUR,1,0,0,12800,Purple,Tokoyami Towa
-370,hBP03,常闇トワ,Tokoyami Towa,hBP03-005,SEC,1,1,0,79800,Purple,Tokoyami Towa
+370,hBP03,常闇トワ,Tokoyami Towa,hBP03-005,SEC,1,1,0,69800,Purple,Tokoyami Towa
 371,hBP03,戌神ころね,Inugami Korone,hBP03-006,OSR,1,0,0,1480,Yellow,Inugami Korone
 372,hBP03,戌神ころね,Inugami Korone,hBP03-006,OUR,1,0,0,24800,Yellow,Inugami Korone
 373,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,OSR,1,0,0,420,Yellow,Tsunomaki Watame
-374,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,OUR,1,0,0,9980,Yellow,Tsunomaki Watame
-375,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,SEC,1,1,0,59800,Yellow,Tsunomaki Watame
+374,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,OUR,1,0,0,7980,Yellow,Tsunomaki Watame
+375,hBP03,角巻わため,Tsunomaki Watame,hBP03-007,SEC,1,1,0,49800,Yellow,Tsunomaki Watame
 376,hBP03,アユンダ・リス,Ayunda Risu,hBP03-008,OSR,1,0,0,180,Yellow,Ayunda Risu
 377,hBP03,アユンダ・リス,Ayunda Risu,hBP03-008,OUR,1,0,0,6980,Yellow,Ayunda Risu
 378,hBP03,姫森ルーナ,Himemori Luna,hBP03-009,C,0,0,0,80,White,Himemori Luna
@@ -415,7 +415,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 408,hBP03,兎田ぺこら,Usada Pekora,hBP03-023,SR,1,0,0,780,Green,Usada Pekora
 409,hBP03,風真いろは,Kazama Iroha,hBP03-024,RR,1,0,0,180,Green,Kazama Iroha
 410,hBP03,風真いろは,Kazama Iroha,hBP03-024,SR,1,0,0,580,Green,Kazama Iroha
-411,hBP03,風真いろは,Kazama Iroha,hBP03-024,UR,1,0,0,2980,Green,Kazama Iroha
+411,hBP03,風真いろは,Kazama Iroha,hBP03-024,UR,1,0,0,2480,Green,Kazama Iroha
 412,hBP03,さくらみこ,Sakura Miko,hBP03-025,C,0,0,0,180,Red,Sakura Miko
 413,hBP03,さくらみこ,Sakura Miko,hBP03-026,U,0,0,0,80,Red,Sakura Miko
 414,hBP03,さくらみこ,Sakura Miko,hBP03-026,S,1,0,0,320,Red,Sakura Miko
@@ -435,7 +435,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 428,hBP03,赤井はあと,Akai Haato,hBP03-033,S,1,0,0,420,Red,Akai Haato
 429,hBP03,赤井はあと,Akai Haato,hBP03-034,RR,1,0,0,180,Red,Akai Haato
 430,hBP03,赤井はあと,Akai Haato,hBP03-034,SR,1,0,0,580,Red,Akai Haato
-431,hBP03,赤井はあと,Akai Haato,hBP03-034,UR,1,0,0,2980,Red,Akai Haato
+431,hBP03,赤井はあと,Akai Haato,hBP03-034,UR,1,0,0,2480,Red,Akai Haato
 432,hBP03,鷹嶺ルイ,Takane Lui,hBP03-035,R,1,0,0,50,Red,Takane Lui
 433,hBP03,鷹嶺ルイ,Takane Lui,hBP03-035,SR,1,0,0,420,Red,Takane Lui
 434,hBP03,小鳥遊キアラ,Takanashi Kiara,hBP03-036,R,1,0,0,50,Red,Takanashi Kiara
@@ -452,7 +452,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 445,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-042,S,1,0,0,1280,Blue,Fuwawa Abyssgard
 446,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-043,RR,1,0,0,320,Blue,Fuwawa Abyssgard
 447,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-043,SR,1,0,0,680,Blue,Fuwawa Abyssgard
-448,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-043,UR,1,0,0,4980,Blue,Fuwawa Abyssgard
+448,hBP03,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-043,UR,1,0,0,3980,Blue,Fuwawa Abyssgard
 449,hBP03,星街すいせい,Hoshimachi Suisei,hBP03-044,R,1,0,0,180,Blue,Hoshimachi Suisei
 450,hBP03,星街すいせい,Hoshimachi Suisei,hBP03-044,SR,1,0,0,1480,Blue,Hoshimachi Suisei
 451,hBP03,こぼ・かなえる,Kobo Kanaeru,hBP03-045,R,1,0,0,50,Blue,Kobo Kanaeru
@@ -475,7 +475,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 468,hBP03,常闇トワ,Tokoyami Towa,hBP03-054,S,1,0,0,420,Purple,Tokoyami Towa
 469,hBP03,常闇トワ,Tokoyami Towa,hBP03-055,R,1,0,0,50,Purple,Tokoyami Towa
 470,hBP03,常闇トワ,Tokoyami Towa,hBP03-055,SR,1,0,0,500,Purple,Tokoyami Towa
-471,hBP03,常闇トワ,Tokoyami Towa,hBP03-056,RR,1,0,0,500,Purple,Tokoyami Towa
+471,hBP03,常闇トワ,Tokoyami Towa,hBP03-056,RR,1,0,0,580,Purple,Tokoyami Towa
 472,hBP03,常闇トワ,Tokoyami Towa,hBP03-056,SR,1,0,0,780,Purple,Tokoyami Towa
 473,hBP03,常闇トワ,Tokoyami Towa,hBP03-056,UR,1,0,0,5980,Purple,Tokoyami Towa
 474,hBP03,ロボ子さん,Roboco-san,hBP03-057,C,0,0,0,80,Purple,Roboco-san
@@ -489,20 +489,20 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 482,hBP03,戌神ころね,Inugami Korone,hBP03-062,U,0,0,0,80,Yellow,Inugami Korone
 483,hBP03,戌神ころね,Inugami Korone,hBP03-062,S,1,0,0,320,Yellow,Inugami Korone
 484,hBP03,戌神ころね,Inugami Korone,hBP03-063,C,0,0,0,80,Yellow,Inugami Korone
-485,hBP03,戌神ころね,Inugami Korone,hBP03-063,S,1,0,0,680,Yellow,Inugami Korone
+485,hBP03,戌神ころね,Inugami Korone,hBP03-063,S,1,0,0,500,Yellow,Inugami Korone
 486,hBP03,戌神ころね,Inugami Korone,hBP03-064,U,0,0,0,50,Yellow,Inugami Korone
 487,hBP03,戌神ころね,Inugami Korone,hBP03-064,S,1,0,0,320,Yellow,Inugami Korone
 488,hBP03,戌神ころね,Inugami Korone,hBP03-065,R,1,0,0,180,Yellow,Inugami Korone
 489,hBP03,戌神ころね,Inugami Korone,hBP03-065,SR,1,0,0,500,Yellow,Inugami Korone
 490,hBP03,戌神ころね,Inugami Korone,hBP03-066,RR,1,0,0,120,Yellow,Inugami Korone
 491,hBP03,戌神ころね,Inugami Korone,hBP03-066,SR,1,0,0,420,Yellow,Inugami Korone
-492,hBP03,戌神ころね,Inugami Korone,hBP03-066,UR,1,0,0,3980,Yellow,Inugami Korone
+492,hBP03,戌神ころね,Inugami Korone,hBP03-066,UR,1,0,0,3480,Yellow,Inugami Korone
 493,hBP03,角巻わため,Tsunomaki Watame,hBP03-067,C,0,0,0,120,Yellow,Tsunomaki Watame
 494,hBP03,角巻わため,Tsunomaki Watame,hBP03-068,U,0,0,0,30,Yellow,Tsunomaki Watame
-495,hBP03,角巻わため,Tsunomaki Watame,hBP03-068,S,1,0,0,280,Yellow,Tsunomaki Watame
+495,hBP03,角巻わため,Tsunomaki Watame,hBP03-068,S,1,0,0,220,Yellow,Tsunomaki Watame
 496,hBP03,角巻わため,Tsunomaki Watame,hBP03-069,C,0,0,0,30,Yellow,Tsunomaki Watame
 497,hBP03,角巻わため,Tsunomaki Watame,hBP03-069,S,1,0,0,320,Yellow,Tsunomaki Watame
-498,hBP03,角巻わため,Tsunomaki Watame,hBP03-070,U,0,0,0,120,Yellow,Tsunomaki Watame
+498,hBP03,角巻わため,Tsunomaki Watame,hBP03-070,U,0,0,0,80,Yellow,Tsunomaki Watame
 499,hBP03,角巻わため,Tsunomaki Watame,hBP03-070,S,1,0,0,780,Yellow,Tsunomaki Watame
 500,hBP03,角巻わため,Tsunomaki Watame,hBP03-071,R,1,0,0,50,Yellow,Tsunomaki Watame
 501,hBP03,角巻わため,Tsunomaki Watame,hBP03-071,SR,1,0,0,420,Yellow,Tsunomaki Watame
@@ -539,7 +539,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 532,hBP03,デュアルモニターパソコン,Dual-Monitor PC,hBP03-086,S,1,0,0,180,Support,"Fuwawa Abyssgard, Mococo Abyssgard"
 533,hBP03,コールアンドレスポンス,Call and Response,hBP03-087,C,0,0,0,30,Support,Oozora Subaru
 534,hBP03,コールアンドレスポンス,Call and Response,hBP03-087,S,1,0,0,180,Support,Oozora Subaru
-535,hBP03,凸待ち,Totsumachi,hBP03-088,U,0,0,0,220,Support,"Tokoyami Towa, La+ Darknesss"
+535,hBP03,凸待ち,Totsumachi,hBP03-088,U,0,0,0,180,Support,"Tokoyami Towa, La+ Darknesss"
 536,hBP03,凸待ち,Totsumachi,hBP03-088,S,1,0,0,1780,Support,"Tokoyami Towa, La+ Darknesss"
 537,hBP03,ファンミーティング,Fan Meeting,hBP03-089,U,0,0,0,30,Support,
 538,hBP03,ファンミーティング,Fan Meeting,hBP03-089,S,1,0,0,180,Support,
@@ -556,7 +556,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 549,hBP03,ホロキャップ,holoCap,hBP03-095,C,0,0,0,30,Support,Sakura Miko
 550,hBP03,ホロキャップ,holoCap,hBP03-095,S,1,0,0,220,Support,Sakura Miko
 551,hBP03,ライフル,Rifle,hBP03-096,U,0,0,0,120,Support,Shishiro Botan
-552,hBP03,ライフル,Rifle,hBP03-096,S,1,0,0,680,Support,Shishiro Botan
+552,hBP03,ライフル,Rifle,hBP03-096,S,1,0,0,500,Support,Shishiro Botan
 553,hBP03,リコーダー,Recorder,hBP03-097,C,0,0,0,30,Support,Otonose Kanade
 554,hBP03,リコーダー,Recorder,hBP03-097,S,1,0,0,420,Support,Otonose Kanade
 555,hBP03,金時,Kintoki,hBP03-098,U,0,0,0,50,Support,Sakura Miko
@@ -591,7 +591,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 584,hBP03,わためいと,Watamates,hBP03-112,S,1,0,0,320,Support,Tsunomaki Watame
 585,hBP03,Risuners,Risuners,hBP03-113,C,0,0,0,30,Support,Ayunda Risu
 586,hBP03,Risuners,Risuners,hBP03-113,S,1,0,0,120,Support,Ayunda Risu
-1495,hBP03,白エール,White Cheer,hY01-004,SY,1,0,0,1480,White,Himemori Luna
+1495,hBP03,白エール,White Cheer,hY01-004,SY,1,0,0,1280,White,Himemori Luna
 1496,hBP03,緑エール,Green Cheer,hY02-003,SY,1,0,0,3480,Green,Kazama Iroha
 1497,hBP03,赤エール,Red Cheer,hY03-003,SY,1,0,0,1980,Red,Sakura Miko
 1498,hBP03,青エール,Blue Cheer,hY04-003,SY,1,0,0,3480,Blue,Hoshimachi Suisei
@@ -599,28 +599,28 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1500,hBP03,黄エール,Yellow Cheer,hY06-002,SY,1,0,0,2480,Yellow,Tsunomaki Watame
 587,hBP03,轟はじめ,Todoroki Hajime,hSD05-009,SR,1,0,1,420,White,Todoroki Hajime
 588,hBP03,風真いろは,Kazama Iroha,hSD06-007,SR,1,0,1,580,Green,Kazama Iroha
-589,hBP03,不知火フレア,Shiranui Flare,hSD07-009,SR,1,0,1,420,Yellow,Shiranui Flare
+589,hBP03,不知火フレア,Shiranui Flare,hSD07-009,SR,1,0,1,320,Yellow,Shiranui Flare
 590,hBP04,博衣こより,Hakui Koyori,hBP04-001,OSR,1,0,0,500,White,Hakui Koyori
-591,hBP04,博衣こより,Hakui Koyori,hBP04-001,OUR,1,0,0,12800,White,Hakui Koyori
-592,hBP04,博衣こより,Hakui Koyori,hBP04-001,SEC,1,1,0,79800,White,Hakui Koyori
+591,hBP04,博衣こより,Hakui Koyori,hBP04-001,OUR,1,0,0,9980,White,Hakui Koyori
+592,hBP04,博衣こより,Hakui Koyori,hBP04-001,SEC,1,1,0,69800,White,Hakui Koyori
 593,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-002,OSR,1,0,0,1480,Green,Juufuutei Raden
 594,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-002,OUR,1,0,0,29800,Green,Juufuutei Raden
 595,hBP04,一条莉々華,Ichijou Ririka,hBP04-003,OSR,1,0,0,320,Red,Ichijou Ririka
-596,hBP04,一条莉々華,Ichijou Ririka,hBP04-003,OUR,1,0,0,12800,Red,Ichijou Ririka
+596,hBP04,一条莉々華,Ichijou Ririka,hBP04-003,OUR,1,0,0,9980,Red,Ichijou Ririka
 597,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,OSR,1,0,0,580,Blue,Yukihana Lamy
-598,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,OUR,1,0,0,12800,Blue,Yukihana Lamy
-599,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,SEC,1,1,0,79800,Blue,Yukihana Lamy
+598,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,OUR,1,0,0,9980,Blue,Yukihana Lamy
+599,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-004,SEC,1,1,0,59800,Blue,Yukihana Lamy
 600,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,OSR,1,0,0,580,Purple,La+ Darknesss
-601,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,OUR,1,0,0,8980,Purple,La+ Darknesss
-602,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,SEC,1,1,0,59800,Purple,La+ Darknesss
+601,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,OUR,1,0,0,7980,Purple,La+ Darknesss
+602,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-005,SEC,1,1,0,49800,Purple,La+ Darknesss
 603,hBP04,大空スバル,Oozora Subaru,hBP04-006,OSR,1,0,0,680,Yellow,Oozora Subaru
-604,hBP04,大空スバル,Oozora Subaru,hBP04-006,OUR,1,0,0,12800,Yellow,Oozora Subaru
-605,hBP04,大空スバル,Oozora Subaru,hBP04-006,SEC,1,1,0,79800,Yellow,Oozora Subaru
+604,hBP04,大空スバル,Oozora Subaru,hBP04-006,OUR,1,0,0,9980,Yellow,Oozora Subaru
+605,hBP04,大空スバル,Oozora Subaru,hBP04-006,SEC,1,1,0,69800,Yellow,Oozora Subaru
 606,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-007,OSR,1,0,0,220,Yellow,Anya Melfissa
 607,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-007,OUR,1,0,0,4980,Yellow,Anya Melfissa
 608,hBP04,博衣こより,Hakui Koyori,hBP04-008,C,0,0,0,80,White,Hakui Koyori
-609,hBP04,博衣こより,Hakui Koyori,hBP04-009,U,0,0,0,180,White,Hakui Koyori
-610,hBP04,博衣こより,Hakui Koyori,hBP04-009,S,1,0,0,220,White,Hakui Koyori
+609,hBP04,博衣こより,Hakui Koyori,hBP04-009,U,0,0,0,80,White,Hakui Koyori
+610,hBP04,博衣こより,Hakui Koyori,hBP04-009,S,1,0,0,320,White,Hakui Koyori
 611,hBP04,博衣こより,Hakui Koyori,hBP04-010,C,0,0,0,30,White,Hakui Koyori
 612,hBP04,博衣こより,Hakui Koyori,hBP04-010,S,1,0,0,680,White,Hakui Koyori
 613,hBP04,博衣こより,Hakui Koyori,hBP04-011,U,0,0,0,50,White,Hakui Koyori
@@ -629,7 +629,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 616,hBP04,博衣こより,Hakui Koyori,hBP04-012,SR,1,0,0,980,White,Hakui Koyori
 617,hBP04,博衣こより,Hakui Koyori,hBP04-013,RR,1,0,0,180,White,Hakui Koyori
 618,hBP04,博衣こより,Hakui Koyori,hBP04-013,SR,1,0,0,580,White,Hakui Koyori
-619,hBP04,博衣こより,Hakui Koyori,hBP04-013,UR,1,0,0,4980,White,Hakui Koyori
+619,hBP04,博衣こより,Hakui Koyori,hBP04-013,UR,1,0,0,3980,White,Hakui Koyori
 620,hBP04,白上フブキ,Shirakami Fubuki,hBP04-014,R,1,0,0,120,White,Shirakami Fubuki
 621,hBP04,白上フブキ,Shirakami Fubuki,hBP04-014,SR,1,0,0,980,White,Shirakami Fubuki
 622,hBP04,IRyS,IRyS,hBP04-015,R,1,0,0,50,White,IRyS
@@ -641,7 +641,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 628,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-018,S,1,0,0,980,White,Raora Panthera
 629,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-019,R,1,0,0,120,White,Raora Panthera
 630,hBP04,ラオーラ・パンテーラ,Raora Panthera,hBP04-019,SR,1,0,0,680,White,Raora Panthera
-631,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-020,C,0,0,0,80,Green,Juufuutei Raden
+631,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-020,C,0,0,0,120,Green,Juufuutei Raden
 632,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-021,U,0,0,0,80,Green,Juufuutei Raden
 633,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-021,S,1,0,0,180,Green,Juufuutei Raden
 634,hBP04,儒烏風亭らでん,Juufuutei Raden,hBP04-022,C,0,0,0,30,Green,Juufuutei Raden
@@ -675,7 +675,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 662,hBP04,一条莉々華,Ichijou Ririka,hBP04-036,SR,1,0,0,680,Red,Ichijou Ririka
 663,hBP04,一条莉々華,Ichijou Ririka,hBP04-037,RR,1,0,0,120,Red,Ichijou Ririka
 664,hBP04,一条莉々華,Ichijou Ririka,hBP04-037,SR,1,0,0,320,Red,Ichijou Ririka
-665,hBP04,一条莉々華,Ichijou Ririka,hBP04-037,UR,1,0,0,4980,Red,Ichijou Ririka
+665,hBP04,一条莉々華,Ichijou Ririka,hBP04-037,UR,1,0,0,3980,Red,Ichijou Ririka
 666,hBP04,宝鐘マリン,Houshou Marine,hBP04-038,R,1,0,0,80,Red,Houshou Marine
 667,hBP04,宝鐘マリン,Houshou Marine,hBP04-038,SR,1,0,0,780,Red,Houshou Marine
 668,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-039,C,0,0,0,30,Red,Kaela Kovalskia
@@ -683,7 +683,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 670,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-040,S,1,0,0,180,Red,Kaela Kovalskia
 671,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-041,U,0,0,0,180,Red,Kaela Kovalskia
 672,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-041,S,1,0,0,980,Red,Kaela Kovalskia
-673,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-042,RR,1,0,0,220,Red,Kaela Kovalskia
+673,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-042,RR,1,0,0,320,Red,Kaela Kovalskia
 674,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-042,SR,1,0,0,420,Red,Kaela Kovalskia
 675,hBP04,カエラ・コヴァルスキア,Kaela Kovalskia,hBP04-042,UR,1,0,0,2480,Red,Kaela Kovalskia
 676,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-043,C,0,0,0,80,Blue,Yukihana Lamy
@@ -695,9 +695,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 682,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-046,S,1,0,0,320,Blue,Yukihana Lamy
 683,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-047,R,1,0,0,50,Blue,Yukihana Lamy
 684,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-047,SR,1,0,0,580,Blue,Yukihana Lamy
-685,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,RR,1,0,0,180,Blue,Yukihana Lamy
+685,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,RR,1,0,0,220,Blue,Yukihana Lamy
 686,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,SR,1,0,0,580,Blue,Yukihana Lamy
-687,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,UR,1,0,0,5980,Blue,Yukihana Lamy
+687,hBP04,雪花ラミィ,Yukihana Lamy,hBP04-048,UR,1,0,0,4980,Blue,Yukihana Lamy
 688,hBP04,ムーナ・ホシノヴァ,Moona Hoshinova,hBP04-049,R,1,0,0,50,Blue,Moona Hoshinova
 689,hBP04,ムーナ・ホシノヴァ,Moona Hoshinova,hBP04-049,SR,1,0,0,320,Blue,Moona Hoshinova
 690,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-050,C,0,0,0,30,Blue,Shiori Novella
@@ -707,7 +707,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 694,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-052,S,1,0,0,220,Blue,Shiori Novella
 695,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-053,RR,1,0,0,220,Blue,Shiori Novella
 696,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-053,SR,1,0,0,780,Blue,Shiori Novella
-697,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-053,UR,1,0,0,3980,Blue,Shiori Novella
+697,hBP04,シオリ・ノヴェラ,Shiori Novella,hBP04-053,UR,1,0,0,3480,Blue,Shiori Novella
 698,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-054,C,0,0,0,50,Purple,La+ Darknesss
 699,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-054,S,1,0,0,1280,Purple,La+ Darknesss
 700,hBP04,ラプラス・ダークネス,La+ Darknesss,hBP04-055,U,0,0,0,80,Purple,La+ Darknesss
@@ -744,9 +744,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 731,hBP04,大空スバル,Oozora Subaru,hBP04-070,S,1,0,0,420,Yellow,Oozora Subaru
 732,hBP04,大空スバル,Oozora Subaru,hBP04-071,R,1,0,0,180,Yellow,Oozora Subaru
 733,hBP04,大空スバル,Oozora Subaru,hBP04-071,SR,1,0,0,500,Yellow,Oozora Subaru
-734,hBP04,大空スバル,Oozora Subaru,hBP04-072,RR,1,0,0,220,Yellow,Oozora Subaru
+734,hBP04,大空スバル,Oozora Subaru,hBP04-072,RR,1,0,0,180,Yellow,Oozora Subaru
 735,hBP04,大空スバル,Oozora Subaru,hBP04-072,SR,1,0,0,500,Yellow,Oozora Subaru
-736,hBP04,大空スバル,Oozora Subaru,hBP04-072,UR,1,0,0,5980,Yellow,Oozora Subaru
+736,hBP04,大空スバル,Oozora Subaru,hBP04-072,UR,1,0,0,4980,Yellow,Oozora Subaru
 737,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-073,C,0,0,0,50,Yellow,Anya Melfissa
 738,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-074,U,0,0,0,50,Yellow,Anya Melfissa
 739,hBP04,アーニャ・メルフィッサ,Anya Melfissa,hBP04-074,S,1,0,0,280,Yellow,Anya Melfissa
@@ -766,7 +766,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 753,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-081,S,1,0,0,420,Yellow,Natsuiro Matsuri
 754,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-082,RR,1,0,0,180,Yellow,Natsuiro Matsuri
 755,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-082,SR,1,0,0,320,Yellow,Natsuiro Matsuri
-756,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-082,UR,1,0,0,1980,Yellow,Natsuiro Matsuri
+756,hBP04,夏色まつり,Natsuiro Matsuri,hBP04-082,UR,1,0,0,1480,Yellow,Natsuiro Matsuri
 757,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-083,C,0,0,0,50,Yellow,Momosuzu Nene
 758,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-084,C,0,0,0,30,Yellow,Momosuzu Nene
 759,hBP04,桃鈴ねね,Momosuzu Nene,hBP04-084,S,1,0,0,280,Yellow,Momosuzu Nene
@@ -779,8 +779,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 766,hBP04,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP04-087,S,1,0,0,180,White,Elizabeth Rose Bloodflame
 767,hBP04,ジジ・ムリン,Gigi Murin,hBP04-088,C,0,0,0,80,White,Gigi Murin
 768,hBP04,ジジ・ムリン,Gigi Murin,hBP04-088,S,1,0,0,180,White,Gigi Murin
-769,hBP04,ツートンカラーパソコン,Two-Tone PC,hBP04-089,U,0,0,0,80,Support,"La+ Darknesss, Hakui Koyori"
-770,hBP04,ツートンカラーパソコン,Two-Tone PC,hBP04-089,S,1,0,0,980,Support,"La+ Darknesss, Hakui Koyori"
+769,hBP04,ツートンカラーパソコン,Two-Tone PC,hBP04-089,U,0,0,0,120,Support,"La+ Darknesss, Hakui Koyori"
+770,hBP04,ツートンカラーパソコン,Two-Tone PC,hBP04-089,S,1,0,0,780,Support,"La+ Darknesss, Hakui Koyori"
 771,hBP04,作業用パソコン,Work PC,hBP04-090,U,0,0,0,120,Support,Yukihana Lamy
 772,hBP04,作業用パソコン,Work PC,hBP04-090,S,1,0,0,220,Support,Yukihana Lamy
 773,hBP04,限界飯,Struggle Meal,hBP04-091,U,0,0,0,50,Support,Ichijou Ririka
@@ -810,38 +810,38 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 797,hBP04,カラス,Karasu,hBP04-103,C,0,0,0,30,Support,La+ Darknesss
 798,hBP04,カラス,Karasu,hBP04-103,S,1,0,0,180,Support,La+ Darknesss
 799,hBP04,スバルドダック,Subaru Duck,hBP04-104,C,0,0,0,30,Support,Oozora Subaru
-800,hBP04,スバルドダック,Subaru Duck,hBP04-104,S,1,0,0,320,Support,Oozora Subaru
+800,hBP04,スバルドダック,Subaru Duck,hBP04-104,S,1,0,0,280,Support,Oozora Subaru
 801,hBP04,こよりの助手くん,Koyori's Assistant,hBP04-105,U,0,0,0,50,Support,Hakui Koyori
-802,hBP04,こよりの助手くん,Koyori's Assistant,hBP04-105,S,1,0,0,3980,Support,Hakui Koyori
+802,hBP04,こよりの助手くん,Koyori's Assistant,hBP04-105,S,1,0,0,3480,Support,Hakui Koyori
 803,hBP04,雪民,Yukimin,hBP04-106,U,0,0,0,50,Support,Yukihana Lamy
 804,hBP04,雪民,Yukimin,hBP04-106,S,1,0,0,320,Support,Yukihana Lamy
 1501,hBP04,白エール,White Cheer,hY01-006,SY,1,0,0,2480,White,Hakui Koyori
 1502,hBP04,緑エール,Green Cheer,hY02-005,SY,1,0,0,1280,Green,Aki Rosenthal
-1503,hBP04,赤エール,Red Cheer,hY03-004,SY,1,0,0,1780,Red,Takane Lui
+1503,hBP04,赤エール,Red Cheer,hY03-004,SY,1,0,0,1480,Red,Takane Lui
 1504,hBP04,青エール,Blue Cheer,hY04-005,SY,1,0,0,2980,Blue,Yukihana Lamy
 1505,hBP04,紫エール,Purple Cheer,hY05-004,SY,1,0,0,2480,Purple,La+ Darknesss
 1506,hBP04,黄エール,Yellow Cheer,hY06-004,SY,1,0,0,1980,Yellow,Oozora Subaru
 807,hBP04,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,120,Support,Hoshimachi Suisei
 808,hBP04,マネちゃん,Mane-chan,hSD01-017,S,1,0,1,1980,Support,Hoshimachi Suisei
 805,hBP04,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,180,Support,"Sakura Miko, Inugami Korone"
-806,hBP04,みっころね24,Mikkorone 24,hBP02-084,SR,1,0,1,4980,Support,"Sakura Miko, Inugami Korone"
+806,hBP04,みっころね24,Mikkorone 24,hBP02-084,SR,1,0,1,3980,Support,"Sakura Miko, Inugami Korone"
 809,hBP05,白銀ノエル,Shirogane Noel,hBP05-001,OSR,1,0,0,220,White,Shirogane Noel
-810,hBP05,白銀ノエル,Shirogane Noel,hBP05-001,OUR,1,0,0,7980,White,Shirogane Noel
+810,hBP05,白銀ノエル,Shirogane Noel,hBP05-001,OUR,1,0,0,6980,White,Shirogane Noel
 811,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-002,OSR,1,0,0,220,Green,Airani Iofifteen
 812,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-002,OUR,1,0,0,3980,Green,Airani Iofifteen
-813,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-002,SEC,1,1,0,29800,Green,Airani Iofifteen
+813,hBP05,アイラニ・イオフィフティーン,Airani Iofifteen,hBP05-002,SEC,1,1,0,24800,Green,Airani Iofifteen
 814,hBP05,尾丸ポルカ,Omaru Polka,hBP05-003,OSR,1,0,0,220,Red,Omaru Polka
 815,hBP05,尾丸ポルカ,Omaru Polka,hBP05-003,OUR,1,0,0,12800,Red,Omaru Polka
-816,hBP05,尾丸ポルカ,Omaru Polka,hBP05-003,SEC,1,1,0,89800,Red,Omaru Polka
+816,hBP05,尾丸ポルカ,Omaru Polka,hBP05-003,SEC,1,1,0,79800,Red,Omaru Polka
 817,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-004,OSR,1,0,0,320,Blue,Nekomata Okayu
-818,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-004,OUR,1,0,0,19800,Blue,Nekomata Okayu
+818,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-004,OUR,1,0,0,14800,Blue,Nekomata Okayu
 819,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,OSR,1,0,0,280,Purple,Yuzuki Choco
-820,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,OUR,1,0,0,6980,Purple,Yuzuki Choco
-821,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,SEC,1,1,0,49800,Purple,Yuzuki Choco
+820,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,OUR,1,0,0,5980,Purple,Yuzuki Choco
+821,hBP05,癒月ちょこ,Yuzuki Choco,hBP05-005,SEC,1,1,0,39800,Purple,Yuzuki Choco
 822,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-006,OSR,1,0,0,420,Purple,Nerissa Ravencroft
 823,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-006,OUR,1,0,0,12800,Purple,Nerissa Ravencroft
 824,hBP05,不知火フレア,Shiranui Flare,hBP05-007,OSR,1,0,0,280,Yellow,Shiranui Flare
-825,hBP05,不知火フレア,Shiranui Flare,hBP05-007,OUR,1,0,0,6980,Yellow,Shiranui Flare
+825,hBP05,不知火フレア,Shiranui Flare,hBP05-007,OUR,1,0,0,5980,Yellow,Shiranui Flare
 826,hBP05,白銀ノエル,Shirogane Noel,hBP05-008,U,0,0,0,50,White,Shirogane Noel
 827,hBP05,白銀ノエル,Shirogane Noel,hBP05-008,S,1,0,0,180,White,Shirogane Noel
 828,hBP05,白銀ノエル,Shirogane Noel,hBP05-009,C,0,0,0,30,White,Shirogane Noel
@@ -852,7 +852,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 833,hBP05,白銀ノエル,Shirogane Noel,hBP05-011,SR,1,0,0,420,White,Shirogane Noel
 834,hBP05,白銀ノエル,Shirogane Noel,hBP05-012,RR,1,0,0,180,White,Shirogane Noel
 835,hBP05,白銀ノエル,Shirogane Noel,hBP05-012,SR,1,0,0,320,White,Shirogane Noel
-836,hBP05,白銀ノエル,Shirogane Noel,hBP05-012,UR,1,0,0,3480,White,Shirogane Noel
+836,hBP05,白銀ノエル,Shirogane Noel,hBP05-012,UR,1,0,0,2980,White,Shirogane Noel
 837,hBP05,ときのそら,Tokino Sora,hBP05-013,R,1,0,0,180,White,Tokino Sora
 838,hBP05,ときのそら,Tokino Sora,hBP05-013,SR,1,0,0,1280,White,Tokino Sora
 839,hBP05,兎田ぺこら,Usada Pekora,hBP05-014,C,0,0,0,30,White,Usada Pekora
@@ -861,8 +861,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 842,hBP05,兎田ぺこら,Usada Pekora,hBP05-015,S,1,0,0,220,White,Usada Pekora
 843,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,RR,1,0,0,220,White,Usada Pekora
 844,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,SR,1,0,0,980,White,Usada Pekora
-845,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,UR,1,0,0,6980,White,Usada Pekora
-846,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,SEC,1,1,0,118000,White,Usada Pekora
+845,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,UR,1,0,0,5980,White,Usada Pekora
+846,hBP05,兎田ぺこら,Usada Pekora,hBP05-016,SEC,1,1,0,108000,White,Usada Pekora
 847,hBP05,姫森ルーナ,Himemori Luna,hBP05-017,R,1,0,0,50,White,Himemori Luna
 848,hBP05,姫森ルーナ,Himemori Luna,hBP05-017,SR,1,0,0,420,White,Himemori Luna
 849,hBP05,ベスティア・ゼータ,Vestia Zeta,hBP05-018,R,1,0,0,120,White,Vestia Zeta
@@ -901,31 +901,31 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 882,hBP05,尾丸ポルカ,Omaru Polka,hBP05-033,SR,1,0,0,500,Red,Omaru Polka
 883,hBP05,尾丸ポルカ,Omaru Polka,hBP05-034,RR,1,0,0,180,Red,Omaru Polka
 884,hBP05,尾丸ポルカ,Omaru Polka,hBP05-034,SR,1,0,0,420,Red,Omaru Polka
-885,hBP05,尾丸ポルカ,Omaru Polka,hBP05-034,UR,1,0,0,3980,Red,Omaru Polka
+885,hBP05,尾丸ポルカ,Omaru Polka,hBP05-034,UR,1,0,0,2980,Red,Omaru Polka
 886,hBP05,さくらみこ,Sakura Miko,hBP05-035,R,1,0,0,80,Red,Sakura Miko
 887,hBP05,さくらみこ,Sakura Miko,hBP05-035,SR,1,0,0,680,Red,Sakura Miko
 888,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-036,C,0,0,0,30,Red,Hoshimachi Suisei
 889,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-036,S,1,0,0,220,Red,Hoshimachi Suisei
 890,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-037,RR,1,0,0,220,Red,Hoshimachi Suisei
 891,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-037,SR,1,0,0,780,Red,Hoshimachi Suisei
-892,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-037,UR,1,0,0,4980,Red,Hoshimachi Suisei
+892,hBP05,星街すいせい,Hoshimachi Suisei,hBP05-037,UR,1,0,0,3980,Red,Hoshimachi Suisei
 893,hBP05,モココ・アビスガード,Mococo Abyssgard,hBP05-038,R,1,0,0,80,Red,Mococo Abyssgard
 894,hBP05,モココ・アビスガード,Mococo Abyssgard,hBP05-038,SR,1,0,0,420,Red,Mococo Abyssgard
 895,hBP05,一条莉々華,Ichijou Ririka,hBP05-039,R,1,0,0,50,Red,Ichijou Ririka
 896,hBP05,一条莉々華,Ichijou Ririka,hBP05-039,SR,1,0,0,420,Red,Ichijou Ririka
 897,hBP05,miComet,miComet,hBP05-040,U,0,0,0,80,"Red,Blue","Sakura Miko, Hoshimachi Suisei"
-898,hBP05,miComet,miComet,hBP05-040,S,1,0,0,220,"Red,Blue","Sakura Miko, Hoshimachi Suisei"
+898,hBP05,miComet,miComet,hBP05-040,S,1,0,0,320,"Red,Blue","Sakura Miko, Hoshimachi Suisei"
 899,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-041,U,0,0,0,50,Blue,Nekomata Okayu
 900,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-041,S,1,0,0,220,Blue,Nekomata Okayu
 901,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-042,C,0,0,0,30,Blue,Nekomata Okayu
 902,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-042,S,1,0,0,220,Blue,Nekomata Okayu
 903,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-043,U,0,0,0,80,Blue,Nekomata Okayu
-904,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-043,S,1,0,0,420,Blue,Nekomata Okayu
+904,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-043,S,1,0,0,320,Blue,Nekomata Okayu
 905,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-044,R,1,0,0,120,Blue,Nekomata Okayu
 906,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-044,SR,1,0,0,500,Blue,Nekomata Okayu
 907,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-045,RR,1,0,0,220,Blue,Nekomata Okayu
 908,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-045,SR,1,0,0,500,Blue,Nekomata Okayu
-909,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-045,UR,1,0,0,4980,Blue,Nekomata Okayu
+909,hBP05,猫又おかゆ,Nekomata Okayu,hBP05-045,UR,1,0,0,3980,Blue,Nekomata Okayu
 910,hBP05,雪花ラミィ,Yukihana Lamy,hBP05-046,R,1,0,0,50,Blue,Yukihana Lamy
 911,hBP05,雪花ラミィ,Yukihana Lamy,hBP05-046,SR,1,0,0,500,Blue,Yukihana Lamy
 912,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-047,C,0,0,0,30,Blue,Kobo Kanaeru
@@ -934,7 +934,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 915,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-048,S,1,0,0,180,Blue,Kobo Kanaeru
 916,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-049,RR,1,0,0,120,Blue,Kobo Kanaeru
 917,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-049,SR,1,0,0,320,Blue,Kobo Kanaeru
-918,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-049,UR,1,0,0,1980,Blue,Kobo Kanaeru
+918,hBP05,こぼ・かなえる,Kobo Kanaeru,hBP05-049,UR,1,0,0,1780,Blue,Kobo Kanaeru
 919,hBP05,フワワ・アビスガード,Fuwawa Abyssgard,hBP05-050,R,1,0,0,50,Blue,Fuwawa Abyssgard
 920,hBP05,フワワ・アビスガード,Fuwawa Abyssgard,hBP05-050,SR,1,0,0,420,Blue,Fuwawa Abyssgard
 921,hBP05,火威青,Hiodoshi Ao,hBP05-051,R,1,0,0,50,Blue,Hiodoshi Ao
@@ -953,12 +953,12 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 934,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-057,U,0,0,0,50,Purple,Nerissa Ravencroft
 935,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-057,S,1,0,0,180,Purple,Nerissa Ravencroft
 936,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-058,C,0,0,0,30,Purple,Nerissa Ravencroft
-937,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-058,S,1,0,0,280,Purple,Nerissa Ravencroft
+937,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-058,S,1,0,0,420,Purple,Nerissa Ravencroft
 938,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-059,U,0,0,0,50,Purple,Nerissa Ravencroft
 939,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-059,S,1,0,0,220,Purple,Nerissa Ravencroft
 940,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,R,1,0,0,50,Purple,Nerissa Ravencroft
 941,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,SR,1,0,0,680,Purple,Nerissa Ravencroft
-942,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-061,RR,1,0,0,120,Purple,Nerissa Ravencroft
+942,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-061,RR,1,0,0,180,Purple,Nerissa Ravencroft
 943,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-061,SR,1,0,0,420,Purple,Nerissa Ravencroft
 944,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-061,UR,1,0,0,3980,Purple,Nerissa Ravencroft
 945,hBP05,常闇トワ,Tokoyami Towa,hBP05-062,R,1,0,0,120,Purple,Tokoyami Towa
@@ -980,7 +980,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 961,hBP05,白上フブキ,Shirakami Fubuki,hBP05-069,S,1,0,0,280,Yellow,Shirakami Fubuki
 962,hBP05,白上フブキ,Shirakami Fubuki,hBP05-070,RR,1,0,0,280,Yellow,Shirakami Fubuki
 963,hBP05,白上フブキ,Shirakami Fubuki,hBP05-070,SR,1,0,0,780,Yellow,Shirakami Fubuki
-964,hBP05,白上フブキ,Shirakami Fubuki,hBP05-070,UR,1,0,0,4980,Yellow,Shirakami Fubuki
+964,hBP05,白上フブキ,Shirakami Fubuki,hBP05-070,UR,1,0,0,3980,Yellow,Shirakami Fubuki
 965,hBP05,戌神ころね,Inugami Korone,hBP05-071,R,1,0,0,120,Yellow,Inugami Korone
 966,hBP05,戌神ころね,Inugami Korone,hBP05-071,SR,1,0,0,780,Yellow,Inugami Korone
 967,hBP05,角巻わため,Tsunomaki Watame,hBP05-072,R,1,0,0,80,Yellow,Tsunomaki Watame
@@ -998,10 +998,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 979,hBP05,晩酌配信,Late-Night Drinking Stream,hBP05-078,U,0,0,0,30,Support,"Yukihana Lamy, Shirogane Noel, Takane Lui, Akai Haato"
 980,hBP05,晩酌配信,Late-Night Drinking Stream,hBP05-078,S,1,0,0,120,Support,"Yukihana Lamy, Shirogane Noel, Takane Lui, Akai Haato"
 981,hBP05,み俺恥,DIYMiko,hBP05-079,U,0,0,0,220,Support,Sakura Miko
-982,hBP05,み俺恥,DIYMiko,hBP05-079,S,1,0,0,780,Support,Sakura Miko
+982,hBP05,み俺恥,DIYMiko,hBP05-079,S,1,0,0,580,Support,Sakura Miko
 983,hBP05,SorAZセレブレーション,SorAZ Celebration,hBP05-080,U,0,0,0,680,Support,"Tokino Sora, AZKi"
-984,hBP05,SorAZセレブレーション,SorAZ Celebration,hBP05-080,SR,1,0,0,8980,Support,"Tokino Sora, AZKi"
-985,hBP05,SorAZセレブレーション,SorAZ Celebration,hBP05-080,SEC,1,1,0,158000,Support,"Tokino Sora, AZKi"
+984,hBP05,SorAZセレブレーション,SorAZ Celebration,hBP05-080,SR,1,0,0,7980,Support,"Tokino Sora, AZKi"
+985,hBP05,SorAZセレブレーション,SorAZ Celebration,hBP05-080,SEC,1,1,0,138000,Support,"Tokino Sora, AZKi"
 986,hBP05,白銀ノエル,Shirogane Noel's Mace,hBP05-081,U,0,0,0,30,Support,Shirogane Noel
 987,hBP05,白銀ノエル,Shirogane Noel's Mace,hBP05-081,S,1,0,0,120,Support,Shirogane Noel
 988,hBP05,アキ・ローゼンタール,Aki Rosenthal's Axe,hBP05-082,U,0,0,0,30,Support,Aki Rosenthal
@@ -1018,7 +1018,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 999,hBP05,Jailbird,Jailbird,hBP05-087,S,1,0,0,180,Support,Nerissa Ravencroft
 1507,hBP05,白エール,White Cheer,hY01-007,SY,1,0,0,1780,White,Usada Pekora
 1508,hBP05,緑エール,Green Cheer,hY02-006,SY,1,0,0,1980,Green,AZKi
-1509,hBP05,赤エール,Red Cheer,hY03-009,SY,1,0,0,3980,Red,Nakiri Ayame
+1509,hBP05,赤エール,Red Cheer,hY03-009,SY,1,0,0,3480,Red,Nakiri Ayame
 1510,hBP05,青エール,Blue Cheer,hY04-006,SY,1,0,0,1980,Blue,Nekomata Okayu
 1511,hBP05,紫エール,Purple Cheer,hY05-005,SY,1,0,0,1480,Purple,Yuzuki Choco
 1512,hBP05,黄エール,Yellow Cheer,hY06-005,SY,1,0,0,1780,Yellow,Shiranui Flare
@@ -1043,16 +1043,16 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1016,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-065,C,0,0,1,80,Purple,Nerissa Ravencroft
 1017,hBP05,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP02-065,HR,1,0,1,3980,Purple,Nerissa Ravencroft
 1018,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-001,OSR,1,0,0,220,White,Raora Panthera
-1019,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-001,OUR,1,0,0,6980,White,Raora Panthera
+1019,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-001,OUR,1,0,0,5980,White,Raora Panthera
 1020,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-001,SEC,1,1,0,39800,White,Raora Panthera
 1021,hBP06,響咲リオナ,Isaki Riona,hBP06-002,OSR,1,0,0,420,White,Isaki Riona
 1022,hBP06,響咲リオナ,Isaki Riona,hBP06-002,OUR,1,0,0,19800,White,Isaki Riona
 1023,hBP06,風真いろは,Kazama Iroha,hBP06-003,OSR,1,0,0,680,Green,Kazama Iroha
-1024,hBP06,風真いろは,Kazama Iroha,hBP06-003,OUR,1,0,0,29800,Green,Kazama Iroha
+1024,hBP06,風真いろは,Kazama Iroha,hBP06-003,OUR,1,0,0,24800,Green,Kazama Iroha
 1025,hBP06,風真いろは,Kazama Iroha,hBP06-003,SEC,1,1,0,108000,Green,Kazama Iroha
 1026,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,OSR,1,0,0,780,Red,Nakiri Ayame
-1027,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,OUR,1,0,0,39800,Red,Nakiri Ayame
-1028,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,SEC,1,1,0,148000,Red,Nakiri Ayame
+1027,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,OUR,1,0,0,34800,Red,Nakiri Ayame
+1028,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-004,SEC,1,1,0,128000,Red,Nakiri Ayame
 1029,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-005,OSR,1,0,0,500,Red,Hakos Baelz
 1030,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-005,OUR,1,0,0,19800,Red,Hakos Baelz
 1031,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-006,OSR,1,0,0,980,Blue,Moona Hoshinova
@@ -1066,7 +1066,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1039,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-009,S,1,0,0,220,White,Raora Panthera
 1040,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-010,U,0,0,0,50,White,Raora Panthera
 1041,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-011,C,0,0,0,30,White,Raora Panthera
-1042,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-011,S,1,0,0,320,White,Raora Panthera
+1042,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-011,S,1,0,0,280,White,Raora Panthera
 1043,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-012,U,0,0,0,50,White,Raora Panthera
 1044,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-012,S,1,0,0,180,White,Raora Panthera
 1045,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP06-013,R,1,0,0,50,White,Raora Panthera
@@ -1080,12 +1080,12 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1053,hBP06,響咲リオナ,Isaki Riona,hBP06-017,C,0,0,0,30,White,Isaki Riona
 1054,hBP06,響咲リオナ,Isaki Riona,hBP06-017,S,1,0,0,180,White,Isaki Riona
 1055,hBP06,響咲リオナ,Isaki Riona,hBP06-018,U,0,0,0,50,White,Isaki Riona
-1056,hBP06,響咲リオナ,Isaki Riona,hBP06-018,S,1,0,0,420,White,Isaki Riona
+1056,hBP06,響咲リオナ,Isaki Riona,hBP06-018,S,1,0,0,220,White,Isaki Riona
 1057,hBP06,響咲リオナ,Isaki Riona,hBP06-019,R,1,0,0,50,White,Isaki Riona
 1058,hBP06,響咲リオナ,Isaki Riona,hBP06-019,SR,1,0,0,780,White,Isaki Riona
 1059,hBP06,響咲リオナ,Isaki Riona,hBP06-020,RR,1,0,0,180,White,Isaki Riona
 1060,hBP06,響咲リオナ,Isaki Riona,hBP06-020,SR,1,0,0,680,White,Isaki Riona
-1061,hBP06,響咲リオナ,Isaki Riona,hBP06-020,UR,1,0,0,4980,White,Isaki Riona
+1061,hBP06,響咲リオナ,Isaki Riona,hBP06-020,UR,1,0,0,3980,White,Isaki Riona
 1062,hBP06,博衣こより,Hakui Koyori,hBP06-021,R,1,0,0,80,White,Hakui Koyori
 1063,hBP06,博衣こより,Hakui Koyori,hBP06-021,SR,1,0,0,680,White,Hakui Koyori
 1064,hBP06,風真いろは,Kazama Iroha,hBP06-022,C,0,0,0,30,Green,Kazama Iroha
@@ -1099,7 +1099,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1072,hBP06,風真いろは,Kazama Iroha,hBP06-026,SR,1,0,0,1280,Green,Kazama Iroha
 1073,hBP06,風真いろは,Kazama Iroha,hBP06-027,RR,1,0,0,220,Green,Kazama Iroha
 1074,hBP06,風真いろは,Kazama Iroha,hBP06-027,SR,1,0,0,780,Green,Kazama Iroha
-1075,hBP06,風真いろは,Kazama Iroha,hBP06-027,UR,1,0,0,9980,Green,Kazama Iroha
+1075,hBP06,風真いろは,Kazama Iroha,hBP06-027,UR,1,0,0,7980,Green,Kazama Iroha
 1076,hBP06,姫森ルーナ,Himemori Luna,hBP06-028,C,0,0,0,30,Green,Himemori Luna
 1077,hBP06,姫森ルーナ,Himemori Luna,hBP06-028,S,1,0,0,180,Green,Himemori Luna
 1078,hBP06,姫森ルーナ,Himemori Luna,hBP06-029,U,0,0,0,50,Green,Himemori Luna
@@ -1114,19 +1114,19 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1087,hBP06,儒烏風亭らでん,Juufuutei Raden,hBP06-033,R,1,0,0,80,Green,Juufuutei Raden
 1088,hBP06,儒烏風亭らでん,Juufuutei Raden,hBP06-033,SR,1,0,0,500,Green,Juufuutei Raden
 1089,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-034,C,0,0,0,30,Red,Nakiri Ayame
-1090,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-034,S,1,0,0,220,Red,Nakiri Ayame
+1090,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-034,S,1,0,0,280,Red,Nakiri Ayame
 1091,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-035,U,0,0,0,50,Red,Nakiri Ayame
 1092,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-036,C,0,0,0,30,Red,Nakiri Ayame
 1093,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-036,S,1,0,0,220,Red,Nakiri Ayame
 1094,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-037,U,0,0,0,80,Red,Nakiri Ayame
-1095,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-037,S,1,0,0,680,Red,Nakiri Ayame
+1095,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-037,S,1,0,0,780,Red,Nakiri Ayame
 1096,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-038,R,1,0,0,120,Red,Nakiri Ayame
 1097,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-038,SR,1,0,0,980,Red,Nakiri Ayame
 1098,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-039,RR,1,0,0,280,Red,Nakiri Ayame
 1099,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-039,SR,1,0,0,980,Red,Nakiri Ayame
 1100,hBP06,百鬼あやめ,Nakiri Ayame,hBP06-039,UR,1,0,0,12800,Red,Nakiri Ayame
 1101,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-040,C,0,0,0,30,Red,Hakos Baelz
-1102,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-040,S,1,0,0,580,Red,Hakos Baelz
+1102,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-040,S,1,0,0,420,Red,Hakos Baelz
 1103,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-041,U,0,0,0,50,Red,Hakos Baelz
 1104,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-042,C,0,0,0,30,Red,Hakos Baelz
 1105,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-042,S,1,0,0,120,Red,Hakos Baelz
@@ -1136,7 +1136,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1109,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-044,SR,1,0,0,580,Red,Hakos Baelz
 1110,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-045,RR,1,0,0,180,Red,Hakos Baelz
 1111,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-045,SR,1,0,0,320,Red,Hakos Baelz
-1112,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-045,UR,1,0,0,2980,Red,Hakos Baelz
+1112,hBP06,ハコス・ベールズ,Hakos Baelz,hBP06-045,UR,1,0,0,2480,Red,Hakos Baelz
 1113,hBP06,鷹嶺ルイ,Takane Lui,hBP06-046,R,1,0,0,50,Red,Takane Lui
 1114,hBP06,鷹嶺ルイ,Takane Lui,hBP06-046,SR,1,0,0,280,Red,Takane Lui
 1115,hBP06,一条莉々華,Ichijou Ririka,hBP06-047,R,1,0,0,50,Red,Ichijou Ririka
@@ -1152,7 +1152,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1125,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-052,SR,1,0,0,980,Blue,Moona Hoshinova
 1126,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-053,RR,1,0,0,280,Blue,Moona Hoshinova
 1127,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-053,SR,1,0,0,780,Blue,Moona Hoshinova
-1128,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-053,UR,1,0,0,3980,Blue,Moona Hoshinova
+1128,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP06-053,UR,1,0,0,3480,Blue,Moona Hoshinova
 1129,hBP06,雪花ラミィ,Yukihana Lamy,hBP06-054,R,1,0,0,50,Blue,Yukihana Lamy
 1130,hBP06,雪花ラミィ,Yukihana Lamy,hBP06-054,SR,1,0,0,420,Blue,Yukihana Lamy
 1131,hBP06,沙花叉クロヱ,Sakamata Chloe,hBP06-055,R,1,0,0,80,Blue,Sakamata Chloe
@@ -1165,7 +1165,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1138,hBP06,森カリオペ,Mori Calliope,hBP06-058,S,1,0,0,420,Blue,Mori Calliope
 1139,hBP06,森カリオペ,Mori Calliope,hBP06-059,R,1,0,0,120,Blue,Mori Calliope
 1140,hBP06,森カリオペ,Mori Calliope,hBP06-059,SR,1,0,0,680,Blue,Mori Calliope
-1141,hBP06,森カリオペ,Mori Calliope,hBP06-060,RR,1,0,0,220,Blue,Mori Calliope
+1141,hBP06,森カリオペ,Mori Calliope,hBP06-060,RR,1,0,0,180,Blue,Mori Calliope
 1142,hBP06,森カリオペ,Mori Calliope,hBP06-060,SR,1,0,0,420,Blue,Mori Calliope
 1143,hBP06,森カリオペ,Mori Calliope,hBP06-060,UR,1,0,0,2980,Blue,Mori Calliope
 1144,hBP06,ロボ子さん,Roboco-san,hBP06-061,C,0,0,0,30,Purple,Roboco-san
@@ -1179,7 +1179,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1152,hBP06,ロボ子さん,Roboco-san,hBP06-065,SR,1,0,0,320,Purple,Roboco-san
 1153,hBP06,ロボ子さん,Roboco-san,hBP06-066,RR,1,0,0,120,Purple,Roboco-san
 1154,hBP06,ロボ子さん,Roboco-san,hBP06-066,SR,1,0,0,320,Purple,Roboco-san
-1155,hBP06,ロボ子さん,Roboco-san,hBP06-066,UR,1,0,0,2480,Purple,Roboco-san
+1155,hBP06,ロボ子さん,Roboco-san,hBP06-066,UR,1,0,0,1980,Purple,Roboco-san
 1156,hBP06,戌神ころね,Inugami Korone,hBP06-067,C,0,0,0,80,Purple,Inugami Korone
 1157,hBP06,戌神ころね,Inugami Korone,hBP06-067,S,1,0,0,320,Purple,Inugami Korone
 1158,hBP06,戌神ころね,Inugami Korone,hBP06-068,U,0,0,0,80,Purple,Inugami Korone
@@ -1211,7 +1211,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1184,hBP06,大空スバル,Oozora Subaru,hBP06-080,SR,1,0,0,580,Yellow,Oozora Subaru
 1185,hBP06,大空スバル,Oozora Subaru,hBP06-081,RR,1,0,0,180,Yellow,Oozora Subaru
 1186,hBP06,大空スバル,Oozora Subaru,hBP06-081,SR,1,0,0,500,Yellow,Oozora Subaru
-1187,hBP06,大空スバル,Oozora Subaru,hBP06-081,UR,1,0,0,4980,Yellow,Oozora Subaru
+1187,hBP06,大空スバル,Oozora Subaru,hBP06-081,UR,1,0,0,3980,Yellow,Oozora Subaru
 1188,hBP06,アーニャ・メルフィッサ,Anya Melfissa,hBP06-082,R,1,0,0,50,Yellow,Anya Melfissa
 1189,hBP06,アーニャ・メルフィッサ,Anya Melfissa,hBP06-082,SR,1,0,0,420,Yellow,Anya Melfissa
 1190,hBP06,ラムダック,Lambduck,hBP06-083,R,1,0,0,180,Yellow,"Tsunomaki Watame, Oozora Subaru"
@@ -1256,22 +1256,22 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1229,hBP06,スバ友,Subatomo,hBP06-104,C,0,0,0,50,Support,Oozora Subaru
 1230,hBP06,スバ友,Subatomo,hBP06-104,S,1,0,0,220,Support,Oozora Subaru
 1513,hBP06,白エール,White Cheer,hY01-010,SY,1,0,0,980,White,Raora Panthera
-1514,hBP06,緑エール,Green Cheer,hY02-008,SY,1,0,0,1980,Green,Juufuutei Raden
-1515,hBP06,赤エール,Red Cheer,hY03-013,SY,1,0,0,1480,Red,Ichijou Ririka
+1514,hBP06,緑エール,Green Cheer,hY02-008,SY,1,0,0,1780,Green,Juufuutei Raden
+1515,hBP06,赤エール,Red Cheer,hY03-013,SY,1,0,0,1280,Red,Ichijou Ririka
 1516,hBP06,青エール,Blue Cheer,hY04-010,SY,1,0,0,1280,Blue,Moona Hoshinova
-1517,hBP06,紫エール,Purple Cheer,hY05-008,SY,1,0,0,1280,Purple,Roboco-san
+1517,hBP06,紫エール,Purple Cheer,hY05-008,SY,1,0,0,980,Purple,Roboco-san
 1518,hBP06,黄エール,Yellow Cheer,hY06-007,SY,1,0,0,1280,Yellow,Natsuiro Matsuri
 1529,hBP06,百鬼あやめ,Nakiri Ayame,hSD02-002,C,0,0,1,80,Red,Nakiri Ayame
 1231,hBP06,百鬼あやめ,Nakiri Ayame,hSD02-002,HR,1,0,1,7980,Red,Nakiri Ayame
 1786,hBP06,ぽよ余,Poyoyo,hSD02-014,C,0,0,1,120,Support,Nakiri Ayame
 1232,hBP06,不知火フレア,Shiranui Flare,hSD07-007,SR,1,0,1,320,Yellow,Shiranui Flare
-1233,hBP06,兎田ぺこら,Usada Pekora,hBP01-041,SR,1,0,1,1980,Green,Usada Pekora
+1233,hBP06,兎田ぺこら,Usada Pekora,hBP01-041,SR,1,0,1,2480,Green,Usada Pekora
 1234,hBP06,風真いろは,Kazama Iroha,hBP01-048,C,0,0,1,80,Green,Kazama Iroha
-1235,hBP06,風真いろは,Kazama Iroha,hBP01-048,HR,1,0,1,7980,Green,Kazama Iroha
+1235,hBP06,風真いろは,Kazama Iroha,hBP01-048,HR,1,0,1,8980,Green,Kazama Iroha
 1236,hBP06,ハコス・ベールズ,Hakos Baelz,hBP01-072,C,0,0,1,50,Red,Hakos Baelz
 1237,hBP06,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,C,0,0,1,50,Blue,Moona Hoshinova
 1238,hBP06,白銀ノエル,Shirogane Noel,hBP02-016,SR,1,0,1,1980,White,Shirogane Noel
-1239,hBP06,宝鐘マリン,Houshou Marine,hBP02-031,SR,1,0,1,1780,Red,Houshou Marine
+1239,hBP06,宝鐘マリン,Houshou Marine,hBP02-031,SR,1,0,1,1980,Red,Houshou Marine
 1240,hBP06,森カリオペ,Mori Calliope,hBP02-054,C,0,0,1,80,Purple,Mori Calliope
 1241,hBP06,森カリオペ,Mori Calliope,hBP02-054,HR,1,0,1,4980,Purple,Mori Calliope
 1242,hBP06,姫森ルーナ,Himemori Luna,hBP03-009,C,0,0,1,50,White,Himemori Luna
@@ -1281,7 +1281,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1785,hBP06,ろぼさー,Roboser,hBP03-110,U,0,0,1,30,Support,Roboco-san
 1245,hBP06,ラオーラ・パンテーラ,Raora Panthera,hBP04-016,C,0,0,1,80,White,Raora Panthera
 1246,hBP06,雪花ラミィ,Yukihana Lamy,hBP04-043,C,0,0,1,50,Blue,Yukihana Lamy
-1247,hBP06,雪花ラミィ,Yukihana Lamy,hBP04-043,HR,1,0,1,6980,Blue,Yukihana Lamy
+1247,hBP06,雪花ラミィ,Yukihana Lamy,hBP04-043,HR,1,0,1,5980,Blue,Yukihana Lamy
 1248,hBP06,大空スバル,Oozora Subaru,hBP04-067,C,0,0,1,80,Yellow,Oozora Subaru
 1249,hBP06,大空スバル,Oozora Subaru,hBP04-067,HR,1,0,1,6980,Yellow,Oozora Subaru
 1250,hBP06,夏色まつり,Natsuiro Matsuri,hBP04-079,C,0,0,1,50,Yellow,Natsuiro Matsuri
@@ -1296,12 +1296,12 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1259,hBP07,赤井はあと,Akai Haato,hBP07-004,OSR,1,0,0,180,Red,Akai Haato
 1260,hBP07,赤井はあと,Akai Haato,hBP07-004,OUR,1,0,0,12800,Red,Akai Haato
 1261,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-005,OSR,1,0,0,680,Blue,Ouro Kronii
-1262,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-005,OUR,1,0,0,24800,Blue,Ouro Kronii
+1262,hBP07,オーロ・クロニー,Ouro Kronii,hBP07-005,OUR,1,0,0,19800,Blue,Ouro Kronii
 1263,hBP07,AZKi,AZKi,hBP07-006,OSR,1,0,0,980,Purple,AZKi
-1264,hBP07,AZKi,AZKi,hBP07-006,OUR,1,0,0,24800,Purple,AZKi
+1264,hBP07,AZKi,AZKi,hBP07-006,OUR,1,0,0,19800,Purple,AZKi
 1265,hBP07,AZKi,AZKi,hBP07-006,SEC,1,1,0,118000,Purple,AZKi
 1266,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-007,OSR,1,0,0,220,Yellow,Momosuzu Nene
-1267,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-007,OUR,1,0,0,8980,Yellow,Momosuzu Nene
+1267,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-007,OUR,1,0,0,7980,Yellow,Momosuzu Nene
 1268,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-007,SEC,1,1,0,59800,Yellow,Momosuzu Nene
 1269,hBP07,角巻わため,Tsunomaki Watame,hBP07-008,C,0,0,0,30,White,Tsunomaki Watame
 1270,hBP07,角巻わため,Tsunomaki Watame,hBP07-009,U,0,0,0,50,White,Tsunomaki Watame
@@ -1357,7 +1357,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1320,hBP07,輪堂千速,Rindo Chihaya,hBP07-034,R,1,0,0,80,Green,Rindo Chihaya
 1321,hBP07,輪堂千速,Rindo Chihaya,hBP07-034,SR,1,0,0,780,Green,Rindo Chihaya
 1322,hBP07,輪堂千速,Rindo Chihaya,hBP07-035,RR,1,0,0,180,Green,Rindo Chihaya
-1323,hBP07,輪堂千速,Rindo Chihaya,hBP07-035,SR,1,0,0,500,Green,Rindo Chihaya
+1323,hBP07,輪堂千速,Rindo Chihaya,hBP07-035,SR,1,0,0,680,Green,Rindo Chihaya
 1324,hBP07,輪堂千速,Rindo Chihaya,hBP07-035,UR,1,0,0,7980,Green,Rindo Chihaya
 1325,hBP07,赤井はあと,Akai Haato,hBP07-036,C,0,0,0,30,Red,Akai Haato
 1326,hBP07,赤井はあと,Akai Haato,hBP07-037,U,0,0,0,50,Red,Akai Haato
@@ -1382,7 +1382,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1345,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-046,C,0,0,0,50,Red,Elizabeth Rose Bloodflame
 1346,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-047,U,0,0,0,50,Red,Elizabeth Rose Bloodflame
 1347,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-047,S,1,0,0,220,Red,Elizabeth Rose Bloodflame
-1348,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-048,R,1,0,0,280,Red,Elizabeth Rose Bloodflame
+1348,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-048,R,1,0,0,220,Red,Elizabeth Rose Bloodflame
 1349,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-048,SR,1,0,0,780,Red,Elizabeth Rose Bloodflame
 1350,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-049,RR,1,0,0,180,Red,Elizabeth Rose Bloodflame
 1351,hBP07,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hBP07-049,SR,1,0,0,320,Red,Elizabeth Rose Bloodflame
@@ -1412,10 +1412,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1375,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-061,SR,1,0,0,420,Blue,Shiori Novella
 1376,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-062,RR,1,0,0,180,Blue,Shiori Novella
 1377,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-062,SR,1,0,0,420,Blue,Shiori Novella
-1378,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-062,UR,1,0,0,2480,Blue,Shiori Novella
+1378,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP07-062,UR,1,0,0,1980,Blue,Shiori Novella
 1379,hBP07,AZKi,AZKi,hBP07-063,C,0,0,0,80,Purple,AZKi
 1380,hBP07,AZKi,AZKi,hBP07-064,U,0,0,0,50,Purple,AZKi
-1381,hBP07,AZKi,AZKi,hBP07-064,S,1,0,0,780,Purple,AZKi
+1381,hBP07,AZKi,AZKi,hBP07-064,S,1,0,0,980,Purple,AZKi
 1382,hBP07,AZKi,AZKi,hBP07-065,C,0,0,0,50,Purple,AZKi
 1383,hBP07,AZKi,AZKi,hBP07-065,S,1,0,0,580,Purple,AZKi
 1384,hBP07,AZKi,AZKi,hBP07-066,C,0,0,0,80,Purple,AZKi
@@ -1426,7 +1426,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1389,hBP07,AZKi,AZKi,hBP07-068,S,1,0,0,220,Purple,AZKi
 1390,hBP07,AZKi,AZKi,hBP07-069,RR,1,0,0,320,Purple,AZKi
 1391,hBP07,AZKi,AZKi,hBP07-069,SR,1,0,0,980,Purple,AZKi
-1392,hBP07,AZKi,AZKi,hBP07-069,UR,1,0,0,8980,Purple,AZKi
+1392,hBP07,AZKi,AZKi,hBP07-069,UR,1,0,0,7980,Purple,AZKi
 1393,hBP07,癒月ちょこ,Yuzuki Choco,hBP07-070,R,1,0,0,50,Purple,Yuzuki Choco
 1394,hBP07,癒月ちょこ,Yuzuki Choco,hBP07-070,SR,1,0,0,500,Purple,Yuzuki Choco
 1395,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-071,C,0,0,0,30,Purple,La+ Darknesss
@@ -1434,12 +1434,12 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1397,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-072,U,0,0,0,50,Purple,La+ Darknesss
 1398,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-072,S,1,0,0,320,Purple,La+ Darknesss
 1399,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-073,R,1,0,0,80,Purple,La+ Darknesss
-1400,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-073,SR,1,0,0,680,Purple,La+ Darknesss
+1400,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-073,SR,1,0,0,580,Purple,La+ Darknesss
 1401,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-074,RR,1,0,0,120,Purple,La+ Darknesss
 1402,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-074,SR,1,0,0,420,Purple,La+ Darknesss
 1403,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP07-074,UR,1,0,0,1980,Purple,La+ Darknesss
 1404,hBP07,古石ビジュー,Koseki Bijou,hBP07-075,R,1,0,0,50,Purple,Koseki Bijou
-1405,hBP07,古石ビジュー,Koseki Bijou,hBP07-075,SR,1,0,0,500,Purple,Koseki Bijou
+1405,hBP07,古石ビジュー,Koseki Bijou,hBP07-075,SR,1,0,0,420,Purple,Koseki Bijou
 1406,hBP07,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP07-076,R,1,0,0,50,Purple,Nerissa Ravencroft
 1407,hBP07,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP07-076,SR,1,0,0,780,Purple,Nerissa Ravencroft
 1408,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-077,C,0,0,0,30,Yellow,Momosuzu Nene
@@ -1450,7 +1450,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1413,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-080,C,0,0,0,30,Yellow,Momosuzu Nene
 1414,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-080,S,1,0,0,180,Yellow,Momosuzu Nene
 1415,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-081,R,1,0,0,50,Yellow,Momosuzu Nene
-1416,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-081,SR,1,0,0,580,Yellow,Momosuzu Nene
+1416,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-081,SR,1,0,0,680,Yellow,Momosuzu Nene
 1417,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-082,U,0,0,0,50,Yellow,Momosuzu Nene
 1418,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-082,S,1,0,0,320,Yellow,Momosuzu Nene
 1419,hBP07,桃鈴ねね,Momosuzu Nene,hBP07-083,RR,1,0,0,180,Yellow,Momosuzu Nene
@@ -1480,7 +1480,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1443,hBP07,クロスインパクト,Cross Impact,hBP07-095,C,0,0,0,30,Support,"Nerissa Ravencroft, Elizabeth Rose Bloodflame"
 1444,hBP07,クロスインパクト,Cross Impact,hBP07-095,S,1,0,0,180,Support,"Nerissa Ravencroft, Elizabeth Rose Bloodflame"
 1445,hBP07,ちゃま旅,Chama's Trip,hBP07-096,U,0,0,0,50,Support,Akai Haato
-1446,hBP07,ちゃま旅,Chama's Trip,hBP07-096,S,1,0,0,320,Support,Akai Haato
+1446,hBP07,ちゃま旅,Chama's Trip,hBP07-096,S,1,0,0,220,Support,Akai Haato
 1447,hBP07,時の支配者 -Promise-,Ruler of Time -Promise-,hBP07-097,U,0,0,0,180,Support,Ouro Kronii
 1448,hBP07,ビッグゴッドミオーンの占い,Big God Mion's Fortune-Telling,hBP07-098,U,0,0,0,80,Support,Ookami Mio
 1449,hBP07,ビッグゴッドミオーンの占い,Big God Mion's Fortune-Telling,hBP07-098,S,1,0,0,280,Support,Ookami Mio
@@ -1507,7 +1507,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1470,hBP07,Kronies,Kronies,hBP07-109,S,1,0,0,120,Support,Ouro Kronii
 1471,hBP07,ねっ子,Rootlet,hBP07-110,C,0,0,0,30,Support,Momosuzu Nene
 1472,hBP07,ねっ子,Rootlet,hBP07-110,S,1,0,0,320,Support,Momosuzu Nene
-1519,hBP07,白エール,White Cheer,hY01-012,SY,1,0,0,1280,White,Shirogane Noel
+1519,hBP07,白エール,White Cheer,hY01-012,SY,1,0,0,980,White,Shirogane Noel
 1520,hBP07,緑エール,Green Cheer,hY02-010,SY,1,0,0,2980,Green,Rindo Chihaya
 1521,hBP07,赤エール,Red Cheer,hY03-014,SY,1,0,0,1980,Red,Omaru Polka
 1522,hBP07,青エール,Blue Cheer,hY04-011,SY,1,0,0,1280,Blue,Kobo Kanaeru
@@ -1521,7 +1521,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1477,hBP07,AZKi,AZKi,hBP01-044,C,0,0,1,80,Green,AZKi
 1478,hBP07,AZKi,AZKi,hBP01-044,HR,1,0,1,6980,Green,AZKi
 1479,hBP07,オーロ・クロニー,Ouro Kronii,hBP01-092,C,0,0,1,80,Blue,Ouro Kronii
-1480,hBP07,オーロ・クロニー,Ouro Kronii,hBP01-092,HR,1,0,1,4980,Blue,Ouro Kronii
+1480,hBP07,オーロ・クロニー,Ouro Kronii,hBP01-092,HR,1,0,1,5980,Blue,Ouro Kronii
 1787,hBP07,開拓者,Pioneers,hBP01-124,C,0,0,1,80,Support,AZKi
 1481,hBP07,大神ミオ,Ookami Mio,hBP02-024,C,0,0,1,50,Green,Ookami Mio
 1788,hBP07,ミオファ,Mio-fam,hBP02-101,C,0,0,1,30,Support,Ookami Mio
@@ -1532,26 +1532,26 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1789,hBP07,わためいと,Watamates,hBP03-112,U,0,0,1,50,Support,Tsunomaki Watame
 1486,hBP07,シオリ・ノヴェラ,Shiori Novella,hBP04-050,C,0,0,1,50,Blue,Shiori Novella
 1487,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP04-054,C,0,0,1,50,Purple,La+ Darknesss
-1488,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP04-054,HR,1,0,1,4980,Purple,La+ Darknesss
+1488,hBP07,ラプラス・ダークネス,La+ Darknesss,hBP04-054,HR,1,0,1,3980,Purple,La+ Darknesss
 1489,hBP07,桃鈴ねね,Momosuzu Nene,hBP04-083,C,0,0,1,50,Yellow,Momosuzu Nene
 1531,hBP08,IRyS,IRyS,hBP08-001,OSR,1,0,0,220,White,IRyS
 1532,hBP08,IRyS,IRyS,hBP08-001,OUR,1,0,0,14800,White,IRyS
 1533,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-002,OSR,1,0,0,220,Green,Cecilia Immergreen
 1534,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-002,OUR,1,0,0,9980,Green,Cecilia Immergreen
 1535,hBP08,フワモコ,FUWAMOCO,hBP08-003,OSR,1,0,0,1280,Red,"Fuwawa Abyssgard, Mococo Abyssgard"
-1536,hBP08,フワモコ,FUWAMOCO,hBP08-003,OUR,1,0,0,29800,Red,"Fuwawa Abyssgard, Mococo Abyssgard"
+1536,hBP08,フワモコ,FUWAMOCO,hBP08-003,OUR,1,0,0,24800,Red,"Fuwawa Abyssgard, Mococo Abyssgard"
 1537,hBP08,フワモコ,FUWAMOCO,hBP08-003,SEC,1,1,0,138000,Red,"Fuwawa Abyssgard, Mococo Abyssgard"
-1538,hBP08,水宮枢,Mizumiya Su,hBP08-004,OSR,1,0,0,680,Blue,Mizumiya Su
-1539,hBP08,水宮枢,Mizumiya Su,hBP08-004,OUR,1,0,0,24800,Blue,Mizumiya Su
-1540,hBP08,水宮枢,Mizumiya Su,hBP08-004,SEC,1,1,0,128000,Blue,Mizumiya Su
+1538,hBP08,水宮枢,Mizumiya Su,hBP08-004,OSR,1,0,0,580,Blue,Mizumiya Su
+1539,hBP08,水宮枢,Mizumiya Su,hBP08-004,OUR,1,0,0,19800,Blue,Mizumiya Su
+1540,hBP08,水宮枢,Mizumiya Su,hBP08-004,SEC,1,1,0,118000,Blue,Mizumiya Su
 1541,hBP08,鷹嶺ルイ,Takane Lui,hBP08-005,OSR,1,0,0,280,Purple,Takane Lui
-1542,hBP08,鷹嶺ルイ,Takane Lui,hBP08-005,OUR,1,0,0,12800,Purple,Takane Lui
+1542,hBP08,鷹嶺ルイ,Takane Lui,hBP08-005,OUR,1,0,0,9980,Purple,Takane Lui
 1543,hBP08,鷹嶺ルイ,Takane Lui,hBP08-005,SEC,1,1,0,59800,Purple,Takane Lui
 1544,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-006,OSR,1,0,0,780,Purple,Ninomae Ina'nis
-1545,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-006,OUR,1,0,0,24800,Purple,Ninomae Ina'nis
+1545,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-006,OUR,1,0,0,19800,Purple,Ninomae Ina'nis
 1546,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-006,SEC,1,1,0,108000,Purple,Ninomae Ina'nis
 1547,hBP08,音乃瀬奏,Otonose Kanade,hBP08-007,OSR,1,0,0,280,Yellow,Otonose Kanade
-1548,hBP08,音乃瀬奏,Otonose Kanade,hBP08-007,OUR,1,0,0,12800,Yellow,Otonose Kanade
+1548,hBP08,音乃瀬奏,Otonose Kanade,hBP08-007,OUR,1,0,0,9980,Yellow,Otonose Kanade
 1549,hBP08,音乃瀬奏,Otonose Kanade,hBP08-007,SEC,1,1,0,59800,Yellow,Otonose Kanade
 1550,hBP08,IRyS,IRyS,hBP08-008,C,0,0,0,30,White,IRyS
 1551,hBP08,IRyS,IRyS,hBP08-009,U,0,0,0,30,White,IRyS
@@ -1571,7 +1571,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1565,hBP08,ときのそら,Tokino Sora,hBP08-015,S,1,0,0,420,White,Tokino Sora
 1566,hBP08,ときのそら,Tokino Sora,hBP08-016,U,0,0,0,50,White,Tokino Sora
 1567,hBP08,ときのそら,Tokino Sora,hBP08-016,S,1,0,0,420,White,Tokino Sora
-1568,hBP08,ときのそら,Tokino Sora,hBP08-017,R,1,0,0,180,White,Tokino Sora
+1568,hBP08,ときのそら,Tokino Sora,hBP08-017,R,1,0,0,120,White,Tokino Sora
 1569,hBP08,ときのそら,Tokino Sora,hBP08-017,SR,1,0,0,980,White,Tokino Sora
 1570,hBP08,ときのそら,Tokino Sora,hBP08-018,RR,1,0,0,120,White,Tokino Sora
 1571,hBP08,ときのそら,Tokino Sora,hBP08-018,SR,1,0,0,420,White,Tokino Sora
@@ -1582,13 +1582,13 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1576,hBP08,響咲リオナ,Isaki Riona,hBP08-020,SR,1,0,0,680,White,Isaki Riona
 1577,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-021,C,0,0,0,30,Green,Cecilia Immergreen
 1578,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-022,U,0,0,0,30,Green,Cecilia Immergreen
-1579,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-022,S,1,0,0,420,Green,Cecilia Immergreen
+1579,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-022,S,1,0,0,320,Green,Cecilia Immergreen
 1580,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-023,C,0,0,0,30,Green,Cecilia Immergreen
 1581,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-023,S,1,0,0,220,Green,Cecilia Immergreen
 1582,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-024,C,0,0,0,30,Green,Cecilia Immergreen
 1583,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-024,S,1,0,0,280,Green,Cecilia Immergreen
 1584,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-025,R,1,0,0,50,Green,Cecilia Immergreen
-1585,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-025,SR,1,0,0,420,Green,Cecilia Immergreen
+1585,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-025,SR,1,0,0,320,Green,Cecilia Immergreen
 1586,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-026,U,0,0,0,30,Green,Cecilia Immergreen
 1587,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-026,S,1,0,0,180,Green,Cecilia Immergreen
 1588,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP08-027,RR,1,0,0,120,Green,Cecilia Immergreen
@@ -1620,7 +1620,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1614,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-039,SR,1,0,0,1280,Red,Mococo Abyssgard
 1615,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP08-039,UR,1,0,0,7980,Red,Mococo Abyssgard
 1616,hBP08,百鬼あやめ,Nakiri Ayame,hBP08-040,R,1,0,0,50,Red,Nakiri Ayame
-1617,hBP08,百鬼あやめ,Nakiri Ayame,hBP08-040,SR,1,0,0,1280,Red,Nakiri Ayame
+1617,hBP08,百鬼あやめ,Nakiri Ayame,hBP08-040,SR,1,0,0,1480,Red,Nakiri Ayame
 1618,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-041,C,0,0,0,30,Red,Takanashi Kiara
 1619,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-041,S,1,0,0,220,Red,Takanashi Kiara
 1620,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP08-042,U,0,0,0,30,Red,Takanashi Kiara
@@ -1645,7 +1645,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1639,hBP08,水宮枢,Mizumiya Su,hBP08-051,SR,1,0,0,980,Blue,Mizumiya Su
 1640,hBP08,水宮枢,Mizumiya Su,hBP08-052,U,0,0,0,50,Blue,Mizumiya Su
 1641,hBP08,水宮枢,Mizumiya Su,hBP08-052,S,1,0,0,320,Blue,Mizumiya Su
-1642,hBP08,水宮枢,Mizumiya Su,hBP08-053,RR,1,0,0,120,Blue,Mizumiya Su
+1642,hBP08,水宮枢,Mizumiya Su,hBP08-053,RR,1,0,0,180,Blue,Mizumiya Su
 1643,hBP08,水宮枢,Mizumiya Su,hBP08-053,SR,1,0,0,780,Blue,Mizumiya Su
 1644,hBP08,水宮枢,Mizumiya Su,hBP08-053,UR,1,0,0,6980,Blue,Mizumiya Su
 1645,hBP08,ムーナ・ホシノヴァ,Moona Hoshinova,hBP08-054,R,1,0,0,320,Blue,Moona Hoshinova
@@ -1655,11 +1655,11 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1649,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-056,U,0,0,0,50,Blue,Fuwawa Abyssgard
 1650,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-056,S,1,0,0,420,Blue,Fuwawa Abyssgard
 1651,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-057,R,1,0,0,80,Blue,Fuwawa Abyssgard
-1652,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-057,SR,1,0,0,780,Blue,Fuwawa Abyssgard
+1652,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-057,SR,1,0,0,500,Blue,Fuwawa Abyssgard
 1653,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-058,R,1,0,0,80,Blue,Fuwawa Abyssgard
-1654,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-058,SR,1,0,0,420,Blue,Fuwawa Abyssgard
+1654,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-058,SR,1,0,0,320,Blue,Fuwawa Abyssgard
 1655,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-059,RR,1,0,0,120,Blue,Fuwawa Abyssgard
-1656,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-059,SR,1,0,0,1480,Blue,Fuwawa Abyssgard
+1656,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-059,SR,1,0,0,980,Blue,Fuwawa Abyssgard
 1657,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP08-059,UR,1,0,0,6980,Blue,Fuwawa Abyssgard
 1658,hBP08,フワモコ,FUWAMOCO,hBP08-060,R,1,0,0,80,"Blue,Red","Fuwawa Abyssgard, Mococo Abyssgard"
 1659,hBP08,フワモコ,FUWAMOCO,hBP08-060,SR,1,0,0,780,"Blue,Red","Fuwawa Abyssgard, Mococo Abyssgard"
@@ -1671,7 +1671,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1665,hBP08,鷹嶺ルイ,Takane Lui,hBP08-064,C,0,0,0,30,Purple,Takane Lui
 1666,hBP08,鷹嶺ルイ,Takane Lui,hBP08-064,S,1,0,0,320,Purple,Takane Lui
 1667,hBP08,鷹嶺ルイ,Takane Lui,hBP08-065,R,1,0,0,50,Purple,Takane Lui
-1668,hBP08,鷹嶺ルイ,Takane Lui,hBP08-065,SR,1,0,0,500,Purple,Takane Lui
+1668,hBP08,鷹嶺ルイ,Takane Lui,hBP08-065,SR,1,0,0,420,Purple,Takane Lui
 1669,hBP08,鷹嶺ルイ,Takane Lui,hBP08-066,U,0,0,0,30,Purple,Takane Lui
 1670,hBP08,鷹嶺ルイ,Takane Lui,hBP08-066,S,1,0,0,320,Purple,Takane Lui
 1671,hBP08,鷹嶺ルイ,Takane Lui,hBP08-067,RR,1,0,0,180,Purple,Takane Lui
@@ -1685,16 +1685,16 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1679,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-071,C,0,0,0,50,Purple,Ninomae Ina'nis
 1680,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-071,S,1,0,0,420,Purple,Ninomae Ina'nis
 1681,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-072,R,1,0,0,80,Purple,Ninomae Ina'nis
-1682,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-072,SR,1,0,0,1480,Purple,Ninomae Ina'nis
+1682,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-072,SR,1,0,0,980,Purple,Ninomae Ina'nis
 1683,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-073,U,0,0,0,50,Purple,Ninomae Ina'nis
 1684,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-073,S,1,0,0,320,Purple,Ninomae Ina'nis
 1685,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-074,RR,1,0,0,180,Purple,Ninomae Ina'nis
-1686,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-074,SR,1,0,0,780,Purple,Ninomae Ina'nis
+1686,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-074,SR,1,0,0,680,Purple,Ninomae Ina'nis
 1687,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP08-074,UR,1,0,0,6980,Purple,Ninomae Ina'nis
 1688,hBP08,ロボ子さん,Roboco-san,hBP08-075,R,1,0,0,50,Purple,Roboco-san
 1689,hBP08,ロボ子さん,Roboco-san,hBP08-075,SR,1,0,0,320,Purple,Roboco-san
 1690,hBP08,癒月ちょこ,Yuzuki Choco,hBP08-076,R,1,0,0,50,Purple,Yuzuki Choco
-1691,hBP08,癒月ちょこ,Yuzuki Choco,hBP08-076,SR,1,0,0,500,Purple,Yuzuki Choco
+1691,hBP08,癒月ちょこ,Yuzuki Choco,hBP08-076,SR,1,0,0,420,Purple,Yuzuki Choco
 1692,hBP08,音乃瀬奏,Otonose Kanade,hBP08-077,C,0,0,0,30,Yellow,Otonose Kanade
 1693,hBP08,音乃瀬奏,Otonose Kanade,hBP08-078,U,0,0,0,30,Yellow,Otonose Kanade
 1694,hBP08,音乃瀬奏,Otonose Kanade,hBP08-078,S,1,0,0,320,Yellow,Otonose Kanade
@@ -1714,7 +1714,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1708,hBP08,不知火フレア,Shiranui Flare,hBP08-085,C,0,0,0,30,Yellow,Shiranui Flare
 1709,hBP08,不知火フレア,Shiranui Flare,hBP08-085,S,1,0,0,280,Yellow,Shiranui Flare
 1710,hBP08,不知火フレア,Shiranui Flare,hBP08-086,U,0,0,0,30,Yellow,Shiranui Flare
-1711,hBP08,不知火フレア,Shiranui Flare,hBP08-086,S,1,0,0,980,Yellow,Shiranui Flare
+1711,hBP08,不知火フレア,Shiranui Flare,hBP08-086,S,1,0,0,1280,Yellow,Shiranui Flare
 1712,hBP08,不知火フレア,Shiranui Flare,hBP08-087,R,1,0,0,50,Yellow,Shiranui Flare
 1713,hBP08,不知火フレア,Shiranui Flare,hBP08-087,SR,1,0,0,420,Yellow,Shiranui Flare
 1714,hBP08,不知火フレア,Shiranui Flare,hBP08-088,RR,1,0,0,120,Yellow,Shiranui Flare
@@ -1739,21 +1739,21 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1733,hBP08,hololive Mythology,hololive Mythology,hBP08-098,U,0,0,0,120,Support,"Takanashi Kiara, Mori Calliope, Ninomae Ina'nis"
 1734,hBP08,hololive Mythology,hololive Mythology,hBP08-098,S,1,0,0,320,Support,"Takanashi Kiara, Mori Calliope, Ninomae Ina'nis"
 1735,hBP08,HOLOTORI,HOLOTORI,hBP08-099,U,0,0,0,120,Support,"Pavolia Reine,Takanashi Kiara,Oozora Subaru,Takane Lui"
-1736,hBP08,HOLOTORI,HOLOTORI,hBP08-099,S,1,0,0,980,Support,"Pavolia Reine,Takanashi Kiara,Oozora Subaru,Takane Lui"
+1736,hBP08,HOLOTORI,HOLOTORI,hBP08-099,S,1,0,0,1280,Support,"Pavolia Reine,Takanashi Kiara,Oozora Subaru,Takane Lui"
 1737,hBP08,Myth,Myth,hBP08-100,U,0,0,0,30,Support,"Takanashi Kiara, Mori Calliope, Ninomae Ina'nis"
 1738,hBP08,Myth,Myth,hBP08-100,S,1,0,0,220,Support,"Takanashi Kiara, Mori Calliope, Ninomae Ina'nis"
 1739,hBP08,We are ReGLOSS,We are ReGLOSS,hBP08-101,U,0,0,0,220,Support,"Otonose Kanade, Juufuutei Raden, Ichijou Ririka, Todoroki Hajime, Hiodoshi Ao"
-1740,hBP08,We are ReGLOSS,We are ReGLOSS,hBP08-101,S,1,0,0,1780,Support,"Otonose Kanade, Juufuutei Raden, Ichijou Ririka, Todoroki Hajime, Hiodoshi Ao"
+1740,hBP08,We are ReGLOSS,We are ReGLOSS,hBP08-101,S,1,0,0,1980,Support,"Otonose Kanade, Juufuutei Raden, Ichijou Ririka, Todoroki Hajime, Hiodoshi Ao"
 1741,hBP08,クールなパーカー,Cool hoodie,hBP08-102,C,0,0,0,50,Support,Ayunda Risu
 1742,hBP08,クールなパーカー,Cool hoodie,hBP08-102,S,1,0,0,420,Support,Ayunda Risu
 1743,hBP08,ホロマント,Holomant,hBP08-103,U,0,0,0,50,Support,Usada Pekora
 1744,hBP08,ホロマント,Holomant,hBP08-103,S,1,0,0,220,Support,Usada Pekora
 1745,hBP08,けはい,Aura,hBP08-104,C,0,0,0,50,Support,Mizumiya Su
-1746,hBP08,けはい,Aura,hBP08-104,S,1,0,0,680,Support,Mizumiya Su
+1746,hBP08,けはい,Aura,hBP08-104,S,1,0,0,500,Support,Mizumiya Su
 1747,hBP08,Bloom＆Gloom,Bloom＆Gloom,hBP08-105,C,0,0,0,30,Support,IRyS
 1748,hBP08,Bloom＆Gloom,Bloom＆Gloom,hBP08-105,S,1,0,0,180,Support,IRyS
 1749,hBP08,GuyRyS,GuyRyS,hBP08-106,C,0,0,0,30,Support,IRyS
-1750,hBP08,GuyRyS,GuyRyS,hBP08-106,S,1,0,0,180,Support,IRyS
+1750,hBP08,GuyRyS,GuyRyS,hBP08-106,S,1,0,0,280,Support,IRyS
 1751,hBP08,Otomo,Otomo,hBP08-107,C,0,0,0,30,Support,Cecilia Immergreen
 1752,hBP08,Otomo,Otomo,hBP08-107,S,1,0,0,280,Support,Cecilia Immergreen
 1753,hBP08,いたずらなRuffians,Mischievous Ruffians,hBP08-108,C,0,0,0,30,Support,"Fuwawa Abyssgard, Mococo Abyssgard"
@@ -1764,8 +1764,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1758,hBP08,Takodachi,Takodachi,hBP08-110,S,1,0,0,420,Support,Ninomae Ina'nis
 1762,hBP08,白エール,White Cheer,hY01-013,SY,1,0,0,1480,White,Tokino Sora
 1763,hBP08,緑エール,Green Cheer,hY02-011,SY,1,0,0,780,Green,Airani Iofifteen
-1764,hBP08,赤エール,Red Cheer,hY03-015,SY,1,0,0,2980,Red,Mococo Abyssgard
-1765,hBP08,青エール,Blue Cheer,hY04-012,SY,1,0,0,1780,Blue,Fuwawa Abyssgard
+1764,hBP08,赤エール,Red Cheer,hY03-015,SY,1,0,0,2480,Red,Mococo Abyssgard
+1765,hBP08,青エール,Blue Cheer,hY04-012,SY,1,0,0,1480,Blue,Fuwawa Abyssgard
 1766,hBP08,紫エール,Purple Cheer,hY05-010,SY,1,0,0,1480,Purple,Mori Calliope
 1767,hBP08,黄エール,Yellow Cheer,hY06-010,SY,1,0,0,1280,Yellow,Koganei Niko
 1759,hBP08,水宮枢,Mizumiya Su,hSD11-007,C,0,0,1,80,Blue,Mizumiya Su
@@ -1774,48 +1774,48 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1768,hBP08,IRyS,IRyS,hBP01-028,C,0,0,1,50,White,IRyS
 1769,hBP08,IRyS,IRyS,hBP01-028,HR,1,0,1,3980,White,IRyS
 1770,hBP08,鷹嶺ルイ,Takane Lui,hBP01-056,C,0,0,1,50,Red,Takane Lui
-1771,hBP08,鷹嶺ルイ,Takane Lui,hBP01-056,HR,1,0,1,4980,Red,Takane Lui
+1771,hBP08,鷹嶺ルイ,Takane Lui,hBP01-056,HR,1,0,1,3980,Red,Takane Lui
 1772,hBP08,小鳥遊キアラ,Takanashi Kiara,hBP01-062,C,0,0,1,50,Red,Takanashi Kiara
 1773,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP02-018,C,0,0,1,50,Green,Pavolia Reine
 1774,hBP08,パヴォリア・レイネ,Pavolia Reine,hBP02-018,HR,1,0,1,2980,Green,Pavolia Reine
 1775,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP02-061,C,0,0,1,50,Purple,Ninomae Ina'nis
-1776,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP02-061,HR,1,0,1,3980,Purple,Ninomae Ina'nis
+1776,hBP08,一伊那尓栖,Ninomae Ina'nis,hBP02-061,HR,1,0,1,4980,Purple,Ninomae Ina'nis
 1777,hBP08,モココ・アビスガード,Mococo Abyssgard,hBP03-037,C,0,0,1,80,Red,Mococo Abyssgard
 1778,hBP08,フワワ・アビスガード,Fuwawa Abyssgard,hBP03-040,C,0,0,1,80,Blue,Fuwawa Abyssgard
 1779,hBP08,音乃瀬奏,Otonose Kanade,hBP03-080,C,0,0,1,50,Yellow,Otonose Kanade
 1780,hBP08,音乃瀬奏,Otonose Kanade,hBP03-080,HR,1,0,1,3980,Yellow,Otonose Kanade
 1781,hBP08,セシリア・イマーグリーン,Cecilia Immergreen,hBP04-028,C,0,0,1,50,Green,Cecilia Immergreen
-1790,hBP09,大空スバル,Oozora Subaru,hBP09-001,OSR,1,0,0,1280,White,Oozora Subaru
+1790,hBP09,大空スバル,Oozora Subaru,hBP09-001,OSR,1,0,0,980,White,Oozora Subaru
 1791,hBP09,大空スバル,Oozora Subaru,hBP09-001,OUR,1,0,0,17800,White,Oozora Subaru
-1792,hBP09,轟はじめ,Todoroki Hajime,hBP09-002,OSR,1,0,0,500,White,Todoroki Hajime
+1792,hBP09,轟はじめ,Todoroki Hajime,hBP09-002,OSR,1,0,0,420,White,Todoroki Hajime
 1793,hBP09,轟はじめ,Todoroki Hajime,hBP09-002,OUR,1,0,0,8980,White,Todoroki Hajime
 1794,hBP09,轟はじめ,Todoroki Hajime,hBP09-002,SEC,1,1,0,49800,White,Todoroki Hajime
-1795,hBP09,白銀ノエル,Shirogane Noel,hBP09-003,OSR,1,0,0,580,Green,Shirogane Noel
+1795,hBP09,白銀ノエル,Shirogane Noel,hBP09-003,OSR,1,0,0,500,Green,Shirogane Noel
 1796,hBP09,白銀ノエル,Shirogane Noel,hBP09-003,OUR,1,0,0,14800,Green,Shirogane Noel
-1797,hBP09,白銀ノエル,Shirogane Noel,hBP09-003,SEC,1,1,0,99800,Green,Shirogane Noel
-1798,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-004,OSR,1,0,0,680,Red,Kaela Kovalskia
+1797,hBP09,白銀ノエル,Shirogane Noel,hBP09-003,SEC,1,1,0,89800,Green,Shirogane Noel
+1798,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-004,OSR,1,0,0,500,Red,Kaela Kovalskia
 1799,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-004,OUR,1,0,0,6980,Red,Kaela Kovalskia
-1800,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-004,SEC,1,1,0,34800,Red,Kaela Kovalskia
-1801,hBP09,常闇トワ,Tokoyami Towa,hBP09-005,OSR,1,0,0,1280,Blue,Tokoyami Towa
+1800,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-004,SEC,1,1,0,29800,Red,Kaela Kovalskia
+1801,hBP09,常闇トワ,Tokoyami Towa,hBP09-005,OSR,1,0,0,980,Blue,Tokoyami Towa
 1802,hBP09,常闇トワ,Tokoyami Towa,hBP09-005,OUR,1,0,0,34800,Blue,Tokoyami Towa
-1803,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-006,OSR,1,0,0,780,Purple,Kikirara Vivi
+1803,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-006,OSR,1,0,0,580,Purple,Kikirara Vivi
 1804,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-006,OUR,1,0,0,14800,Purple,Kikirara Vivi
 1805,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-006,SEC,1,1,0,79800,Purple,Kikirara Vivi
-1806,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-007,OSR,1,0,0,780,Yellow,Yukihana Lamy
+1806,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-007,OSR,1,0,0,580,Yellow,Yukihana Lamy
 1807,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-007,OUR,1,0,0,19800,Yellow,Yukihana Lamy
 1808,hBP09,大空スバル,Oozora Subaru,hBP09-008,C,0,0,0,30,White,Oozora Subaru
 1809,hBP09,大空スバル,Oozora Subaru,hBP09-008,S,1,0,0,580,White,Oozora Subaru
 1810,hBP09,大空スバル,Oozora Subaru,hBP09-009,U,0,0,0,50,White,Oozora Subaru
 1811,hBP09,大空スバル,Oozora Subaru,hBP09-010,C,0,0,0,30,White,Oozora Subaru
-1812,hBP09,大空スバル,Oozora Subaru,hBP09-010,S,1,0,0,320,White,Oozora Subaru
+1812,hBP09,大空スバル,Oozora Subaru,hBP09-010,S,1,0,0,220,White,Oozora Subaru
 1813,hBP09,大空スバル,Oozora Subaru,hBP09-011,C,0,0,0,30,White,Oozora Subaru
 1814,hBP09,大空スバル,Oozora Subaru,hBP09-011,S,1,0,0,420,White,Oozora Subaru
 1815,hBP09,大空スバル,Oozora Subaru,hBP09-012,R,1,0,0,50,White,Oozora Subaru
-1816,hBP09,大空スバル,Oozora Subaru,hBP09-012,SR,1,0,0,980,White,Oozora Subaru
+1816,hBP09,大空スバル,Oozora Subaru,hBP09-012,SR,1,0,0,780,White,Oozora Subaru
 1817,hBP09,大空スバル,Oozora Subaru,hBP09-013,U,0,0,0,50,White,Oozora Subaru
 1818,hBP09,大空スバル,Oozora Subaru,hBP09-013,S,1,0,0,420,White,Oozora Subaru
 1819,hBP09,大空スバル,Oozora Subaru,hBP09-014,RR,1,0,0,280,White,Oozora Subaru
-1820,hBP09,大空スバル,Oozora Subaru,hBP09-014,SR,1,0,0,1480,White,Oozora Subaru
+1820,hBP09,大空スバル,Oozora Subaru,hBP09-014,SR,1,0,0,980,White,Oozora Subaru
 1821,hBP09,大空スバル,Oozora Subaru,hBP09-014,UR,1,0,0,7980,White,Oozora Subaru
 1822,hBP09,轟はじめ,Todoroki Hajime,hBP09-015,C,0,0,0,30,White,Todoroki Hajime
 1823,hBP09,轟はじめ,Todoroki Hajime,hBP09-015,S,1,0,0,420,White,Todoroki Hajime
@@ -1825,43 +1825,43 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1827,hBP09,轟はじめ,Todoroki Hajime,hBP09-018,C,0,0,0,30,White,Todoroki Hajime
 1828,hBP09,轟はじめ,Todoroki Hajime,hBP09-018,S,1,0,0,420,White,Todoroki Hajime
 1829,hBP09,轟はじめ,Todoroki Hajime,hBP09-019,R,1,0,0,50,White,Todoroki Hajime
-1830,hBP09,轟はじめ,Todoroki Hajime,hBP09-019,SR,1,0,0,680,White,Todoroki Hajime
+1830,hBP09,轟はじめ,Todoroki Hajime,hBP09-019,SR,1,0,0,580,White,Todoroki Hajime
 1831,hBP09,轟はじめ,Todoroki Hajime,hBP09-020,U,0,0,0,50,White,Todoroki Hajime
-1832,hBP09,轟はじめ,Todoroki Hajime,hBP09-020,S,1,0,0,420,White,Todoroki Hajime
+1832,hBP09,轟はじめ,Todoroki Hajime,hBP09-020,S,1,0,0,320,White,Todoroki Hajime
 1833,hBP09,轟はじめ,Todoroki Hajime,hBP09-021,RR,1,0,0,180,White,Todoroki Hajime
-1834,hBP09,轟はじめ,Todoroki Hajime,hBP09-021,SR,1,0,0,780,White,Todoroki Hajime
+1834,hBP09,轟はじめ,Todoroki Hajime,hBP09-021,SR,1,0,0,500,White,Todoroki Hajime
 1835,hBP09,轟はじめ,Todoroki Hajime,hBP09-021,UR,1,0,0,5980,White,Todoroki Hajime
 1836,hBP09,角巻わため,Tsunomaki Watame,hBP09-022,R,1,0,0,50,White,Tsunomaki Watame
 1837,hBP09,角巻わため,Tsunomaki Watame,hBP09-022,SR,1,0,0,580,White,Tsunomaki Watame
 1838,hBP09,ベスティア・ゼータ,Vestia Zeta,hBP09-023,R,1,0,0,50,White,Vestia Zeta
-1839,hBP09,ベスティア・ゼータ,Vestia Zeta,hBP09-023,SR,1,0,0,580,White,Vestia Zeta
+1839,hBP09,ベスティア・ゼータ,Vestia Zeta,hBP09-023,SR,1,0,0,420,White,Vestia Zeta
 1840,hBP09,響咲リオナ,Isaki Riona,hBP09-024,R,1,0,0,50,White,Isaki Riona
-1841,hBP09,響咲リオナ,Isaki Riona,hBP09-024,SR,1,0,0,500,White,Isaki Riona
+1841,hBP09,響咲リオナ,Isaki Riona,hBP09-024,SR,1,0,0,320,White,Isaki Riona
 1842,hBP09,白銀ノエル,Shirogane Noel,hBP09-025,C,0,0,0,30,Green,Shirogane Noel
-1843,hBP09,白銀ノエル,Shirogane Noel,hBP09-025,S,1,0,0,580,Green,Shirogane Noel
+1843,hBP09,白銀ノエル,Shirogane Noel,hBP09-025,S,1,0,0,420,Green,Shirogane Noel
 1844,hBP09,白銀ノエル,Shirogane Noel,hBP09-026,U,0,0,0,50,Green,Shirogane Noel
 1845,hBP09,白銀ノエル,Shirogane Noel,hBP09-027,C,0,0,0,30,Green,Shirogane Noel
-1846,hBP09,白銀ノエル,Shirogane Noel,hBP09-027,S,1,0,0,420,Green,Shirogane Noel
+1846,hBP09,白銀ノエル,Shirogane Noel,hBP09-027,S,1,0,0,320,Green,Shirogane Noel
 1847,hBP09,白銀ノエル,Shirogane Noel,hBP09-028,C,0,0,0,30,Green,Shirogane Noel
 1848,hBP09,白銀ノエル,Shirogane Noel,hBP09-028,S,1,0,0,680,Green,Shirogane Noel
 1849,hBP09,白銀ノエル,Shirogane Noel,hBP09-029,R,1,0,0,50,Green,Shirogane Noel
-1850,hBP09,白銀ノエル,Shirogane Noel,hBP09-029,SR,1,0,0,500,Green,Shirogane Noel
+1850,hBP09,白銀ノエル,Shirogane Noel,hBP09-029,SR,1,0,0,320,Green,Shirogane Noel
 1851,hBP09,白銀ノエル,Shirogane Noel,hBP09-030,U,0,0,0,50,Green,Shirogane Noel
 1852,hBP09,白銀ノエル,Shirogane Noel,hBP09-030,S,1,0,0,280,Green,Shirogane Noel
 1853,hBP09,白銀ノエル,Shirogane Noel,hBP09-031,RR,1,0,0,120,Green,Shirogane Noel
-1854,hBP09,白銀ノエル,Shirogane Noel,hBP09-031,SR,1,0,0,680,Green,Shirogane Noel
+1854,hBP09,白銀ノエル,Shirogane Noel,hBP09-031,SR,1,0,0,500,Green,Shirogane Noel
 1855,hBP09,白銀ノエル,Shirogane Noel,hBP09-031,UR,1,0,0,4980,Green,Shirogane Noel
 1856,hBP09,大神ミオ,Ookami Mio,hBP09-032,C,0,0,0,30,Green,Ookami Mio
 1857,hBP09,大神ミオ,Ookami Mio,hBP09-032,S,1,0,0,580,Green,Ookami Mio
 1858,hBP09,大神ミオ,Ookami Mio,hBP09-033,U,0,0,0,50,Green,Ookami Mio
 1859,hBP09,大神ミオ,Ookami Mio,hBP09-033,S,1,0,0,780,Green,Ookami Mio
 1860,hBP09,大神ミオ,Ookami Mio,hBP09-034,R,1,0,0,50,Green,Ookami Mio
-1861,hBP09,大神ミオ,Ookami Mio,hBP09-034,SR,1,0,0,500,Green,Ookami Mio
+1861,hBP09,大神ミオ,Ookami Mio,hBP09-034,SR,1,0,0,320,Green,Ookami Mio
 1862,hBP09,大神ミオ,Ookami Mio,hBP09-035,RR,1,0,0,120,Green,Ookami Mio
 1863,hBP09,大神ミオ,Ookami Mio,hBP09-035,SR,1,0,0,780,Green,Ookami Mio
 1864,hBP09,大神ミオ,Ookami Mio,hBP09-035,UR,1,0,0,6980,Green,Ookami Mio
 1865,hBP09,風真いろは,Kazama Iroha,hBP09-036,R,1,0,0,50,Green,Kazama Iroha
-1866,hBP09,風真いろは,Kazama Iroha,hBP09-036,SR,1,0,0,580,Green,Kazama Iroha
+1866,hBP09,風真いろは,Kazama Iroha,hBP09-036,SR,1,0,0,320,Green,Kazama Iroha
 1867,hBP09,輪堂千速,Rindo Chihaya,hBP09-037,R,1,0,0,50,Green,Rindo Chihaya
 1868,hBP09,輪堂千速,Rindo Chihaya,hBP09-037,SR,1,0,0,780,Green,Rindo Chihaya
 1869,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-038,C,0,0,0,30,Red,Kaela Kovalskia
@@ -1879,17 +1879,17 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1881,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-044,SR,1,0,0,680,Red,Kaela Kovalskia
 1882,hBP09,カエラ・コヴァルスキア,Kaela Kovalskia,hBP09-044,UR,1,0,0,3980,Red,Kaela Kovalskia
 1883,hBP09,赤井はあと,Akai Haato,hBP09-045,R,1,0,0,50,Red,Akai Haato
-1884,hBP09,赤井はあと,Akai Haato,hBP09-045,SR,1,0,0,420,Red,Akai Haato
+1884,hBP09,赤井はあと,Akai Haato,hBP09-045,SR,1,0,0,320,Red,Akai Haato
 1885,hBP09,百鬼あやめ,Nakiri Ayame,hBP09-046,U,0,0,0,50,Red,Nakiri Ayame
 1886,hBP09,百鬼あやめ,Nakiri Ayame,hBP09-046,S,1,0,0,500,Red,Nakiri Ayame
 1887,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-047,C,0,0,0,30,Red,Hakos Baelz
-1888,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-047,S,1,0,0,420,Red,Hakos Baelz
+1888,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-047,S,1,0,0,320,Red,Hakos Baelz
 1889,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-048,U,0,0,0,50,Red,Hakos Baelz
-1890,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-048,S,1,0,0,680,Red,Hakos Baelz
+1890,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-048,S,1,0,0,500,Red,Hakos Baelz
 1891,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-049,R,1,0,0,50,Red,Hakos Baelz
-1892,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-049,SR,1,0,0,420,Red,Hakos Baelz
+1892,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-049,SR,1,0,0,320,Red,Hakos Baelz
 1893,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-050,RR,1,0,0,120,Red,Hakos Baelz
-1894,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-050,SR,1,0,0,580,Red,Hakos Baelz
+1894,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-050,SR,1,0,0,500,Red,Hakos Baelz
 1895,hBP09,ハコス・ベールズ,Hakos Baelz,hBP09-050,UR,1,0,0,3980,Red,Hakos Baelz
 1896,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-051,C,0,0,0,30,Blue,Tokoyami Towa
 1897,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-051,S,1,0,0,1280,Blue,Tokoyami Towa
@@ -1912,30 +1912,30 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1914,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-060,U,0,0,0,50,Blue,Tokoyami Towa
 1915,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-060,S,1,0,0,1480,Blue,Tokoyami Towa
 1916,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-061,R,1,0,0,50,Blue,Tokoyami Towa
-1917,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-061,SR,1,0,0,1280,Blue,Tokoyami Towa
+1917,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-061,SR,1,0,0,980,Blue,Tokoyami Towa
 1918,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-062,RR,1,0,0,280,Blue,Tokoyami Towa
-1919,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-062,SR,1,0,0,780,Blue,Tokoyami Towa
-1920,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-062,UR,1,0,0,5980,Blue,Tokoyami Towa
+1919,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-062,SR,1,0,0,580,Blue,Tokoyami Towa
+1920,hBP09,Tokoyami Towa,Tokoyami Towa,hBP09-062,UR,1,0,0,4980,Blue,Tokoyami Towa
 1921,hBP09,オーロ・クロニー,Ouro Kronii,hBP09-063,R,1,0,0,50,Purple,Ouro Kronii
-1922,hBP09,オーロ・クロニー,Ouro Kronii,hBP09-063,SR,1,0,0,500,Purple,Ouro Kronii
+1922,hBP09,オーロ・クロニー,Ouro Kronii,hBP09-063,SR,1,0,0,420,Purple,Ouro Kronii
 1923,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-064,C,0,0,0,30,Purple,Kikirara Vivi
 1924,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-064,S,1,0,0,580,Purple,Kikirara Vivi
 1925,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-065,U,0,0,0,50,Purple,Kikirara Vivi
 1926,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-066,C,0,0,0,30,Purple,Kikirara Vivi
-1927,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-066,S,1,0,0,580,Purple,Kikirara Vivi
+1927,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-066,S,1,0,0,500,Purple,Kikirara Vivi
 1928,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-067,C,0,0,0,30,Purple,Kikirara Vivi
-1929,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-067,S,1,0,0,580,Purple,Kikirara Vivi
+1929,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-067,S,1,0,0,320,Purple,Kikirara Vivi
 1930,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-068,R,1,0,0,50,Purple,Kikirara Vivi
-1931,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-068,SR,1,0,0,980,Purple,Kikirara Vivi
+1931,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-068,SR,1,0,0,780,Purple,Kikirara Vivi
 1932,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-069,U,0,0,0,50,Purple,Kikirara Vivi
-1933,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-069,S,1,0,0,500,Purple,Kikirara Vivi
+1933,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-069,S,1,0,0,220,Purple,Kikirara Vivi
 1934,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-070,RR,1,0,0,220,Purple,Kikirara Vivi
-1935,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-070,SR,1,0,0,1280,Purple,Kikirara Vivi
+1935,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-070,SR,1,0,0,980,Purple,Kikirara Vivi
 1936,hBP09,綺々羅々ヴィヴィ,Kikirara Vivi,hBP09-070,UR,1,0,0,6980,Purple,Kikirara Vivi
 1937,hBP09,AZKi,AZKi,hBP09-071,R,1,0,0,50,Purple,AZKi
-1938,hBP09,AZKi,AZKi,hBP09-071,SR,1,0,0,680,Purple,AZKi
+1938,hBP09,AZKi,AZKi,hBP09-071,SR,1,0,0,500,Purple,AZKi
 1939,hBP09,クレイジー・オリー,Kureiji Ollie,hBP09-072,R,1,0,0,50,Purple,Kureiji Ollie
-1940,hBP09,クレイジー・オリー,Kureiji Ollie,hBP09-072,SR,1,0,0,320,Purple,Kureiji Ollie
+1940,hBP09,クレイジー・オリー,Kureiji Ollie,hBP09-072,SR,1,0,0,280,Purple,Kureiji Ollie
 1941,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-073,C,0,0,0,30,Purple,Nerissa Ravencroft
 1942,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-073,S,1,0,0,420,Purple,Nerissa Ravencroft
 1943,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-074,U,0,0,0,50,Purple,Nerissa Ravencroft
@@ -1943,21 +1943,21 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1945,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-075,R,1,0,0,50,Purple,Nerissa Ravencroft
 1946,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-075,SR,1,0,0,680,Purple,Nerissa Ravencroft
 1947,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-076,RR,1,0,0,120,Purple,Nerissa Ravencroft
-1948,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-076,SR,1,0,0,580,Purple,Nerissa Ravencroft
-1949,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-076,UR,1,0,0,4980,Purple,Nerissa Ravencroft
+1948,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-076,SR,1,0,0,500,Purple,Nerissa Ravencroft
+1949,hBP09,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP09-076,UR,1,0,0,3980,Purple,Nerissa Ravencroft
 1950,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-077,C,0,0,0,30,Yellow,Yukihana Lamy
-1951,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-077,S,1,0,0,680,Yellow,Yukihana Lamy
+1951,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-077,S,1,0,0,780,Yellow,Yukihana Lamy
 1952,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-078,U,0,0,0,50,Yellow,Yukihana Lamy
 1953,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-079,C,0,0,0,30,Yellow,Yukihana Lamy
 1954,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-079,S,1,0,0,680,Yellow,Yukihana Lamy
 1955,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-080,C,0,0,0,30,Yellow,Yukihana Lamy
 1956,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-080,S,1,0,0,580,Yellow,Yukihana Lamy
 1957,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-081,R,1,0,0,50,Yellow,Yukihana Lamy
-1958,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-081,SR,1,0,0,680,Yellow,Yukihana Lamy
+1958,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-081,SR,1,0,0,420,Yellow,Yukihana Lamy
 1959,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-082,U,0,0,0,50,Yellow,Yukihana Lamy
-1960,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-082,S,1,0,0,500,Yellow,Yukihana Lamy
+1960,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-082,S,1,0,0,680,Yellow,Yukihana Lamy
 1961,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-083,RR,1,0,0,180,Yellow,Yukihana Lamy
-1962,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-083,SR,1,0,0,980,Yellow,Yukihana Lamy
+1962,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-083,SR,1,0,0,680,Yellow,Yukihana Lamy
 1963,hBP09,雪花ラミィ,Yukihana Lamy,hBP09-083,UR,1,0,0,7980,Yellow,Yukihana Lamy
 1964,hBP09,夏色まつり,Natsuiro Matsuri,hBP09-084,C,0,0,0,30,Yellow,Natsuiro Matsuri
 1965,hBP09,夏色まつり,Natsuiro Matsuri,hBP09-084,S,1,0,0,420,Yellow,Natsuiro Matsuri
@@ -1969,40 +1969,40 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 1971,hBP09,夏色まつり,Natsuiro Matsuri,hBP09-087,SR,1,0,0,580,Yellow,Natsuiro Matsuri
 1972,hBP09,夏色まつり,Natsuiro Matsuri,hBP09-087,UR,1,0,0,5980,Yellow,Natsuiro Matsuri
 1973,hBP09,桃鈴ねね,Momosuzu Nene,hBP09-088,R,1,0,0,50,Yellow,Momosuzu Nene
-1974,hBP09,桃鈴ねね,Momosuzu Nene,hBP09-088,SR,1,0,0,500,Yellow,Momosuzu Nene
+1974,hBP09,桃鈴ねね,Momosuzu Nene,hBP09-088,SR,1,0,0,420,Yellow,Momosuzu Nene
 1975,hBP09,アユンダ・リス,Ayunda Risu,hBP09-089,R,1,0,0,50,Yellow,Ayunda Risu
 1976,hBP09,アユンダ・リス,Ayunda Risu,hBP09-089,SR,1,0,0,320,Yellow,Ayunda Risu
 1977,hBP09,コラボパソコン,Collaboration PC,hBP09-090,C,0,0,0,80,Support,Airani Iofifteen
-1978,hBP09,コラボパソコン,Collaboration PC,hBP09-090,S,1,0,0,680,Support,Airani Iofifteen
+1978,hBP09,コラボパソコン,Collaboration PC,hBP09-090,S,1,0,0,320,Support,Airani Iofifteen
 1979,hBP09,あずいろ BESTIE DAYS,AzuIro BESTIE DAYS,hBP09-091,U,0,0,0,50,Support,"Kazama Iroha, AZKi"
-1980,hBP09,あずいろ BESTIE DAYS,AzuIro BESTIE DAYS,hBP09-091,S,1,0,0,680,Support,"Kazama Iroha, AZKi"
+1980,hBP09,あずいろ BESTIE DAYS,AzuIro BESTIE DAYS,hBP09-091,S,1,0,0,420,Support,"Kazama Iroha, AZKi"
 1981,hBP09,雨の日ヴィヴィ,Rainy Day Vivi,hBP09-092,C,0,0,0,30,Support,Kikirara Vivi
-1982,hBP09,雨の日ヴィヴィ,Rainy Day Vivi,hBP09-092,S,1,0,0,780,Support,Kikirara Vivi
+1982,hBP09,雨の日ヴィヴィ,Rainy Day Vivi,hBP09-092,S,1,0,0,580,Support,Kikirara Vivi
 1983,hBP09,応援するホロリス,Holoris Cheering You On,hBP09-093,C,0,0,0,80,Support,
-1984,hBP09,応援するホロリス,Holoris Cheering You On,hBP09-093,S,1,0,0,680,Support,
+1984,hBP09,応援するホロリス,Holoris Cheering You On,hBP09-093,S,1,0,0,500,Support,
 1985,hBP09,大空警察,Oozora Police,hBP09-094,U,0,0,0,50,Support,"Oozora Subaru, Hakos Baelz"
 1986,hBP09,君に乾杯,Cheers to You,hBP09-095,C,0,0,0,30,Support,Yukihana Lamy
-1987,hBP09,君に乾杯,Cheers to You,hBP09-095,S,1,0,0,980,Support,Yukihana Lamy
+1987,hBP09,君に乾杯,Cheers to You,hBP09-095,S,1,0,0,780,Support,Yukihana Lamy
 1988,hBP09,コンコ コンコンコ コンコンコン,Konko konkonkon konkon,hBP09-096,U,0,0,0,50,Support,Todoroki Hajime
-1989,hBP09,コンコ コンコンコ コンコンコン,Konko konkonkon konkon,hBP09-096,S,1,0,0,420,Support,Todoroki Hajime
+1989,hBP09,コンコ コンコンコ コンコンコン,Konko konkonkon konkon,hBP09-096,S,1,0,0,320,Support,Todoroki Hajime
 1990,hBP09,コンビプレイ,Combo Play,hBP09-097,U,0,0,0,80,Support,"Shirogane Noel, Shiranui Flare"
-1991,hBP09,コンビプレイ,Combo Play,hBP09-097,S,1,0,0,980,Support,"Shirogane Noel, Shiranui Flare"
-1992,hBP09,スイカバブル,Watermelon Bubble,hBP09-098,C,0,0,0,500,Support,Oozora Subaru
+1991,hBP09,コンビプレイ,Combo Play,hBP09-097,S,1,0,0,680,Support,"Shirogane Noel, Shiranui Flare"
+1992,hBP09,スイカバブル,Watermelon Bubble,hBP09-098,C,0,0,0,420,Support,Oozora Subaru
 1993,hBP09,スイカバブル,Watermelon Bubble,hBP09-098,S,1,0,0,3980,Support,Oozora Subaru
 1994,hBP09,スピード違反,Speed Violation,hBP09-099,C,0,0,0,50,Support,Usada Pekora
-1995,hBP09,スピード違反,Speed Violation,hBP09-099,S,1,0,0,980,Support,Usada Pekora
+1995,hBP09,スピード違反,Speed Violation,hBP09-099,S,1,0,0,580,Support,Usada Pekora
 1996,hBP09,ノエルの特盛牛丼,Noel's Extra-Large Gyudon,hBP09-100,U,0,0,0,50,Support,Shirogane Noel
-1997,hBP09,ノエルの特盛牛丼,Noel's Extra-Large Gyudon,hBP09-100,S,1,0,0,980,Support,Shirogane Noel
+1997,hBP09,ノエルの特盛牛丼,Noel's Extra-Large Gyudon,hBP09-100,S,1,0,0,780,Support,Shirogane Noel
 1998,hBP09,バカ！変態！うるさーい！もう知らなーい！,You idiot! You pervert! So noisy! I'm done with you!,hBP09-101,U,0,0,0,80,Support,Tokoyami Towa
-1999,hBP09,バカ！変態！うるさーい！もう知らなーい！,You idiot! You pervert! So noisy! I'm done with you!,hBP09-101,S,1,0,0,1280,Support,Tokoyami Towa
+1999,hBP09,バカ！変態！うるさーい！もう知らなーい！,You idiot! You pervert! So noisy! I'm done with you!,hBP09-101,S,1,0,0,780,Support,Tokoyami Towa
 2000,hBP09,ばんちょーダンス,Bancho Dance,hBP09-102,C,0,0,0,50,Support,Todoroki Hajime
-2001,hBP09,ばんちょーダンス,Bancho Dance,hBP09-102,S,1,0,0,500,Support,Todoroki Hajime
+2001,hBP09,ばんちょーダンス,Bancho Dance,hBP09-102,S,1,0,0,320,Support,Todoroki Hajime
 2002,hBP09,変な動き,Strange movement,hBP09-103,C,0,0,0,30,Support,Shirogane Noel
-2003,hBP09,変な動き,Strange movement,hBP09-103,S,1,0,0,580,Support,Shirogane Noel
+2003,hBP09,変な動き,Strange movement,hBP09-103,S,1,0,0,320,Support,Shirogane Noel
 2004,hBP09,ホロライブ体力王決定戦,hololive Stamina King Championship,hBP09-104,C,0,0,0,50,Support,Yukihana Lamy
-2005,hBP09,ホロライブ体力王決定戦,hololive Stamina King Championship,hBP09-104,S,1,0,0,320,Support,Yukihana Lamy
+2005,hBP09,ホロライブ体力王決定戦,hololive Stamina King Championship,hBP09-104,S,1,0,0,220,Support,Yukihana Lamy
 2006,hBP09,BIG3,BIG3,hBP09-105,U,0,0,0,120,Support,"Yukihana Lamy, Oozora Subaru, Shirogane Noel"
-2007,hBP09,BIG3,BIG3,hBP09-105,SR,1,0,0,2480,Support,"Yukihana Lamy, Oozora Subaru, Shirogane Noel"
+2007,hBP09,BIG3,BIG3,hBP09-105,SR,1,0,0,1980,Support,"Yukihana Lamy, Oozora Subaru, Shirogane Noel"
 2008,hBP09,カエラが作ったホロシールド,The HoloShield created by Kaela,hBP09-106,C,0,0,0,30,Support,Kaela Kovalskia
 2009,hBP09,カエラが作ったホロシールド,The HoloShield created by Kaela,hBP09-106,S,1,0,0,420,Support,Kaela Kovalskia
 2010,hBP09,カエラが作ったホロソード,The HoloSword created by Kaela,hBP09-107,U,0,0,0,50,Support,Kaela Kovalskia
@@ -2020,7 +2020,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2022,hBP09,ハコス・ベールズ,Hakos Baelz,hBP01-072,C,0,0,1,30,Red,Hakos Baelz
 2023,hBP09,ハコス・ベールズ,Hakos Baelz,hBP01-072,HR,1,0,1,3980,Red,Hakos Baelz
 2024,hBP09,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,C,0,0,1,30,Blue,Moona Hoshinova
-2025,hBP09,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,HR,1,0,1,4980,Blue,Moona Hoshinova
+2025,hBP09,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-088,HR,1,0,1,5980,Blue,Moona Hoshinova
 2026,hBP09,白銀ノエル,Shirogane Noel,hBP02-014,C,0,0,1,30,White,Shirogane Noel
 2027,hBP09,大神ミオ,Ookami Mio,hBP02-024,C,0,0,1,30,Green,Ookami Mio
 2028,hBP09,大神ミオ,Ookami Mio,hBP02-024,HR,1,0,1,4980,Green,Ookami Mio
@@ -2035,20 +2035,20 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2037,hBP09,雪民,Yukimin,hBP04-106,U,0,0,1,50,Support,Yukihana Lamy
 2038,hBP09,牛丼,Gyudon,hBP05-075,C,0,0,1,30,Support,Shirogane Noel
 2039,hBP09,白エール,White Cheer,hY01-015,SY,1,0,1,1280,White,Vestia Zeta
-2040,hBP09,緑エール,Green Cheer,hY02-013,SY,1,0,1,1780,Green,Ookami Mio
+2040,hBP09,緑エール,Green Cheer,hY02-013,SY,1,0,1,1480,Green,Ookami Mio
 2041,hBP09,赤エール,Red Cheer,hY03-017,SY,1,0,1,1480,Red,Kaela Kovalskia
-2042,hBP09,青エール,Blue Cheer,hY04-014,SY,1,0,1,1980,Blue,Ouro Kronii
+2042,hBP09,青エール,Blue Cheer,hY04-014,SY,1,0,1,1480,Blue,Ouro Kronii
 2043,hBP09,紫エール,Purple Cheer,hY05-012,SY,1,0,1,1980,Purple,Nerissa Ravencroft
-2044,hBP09,黄エール,Yellow Cheer,hY06-012,SY,1,0,1,2480,Yellow,Yukihana Lamy
+2044,hBP09,黄エール,Yellow Cheer,hY06-012,SY,1,0,1,1980,Yellow,Yukihana Lamy
 2045,hEB01,ときのそら,Tokino Sora,hEB01-001,OSR,1,0,0,180,Red,Tokino Sora
-2046,hEB01,ときのそら,Tokino Sora,hEB01-001,OUR,1,0,0,6980,Red,Tokino Sora
+2046,hEB01,ときのそら,Tokino Sora,hEB01-001,OUR,1,0,0,5980,Red,Tokino Sora
 2047,hEB01,ときのそら,Tokino Sora,hEB01-001,SEC,1,1,0,39800,Red,Tokino Sora
 2048,hEB01,宝鐘マリン,Houshou Marine,hEB01-002,OSR,1,0,0,280,Blue,Houshou Marine
 2049,hEB01,宝鐘マリン,Houshou Marine,hEB01-002,OUR,1,0,0,12800,Blue,Houshou Marine
-2050,hEB01,宝鐘マリン,Houshou Marine,hEB01-002,SEC,1,1,0,99800,Blue,Houshou Marine
-2051,hEB01,博衣こより,Hakui Koyori,hEB01-003,OSR,1,0,0,220,Yellow,Hakui Koyori
-2052,hEB01,博衣こより,Hakui Koyori,hEB01-003,OUR,1,0,0,8980,Yellow,Hakui Koyori
-2053,hEB01,博衣こより,Hakui Koyori,hEB01-003,SEC,1,1,0,69800,Yellow,Hakui Koyori
+2050,hEB01,宝鐘マリン,Houshou Marine,hEB01-002,SEC,1,1,0,89800,Blue,Houshou Marine
+2051,hEB01,博衣こより,Hakui Koyori,hEB01-003,OSR,1,0,0,180,Yellow,Hakui Koyori
+2052,hEB01,博衣こより,Hakui Koyori,hEB01-003,OUR,1,0,0,7980,Yellow,Hakui Koyori
+2053,hEB01,博衣こより,Hakui Koyori,hEB01-003,SEC,1,1,0,59800,Yellow,Hakui Koyori
 2054,hEB01,ときのそら,Tokino Sora,hEB01-004,C,0,0,0,30,Red,Tokino Sora
 2055,hEB01,ときのそら,Tokino Sora,hEB01-004,SR,1,0,0,180,Red,Tokino Sora
 2056,hEB01,ときのそら,Tokino Sora,hEB01-005,U,0,0,0,30,Red,Tokino Sora
@@ -2149,14 +2149,14 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2151,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-065,SR,1,0,1,120,Red,Takanashi Kiara
 2152,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,RR,1,0,1,80,Red,Takanashi Kiara
 2153,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,SR,1,0,1,120,Red,Takanashi Kiara
-2154,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,UR,1,0,1,2480,Red,Takanashi Kiara
+2154,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP01-067,UR,1,0,1,1980,Red,Takanashi Kiara
 2155,hEB01,尾丸ポルカ,Omaru Polka,hBP01-070,U,0,0,1,50,Red,Omaru Polka
 2156,hEB01,尾丸ポルカ,Omaru Polka,hBP01-070,SR,1,0,1,120,Red,Omaru Polka
 2157,hEB01,ハコス・ベールズ,Hakos Baelz,hBP01-074,U,0,0,1,30,Red,Hakos Baelz
 2158,hEB01,ハコス・ベールズ,Hakos Baelz,hBP01-074,SR,1,0,1,180,Red,Hakos Baelz
 2159,hEB01,星街すいせい,Hoshimachi Suisei,hBP01-081,RR,1,0,1,80,Blue,Hoshimachi Suisei
 2160,hEB01,星街すいせい,Hoshimachi Suisei,hBP01-081,SR,1,0,1,220,Blue,Hoshimachi Suisei
-2161,hEB01,星街すいせい,Hoshimachi Suisei,hBP01-081,UR,1,0,1,5980,Blue,Hoshimachi Suisei
+2161,hEB01,星街すいせい,Hoshimachi Suisei,hBP01-081,UR,1,0,1,4980,Blue,Hoshimachi Suisei
 2162,hEB01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-090,U,0,0,1,30,Blue,Moona Hoshinova
 2163,hEB01,ムーナ・ホシノヴァ,Moona Hoshinova,hBP01-090,SR,1,0,1,120,Blue,Moona Hoshinova
 2164,hEB01,オーロ・クロニー,Ouro Kronii,hBP01-094,U,0,0,1,80,Blue,Ouro Kronii
@@ -2175,14 +2175,14 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2177,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-022,SR,1,0,1,120,Green,Pavolia Reine
 2178,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-023,RR,1,0,1,80,Green,Pavolia Reine
 2179,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-023,SR,1,0,1,180,Green,Pavolia Reine
-2180,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-023,UR,1,0,1,1480,Green,Pavolia Reine
+2180,hEB01,パヴォリア・レイネ,Pavolia Reine,hBP02-023,UR,1,0,1,1280,Green,Pavolia Reine
 2181,hEB01,大神ミオ,Ookami Mio,hBP02-026,U,0,0,1,50,Green,Ookami Mio
 2182,hEB01,大神ミオ,Ookami Mio,hBP02-026,SR,1,0,1,120,Green,Ookami Mio
 2183,hEB01,大神ミオ,Ookami Mio,hBP02-027,RR,1,0,1,80,Green,Ookami Mio
 2184,hEB01,大神ミオ,Ookami Mio,hBP02-027,SR,1,0,1,180,Green,Ookami Mio
 2185,hEB01,大神ミオ,Ookami Mio,hBP02-027,UR,1,0,1,2480,Green,Ookami Mio
 2186,hEB01,宝鐘マリン,Houshou Marine,hBP02-028,C,0,0,1,30,Red,Houshou Marine
-2187,hEB01,宝鐘マリン,Houshou Marine,hBP02-028,HR,1,0,1,4980,Red,Houshou Marine
+2187,hEB01,宝鐘マリン,Houshou Marine,hBP02-028,HR,1,0,1,3980,Red,Houshou Marine
 2188,hEB01,宝鐘マリン,Houshou Marine,hBP02-033,RR,1,0,1,120,Red,Houshou Marine
 2189,hEB01,宝鐘マリン,Houshou Marine,hBP02-033,SR,1,0,1,320,Red,Houshou Marine
 2190,hEB01,宝鐘マリン,Houshou Marine,hBP02-033,UR,1,0,1,4980,Red,Houshou Marine
@@ -2201,7 +2201,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2203,hEB01,さくらみこ,Sakura Miko,hBP03-029,SR,1,0,1,120,Red,Sakura Miko
 2204,hEB01,赤井はあと,Akai Haato,hBP03-034,RR,1,0,1,80,Red,Akai Haato
 2205,hEB01,赤井はあと,Akai Haato,hBP03-034,SR,1,0,1,180,Red,Akai Haato
-2206,hEB01,赤井はあと,Akai Haato,hBP03-034,UR,1,0,1,2480,Red,Akai Haato
+2206,hEB01,赤井はあと,Akai Haato,hBP03-034,UR,1,0,1,1980,Red,Akai Haato
 2207,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP03-036,R,1,0,1,50,Red,Takanashi Kiara
 2208,hEB01,小鳥遊キアラ,Takanashi Kiara,hBP03-036,SR,1,0,1,120,Red,Takanashi Kiara
 2209,hEB01,星街すいせい,Hoshimachi Suisei,hBP03-044,R,1,0,1,80,Blue,Hoshimachi Suisei
@@ -2216,7 +2216,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2218,hEB01,戌神ころね,Inugami Korone,hBP03-065,SR,1,0,1,120,Yellow,Inugami Korone
 2219,hEB01,角巻わため,Tsunomaki Watame,hBP03-070,U,0,0,1,30,Yellow,Tsunomaki Watame
 2220,hEB01,角巻わため,Tsunomaki Watame,hBP03-070,SR,1,0,1,180,Yellow,Tsunomaki Watame
-2221,hEB01,凸待ち,Totsumachi,hBP03-088,U,0,0,1,220,Support,"Tokoyami Towa, La+ Darknesss"
+2221,hEB01,凸待ち,Totsumachi,hBP03-088,U,0,0,1,180,Support,"Tokoyami Towa, La+ Darknesss"
 2222,hEB01,博衣こより,Hakui Koyori,hBP04-008,C,0,0,1,30,White,Hakui Koyori
 2223,hEB01,博衣こより,Hakui Koyori,hBP04-008,HR,1,0,1,4980,White,Hakui Koyori
 2224,hEB01,博衣こより,Hakui Koyori,hBP04-012,R,1,0,1,80,White,Hakui Koyori
@@ -2233,10 +2233,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2235,hEB01,こよりの助手くん,Koyori's Assistant,hBP04-105,U,0,0,1,50,Support,Hakui Koyori
 2236,hEB01,兎田ぺこら,Usada Pekora,hBP05-016,RR,1,0,1,80,White,Usada Pekora
 2237,hEB01,兎田ぺこら,Usada Pekora,hBP05-016,SR,1,0,1,180,White,Usada Pekora
-2238,hEB01,兎田ぺこら,Usada Pekora,hBP05-016,UR,1,0,1,3980,White,Usada Pekora
+2238,hEB01,兎田ぺこら,Usada Pekora,hBP05-016,UR,1,0,1,3480,White,Usada Pekora
 2239,hEB01,猫又おかゆ,Nekomata Okayu,hBP05-045,RR,1,0,1,80,Blue,Nekomata Okayu
 2240,hEB01,猫又おかゆ,Nekomata Okayu,hBP05-045,SR,1,0,1,180,Blue,Nekomata Okayu
-2241,hEB01,猫又おかゆ,Nekomata Okayu,hBP05-045,UR,1,0,1,3980,Blue,Nekomata Okayu
+2241,hEB01,猫又おかゆ,Nekomata Okayu,hBP05-045,UR,1,0,1,3480,Blue,Nekomata Okayu
 2242,hEB01,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,R,1,0,1,50,Purple,Nerissa Ravencroft
 2243,hEB01,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hBP05-060,SR,1,0,1,120,Purple,Nerissa Ravencroft
 2244,hEB01,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,280,Support,"Mori Calliope, Takanashi Kiara"
@@ -2249,8 +2249,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2251,hEB01,赤エール,Red Cheer,hY03-001,S,1,0,1,120,Red,
 2252,hEB01,赤エール,Red Cheer,hY03-016,SY,1,0,1,980,Red,Takanashi Kiara
 2253,hEB01,青エール,Blue Cheer,hY04-001,S,1,0,1,120,Blue,
-2254,hEB01,青エール,Blue Cheer,hY04-013,SY,1,0,1,3480,Blue,Mizumiya Su
+2254,hEB01,青エール,Blue Cheer,hY04-013,SY,1,0,1,2980,Blue,Mizumiya Su
 2255,hEB01,紫エール,Purple Cheer,hY05-001,S,1,0,1,120,Purple,
 2256,hEB01,紫エール,Purple Cheer,hY05-011,SY,1,0,1,3480,Purple,Kikirara Vivi
 2257,hEB01,黄エール,Yellow Cheer,hY06-001,S,1,0,1,120,Yellow,
-2258,hEB01,黄エール,Yellow Cheer,hY06-011,SY,1,0,1,2480,Yellow,Inugami Korone
+2258,hEB01,黄エール,Yellow Cheer,hY06-011,SY,1,0,1,1980,Yellow,Inugami Korone

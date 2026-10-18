@@ -11,7 +11,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2717,hSD01,AZKi,AZKi,hSD01-010,U,0,0,0,50,Green,AZKi
 2718,hSD01,AZKi,AZKi,hSD01-011,RR,1,0,0,180,Green,AZKi
 2719,hSD01,アイラニ・イオフィフティーン,Airani Iofifteen,hSD01-012,C,0,0,0,180,Green,Airani Iofifteen
-2720,hSD01,SorAZ,SorAZ,hSD01-013,R,1,0,0,220,"White,Green","Tokino Sora, AZKi"
+2720,hSD01,SorAZ,SorAZ,hSD01-013,R,1,0,0,180,"White,Green","Tokino Sora, AZKi"
 2721,hSD01,天音かなた,Amane Kanata,hSD01-014,U,0,0,0,50,,Amane Kanata
 2722,hSD01,博衣こより,Hakui Koyori,hSD01-015,U,0,0,0,50,,Hakui Koyori
 2723,hSD01,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,0,180,Support,Harusaki Nodoka
@@ -180,11 +180,11 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2886,hSD10,輪堂千速,Rindo Chihaya,hSD10-002,C,0,0,0,120,Green,Rindo Chihaya
 2887,hSD10,輪堂千速,Rindo Chihaya,hSD10-003,C,0,0,0,50,Green,Rindo Chihaya
 2888,hSD10,輪堂千速,Rindo Chihaya,hSD10-004,U,0,0,0,680,Green,Rindo Chihaya
-2889,hSD10,輪堂千速,Rindo Chihaya,hSD10-005,U,0,0,0,420,Green,Rindo Chihaya
+2889,hSD10,輪堂千速,Rindo Chihaya,hSD10-005,U,0,0,0,320,Green,Rindo Chihaya
 2890,hSD10,輪堂千速,Rindo Chihaya,hSD10-006,RR,1,0,0,120,Green,Rindo Chihaya
 2891,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-007,C,0,0,0,120,Purple,Kikirara Vivi
 2892,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-008,C,0,0,0,680,Purple,Kikirara Vivi
-2893,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-009,RR,1,0,0,780,Purple,Kikirara Vivi
+2893,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-009,RR,1,0,0,980,Purple,Kikirara Vivi
 2894,hSD10,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,0,180,,Isaki Riona
 2895,hSD10,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2896,hSD10,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,0,50,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
@@ -198,12 +198,12 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2904,hSD11,虎金妃笑虎,Koganei Niko,hSD11-001,OSR,1,0,0,280,Yellow,Koganei Niko
 2905,hSD11,虎金妃笑虎,Koganei Niko,hSD11-002,C,0,0,0,120,Yellow,Koganei Niko
 2906,hSD11,虎金妃笑虎,Koganei Niko,hSD11-003,C,0,0,0,50,Yellow,Koganei Niko
-2907,hSD11,虎金妃笑虎,Koganei Niko,hSD11-004,U,0,0,0,220,Yellow,Koganei Niko
-2908,hSD11,虎金妃笑虎,Koganei Niko,hSD11-005,U,0,0,0,220,Yellow,Koganei Niko
+2907,hSD11,虎金妃笑虎,Koganei Niko,hSD11-004,U,0,0,0,180,Yellow,Koganei Niko
+2908,hSD11,虎金妃笑虎,Koganei Niko,hSD11-005,U,0,0,0,180,Yellow,Koganei Niko
 2909,hSD11,虎金妃笑虎,Koganei Niko,hSD11-006,RR,1,0,0,120,Yellow,Koganei Niko
 2910,hSD11,水宮枢,Mizumiya Su,hSD11-007,C,0,0,0,120,Blue,Mizumiya Su
 2911,hSD11,水宮枢,Mizumiya Su,hSD11-008,C,0,0,0,420,Blue,Mizumiya Su
-2912,hSD11,水宮枢,Mizumiya Su,hSD11-009,RR,1,0,0,680,Blue,Mizumiya Su
+2912,hSD11,水宮枢,Mizumiya Su,hSD11-009,RR,1,0,0,580,Blue,Mizumiya Su
 2913,hSD11,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
 2914,hSD11,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2915,hSD11,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
@@ -259,7 +259,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2965,hSD13,"JUSTICE, JUST LIKE THAT!!!!","JUSTICE, JUST LIKE THAT!!!!",hSD13-017,U,0,0,0,220,Support,"Raora Panthera, Cecilia Immergreen, Elizabeth Rose Bloodflame, Gigi Murin"
 2966,hSD13,Popo,Popo,hSD13-018,C,0,0,0,120,Support,Gigi Murin
 2967,hSD13,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
-2968,hSD13,凸待ち,Totsumachi,hBP03-088,U,0,0,1,220,Support,"Tokoyami Towa, La+ Darknesss"
+2968,hSD13,凸待ち,Totsumachi,hBP03-088,U,0,0,1,180,Support,"Tokoyami Towa, La+ Darknesss"
 2969,hSD13,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,280,Support,"Inugami Korone, Nekomata Okayu"
 2970,hSD13,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2971,hSD13,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,

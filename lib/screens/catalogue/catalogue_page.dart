@@ -367,7 +367,7 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
                             // Promo events have internal codes — show the name only.
                             if (set.setType != 'promo')
                               SizedBox(
-                                // Deck codes can be longer (hSD2025), so the
+                                // Deck codes are longer (hSD20), so the
                                 // Starter Decks tab gets a wider code column.
                                 width: set.setType == 'starter' ? 68 : 52,
                                 child: Text(

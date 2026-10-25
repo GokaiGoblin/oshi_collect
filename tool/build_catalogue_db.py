@@ -44,6 +44,9 @@ PROMO_EVENT_CODES = {
     'Hololive Collection: 2025 Live Set': 'hCO01',  # オフィシャルホロカコレクション-2025ライブセット-
     'Exstreamer Cup 25-26 Final Collection A': 'hCO02',  # エクストリーマーカップ25-26 Final オフィシャルホロカコレクションA
     'Exstreamer Cup 25-26 Final Collection B': 'hCO03',  # エクストリーマーカップ25-26 Final オフィシャルホロカコレクションB
+    # Event-only purchase bonus (one card), first filed as a deck: スタートデッキ
+    # セット-2025 ホロナツパラダイスver. (official code hSD2025summer, shortened).
+    'Holonatsu Paradise 2025': 'hSD2025',
 }
 
 # Starter decks: code -> (EN name, JP name, release date, available).
@@ -72,9 +75,9 @@ DECKS = {
     'hSD17': ('Live: Hoshimachi Suisei', 'ライブ 星街すいせい', '2026-04-24', 1),
     'hSD18': ('Live: Mori Calliope', 'ライブ 森カリオペ', '2026-04-24', 1),
     'hSD19': ('Live: Oozora Subaru', 'ライブ 大空スバル', '2026-04-24', 1),
-    # One-off event-only set (one card): スタートデッキセット-2025 ホロナツパラダイスver.
-    # (official card list code hSD2025summer, shortened here to hSD2025).
-    'hSD2025': ('Starter: Holonatsu Paradise', 'スタートデッキセット-2025 ホロナツパラダイスver.', '2025-08-16', 1),
+    # hSD20-21: スタートデッキ アソビ★まわり隊！推し <member>
+    'hSD20': ('Starter: Hyakuto Kyoko', 'アソビ★まわり隊！推し 百灯キョーコ', '2026-10-30', 1),
+    'hSD21': ('Starter: Achichi Mela', 'アソビ★まわり隊！推し 熱千めら', '2026-10-30', 1),
 }
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -95,6 +98,11 @@ EXTRA_JP = {
     'Hanazono Sayaka': '花園さやか',
     'Izuki Michiru': '井月みちる',
     'Kazeshiro Yuki': '風白ゆき',
+    # Asobi★Mawari-tai members - deck-only so far, no booster cards yet
+    'Achichi Mela': '熱千めら',
+    'Sorashina Sopia': '宙科そぴあ',
+    'Suzuna Tsuzuri': '鈴鳴つづり',
+    'Hyakuto Kyoko': '百灯キョーコ',
 }
 
 

@@ -366,4 +366,43 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3072,hSD19,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
 3073,hSD19,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
 3074,hSD19,黄エール,Yellow Cheer,hY06-001,C,0,0,1,50,Yellow,
-1051,hSD2025,青エール,Blue Cheer,hY04-007,S,1,0,0,5980,Blue,"Usada Pekora, Oozora Subaru, Mori Calliope, Kobo Kanaeru"
+3099,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-001,OSR,1,0,0,,Red,Hyakuto Kyoko
+3100,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-002,C,0,0,0,,Red,Hyakuto Kyoko
+3101,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-003,U,0,0,0,,Red,Hyakuto Kyoko
+3102,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-004,C,0,0,0,,Red,Hyakuto Kyoko
+3103,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-005,U,0,0,0,,Red,Hyakuto Kyoko
+3104,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-006,R,1,0,0,,Red,Hyakuto Kyoko
+3105,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-007,RR,1,0,0,,Red,Hyakuto Kyoko
+3106,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-008,C,0,0,0,,Blue,Sorashina Sopia
+3107,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-009,U,0,0,0,,Blue,Sorashina Sopia
+3108,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-010,R,1,0,0,,Blue,Sorashina Sopia
+3109,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-011,RR,1,0,0,,Blue,Sorashina Sopia
+3110,hSD20,アソビ★まわり隊！,Asobi★Mawari-tai!,hSD20-012,U,0,0,0,,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
+3111,hSD20,ぐるぐるTIME！,Guruguru TIME!,hSD20-013,U,0,0,0,,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
+3112,hSD20,百灯キョーコの拡声器,Hyakuto Kyoko's Megaphone,hSD20-014,U,0,0,0,,Support,Hyakuto Kyoko
+3113,hSD20,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support,Tokino Sora
+3114,hSD20,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,,Support,"Inugami Korone, Nekomata Okayu"
+3115,hSD20,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,,Support,Hoshimachi Suisei
+3116,hSD20,holoAN,holoAN,hSD14-010,C,0,0,1,,Support,Kazeshiro Yuki
+3117,hSD20,赤エール,Red Cheer,hY03-001,C,0,0,1,,Red,
+3118,hSD20,青エール,Blue Cheer,hY04-001,C,0,0,1,,Blue,
+3119,hSD21,熱千めら,Achichi Mela,hSD21-001,OSR,1,0,0,,Purple,Achichi Mela
+3120,hSD21,熱千めら,Achichi Mela,hSD21-002,C,0,0,0,,Purple,Achichi Mela
+3121,hSD21,熱千めら,Achichi Mela,hSD21-003,U,0,0,0,,Purple,Achichi Mela
+3122,hSD21,熱千めら,Achichi Mela,hSD21-004,C,0,0,0,,Purple,Achichi Mela
+3123,hSD21,熱千めら,Achichi Mela,hSD21-005,U,0,0,0,,Purple,Achichi Mela
+3124,hSD21,熱千めら,Achichi Mela,hSD21-006,R,1,0,0,,Purple,Achichi Mela
+3125,hSD21,熱千めら,Achichi Mela,hSD21-007,RR,1,0,0,,Purple,Achichi Mela
+3126,hSD21,熱千めらの拍子木,Achichi Mela's Hyoshigi,hSD21-008,U,0,0,0,,Support,Achichi Mela
+3127,hSD21,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support,Tokino Sora
+3128,hSD21,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,,Support,"Inugami Korone, Nekomata Okayu"
+3129,hSD21,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,,Support,Hoshimachi Suisei
+3130,hSD21,holoAN,holoAN,hSD14-010,C,0,0,1,,Support,Kazeshiro Yuki
+3131,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-008,C,0,0,1,,Blue,Sorashina Sopia
+3132,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-009,U,0,0,1,,Blue,Sorashina Sopia
+3133,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-010,R,1,0,1,,Blue,Sorashina Sopia
+3134,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-011,RR,1,0,1,,Blue,Sorashina Sopia
+3135,hSD21,アソビ★まわり隊！,Asobi★Mawari-tai!,hSD20-012,U,0,0,1,,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
+3136,hSD21,ぐるぐるTIME！,Guruguru TIME!,hSD20-013,U,0,0,1,,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
+3137,hSD21,青エール,Blue Cheer,hY04-001,C,0,0,1,,Blue,
+3138,hSD21,紫エール,Purple Cheer,hY05-001,C,0,0,1,,Purple,

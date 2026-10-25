@@ -9,6 +9,7 @@ import '../../models/set_model.dart';
 import '../../providers/collection_provider.dart';
 import '../../theme/app_colours.dart';
 import '../../utils/holdings.dart';
+import '../../widgets/deck_tile.dart';
 import '../../widgets/set_card.dart';
 import '../../widgets/settings_menu.dart';
 import '../../widgets/value_summary_panel.dart';
@@ -17,6 +18,13 @@ import 'portfolio_set_detail_page.dart';
 
 String _setArtworkUrl(String setCode) =>
     'https://standbyinteractive.com/sets/${setCode}_thumbnail.png';
+
+// Deck box images (transparent PNGs) live in their own R2 folder.
+String _deckArtworkUrl(String setCode) =>
+    'https://standbyinteractive.com/decks/${setCode}_thumbnail.png';
+
+// What the Portfolio tab lists, picked from the View dropdown in the nav bar.
+enum _PortfolioView { sets, decks }
 
 class PortfolioSetsPage extends StatefulWidget {
   const PortfolioSetsPage({super.key});
@@ -27,7 +35,9 @@ class PortfolioSetsPage extends StatefulWidget {
 
 class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
   bool _isLoading = true;
+  _PortfolioView _view = _PortfolioView.sets;
   List<SetModel> _sets = [];
+  List<SetModel> _decks = [];
   Map<String, List<CardModel>> _cardsBySet = {};
   List<CardModel> _allCards = [];
   List<SetModel> _allSets = [];
@@ -58,6 +68,7 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
     if (reloadCollection) context.read<CollectionProvider>().loadAll();
 
     final sets = await db.getBoosterSets();
+    final decks = await db.getSetsOfType('starter');
     final allSets = await db.getSets();
     final allCards = await db.getAllCards();
 
@@ -69,6 +80,7 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
     if (!mounted) return;
     setState(() {
       _sets = sets;
+      _decks = decks;
       _cardsBySet = grouped;
       _allCards = allCards;
       _allSets = allSets;
@@ -80,11 +92,16 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const _PortfolioNavBar(),
+        _PortfolioNavBar(
+          view: _view,
+          onViewChanged: (v) => setState(() => _view = v),
+        ),
         Expanded(
           child: _isLoading
               ? const Center(child: CircularProgressIndicator())
-              : _SetsList(sets: _sets, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets),
+              : _view == _PortfolioView.sets
+                  ? _SetsList(sets: _sets, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets)
+                  : _DecksGrid(decks: _decks, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets),
         ),
       ],
     );
@@ -94,7 +111,10 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
 // --- Nav bar ----------------------------------------------------------------
 
 class _PortfolioNavBar extends StatelessWidget {
-  const _PortfolioNavBar();
+  final _PortfolioView view;
+  final ValueChanged<_PortfolioView> onViewChanged;
+
+  const _PortfolioNavBar({required this.view, required this.onViewChanged});
 
   @override
   Widget build(BuildContext context) {
@@ -113,7 +133,7 @@ class _PortfolioNavBar extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Expanded(child: _ViewSelector()),
+              Expanded(child: _ViewSelector(view: view, onChanged: onViewChanged)),
               Text(
                 'Portfolio',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: navText),
@@ -129,7 +149,10 @@ class _PortfolioNavBar extends StatelessWidget {
 }
 
 class _ViewSelector extends StatelessWidget {
-  const _ViewSelector();
+  final _PortfolioView view;
+  final ValueChanged<_PortfolioView> onChanged;
+
+  const _ViewSelector({required this.view, required this.onChanged});
 
   @override
   Widget build(BuildContext context) {
@@ -137,32 +160,26 @@ class _ViewSelector extends StatelessWidget {
     final navText = isDark ? AppColours.darkSelectedNav : AppColours.lightSelectedNav;
     final muted = isDark ? AppColours.darkMutedText : AppColours.lightMutedText;
 
+    final label = view == _PortfolioView.sets ? 'Sets' : 'Decks';
+
     return Semantics(
-      label: 'Select view: Sets',
+      label: 'Select view: $label',
       button: true,
       excludeSemantics: true,
-      child: PopupMenuButton<String>(
+      child: PopupMenuButton<_PortfolioView>(
       tooltip: 'Select view',
       offset: const Offset(0, 40),
-      onSelected: (_) {}, // "Sets" is the only available view for now
+      onSelected: onChanged,
       itemBuilder: (_) => [
-        const CheckedPopupMenuItem(
-          value: 'sets',
-          checked: true,
-          child: Text('Sets'),
+        CheckedPopupMenuItem(
+          value: _PortfolioView.sets,
+          checked: view == _PortfolioView.sets,
+          child: const Text('Sets'),
         ),
-        PopupMenuItem(
-          enabled: false,
-          child: Opacity(
-            opacity: 0.38,
-            child: Row(
-              children: [
-                const Text('Decks'),
-                const Spacer(),
-                Text('Coming soon', style: TextStyle(fontSize: 9, color: muted, letterSpacing: 0.6)),
-              ],
-            ),
-          ),
+        CheckedPopupMenuItem(
+          value: _PortfolioView.decks,
+          checked: view == _PortfolioView.decks,
+          child: const Text('Decks'),
         ),
         PopupMenuItem(
           enabled: false,
@@ -187,7 +204,7 @@ class _ViewSelector extends StatelessWidget {
           Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text('Sets', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: navText)),
+              Text(label, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: navText)),
               const SizedBox(width: 4),
               Icon(Icons.keyboard_arrow_down, size: 16, color: navText.withValues(alpha: 0.85)),
             ],
@@ -275,6 +292,95 @@ class _SetsList extends StatelessWidget {
           valueTrend: _trend(history, holdingsFor(HoldingsKind.portfolio, cards, collection)),
           onTap: () => Navigator.of(context).push(
             MaterialPageRoute(builder: (_) => PortfolioSetDetailPage(setCode: set.code)),
+          ),
+        );
+      },
+    );
+  }
+}
+
+// --- Decks grid --------------------------------------------------------------
+
+class _DecksGrid extends StatelessWidget {
+  final List<SetModel> decks;
+  final Map<String, List<CardModel>> cardsBySet;
+  final List<CardModel> allCards;
+  final List<SetModel> allSets;
+
+  const _DecksGrid({
+    required this.decks,
+    required this.cardsBySet,
+    required this.allCards,
+    required this.allSets,
+  });
+
+  static const double _spacing = 10;
+
+  @override
+  Widget build(BuildContext context) {
+    final collection = context.watch<CollectionProvider>();
+    final history = context.watch<PriceHistory>().data;
+    final holdings = holdingsFor(HoldingsKind.portfolio, allCards, collection);
+    final shown = decks.where((d) => d.isAvailable).toList();
+    final rowCount = (shown.length / 2).ceil();
+
+    Widget tile(SetModel deck, int nameLines) {
+      final cards = cardsBySet[deck.code] ?? const [];
+      final ownedCards = cards.where((c) => collection.isOwned(c.cardId));
+      return DeckTile(
+        setCode: deck.code,
+        setName: deck.name,
+        artworkUrl: _deckArtworkUrl(deck.code),
+        ownedCount: ownedCards.length,
+        totalCount: cards.length,
+        estimatedValue: ownedCards.fold<double>(0, (sum, c) => sum + c.priceOrZero),
+        valueTrend: _trend(history, holdingsFor(HoldingsKind.portfolio, cards, collection)),
+        nameLines: nameLines,
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute(builder: (_) => PortfolioSetDetailPage(setCode: deck.code)),
+        ),
+      );
+    }
+
+    return ListView.builder(
+      padding: const EdgeInsets.fromLTRB(12, 10, 12, 16),
+      // Item 0 is the value summary panel (same as the Sets view), then one
+      // row of two decks per item.
+      itemCount: rowCount + 1,
+      itemBuilder: (context, index) {
+        if (index == 0) {
+          return Padding(
+            padding: const EdgeInsets.only(bottom: _spacing),
+            child: ValueSummaryPanel(
+              label: 'Portfolio value',
+              currentValue: holdingsValue(holdings, allCards),
+              holdings: holdings,
+              onViewHistory: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => ValueHistoryPage(
+                    kind: HoldingsKind.portfolio,
+                    allCards: allCards,
+                    sets: allSets,
+                  ),
+                ),
+              ),
+            ),
+          );
+        }
+        final start = (index - 1) * 2;
+        final row = shown.sublist(start, (start + 2).clamp(0, shown.length));
+        final nameLines = DeckTile.nameLinesForRow(context, [for (final d in row) d.name]);
+        return Padding(
+          padding: const EdgeInsets.only(bottom: _spacing),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(child: tile(shown[start], nameLines)),
+              const SizedBox(width: _spacing),
+              Expanded(
+                child: start + 1 < shown.length ? tile(shown[start + 1], nameLines) : const SizedBox.shrink(),
+              ),
+            ],
           ),
         );
       },

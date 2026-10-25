@@ -13,6 +13,7 @@ import '../../providers/preferences_provider.dart';
 import '../../theme/app_colours.dart';
 import '../../utils/search_utils.dart';
 import '../../widgets/card_tile.dart';
+import '../../widgets/deck_tile.dart';
 import '../../widgets/frosted_panel.dart';
 import '../../widgets/app_background.dart';
 import '../../widgets/search_filter_bar.dart';
@@ -60,7 +61,10 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
     final db = context.read<CatalogueDb>();
     context.read<CollectionProvider>().loadAll();
 
-    final sets = await db.getBoosterSets();
+    // The dropdown lists sets of the same kind as the one opened: booster
+    // sets, or starter decks when opened from the Decks view.
+    final opened = (await db.getSets()).where((s) => s.code == _setCode).firstOrNull;
+    final sets = await db.getSetsOfType(opened?.setType ?? 'booster');
     final cards = await db.getCardsBySetOrdered(_setCode);
 
     if (!mounted) return;
@@ -103,7 +107,12 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    final setName = _sets.where((s) => s.code == _setCode).firstOrNull?.name ?? _setCode;
+    final current = _sets.where((s) => s.code == _setCode).firstOrNull;
+    final isDeck = current?.setType == 'starter';
+    // Decks drop the "Starter:" / "Live:" prefix so the member name fits.
+    final setName = current == null
+        ? _setCode
+        : (isDeck ? DeckTile.splitName(current.name).$2 : current.name);
 
     return AppBackground(
       child: Scaffold(
@@ -113,6 +122,7 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
             _DetailNavBar(
               setCode: _setCode,
               setName: setName,
+              isDeck: isDeck,
               sets: _sets,
               onSelectSet: _selectSet,
             ),
@@ -159,12 +169,14 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
 class _DetailNavBar extends StatelessWidget {
   final String setCode;
   final String setName;
+  final bool isDeck; // starter deck: label says "Deck", wider code column
   final List<SetModel> sets;
   final ValueChanged<String> onSelectSet;
 
   const _DetailNavBar({
     required this.setCode,
     required this.setName,
+    required this.isDeck,
     required this.sets,
     required this.onSelectSet,
   });
@@ -203,11 +215,11 @@ class _DetailNavBar extends StatelessWidget {
               const SizedBox(width: 12),
               Expanded(
                 child: Semantics(
-                  label: 'Set: $setName, tap to change',
+                  label: '${isDeck ? 'Deck' : 'Set'}: $setName, tap to change',
                   button: true,
                   excludeSemantics: true,
                 child: PopupMenuButton<String>(
-                  tooltip: 'Select set',
+                  tooltip: isDeck ? 'Select deck' : 'Select set',
                   offset: const Offset(0, 40),
                   onSelected: onSelectSet,
                   itemBuilder: (_) => [
@@ -226,13 +238,14 @@ class _DetailNavBar extends StatelessWidget {
                             textBaseline: TextBaseline.alphabetic,
                             children: [
                               SizedBox(
-                                width: 48,
+                                // deck codes ("hSD20") need more room than "hBP01"
+                                width: isDeck ? 60 : 48,
                                 child: Text(
                                   set.code,
                                   style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: AppColours.gold),
                                 ),
                               ),
-                              Expanded(child: Text(set.name, style: const TextStyle(fontSize: 12))),
+                              Expanded(child: Text(isDeck ? DeckTile.splitName(set.name).$2 : set.name, style: const TextStyle(fontSize: 12))),
                             ],
                           ),
                         ),
@@ -242,7 +255,7 @@ class _DetailNavBar extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text('Set', style: TextStyle(fontSize: 10, color: navText.withValues(alpha: 0.75))),
+                      Text(isDeck ? 'Deck' : 'Set', style: TextStyle(fontSize: 10, color: navText.withValues(alpha: 0.75))),
                       const SizedBox(height: 2),
                       Row(
                         mainAxisSize: MainAxisSize.min,

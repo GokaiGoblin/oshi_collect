@@ -66,17 +66,25 @@ class PriceUpdates extends ChangeNotifier {
       final response = await http
           .get(Uri.parse('$_url?v=$hour'))
           .timeout(const Duration(seconds: 15));
-      if (response.statusCode != 200) return false;
+      if (response.statusCode != 200) {
+        debugPrint('PriceUpdates: download failed (HTTP ${response.statusCode})');
+        return false;
+      }
 
       final text = response.body;
       final parsed = parse(text);
-      if (parsed == null) return false;
+      if (parsed == null) {
+        debugPrint('PriceUpdates: downloaded file failed the checks, ignored');
+        return false;
+      }
       if (_updatedOn != null && !parsed.updatedOn.isAfter(_updatedOn!) &&
           mapEquals(parsed.prices, _prices)) {
+        debugPrint('PriceUpdates: no change since the saved copy');
         return false; // same file we already have
       }
       await (await _cacheFile()).writeAsString(text, flush: true);
       _apply(parsed);
+      debugPrint('PriceUpdates: new file applied');
       return true;
     } catch (e) {
       debugPrint('PriceUpdates: refresh failed: $e');

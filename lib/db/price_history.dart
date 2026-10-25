@@ -61,17 +61,25 @@ class PriceHistory extends ChangeNotifier {
       final response = await http
           .get(Uri.parse('$_url?v=$hour'))
           .timeout(const Duration(seconds: 15));
-      if (response.statusCode != 200) return false;
+      if (response.statusCode != 200) {
+        debugPrint('PriceHistory: download failed (HTTP ${response.statusCode})');
+        return false;
+      }
 
       final text = response.body;
       final parsed = parse(text);
-      if (parsed == null) return false;
+      if (parsed == null) {
+        debugPrint('PriceHistory: downloaded file failed the checks, ignored');
+        return false;
+      }
       if (parsed.dates.length == _data.dates.length &&
           parsed.rowCount == _data.rowCount) {
+        debugPrint('PriceHistory: no change since the saved copy');
         return false; // same file we already have
       }
       await (await _cacheFile()).writeAsString(text, flush: true);
       _apply(parsed);
+      debugPrint('PriceHistory: new file applied');
       return true;
     } catch (e) {
       debugPrint('PriceHistory: refresh failed: $e');

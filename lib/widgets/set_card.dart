@@ -173,7 +173,7 @@ class _Artwork extends StatelessWidget {
               left: 0,
               right: 0,
               bottom: 0,
-              child: _ProgressBar(ownedCount: ownedCount, totalCount: totalCount),
+              child: SetProgressBar(ownedCount: ownedCount, totalCount: totalCount),
             ),
         ],
       ),
@@ -183,11 +183,12 @@ class _Artwork extends StatelessWidget {
 
 // --- Progress bar (Portfolio only) --------------------------------------
 
-class _ProgressBar extends StatelessWidget {
+// Also used along the top of the Portfolio deck tiles (deck_tile.dart).
+class SetProgressBar extends StatelessWidget {
   final int ownedCount;
   final int totalCount;
 
-  const _ProgressBar({required this.ownedCount, required this.totalCount});
+  const SetProgressBar({super.key, required this.ownedCount, required this.totalCount});
 
   static const double _barHeight = 18.0;
   static const double _labelHeight = 15.0;

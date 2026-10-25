@@ -14,6 +14,10 @@ import 'screens/catalogue/catalogue_page.dart';
 import 'screens/portfolio/portfolio_sets_page.dart';
 import 'screens/inventory/inventory_sets_page.dart';
 
+// Kept for the app's lifetime so the listener stays registered.
+// ignore: unused_element
+AppLifecycleListener? _priceCheckOnResume;
+
 void main() {
   // Needed before anything touches plugins (the price cache uses path_provider).
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,6 +31,18 @@ void main() {
   // Same for the week-by-week history behind the value chart and triangles.
   prices.refresh();
   history.refresh();
+  // Android usually keeps the app paused in the background rather than
+  // closing it, so opening it again doesn't run main(). Check again whenever
+  // the app comes back to the screen, at most every 30 minutes — otherwise a
+  // phone that never fully closes the app would keep old prices for weeks.
+  var lastCheck = DateTime.now();
+  _priceCheckOnResume = AppLifecycleListener(onResume: () {
+    final now = DateTime.now();
+    if (now.difference(lastCheck) < const Duration(minutes: 30)) return;
+    lastCheck = now;
+    prices.refresh();
+    history.refresh();
+  });
   runApp(HoloTcgApp(prices: prices, history: history, catalogueDb: catalogueDb, userDb: userDb));
 }
 

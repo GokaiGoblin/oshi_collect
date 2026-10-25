@@ -20,7 +20,7 @@ class CatalogueDb {
 
   // Bump this number each time assets/db/holo_catalogue.db is replaced with
   // updated card data — it forces the cached copy to be refreshed on next launch.
-  static const int _dbVersion = 26;
+  static const int _dbVersion = 28;
 
   Database? _db;
 
@@ -165,11 +165,15 @@ class CatalogueDb {
 
   /// Booster sets only, in release order — for Portfolio and Inventory,
   /// which list booster sets and keep promo events out.
-  Future<List<SetModel>> getBoosterSets() async {
+  Future<List<SetModel>> getBoosterSets() => getSetsOfType('booster');
+
+  /// Sets of one type ('booster', 'starter' or 'promo'), in display order.
+  Future<List<SetModel>> getSetsOfType(String setType) async {
     final d = await db;
     final rows = await d.query(
       'sets',
-      where: "set_type = 'booster'",
+      where: 'set_type = ?',
+      whereArgs: [setType],
       orderBy: 'sort_order ASC',
     );
     return rows.map(SetModel.fromMap).toList();

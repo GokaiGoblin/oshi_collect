@@ -1,6 +1,6 @@
 card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint,price_jpy,archetype,members
-2708,hSD01,ときのそら,Tokino Sora,hSD01-001,OSR,1,0,0,180,White,Tokino Sora
-2709,hSD01,AZKi,AZKi,hSD01-002,OSR,1,0,0,220,Green,AZKi
+2708,hSD01,ときのそら,Tokino Sora,hSD01-001,OSR,1,0,0,120,White,Tokino Sora
+2709,hSD01,AZKi,AZKi,hSD01-002,OSR,1,0,0,180,Green,AZKi
 2710,hSD01,ときのそら,Tokino Sora,hSD01-003,C,0,0,0,30,White,Tokino Sora
 2711,hSD01,ときのそら,Tokino Sora,hSD01-004,R,1,0,0,120,White,Tokino Sora
 2712,hSD01,ときのそら,Tokino Sora,hSD01-005,U,0,0,0,80,White,Tokino Sora
@@ -29,8 +29,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2735,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-005,C,0,0,0,80,Red,Nakiri Ayame
 2736,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-006,C,0,0,0,280,Red,Nakiri Ayame
 2737,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-007,U,0,0,0,120,Red,Nakiri Ayame
-2738,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-008,R,1,0,0,120,Red,Nakiri Ayame
-2739,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-009,RR,1,0,0,220,Red,Nakiri Ayame
+2738,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-008,R,1,0,0,180,Red,Nakiri Ayame
+2739,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-009,RR,1,0,0,180,Red,Nakiri Ayame
 2740,hSD02,白上フブキ,Shirakami Fubuki,hSD02-010,U,0,0,0,80,,Shirakami Fubuki
 2741,hSD02,大神ミオ,Ookami Mio,hSD02-011,U,0,0,0,50,,Ookami Mio
 2742,hSD02,いろはにほへっと あやふぶみ,Iroha with AyaFubuMi,hSD02-012,U,0,0,0,120,Support,"Kazama Iroha, Nakiri Ayame, Shirakami Fubuki, Ookami Mio"
@@ -81,7 +81,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2787,hSD04,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2788,hSD04,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2789,hSD04,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
-2790,hSD04,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
+2790,hSD04,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
 2791,hSD05,轟はじめ,Todoroki Hajime,hSD05-001,OC,0,0,0,80,White,Todoroki Hajime
 2792,hSD05,轟はじめ,Todoroki Hajime,hSD05-002,C,0,0,0,80,White,Todoroki Hajime
 2793,hSD05,轟はじめ,Todoroki Hajime,hSD05-003,C,0,0,0,30,White,Todoroki Hajime
@@ -160,7 +160,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2866,hSD08,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2867,hSD08,白エール,White Cheer,hY01-001,C,0,0,1,50,White,
 2868,hSD09,宝鐘マリン,Houshou Marine,hSD09-001,OC,0,0,0,80,Red,Houshou Marine
-2869,hSD09,宝鐘マリン,Houshou Marine,hSD09-002,U,0,0,0,120,Red,Houshou Marine
+2869,hSD09,宝鐘マリン,Houshou Marine,hSD09-002,U,0,0,0,180,Red,Houshou Marine
 2870,hSD09,宝鐘マリン,Houshou Marine,hSD09-003,R,1,0,0,80,Red,Houshou Marine
 2871,hSD09,宝鐘マリン,Houshou Marine,hSD09-004,RR,1,0,0,180,Red,Houshou Marine
 2872,hSD09,白銀ノエル,Shirogane Noel,hSD09-005,C,0,0,0,180,White,Shirogane Noel
@@ -187,14 +187,14 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2893,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-009,RR,1,0,0,980,Purple,Kikirara Vivi
 2894,hSD10,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,0,180,,Isaki Riona
 2895,hSD10,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
-2896,hSD10,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,0,50,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
+2896,hSD10,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2897,hSD10,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,0,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
 2898,hSD10,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
 2899,hSD10,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
 2900,hSD10,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2901,hSD10,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2902,hSD10,緑エール,Green Cheer,hY02-001,C,0,0,1,50,Green,
-2903,hSD10,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
+2903,hSD10,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
 2904,hSD11,虎金妃笑虎,Koganei Niko,hSD11-001,OSR,1,0,0,280,Yellow,Koganei Niko
 2905,hSD11,虎金妃笑虎,Koganei Niko,hSD11-002,C,0,0,0,120,Yellow,Koganei Niko
 2906,hSD11,虎金妃笑虎,Koganei Niko,hSD11-003,C,0,0,0,50,Yellow,Koganei Niko
@@ -210,7 +210,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2916,hSD11,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
 2917,hSD11,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,1,180,,Isaki Riona
 2918,hSD11,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,1,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
-2919,hSD11,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,1,50,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
+2919,hSD11,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,1,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2920,hSD11,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,1,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
 2921,hSD11,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
 2922,hSD11,黄エール,Yellow Cheer,hY06-001,C,0,0,1,50,Yellow,
@@ -239,7 +239,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2945,hSD12,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,320,Support,"Inugami Korone, Nekomata Okayu"
 2946,hSD12,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2947,hSD12,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
-2948,hSD12,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
+2948,hSD12,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
 2949,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-001,OSR,1,0,0,220,Red,Elizabeth Rose Bloodflame
 2950,hSD13,ジジ・ムリン,Gigi Murin,hSD13-002,OSR,1,0,0,220,Yellow,Gigi Murin
 2951,hSD13,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-003,C,0,0,0,180,Red,Elizabeth Rose Bloodflame
@@ -348,7 +348,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3054,hSD18,森カリオペの鎌,Mori Calliope's Scythe,hBP02-088,U,0,0,1,30,Support,Mori Calliope
 3055,hSD18,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 3056,hSD18,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Izuki Michiru
-3057,hSD18,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,
+3057,hSD18,紫エール,Purple Cheer,hY05-001,C,0,0,1,80,Purple,
 3058,hSD19,大空スバル,Oozora Subaru,hSD19-001,OC,0,0,0,80,Yellow,Oozora Subaru
 3059,hSD19,大空スバル,Oozora Subaru,hSD19-002,C,0,0,0,30,Yellow,Oozora Subaru
 3060,hSD19,大空スバル,Oozora Subaru,hSD19-003,C,0,0,0,30,Yellow,Oozora Subaru

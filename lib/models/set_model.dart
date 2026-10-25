@@ -6,6 +6,7 @@ class SetModel {
   final String releaseDate; // ISO date string, e.g. '2024-09-20'; '' for promo events
   final int cardCount;      // official set size from DB
   final bool isAvailable;   // false → shown as "coming soon"
+  final String? promoCategory; // promo events only, e.g. 'basic' (see promo_category.dart)
 
   const SetModel({
     required this.code,
@@ -15,6 +16,7 @@ class SetModel {
     required this.releaseDate,
     required this.cardCount,
     required this.isAvailable,
+    this.promoCategory,
   });
 
   factory SetModel.fromMap(Map<String, dynamic> map) => SetModel(
@@ -25,5 +27,6 @@ class SetModel {
         releaseDate: map['release_date'] as String? ?? '',
         cardCount: map['card_count'] as int,
         isAvailable: (map['is_available'] as int) == 1,
+        promoCategory: map['promo_category'] as String?,
       );
 }

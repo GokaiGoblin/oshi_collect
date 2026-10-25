@@ -4,12 +4,15 @@ import 'package:provider/provider.dart';
 import '../../db/catalogue_db.dart';
 import '../../db/price_history.dart';
 import '../../db/price_updates.dart';
+import '../../data/promo_covers.dart';
 import '../../models/card_model.dart';
+import '../../models/promo_category.dart';
 import '../../models/set_model.dart';
 import '../../providers/collection_provider.dart';
 import '../../theme/app_colours.dart';
 import '../../utils/holdings.dart';
 import '../../widgets/deck_tile.dart';
+import '../../widgets/promo_cover.dart';
 import '../../widgets/set_card.dart';
 import '../../widgets/settings_menu.dart';
 import '../../widgets/value_summary_panel.dart';
@@ -24,7 +27,7 @@ String _deckArtworkUrl(String setCode) =>
     'https://standbyinteractive.com/decks/${setCode}_thumbnail.png';
 
 // What the Portfolio tab lists, picked from the View dropdown in the nav bar.
-enum _PortfolioView { sets, decks }
+enum _PortfolioView { sets, decks, promos }
 
 class PortfolioSetsPage extends StatefulWidget {
   const PortfolioSetsPage({super.key});
@@ -38,6 +41,7 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
   _PortfolioView _view = _PortfolioView.sets;
   List<SetModel> _sets = [];
   List<SetModel> _decks = [];
+  List<SetModel> _promoEvents = [];
   Map<String, List<CardModel>> _cardsBySet = {};
   List<CardModel> _allCards = [];
   List<SetModel> _allSets = [];
@@ -69,6 +73,7 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
 
     final sets = await db.getBoosterSets();
     final decks = await db.getSetsOfType('starter');
+    final promoEvents = await db.getSetsOfType('promo');
     final allSets = await db.getSets();
     final allCards = await db.getAllCards();
 
@@ -81,6 +86,7 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
     setState(() {
       _sets = sets;
       _decks = decks;
+      _promoEvents = promoEvents;
       _cardsBySet = grouped;
       _allCards = allCards;
       _allSets = allSets;
@@ -99,9 +105,14 @@ class _PortfolioSetsPageState extends State<PortfolioSetsPage> {
         Expanded(
           child: _isLoading
               ? const Center(child: CircularProgressIndicator())
-              : _view == _PortfolioView.sets
-                  ? _SetsList(sets: _sets, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets)
-                  : _DecksGrid(decks: _decks, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets),
+              : switch (_view) {
+                  _PortfolioView.sets =>
+                    _SetsList(sets: _sets, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets),
+                  _PortfolioView.decks =>
+                    _DecksGrid(decks: _decks, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets),
+                  _PortfolioView.promos =>
+                    _PromosGrid(events: _promoEvents, cardsBySet: _cardsBySet, allCards: _allCards, allSets: _allSets),
+                },
         ),
       ],
     );
@@ -158,9 +169,12 @@ class _ViewSelector extends StatelessWidget {
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final navText = isDark ? AppColours.darkSelectedNav : AppColours.lightSelectedNav;
-    final muted = isDark ? AppColours.darkMutedText : AppColours.lightMutedText;
 
-    final label = view == _PortfolioView.sets ? 'Sets' : 'Decks';
+    final label = switch (view) {
+      _PortfolioView.sets => 'Sets',
+      _PortfolioView.decks => 'Decks',
+      _PortfolioView.promos => 'Promos',
+    };
 
     return Semantics(
       label: 'Select view: $label',
@@ -181,18 +195,10 @@ class _ViewSelector extends StatelessWidget {
           checked: view == _PortfolioView.decks,
           child: const Text('Decks'),
         ),
-        PopupMenuItem(
-          enabled: false,
-          child: Opacity(
-            opacity: 0.38,
-            child: Row(
-              children: [
-                const Text('Promos'),
-                const Spacer(),
-                Text('Coming soon', style: TextStyle(fontSize: 9, color: muted, letterSpacing: 0.6)),
-              ],
-            ),
-          ),
+        CheckedPopupMenuItem(
+          value: _PortfolioView.promos,
+          checked: view == _PortfolioView.promos,
+          child: const Text('Promos'),
         ),
       ],
       child: Column(
@@ -314,38 +320,131 @@ class _DecksGrid extends StatelessWidget {
     required this.allSets,
   });
 
-  static const double _spacing = 10;
+  @override
+  Widget build(BuildContext context) {
+    final collection = context.watch<CollectionProvider>();
+    final history = context.watch<PriceHistory>().data;
+    final shown = decks.where((d) => d.isAvailable).toList();
+
+    return _TwoPerRowGrid(
+      allCards: allCards,
+      allSets: allSets,
+      names: [for (final d in shown) d.name],
+      tileBuilder: (i, nameLines) {
+        final deck = shown[i];
+        final cards = cardsBySet[deck.code] ?? const [];
+        final ownedCards = cards.where((c) => collection.isOwned(c.cardId));
+        return DeckTile(
+          setCode: deck.code,
+          setName: deck.name,
+          artworkUrl: _deckArtworkUrl(deck.code),
+          ownedCount: ownedCards.length,
+          totalCount: cards.length,
+          estimatedValue: ownedCards.fold<double>(0, (sum, c) => sum + c.priceOrZero),
+          valueTrend: _trend(history, holdingsFor(HoldingsKind.portfolio, cards, collection)),
+          nameLines: nameLines,
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute(builder: (_) => PortfolioSetDetailPage(setCode: deck.code)),
+          ),
+        );
+      },
+    );
+  }
+}
+
+// --- Promos grid -------------------------------------------------------------
+
+// One tile per promo category (Basic PR Packs, Birthday, ...), each with its
+// fixed blended card cover. Tapping opens all the category's cards.
+class _PromosGrid extends StatelessWidget {
+  final List<SetModel> events; // every promo event (sets with set_type 'promo')
+  final Map<String, List<CardModel>> cardsBySet;
+  final List<CardModel> allCards;
+  final List<SetModel> allSets;
+
+  const _PromosGrid({
+    required this.events,
+    required this.cardsBySet,
+    required this.allCards,
+    required this.allSets,
+  });
 
   @override
   Widget build(BuildContext context) {
     final collection = context.watch<CollectionProvider>();
     final history = context.watch<PriceHistory>().data;
-    final holdings = holdingsFor(HoldingsKind.portfolio, allCards, collection);
-    final shown = decks.where((d) => d.isAvailable).toList();
-    final rowCount = (shown.length / 2).ceil();
 
-    Widget tile(SetModel deck, int nameLines) {
-      final cards = cardsBySet[deck.code] ?? const [];
-      final ownedCards = cards.where((c) => collection.isOwned(c.cardId));
-      return DeckTile(
-        setCode: deck.code,
-        setName: deck.name,
-        artworkUrl: _deckArtworkUrl(deck.code),
-        ownedCount: ownedCards.length,
-        totalCount: cards.length,
-        estimatedValue: ownedCards.fold<double>(0, (sum, c) => sum + c.priceOrZero),
-        valueTrend: _trend(history, holdingsFor(HoldingsKind.portfolio, cards, collection)),
-        nameLines: nameLines,
-        onTap: () => Navigator.of(context).push(
-          MaterialPageRoute(builder: (_) => PortfolioSetDetailPage(setCode: deck.code)),
-        ),
-      );
+    // Released events of each category; categories with none are left out.
+    final eventsOf = <String, List<SetModel>>{};
+    for (final e in events.where((e) => e.isAvailable && e.promoCategory != null)) {
+      eventsOf.putIfAbsent(e.promoCategory!, () => []).add(e);
     }
+    final shown = [for (final c in promoCategories) if (eventsOf.containsKey(c.key)) c];
+
+    return _TwoPerRowGrid(
+      allCards: allCards,
+      allSets: allSets,
+      names: [for (final c in shown) c.name],
+      tileBuilder: (i, nameLines) {
+        final category = shown[i];
+        final categoryEvents = eventsOf[category.key]!;
+        final cards = [for (final e in categoryEvents) ...?cardsBySet[e.code]];
+        final ownedCards = cards.where((c) => collection.isOwned(c.cardId));
+        final layers = promoCovers[category.key] ?? const <CoverLayer>[];
+        final cardsById = {for (final c in cards) c.cardId: c};
+        return DeckTile(
+          setCode: category.countLabel(categoryEvents.length),
+          setName: category.name,
+          artworkUrl: '',
+          artwork: PromoCover(
+            layers: layers,
+            imageUrls: {
+              for (final l in layers)
+                if (cardsById[l.cardId.toString()] case final card?) card.cardId: card.imageUrl,
+            },
+          ),
+          artworkAspectRatio: PromoCover.aspectRatio,
+          typeLabel: '',
+          ownedCount: ownedCards.length,
+          totalCount: cards.length,
+          estimatedValue: ownedCards.fold<double>(0, (sum, c) => sum + c.priceOrZero),
+          valueTrend: _trend(history, holdingsFor(HoldingsKind.portfolio, cards, collection)),
+          nameLines: nameLines,
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute(builder: (_) => PortfolioSetDetailPage.promoCategory(category.key)),
+          ),
+        );
+      },
+    );
+  }
+}
+
+// The Decks and Promos layout: the value summary panel, then tiles two per row.
+class _TwoPerRowGrid extends StatelessWidget {
+  final List<CardModel> allCards;
+  final List<SetModel> allSets;
+  final List<String> names; // one per tile, for fitting the name lines
+  final Widget Function(int index, int nameLines) tileBuilder;
+
+  const _TwoPerRowGrid({
+    required this.allCards,
+    required this.allSets,
+    required this.names,
+    required this.tileBuilder,
+  });
+
+  static const double _spacing = 10;
+
+  @override
+  Widget build(BuildContext context) {
+    final collection = context.watch<CollectionProvider>();
+    final holdings = holdingsFor(HoldingsKind.portfolio, allCards, collection);
+    final rowCount = (names.length / 2).ceil();
 
     return ListView.builder(
       padding: const EdgeInsets.fromLTRB(12, 10, 12, 16),
       // Item 0 is the value summary panel (same as the Sets view), then one
-      // row of two decks per item.
+      // row of two tiles per item.
       itemCount: rowCount + 1,
       itemBuilder: (context, index) {
         if (index == 0) {
@@ -368,17 +467,18 @@ class _DecksGrid extends StatelessWidget {
           );
         }
         final start = (index - 1) * 2;
-        final row = shown.sublist(start, (start + 2).clamp(0, shown.length));
-        final nameLines = DeckTile.nameLinesForRow(context, [for (final d in row) d.name]);
+        final end = (start + 2).clamp(0, names.length);
+        // Both tiles of a row share the name height so they line up.
+        final nameLines = DeckTile.nameLinesForRow(context, names.sublist(start, end));
         return Padding(
           padding: const EdgeInsets.only(bottom: _spacing),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Expanded(child: tile(shown[start], nameLines)),
+              Expanded(child: tileBuilder(start, nameLines)),
               const SizedBox(width: _spacing),
               Expanded(
-                child: start + 1 < shown.length ? tile(shown[start + 1], nameLines) : const SizedBox.shrink(),
+                child: start + 1 < names.length ? tileBuilder(start + 1, nameLines) : const SizedBox.shrink(),
               ),
             ],
           ),

@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 import '../../db/catalogue_db.dart';
 import '../../models/card_model.dart';
 import '../../models/enums.dart';
+import '../../models/promo_category.dart';
 import '../../models/set_model.dart';
 import '../../providers/collection_provider.dart';
 import '../../providers/preferences_provider.dart';
@@ -23,17 +24,24 @@ import 'portfolio_filter_sheet.dart';
 
 enum _OwnershipFilter { all, owned, unowned }
 
+// The cards of one booster set or starter deck, or (opened from the Promos
+// view) of one promo category, with a heading for each promo event in it.
 class PortfolioSetDetailPage extends StatefulWidget {
-  final String setCode;
+  final String? setCode;
+  final String? promoCategory; // a key from promo_category.dart
 
-  const PortfolioSetDetailPage({super.key, required this.setCode});
+  const PortfolioSetDetailPage({super.key, required String this.setCode}) : promoCategory = null;
+
+  const PortfolioSetDetailPage.promoCategory(String this.promoCategory, {super.key}) : setCode = null;
 
   @override
   State<PortfolioSetDetailPage> createState() => _PortfolioSetDetailPageState();
 }
 
 class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
-  late String _setCode;
+  // Exactly one of these is set: the open set/deck, or the open promo category.
+  String? _setCode;
+  String? _category;
   _OwnershipFilter _filter = _OwnershipFilter.all;
   String _searchQuery = '';
   PortfolioFilterState _filterState = const PortfolioFilterState();
@@ -46,6 +54,7 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
   void initState() {
     super.initState();
     _setCode = widget.setCode;
+    _category = widget.promoCategory;
     // Defer to after the first frame — providers call notifyListeners()
     // synchronously and must not do so mid-build.
     WidgetsBinding.instance.addPostFrameCallback((_) => _load());
@@ -62,10 +71,16 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
     context.read<CollectionProvider>().loadAll();
 
     // The dropdown lists sets of the same kind as the one opened: booster
-    // sets, or starter decks when opened from the Decks view.
-    final opened = (await db.getSets()).where((s) => s.code == _setCode).firstOrNull;
-    final sets = await db.getSetsOfType(opened?.setType ?? 'booster');
-    final cards = await db.getCardsBySetOrdered(_setCode);
+    // sets, starter decks from the Decks view, or (for a promo category)
+    // the categories of the promo events.
+    final List<SetModel> sets;
+    if (_category != null) {
+      sets = await db.getSetsOfType('promo');
+    } else {
+      final opened = (await db.getSets()).where((s) => s.code == _setCode).firstOrNull;
+      sets = await db.getSetsOfType(opened?.setType ?? 'booster');
+    }
+    final cards = await _cardsFor(db, sets);
 
     if (!mounted) return;
     setState(() {
@@ -88,14 +103,31 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
     );
   }
 
-  Future<void> _selectSet(String code) async {
-    if (code == _setCode) return;
+  // The open set's cards, or every card of the open promo category, event by
+  // event in display order.
+  Future<List<CardModel>> _cardsFor(CatalogueDb db, List<SetModel> sets) async {
+    if (_category == null) return db.getCardsBySetOrdered(_setCode!);
+    return [
+      for (final e in _eventsOf(sets, _category!)) ...await db.getCardsBySetOrdered(e.code),
+    ];
+  }
+
+  static List<SetModel> _eventsOf(List<SetModel> sets, String category) =>
+      [for (final s in sets) if (s.isAvailable && s.promoCategory == category) s];
+
+  // [value] is a set code, or a promo category key in category mode.
+  Future<void> _select(String value) async {
+    if (value == (_category ?? _setCode)) return;
     setState(() {
-      _setCode = code;
+      if (_category != null) {
+        _category = value;
+      } else {
+        _setCode = value;
+      }
       _isLoading = true;
     });
 
-    final cards = await context.read<CatalogueDb>().getCardsBySetOrdered(code);
+    final cards = await _cardsFor(context.read<CatalogueDb>(), _sets);
 
     if (!mounted) return;
     setState(() {
@@ -107,12 +139,31 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    final current = _sets.where((s) => s.code == _setCode).firstOrNull;
-    final isDeck = current?.setType == 'starter';
-    // Decks drop the "Starter:" / "Live:" prefix so the member name fits.
-    final setName = current == null
-        ? _setCode
-        : (isDeck ? DeckTile.splitName(current.name).$2 : current.name);
+    // What the nav bar shows, and its dropdown entries: (value, code, name).
+    final String navLabel, title;
+    final List<(String, String?, String)> items;
+    double codeWidth = 48;
+    Map<String, String>? headings;
+    if (_category != null) {
+      navLabel = 'Promos';
+      title = promoCategoryByKey(_category!)?.name ?? _category!;
+      items = [
+        for (final c in promoCategories)
+          if (_eventsOf(_sets, c.key).isNotEmpty) (c.key, null, c.name),
+      ];
+      // A heading above each promo event's cards.
+      headings = {for (final e in _eventsOf(_sets, _category!)) e.code: e.name};
+    } else {
+      final current = _sets.where((s) => s.code == _setCode).firstOrNull;
+      final isDeck = current?.setType == 'starter';
+      // Decks drop the "Starter:" / "Live:" prefix so the member name fits.
+      String shortName(SetModel s) => isDeck ? DeckTile.splitName(s.name).$2 : s.name;
+      navLabel = isDeck ? 'Deck' : 'Set';
+      title = current == null ? _setCode! : shortName(current);
+      items = [for (final s in _sets.where((s) => s.isAvailable)) (s.code, s.code, shortName(s))];
+      // deck codes ("hSD20") need more room than "hBP01"
+      if (isDeck) codeWidth = 60;
+    }
 
     return AppBackground(
       child: Scaffold(
@@ -120,11 +171,12 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
         body: Column(
           children: [
             _DetailNavBar(
-              setCode: _setCode,
-              setName: setName,
-              isDeck: isDeck,
-              sets: _sets,
-              onSelectSet: _selectSet,
+              label: navLabel,
+              title: title,
+              selected: _category ?? _setCode!,
+              items: items,
+              codeWidth: codeWidth,
+              onSelect: _select,
             ),
             _FilterSegmentedControl(
               filter: _filter,
@@ -141,6 +193,7 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
                             filter: _filter,
                             searchQuery: _searchQuery,
                             filterState: _filterState,
+                            headings: headings,
                             scrollController: _scrollController,
                           ),
                   ),
@@ -167,18 +220,21 @@ class _PortfolioSetDetailPageState extends State<PortfolioSetDetailPage> {
 // --- Nav bar ----------------------------------------------------------------
 
 class _DetailNavBar extends StatelessWidget {
-  final String setCode;
-  final String setName;
-  final bool isDeck; // starter deck: label says "Deck", wider code column
-  final List<SetModel> sets;
-  final ValueChanged<String> onSelectSet;
+  final String label; // 'Set', 'Deck' or 'Promos'
+  final String title; // the open set/deck/category name
+  final String selected; // value of the open entry
+  // Dropdown entries: (value, gold code shown before the name or null, name).
+  final List<(String, String?, String)> items;
+  final double codeWidth;
+  final ValueChanged<String> onSelect;
 
   const _DetailNavBar({
-    required this.setCode,
-    required this.setName,
-    required this.isDeck,
-    required this.sets,
-    required this.onSelectSet,
+    required this.label,
+    required this.title,
+    required this.selected,
+    required this.items,
+    required this.codeWidth,
+    required this.onSelect,
   });
 
   @override
@@ -215,37 +271,37 @@ class _DetailNavBar extends StatelessWidget {
               const SizedBox(width: 12),
               Expanded(
                 child: Semantics(
-                  label: '${isDeck ? 'Deck' : 'Set'}: $setName, tap to change',
+                  label: '$label: $title, tap to change',
                   button: true,
                   excludeSemantics: true,
                 child: PopupMenuButton<String>(
-                  tooltip: isDeck ? 'Select deck' : 'Select set',
+                  tooltip: label == 'Promos' ? 'Select category' : 'Select ${label.toLowerCase()}',
                   offset: const Offset(0, 40),
-                  onSelected: onSelectSet,
+                  onSelected: onSelect,
                   itemBuilder: (_) => [
-                    for (final set in sets.where((s) => s.isAvailable))
+                    for (final (value, code, name) in items)
                       PopupMenuItem(
-                        value: set.code,
+                        value: value,
                         child: Container(
                           width: double.infinity,
                           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                           decoration: BoxDecoration(
-                            color: set.code == setCode ? activeItemBg : null,
+                            color: value == selected ? activeItemBg : null,
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.baseline,
                             textBaseline: TextBaseline.alphabetic,
                             children: [
-                              SizedBox(
-                                // deck codes ("hSD20") need more room than "hBP01"
-                                width: isDeck ? 60 : 48,
-                                child: Text(
-                                  set.code,
-                                  style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: AppColours.gold),
+                              if (code != null)
+                                SizedBox(
+                                  width: codeWidth,
+                                  child: Text(
+                                    code,
+                                    style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: AppColours.gold),
+                                  ),
                                 ),
-                              ),
-                              Expanded(child: Text(isDeck ? DeckTile.splitName(set.name).$2 : set.name, style: const TextStyle(fontSize: 12))),
+                              Expanded(child: Text(name, style: const TextStyle(fontSize: 12))),
                             ],
                           ),
                         ),
@@ -255,14 +311,14 @@ class _DetailNavBar extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text(isDeck ? 'Deck' : 'Set', style: TextStyle(fontSize: 10, color: navText.withValues(alpha: 0.75))),
+                      Text(label, style: TextStyle(fontSize: 10, color: navText.withValues(alpha: 0.75))),
                       const SizedBox(height: 2),
                       Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Flexible(
                             child: Text(
-                              setName,
+                              title,
                               overflow: TextOverflow.ellipsis,
                               style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: navText),
                             ),
@@ -403,6 +459,9 @@ class _CardGrid extends StatelessWidget {
   final _OwnershipFilter filter;
   final String searchQuery;
   final PortfolioFilterState filterState;
+  // Promo category: event name by set code, shown as a heading above each
+  // event's cards. Null = one plain grid.
+  final Map<String, String>? headings;
   final ScrollController? scrollController;
 
   const _CardGrid({
@@ -410,6 +469,7 @@ class _CardGrid extends StatelessWidget {
     required this.filter,
     required this.searchQuery,
     required this.filterState,
+    this.headings,
     this.scrollController,
   });
 
@@ -451,16 +511,49 @@ class _CardGrid extends StatelessWidget {
       return Center(child: Text('No cards found', style: TextStyle(color: muted)));
     }
 
-    final rowCount = (filtered.length / columns).ceil();
+    // The list's entries: rows of cards, each event's rows led by its heading
+    // (a String) when [headings] is set. Cards of one event are always next to
+    // each other - sorting by value stays within each event.
+    final entries = <Object>[];
+    void addRows(List<CardModel> group) {
+      for (var i = 0; i < group.length; i += columns) {
+        entries.add(group.sublist(i, min(i + columns, group.length)));
+      }
+    }
+
+    if (headings == null) {
+      addRows(filtered);
+    } else {
+      var i = 0;
+      while (i < filtered.length) {
+        final code = filtered[i].setCode;
+        var j = i;
+        while (j < filtered.length && filtered[j].setCode == code) {
+          j++;
+        }
+        entries.add(code);
+        addRows(filtered.sublist(i, j));
+        i = j;
+      }
+    }
 
     return ListView.builder(
       controller: scrollController,
       // Top padding leaves room for the search bar floating over the grid.
       padding: const EdgeInsets.fromLTRB(14, SearchFilterBar.gridTopPadding, 14, 16),
-      itemCount: rowCount,
-      itemBuilder: (context, rowIndex) {
-        final start = rowIndex * columns;
-        final rowCards = filtered.sublist(start, min(start + columns, filtered.length));
+      itemCount: entries.length,
+      itemBuilder: (context, index) {
+        final entry = entries[index];
+        if (entry is String) {
+          final eventCards = cards.where((c) => c.setCode == entry);
+          return _EventHeading(
+            name: headings![entry] ?? entry,
+            ownedCount: eventCards.where((c) => collection.isOwned(c.cardId)).length,
+            totalCount: eventCards.length,
+            isFirst: index == 0,
+          );
+        }
+        final rowCards = entry as List<CardModel>;
         final nameLines = CardTile.nameLinesForRow(
             context, rowCards, columns, context.read<PreferencesProvider>().japaneseNames);
 
@@ -513,3 +606,50 @@ class _CardGrid extends StatelessWidget {
   }
 }
 
+// The name of a promo event above its cards in a promo category, with how
+// many of the event's cards are owned.
+class _EventHeading extends StatelessWidget {
+  final String name;
+  final int ownedCount;
+  final int totalCount;
+  final bool isFirst;
+
+  const _EventHeading({
+    required this.name,
+    required this.ownedCount,
+    required this.totalCount,
+    required this.isFirst,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final primary = isDark ? AppColours.darkPrimaryText : AppColours.lightPrimaryText;
+    final secondary = isDark ? AppColours.darkSecondaryText : AppColours.lightSecondaryText;
+
+    return Semantics(
+      header: true,
+      label: '$name, $ownedCount of $totalCount owned',
+      excludeSemantics: true,
+      child: Padding(
+        padding: EdgeInsets.fromLTRB(2, isFirst ? 0 : 6, 2, 8),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.baseline,
+          textBaseline: TextBaseline.alphabetic,
+          children: [
+            Expanded(
+              child: Text(
+                name,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: primary),
+              ),
+            ),
+            const SizedBox(width: 8),
+            Text('$ownedCount/$totalCount', style: TextStyle(fontSize: 11, color: secondary)),
+          ],
+        ),
+      ),
+    );
+  }
+}

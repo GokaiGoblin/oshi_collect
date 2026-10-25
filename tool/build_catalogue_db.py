@@ -49,6 +49,48 @@ PROMO_EVENT_CODES = {
     'Holonatsu Paradise 2025': 'hSD2025',
 }
 
+# Promo categories for the Portfolio "Promos" view: every promo event belongs
+# to exactly one (stored in sets.promo_category). The keys must match
+# lib/models/promo_category.dart. An event that fits none stops the build, so
+# a new event always gets filed on purpose.
+#   special: packs bought at a special occasion that give the whole set at
+#            once (no random pulls), e.g. the anniversary sets and hCO sets.
+PROMO_CATEGORY_PREFIXES = [
+    ('Basic PR Pack', 'basic'),
+    ('Super PR Pack', 'super'),
+    ('Entry PR Pack', 'entry'),     # the talents' original debut cards
+    ('Hololive Dreams PR Pack', 'dreams'),
+    ('V Jump', 'vjump'),
+]
+PROMO_CATEGORY_EVENTS = {
+    'Birthday': 'birthday',
+    'World Grand Prix': 'tournament', 'Exstreamer Cup': 'tournament', 'Bloom Cup': 'tournament',
+    'Selection Cup': 'tournament', 'Grand Stage': 'tournament', 'Trio Challenge 2025 Spring': 'tournament',
+    'Hololive Collection: 2025 Live Set': 'special',
+    'Exstreamer Cup 25-26 Final Collection A': 'special',
+    'Exstreamer Cup 25-26 Final Collection B': 'special',
+    '1st Anniversary Blooming Memories': 'special', '1st Anniversary Celebration Set': 'special',
+    '2nd Anniversary Blooming Memories': 'special', '2nd Anniversary Celebration Set': 'special',
+    '8th Anniversary Fireworks': 'special',
+    'Lawson x Red Bull Collab': 'collab', 'Yoshinoya Collab': 'collab', 'Hololive Twin Wafers': 'collab',
+    'Comic Market 104': 'collab', 'Card Game Festival 2025': 'collab', 'Card Game Festival 2026': 'collab',
+    'Sakura Miko POP UP SHOP': 'collab', 'Public Recording Year-End Special': 'collab',
+    'Holonatsu Paradise 2025': 'collab', 'Mikodanye PR Pack': 'collab', 'Summer PR Pack 2025': 'collab',
+}
+
+
+def promo_category(event):
+    if event in PROMO_CATEGORY_EVENTS:
+        return PROMO_CATEGORY_EVENTS[event]
+    for prefix, key in PROMO_CATEGORY_PREFIXES:
+        if event.startswith(prefix):
+            return key
+    # CD / album bonus cards: "Kanata - Trigger - Limited Edition", "... - 1st Press"
+    if event.endswith('Limited Edition') or event.endswith('1st Press'):
+        return 'music'
+    sys.exit(f'Promo event "{event}" has no Portfolio category - add it to PROMO_CATEGORY_EVENTS')
+
+
 # Starter decks: code -> (EN name, JP name, release date, available).
 # EN names are "Starter: <member>" or "Live: <member>" (Live Start Decks).
 # The R2 image folder is the code + the name WITHOUT that prefix and spaces:
@@ -238,13 +280,16 @@ def main():
 
     # --- promo events become sets with set_type 'promo' ------------------------
     cur.execute("DELETE FROM sets WHERE set_type = 'promo'")
+    if 'promo_category' not in [c[1] for c in cur.execute('PRAGMA table_info(sets)')]:
+        cur.execute('ALTER TABLE sets ADD COLUMN promo_category TEXT')
     events = {}
     for r in promos:
         events.setdefault(r['set_code'].strip() or 'Other Promos', []).append(r)
     for name in sorted(events, key=natural_key):
-        cur.execute('INSERT INTO sets (set_code, name_en, name_jp, set_type, release_date, card_count, is_available) '
-                    "VALUES (?, ?, NULL, 'promo', NULL, ?, ?)",
-                    (slug(name), name, len(events[name]), 0 if name in UNRELEASED_PROMO_EVENTS else 1))
+        cur.execute('INSERT INTO sets (set_code, name_en, name_jp, set_type, release_date, card_count, is_available, '
+                    "promo_category) VALUES (?, ?, NULL, 'promo', NULL, ?, ?, ?)",
+                    (slug(name), name, len(events[name]), 0 if name in UNRELEASED_PROMO_EVENTS else 1,
+                     promo_category(name)))
     for name, rows in events.items():
         for r in rows:
             variant = r['image_variant'].strip()

@@ -15,6 +15,8 @@ import 'trend_triangle.dart';
 // The deck box image (transparent PNG from R2 decks/<code>_thumbnail.png)
 // stands on a light frosted panel with the progress bar along its bottom;
 // the info panel underneath shows the deck code, owned count, name and value.
+// The Promos view uses the same tile for each promo category, passing its
+// own [artwork] (the blended card cover) in place of the deck box.
 class DeckTile extends StatelessWidget {
   // Width ÷ height of the artwork area. The box images are about 0.6 wide
   // for every 1 tall; a little extra width leaves a margin around the box.
@@ -34,6 +36,11 @@ class DeckTile extends StatelessWidget {
   // row fits on one line, else 2 (see [nameLinesForRow]).
   final int nameLines;
   final VoidCallback? onTap;
+  // Replaces the deck box image, filling the artwork area edge to edge.
+  final Widget? artwork;
+  final double artworkAspectRatio;
+  // Bottom-left of the info panel; defaults to the deck type from the name.
+  final String? typeLabel;
 
   const DeckTile({
     super.key,
@@ -46,6 +53,9 @@ class DeckTile extends StatelessWidget {
     this.valueTrend,
     this.nameLines = 2,
     this.onTap,
+    this.artwork,
+    this.artworkAspectRatio = _artworkAspectRatio,
+    this.typeLabel,
   });
 
   /// 1 if every deck name in a row fits on one line, otherwise 2 — tiles in
@@ -90,7 +100,8 @@ class DeckTile extends StatelessWidget {
     final infoSecondary = isDark ? AppColours.darkSecondaryText : AppColours.lightNavWhite;
     final prefs = context.watch<PreferencesProvider>();
     final textScale = MediaQuery.textScalerOf(context).scale(1.0);
-    final (deckType, deckName) = splitName(setName);
+    final (nameType, deckName) = splitName(setName);
+    final deckType = typeLabel ?? nameType;
 
     return Semantics(
       label: '$setCode, $deckName, $ownedCount of $totalCount cards owned',
@@ -107,23 +118,26 @@ class DeckTile extends StatelessWidget {
               // --- Deck box on a light frosted panel; the progress bar lies
               // over the bottom of the box, as on the booster set cards ---
               AspectRatio(
-                aspectRatio: _artworkAspectRatio,
+                aspectRatio: artworkAspectRatio,
                 child: FrostedPanel(
                   borderRadius: BorderRadius.zero,
                   padding: EdgeInsets.zero,
                   child: Stack(
                     fit: StackFit.expand,
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(10, 10, 10, 4),
-                        child: CachedNetworkImage(
-                          imageUrl: artworkUrl,
-                          fit: BoxFit.contain,
-                          memCacheHeight: 700,
-                          placeholder: (_, _) => const SizedBox.shrink(),
-                          errorWidget: (_, _, _) => const _MissingBox(),
+                      if (artwork != null)
+                        artwork!
+                      else
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(10, 10, 10, 4),
+                          child: CachedNetworkImage(
+                            imageUrl: artworkUrl,
+                            fit: BoxFit.contain,
+                            memCacheHeight: 700,
+                            placeholder: (_, _) => const SizedBox.shrink(),
+                            errorWidget: (_, _, _) => const _MissingBox(),
+                          ),
                         ),
-                      ),
                       Positioned(
                         left: 0,
                         right: 0,

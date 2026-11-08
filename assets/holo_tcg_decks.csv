@@ -7,7 +7,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2713,hSD01,ときのそら,Tokino Sora,hSD01-006,RR,1,0,0,120,White,Tokino Sora
 2714,hSD01,IRyS,IRyS,hSD01-007,C,0,0,0,180,White,IRyS
 2715,hSD01,AZKi,AZKi,hSD01-008,C,0,0,0,30,Green,AZKi
-2716,hSD01,AZKi,AZKi,hSD01-009,R,1,0,0,220,Green,AZKi
+2716,hSD01,AZKi,AZKi,hSD01-009,R,1,0,0,320,Green,AZKi
 2717,hSD01,AZKi,AZKi,hSD01-010,U,0,0,0,50,Green,AZKi
 2718,hSD01,AZKi,AZKi,hSD01-011,RR,1,0,0,180,Green,AZKi
 2719,hSD01,アイラニ・イオフィフティーン,Airani Iofifteen,hSD01-012,C,0,0,0,180,Green,Airani Iofifteen
@@ -226,8 +226,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2932,hSD12,古石ビジュー,Koseki Bijou,hSD12-010,U,0,0,0,80,Purple,Koseki Bijou
 2933,hSD12,古石ビジュー,Koseki Bijou,hSD12-011,RR,1,0,0,180,Purple,Koseki Bijou
 2934,hSD12,ネリッサ・レイヴンクロフト,Nerissa Ravencroft,hSD12-012,C,0,0,0,120,Purple,Nerissa Ravencroft
-2935,hSD12,モココ・アビスガード,Mococo Abyssgard,hSD12-013,C,0,0,0,1280,Red,Mococo Abyssgard
-2936,hSD12,フワワ・アビスガード,Fuwawa Abyssgard,hSD12-014,C,0,0,0,980,Blue,Fuwawa Abyssgard
+2935,hSD12,モココ・アビスガード,Mococo Abyssgard,hSD12-013,C,0,0,0,980,Red,Mococo Abyssgard
+2936,hSD12,フワワ・アビスガード,Fuwawa Abyssgard,hSD12-014,C,0,0,0,680,Blue,Fuwawa Abyssgard
 2937,hSD12,脱獄を果たした共犯者たち,Escaped Convicts,hSD12-015,U,0,0,0,1480,Support,"Nerissa Ravencroft, Fuwawa Abyssgard, Shiori Novella, Mococo Abyssgard, Koseki Bijou"
 2938,hSD12,GEOW,GEOW,hSD12-016,C,0,0,0,50,Support,
 2939,hSD12,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
@@ -307,7 +307,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3013,hSD16,さくらみこ,Sakura Miko,hSD16-006,C,0,0,0,30,Red,Sakura Miko
 3014,hSD16,さくらみこ,Sakura Miko,hSD16-007,U,0,0,0,30,Red,Sakura Miko
 3015,hSD16,さくらみこ,Sakura Miko,hSD16-008,R,1,0,0,30,Red,Sakura Miko
-3016,hSD16,さくらみこ,Sakura Miko,hSD16-009,RR,1,0,0,30,Red,Sakura Miko
+3016,hSD16,さくらみこ,Sakura Miko,hSD16-009,RR,1,0,0,80,Red,Sakura Miko
 3017,hSD16,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
 3018,hSD16,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
 3019,hSD16,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
@@ -324,7 +324,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3030,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-006,C,0,0,0,30,Blue,Hoshimachi Suisei
 3031,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-007,U,0,0,0,30,Blue,Hoshimachi Suisei
 3032,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-008,R,1,0,0,30,Blue,Hoshimachi Suisei
-3033,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-009,RR,1,0,0,30,Blue,Hoshimachi Suisei
+3033,hSD17,星街すいせい,Hoshimachi Suisei,hSD17-009,RR,1,0,0,50,Blue,Hoshimachi Suisei
 3034,hSD17,ステラ,Stellar,hSD17-010,C,0,0,0,280,Support,Hoshimachi Suisei
 3035,hSD17,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,500,Support,Tokino Sora
 3036,hSD17,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
@@ -370,15 +370,15 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3100,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-002,C,0,0,0,80,Red,Hyakuto Kyoko
 3101,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-003,U,0,0,0,50,Red,Hyakuto Kyoko
 3102,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-004,C,0,0,0,50,Red,Hyakuto Kyoko
-3103,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-005,U,0,0,0,120,Red,Hyakuto Kyoko
-3104,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-006,R,1,0,0,180,Red,Hyakuto Kyoko
+3103,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-005,U,0,0,0,280,Red,Hyakuto Kyoko
+3104,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-006,R,1,0,0,280,Red,Hyakuto Kyoko
 3105,hSD20,百灯キョーコ,Hyakuto Kyoko,hSD20-007,RR,1,0,0,120,Red,Hyakuto Kyoko
 3106,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-008,C,0,0,0,80,Blue,Sorashina Sopia
-3107,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-009,U,0,0,0,220,Blue,Sorashina Sopia
+3107,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-009,U,0,0,0,180,Blue,Sorashina Sopia
 3108,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-010,R,1,0,0,180,Blue,Sorashina Sopia
-3109,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-011,RR,1,0,0,220,Blue,Sorashina Sopia
+3109,hSD20,宙科そぴあ,Sorashina Sopia,hSD20-011,RR,1,0,0,180,Blue,Sorashina Sopia
 3110,hSD20,アソビ★まわり隊！,Asobi★Mawari-tai!,hSD20-012,U,0,0,0,50,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
-3111,hSD20,ぐるぐるTIME！,Guruguru TIME!,hSD20-013,U,0,0,0,420,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
+3111,hSD20,ぐるぐるTIME！,Guruguru TIME!,hSD20-013,U,0,0,0,320,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
 3112,hSD20,百灯キョーコの拡声器,Hyakuto Kyoko's Megaphone,hSD20-014,U,0,0,0,180,Support,Hyakuto Kyoko
 3113,hSD20,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support,Tokino Sora
 3114,hSD20,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,,Support,"Inugami Korone, Nekomata Okayu"
@@ -387,22 +387,22 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3117,hSD20,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
 3118,hSD20,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
 3119,hSD21,熱千めら,Achichi Mela,hSD21-001,OSR,1,0,0,180,Purple,Achichi Mela
-3120,hSD21,熱千めら,Achichi Mela,hSD21-002,C,0,0,0,80,Purple,Achichi Mela
+3120,hSD21,熱千めら,Achichi Mela,hSD21-002,C,0,0,0,120,Purple,Achichi Mela
 3121,hSD21,熱千めら,Achichi Mela,hSD21-003,U,0,0,0,50,Purple,Achichi Mela
 3122,hSD21,熱千めら,Achichi Mela,hSD21-004,C,0,0,0,50,Purple,Achichi Mela
-3123,hSD21,熱千めら,Achichi Mela,hSD21-005,U,0,0,0,120,Purple,Achichi Mela
-3124,hSD21,熱千めら,Achichi Mela,hSD21-006,R,1,0,0,180,Purple,Achichi Mela
+3123,hSD21,熱千めら,Achichi Mela,hSD21-005,U,0,0,0,320,Purple,Achichi Mela
+3124,hSD21,熱千めら,Achichi Mela,hSD21-006,R,1,0,0,320,Purple,Achichi Mela
 3125,hSD21,熱千めら,Achichi Mela,hSD21-007,RR,1,0,0,120,Purple,Achichi Mela
-3126,hSD21,熱千めらの拍子木,Achichi Mela's Hyoshigi,hSD21-008,U,0,0,0,180,Support,Achichi Mela
+3126,hSD21,熱千めらの拍子木,Achichi Mela's Hyoshigi,hSD21-008,U,0,0,0,280,Support,Achichi Mela
 3127,hSD21,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support,Tokino Sora
 3128,hSD21,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,,Support,"Inugami Korone, Nekomata Okayu"
 3129,hSD21,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,,Support,Hoshimachi Suisei
 3130,hSD21,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Kazeshiro Yuki
 3131,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-008,C,0,0,1,80,Blue,Sorashina Sopia
-3132,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-009,U,0,0,1,220,Blue,Sorashina Sopia
+3132,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-009,U,0,0,1,180,Blue,Sorashina Sopia
 3133,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-010,R,1,0,1,180,Blue,Sorashina Sopia
-3134,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-011,RR,1,0,1,220,Blue,Sorashina Sopia
+3134,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-011,RR,1,0,1,180,Blue,Sorashina Sopia
 3135,hSD21,アソビ★まわり隊！,Asobi★Mawari-tai!,hSD20-012,U,0,0,1,50,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
-3136,hSD21,ぐるぐるTIME！,Guruguru TIME!,hSD20-013,U,0,0,1,420,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
+3136,hSD21,ぐるぐるTIME！,Guruguru TIME!,hSD20-013,U,0,0,1,320,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
 3137,hSD21,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
 3138,hSD21,紫エール,Purple Cheer,hY05-001,C,0,0,1,50,Purple,

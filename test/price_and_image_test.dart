@@ -34,10 +34,10 @@ void main() {
     expect(formatPrice(null, 'JPY', {'JPY': 1.0}), '—');
   });
 
-  test('promo image URL uses the card number and version suffix', () {
-    expect(_promo().imageUrl, 'https://standbyinteractive.com/cards/Promo/hBP01-104-P.png');
+  test('general promo images are in Promo/hPR under card number + version', () {
+    expect(_promo().imageUrl, 'https://standbyinteractive.com/cards/Promo/hPR/hBP01-104-P.png');
     expect(_promo(variant: '02').imageUrl,
-        'https://standbyinteractive.com/cards/Promo/hBP01-104-P-02.png');
+        'https://standbyinteractive.com/cards/Promo/hPR/hBP01-104-P-02.png');
   });
 
   test('a promo set with an official code loads from its own folder, code first', () {

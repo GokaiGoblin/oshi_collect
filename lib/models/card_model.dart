@@ -114,12 +114,13 @@ class CardModel {
         // hBP01-104-P.png, hBP01-104-P-02.png
         final suffix = imageVariant == null ? '' : '-$imageVariant';
         final file = '$cardNumber-$rarity$suffix.png';
-        // General and birthday promos (set codes made up from the event name,
-        // "PR-…") sit directly in Promo/. Sets with an official code (hCS01,
-        // hWF01, hPC01, hCO01…) have their own folder, and the file name
-        // starts with the code too:
-        // Promo/hWF01/hWF01-hBP01-034-P.png
-        if (setCode.startsWith('PR-')) return '$base/Promo/$file';
+        // General and birthday promos (the official "hPR" list; their set
+        // codes are made up from the event name, "PR-…") are all in
+        // Promo/hPR/ under their plain name: Promo/hPR/hBP01-104-P-02.png
+        // Sets with an official code of their own (hCS01, hWF01, hPC01,
+        // hCO01…) have their own folder, and the file name starts with the
+        // code too: Promo/hWF01/hWF01-hBP01-034-P.png
+        if (setCode.startsWith('PR-')) return '$base/Promo/hPR/$file';
         return '$base/Promo/$setCode/$setCode-$file';
       case 'booster':
       default:

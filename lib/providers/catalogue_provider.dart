@@ -29,11 +29,23 @@ class CatalogueProvider extends ChangeNotifier {
   List<CardModel> _filtered = [];
   List<SetModel> _sets = [];
   String _searchQuery = '';
-  /// Special selection value meaning "every promo event at once".
-  /// Not a real set code — it never appears in the database.
+  /// Special selection values meaning "every set of one kind at once"
+  /// (the "All Boosters" / "All Decks" / "All Promos" rows at the top of each
+  /// tab in the set picker). Not real set codes — they never appear in the
+  /// database. null means "All Catalogue" (every card).
+  static const allBoosters = '__all_boosters__';
+  static const allDecks = '__all_decks__';
   static const allPromos = '__all_promos__';
 
-  String? _selectedSet; // null = "All Sets", allPromos = "All Promos"
+  /// Which set_type each "All …" selection shows.
+  static const allOfType = {allBoosters: 'booster', allDecks: 'starter', allPromos: 'promo'};
+
+  /// True for null ("All Catalogue") and the three "All …" selections — the
+  /// views that show several sets, grouped under a heading per set.
+  static bool isMultiSet(String? selection) =>
+      selection == null || allOfType.containsKey(selection);
+
+  String? _selectedSet; // null = "All Catalogue", or one of allOfType's keys, or a set code
   bool _isLoading = false;
 
   // Filter sheet state — "owned" is applied by the catalogue grid itself
@@ -88,9 +100,13 @@ class CatalogueProvider extends ChangeNotifier {
   Future<void> _loadCards() async {
     if (_selectedSet == null) {
       _allCards = await _db.getAllCards();
-    } else if (_selectedSet == allPromos) {
-      // getAllCards already returns promos in event display order.
-      _allCards = (await _db.getAllCards()).where((c) => c.setType == 'promo').toList();
+    } else if (allOfType.containsKey(_selectedSet)) {
+      // getAllCards already returns cards in set display order.
+      // Deck sets are stored as 'starter' (older data: 'starter_deck').
+      final type = allOfType[_selectedSet]!;
+      _allCards = (await _db.getAllCards())
+          .where((c) => (c.setType ?? '').startsWith(type))
+          .toList();
     } else {
       _allCards = await _db.getCardsBySetOrdered(_selectedSet!);
     }

@@ -97,6 +97,14 @@ class _CatalogueNavBar extends StatelessWidget {
 
 // --- Set selector (taps open the two-part bottom sheet) -------------------
 
+/// Labels for the "All …" row at the top of each set-picker tab (also shown
+/// in the nav bar when one is selected), keyed by set_type.
+const _allRowLabels = {
+  'booster': 'All Boosters',
+  'starter': 'All Decks',
+  'promo': 'All Promos',
+};
+
 class _SetSelector extends StatelessWidget {
   const _SetSelector();
 
@@ -107,10 +115,9 @@ class _SetSelector extends StatelessWidget {
     final catalogue = context.watch<CatalogueProvider>();
 
     final currentName = catalogue.selectedSet == null
-        ? 'All Sets'
-        : catalogue.selectedSet == CatalogueProvider.allPromos
-            ? 'All Promos'
-            : catalogue.sets
+        ? 'All Catalogue'
+        : _allRowLabels[CatalogueProvider.allOfType[catalogue.selectedSet]] ??
+            catalogue.sets
                 .where((s) => s.code == catalogue.selectedSet)
                 .firstOrNull
                 ?.name ??
@@ -176,7 +183,7 @@ class _SetSelectorSheet extends StatefulWidget {
 class _SetSelectorSheetState extends State<_SetSelectorSheet> {
   // Which tab is showing. Set in initState to the tab of the currently
   // selected set, so reopening the sheet after picking a promo event lands
-  // on Promos. "All Sets" (no selection) opens on Booster Sets.
+  // on Promos. "All Catalogue" (no selection) opens on Booster Sets.
   String _activeType = 'booster';
 
   static const _types = [
@@ -189,9 +196,8 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
   void initState() {
     super.initState();
     final catalogue = context.read<CatalogueProvider>();
-    final selectedType = catalogue.selectedSet == CatalogueProvider.allPromos
-        ? 'promo'
-        : catalogue.sets
+    final selectedType = CatalogueProvider.allOfType[catalogue.selectedSet] ??
+        catalogue.sets
             .where((s) => s.code == catalogue.selectedSet)
             .firstOrNull
             ?.setType;
@@ -218,8 +224,12 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
     final filteredSets = catalogue.sets
         .where((s) => s.isAvailable && s.setType == _activeType)
         .toList();
-    // The Promos tab gets an "All Promos" row at the top of its list.
-    final showAllPromos = _activeType == 'promo' && filteredSets.isNotEmpty;
+    // Every tab gets an "All …" row at the top of its list (All Boosters /
+    // All Decks / All Promos), which shows all of that tab's sets at once.
+    final showAllRow = filteredSets.isNotEmpty;
+    final allCode = CatalogueProvider.allOfType.entries
+        .firstWhere((e) => e.value == _activeType)
+        .key;
 
     void select(String? code) {
       context.read<CatalogueProvider>().selectSet(code);
@@ -250,7 +260,7 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
               ),
             ),
             const SizedBox(height: 6),
-            // All Sets row
+            // All Catalogue row (every card, all three kinds)
             Material(
               color: Colors.transparent,
               child: InkWell(
@@ -265,7 +275,7 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
                         )
                       : null,
                   child: Text(
-                    'All Sets',
+                    'All Catalogue',
                     style: TextStyle(
                       fontSize: 13,
                       fontWeight: FontWeight.w500,
@@ -315,25 +325,25 @@ class _SetSelectorSheetState extends State<_SetSelectorSheet> {
                 child: ListView.builder(
                 shrinkWrap: true,
                 padding: const EdgeInsets.only(bottom: 8),
-                itemCount: filteredSets.length + (showAllPromos ? 1 : 0),
+                itemCount: filteredSets.length + (showAllRow ? 1 : 0),
                 itemBuilder: (context, index) {
-                  if (showAllPromos) {
+                  if (showAllRow) {
                     if (index == 0) {
                       return Material(
                         color: Colors.transparent,
                         child: InkWell(
-                          onTap: () => select(CatalogueProvider.allPromos),
+                          onTap: () => select(allCode),
                           child: Container(
                             margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-                            decoration: catalogue.selectedSet == CatalogueProvider.allPromos
+                            decoration: catalogue.selectedSet == allCode
                                 ? BoxDecoration(
                                     color: activeItemBg,
                                     borderRadius: BorderRadius.circular(8),
                                   )
                                 : null,
                             child: Text(
-                              'All Promos',
+                              _allRowLabels[_activeType]!,
                               style: TextStyle(
                                 fontSize: 13,
                                 fontWeight: FontWeight.w500,
@@ -645,9 +655,9 @@ class _CardGridState extends State<_CardGrid> {
     _prefetchCards = cards;
     _prefetchColumns = columns;
 
-    // "All Promos" uses the grouped view so each event gets its own header.
-    if (catalogue.selectedSet != null &&
-        catalogue.selectedSet != CatalogueProvider.allPromos) {
+    // "All Catalogue" and the "All …" rows use the grouped view so each set
+    // gets its own header.
+    if (!CatalogueProvider.isMultiSet(catalogue.selectedSet)) {
       // Single-set view: flat grid, no headers.
       final rowCount = (cards.length / columns).ceil();
       return ListView.builder(

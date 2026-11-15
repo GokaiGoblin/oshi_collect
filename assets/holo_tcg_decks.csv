@@ -7,7 +7,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2713,hSD01,ときのそら,Tokino Sora,hSD01-006,RR,1,0,0,120,White,Tokino Sora
 2714,hSD01,IRyS,IRyS,hSD01-007,C,0,0,0,180,White,IRyS
 2715,hSD01,AZKi,AZKi,hSD01-008,C,0,0,0,30,Green,AZKi
-2716,hSD01,AZKi,AZKi,hSD01-009,R,1,0,0,320,Green,AZKi
+2716,hSD01,AZKi,AZKi,hSD01-009,R,1,0,0,220,Green,AZKi
 2717,hSD01,AZKi,AZKi,hSD01-010,U,0,0,0,50,Green,AZKi
 2718,hSD01,AZKi,AZKi,hSD01-011,RR,1,0,0,180,Green,AZKi
 2719,hSD01,アイラニ・イオフィフティーン,Airani Iofifteen,hSD01-012,C,0,0,0,180,Green,Airani Iofifteen
@@ -202,8 +202,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2908,hSD11,虎金妃笑虎,Koganei Niko,hSD11-005,U,0,0,0,180,Yellow,Koganei Niko
 2909,hSD11,虎金妃笑虎,Koganei Niko,hSD11-006,RR,1,0,0,120,Yellow,Koganei Niko
 2910,hSD11,水宮枢,Mizumiya Su,hSD11-007,C,0,0,0,120,Blue,Mizumiya Su
-2911,hSD11,水宮枢,Mizumiya Su,hSD11-008,C,0,0,0,420,Blue,Mizumiya Su
-2912,hSD11,水宮枢,Mizumiya Su,hSD11-009,RR,1,0,0,580,Blue,Mizumiya Su
+2911,hSD11,水宮枢,Mizumiya Su,hSD11-008,C,0,0,0,220,Blue,Mizumiya Su
+2912,hSD11,水宮枢,Mizumiya Su,hSD11-009,RR,1,0,0,500,Blue,Mizumiya Su
 2913,hSD11,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
 2914,hSD11,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2915,hSD11,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
@@ -386,12 +386,12 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3116,hSD20,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Kazeshiro Yuki
 3117,hSD20,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
 3118,hSD20,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
-3119,hSD21,熱千めら,Achichi Mela,hSD21-001,OSR,1,0,0,180,Purple,Achichi Mela
-3120,hSD21,熱千めら,Achichi Mela,hSD21-002,C,0,0,0,120,Purple,Achichi Mela
+3119,hSD21,熱千めら,Achichi Mela,hSD21-001,OSR,1,0,0,220,Purple,Achichi Mela
+3120,hSD21,熱千めら,Achichi Mela,hSD21-002,C,0,0,0,180,Purple,Achichi Mela
 3121,hSD21,熱千めら,Achichi Mela,hSD21-003,U,0,0,0,50,Purple,Achichi Mela
 3122,hSD21,熱千めら,Achichi Mela,hSD21-004,C,0,0,0,50,Purple,Achichi Mela
-3123,hSD21,熱千めら,Achichi Mela,hSD21-005,U,0,0,0,320,Purple,Achichi Mela
-3124,hSD21,熱千めら,Achichi Mela,hSD21-006,R,1,0,0,320,Purple,Achichi Mela
+3123,hSD21,熱千めら,Achichi Mela,hSD21-005,U,0,0,0,420,Purple,Achichi Mela
+3124,hSD21,熱千めら,Achichi Mela,hSD21-006,R,1,0,0,420,Purple,Achichi Mela
 3125,hSD21,熱千めら,Achichi Mela,hSD21-007,RR,1,0,0,120,Purple,Achichi Mela
 3126,hSD21,熱千めらの拍子木,Achichi Mela's Hyoshigi,hSD21-008,U,0,0,0,280,Support,Achichi Mela
 3127,hSD21,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support,Tokino Sora

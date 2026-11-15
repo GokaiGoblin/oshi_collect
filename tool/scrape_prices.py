@@ -16,7 +16,7 @@ and GitHub Actions uploads them to R2. Can still be run by hand as below.
 How it works
 ------------
 1. Yuyutei (primary). One page per set: /sell/hocg/s/hbp01, /s/hsd02 ...
-   plus its five promo pages. Each listing shows a card number, rarity,
+   plus its promo/collection pages (YUYUTEI_EXTRA_PAGES). Each listing shows a card number, rarity,
    name and price. Damaged (キズ) listings are skipped.
 2. Fullahead (fallback). Only for cards Yuyutei had no usable price for,
    one search per card number. ¥999,999 is their "not in circulation yet"
@@ -73,8 +73,9 @@ TIMEOUT_SECONDS = 30
 
 YUYUTEI = 'https://yuyu-tei.jp'
 # Yuyutei groups promos into these pages rather than one per event.
+# ohc02 = Hololive Collection: 2025 Live Set (SR parallels).
 YUYUTEI_EXTRA_PAGES = ['promo-100', 'promo-hbp10', 'promo-hsd10', 'promo-heb10',
-                       'promo-hbd20', 'hys01', 'yell01']
+                       'promo-hbd20', 'hys01', 'yell01', 'ohc02']
 FULLAHEAD = 'https://fullahead-sdbs.com'
 FULLAHEAD_PLACEHOLDER = 999999
 

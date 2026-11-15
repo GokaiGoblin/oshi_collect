@@ -9,6 +9,14 @@
 #                                       listed in tool/prices_out/unpriced_report.txt)
 #   4. commit the price files and push - GitHub Actions then uploads
 #      prices.csv + price_history.csv to R2 (.github/workflows/weekly-prices.yml)
+#      The push is retried, and any commit a failed earlier run left behind
+#      is pushed too, so a bad week fixes itself on the next run.
+#
+# GitHub sign-in uses Windows' Git Credential Manager, which only works while
+# WSL can run Windows programs (the WSLInterop entry in binfmt_misc). That
+# entry once vanished and git sat at a "Username for github.com" prompt. The
+# Windows task now re-registers it as root before starting this script, and
+# git here is never allowed to prompt - it fails instead of hanging.
 #
 # It runs in its own clone (~/oshi_price_update), never the working copy, so
 # half-finished work there is never committed by accident.
@@ -32,6 +40,9 @@ main() {
     exit 1
   }
 
+  # Never stop and wait for a typed username/password - fail instead.
+  export GIT_TERMINAL_PROMPT=0
+
   git pull -q --ff-only origin main || fail 'could not update from GitHub'
   python3 -u tool/scrape_prices.py --write || fail 'scrape stopped (blocked, or safety checks failed - see scrape_report.txt)'
   python3 -u tool/export_prices.py || fail 'export refused the prices'
@@ -44,7 +55,19 @@ main() {
     echo 'No price changes this week.'
   else
     git commit -q -m "Weekly prices $(date +%F)" || fail 'commit failed'
-    git push -q origin main || fail 'push to GitHub failed'
+  fi
+
+  # Push this week's commit, plus any an earlier failed run left unpushed.
+  if [ -n "$(git log --oneline origin/main..HEAD)" ]; then
+    [ -e /proc/sys/fs/binfmt_misc/WSLInterop ] ||
+      fail 'WSL cannot run Windows programs (GitHub sign-in) - in PowerShell run: wsl -d Ubuntu -u root sh -c "echo :WSLInterop:M::MZ::/init:PF > /proc/sys/fs/binfmt_misc/register" then run this script again'
+    pushed=no
+    for attempt in 1 2 3; do
+      if timeout 120 git push -q origin main; then pushed=yes; break; fi
+      echo "push attempt $attempt failed"
+      [ "$attempt" -lt 3 ] && sleep 60
+    done
+    [ "$pushed" = yes ] || fail 'push to GitHub failed (3 tries)'
   fi
   echo "OK $(date '+%Y-%m-%d %H:%M') - $(sed -n 4p tool/prices_out/scrape_report.txt)   $UNPRICED" >"$STATUS"
   echo 'Done.'

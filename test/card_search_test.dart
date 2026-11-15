@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:holo_tcg_tracker/models/card_model.dart';
 
-CardModel _card({String nameEn = 'Green Cheer', String? members, String setCode = 'hBP06'}) => CardModel(
+CardModel _card({String nameEn = 'Green Cheer', String? members, String setCode = 'hBP06', String? setNameEn}) => CardModel(
       cardId: '1',
       setCode: setCode,
       nameJp: '緑エール',
@@ -13,6 +13,7 @@ CardModel _card({String nameEn = 'Green Cheer', String? members, String setCode 
       isReprint: false,
       priceJpy: null,
       members: members,
+      setNameEn: setNameEn,
     );
 
 void main() {
@@ -39,5 +40,12 @@ void main() {
     final card = _card(nameEn: 'Usada Pekora', setCode: 'hCS02');
     expect(card.matchesSearch('hcs02'), isTrue);
     expect(card.matchesSearch('hcs01'), isFalse);
+  });
+
+  test('a phrase from the set name finds a promo event\'s cards', () {
+    final card = _card(nameEn: 'Tokoyami Towa', setCode: 'PR-world-grand-prix', setNameEn: 'World Grand Prix');
+    expect(card.matchesSearch('grand prix'), isTrue);
+    expect(card.matchesSearch('grand'), isTrue);
+    expect(card.matchesSearch('bloom cup'), isFalse);
   });
 }

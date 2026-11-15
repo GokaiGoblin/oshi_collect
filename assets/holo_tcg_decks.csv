@@ -12,8 +12,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2718,hSD01,AZKi,AZKi,hSD01-011,RR,1,0,0,180,Green,AZKi
 2719,hSD01,アイラニ・イオフィフティーン,Airani Iofifteen,hSD01-012,C,0,0,0,180,Green,Airani Iofifteen
 2720,hSD01,SorAZ,SorAZ,hSD01-013,R,1,0,0,180,"White,Green","Tokino Sora, AZKi"
-2721,hSD01,天音かなた,Amane Kanata,hSD01-014,U,0,0,0,50,,Amane Kanata
-2722,hSD01,博衣こより,Hakui Koyori,hSD01-015,U,0,0,0,50,,Hakui Koyori
+2721,hSD01,天音かなた,Amane Kanata,hSD01-014,U,0,0,0,50,White,Amane Kanata
+2722,hSD01,博衣こより,Hakui Koyori,hSD01-015,U,0,0,0,50,White,Hakui Koyori
 2723,hSD01,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,0,180,Support,Harusaki Nodoka
 2724,hSD01,マネちゃん,Mane-chan,hSD01-017,C,0,0,0,80,Support,
 2725,hSD01,サブパソコン,Sub PC,hSD01-018,C,0,0,0,180,Support,
@@ -31,8 +31,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2737,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-007,U,0,0,0,120,Red,Nakiri Ayame
 2738,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-008,R,1,0,0,180,Red,Nakiri Ayame
 2739,hSD02,百鬼あやめ,Nakiri Ayame,hSD02-009,RR,1,0,0,180,Red,Nakiri Ayame
-2740,hSD02,白上フブキ,Shirakami Fubuki,hSD02-010,U,0,0,0,80,,Shirakami Fubuki
-2741,hSD02,大神ミオ,Ookami Mio,hSD02-011,U,0,0,0,50,,Ookami Mio
+2740,hSD02,白上フブキ,Shirakami Fubuki,hSD02-010,U,0,0,0,80,White,Shirakami Fubuki
+2741,hSD02,大神ミオ,Ookami Mio,hSD02-011,U,0,0,0,50,White,Ookami Mio
 2742,hSD02,いろはにほへっと あやふぶみ,Iroha with AyaFubuMi,hSD02-012,U,0,0,0,120,Support,"Kazama Iroha, Nakiri Ayame, Shirakami Fubuki, Ookami Mio"
 2743,hSD02,阿修羅＆羅刹,Asura & Rakshasa,hSD02-013,C,0,0,0,320,Support,Nakiri Ayame
 2744,hSD02,ぽよ余,Poyoyo,hSD02-014,C,0,0,0,120,Support,Nakiri Ayame
@@ -51,8 +51,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2757,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-007,U,0,0,0,180,Blue,Nekomata Okayu
 2758,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-008,R,1,0,0,120,Blue,Nekomata Okayu
 2759,hSD03,猫又おかゆ,Nekomata Okayu,hSD03-009,RR,1,0,0,180,Blue,Nekomata Okayu
-2760,hSD03,戌神ころね,Inugami Korone,hSD03-010,U,0,0,0,50,,Inugami Korone
-2761,hSD03,ラプラス・ダークネス,La+ Darknesss,hSD03-011,U,0,0,0,50,,La+ Darknesss
+2760,hSD03,戌神ころね,Inugami Korone,hSD03-010,U,0,0,0,50,White,Inugami Korone
+2761,hSD03,ラプラス・ダークネス,La+ Darknesss,hSD03-011,U,0,0,0,50,White,La+ Darknesss
 2762,hSD03,泥棒建設,Dorobo Construction,hSD03-012,U,0,0,0,80,Support,"Takane Lui, Inugami Korone, Nekomata Okayu, La+ Darknesss, Ookami Mio, Shirakami Fubuki"
 2763,hSD03,おかにゃん,Okanyan,hSD03-013,C,0,0,0,180,Support,Nekomata Okayu
 2764,hSD03,おにぎりゃー,Onigiryaa,hSD03-014,C,0,0,0,30,Support,Nekomata Okayu
@@ -71,8 +71,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2777,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-007,U,0,0,0,180,Purple,Yuzuki Choco
 2778,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-008,R,1,0,0,120,Purple,Yuzuki Choco
 2779,hSD04,癒月ちょこ,Yuzuki Choco,hSD04-009,RR,1,0,0,120,Purple,Yuzuki Choco
-2780,hSD04,大空スバル,Oozora Subaru,hSD04-010,U,0,0,0,50,,Oozora Subaru
-2781,hSD04,姫森ルーナ,Himemori Luna,hSD04-011,U,0,0,0,50,,Himemori Luna
+2780,hSD04,大空スバル,Oozora Subaru,hSD04-010,U,0,0,0,50,White,Oozora Subaru
+2781,hSD04,姫森ルーナ,Himemori Luna,hSD04-011,U,0,0,0,50,White,Himemori Luna
 2782,hSD04,スバちょこルーナ,SubaChocoLuna,hSD04-012,U,0,0,0,50,Support,"Oozora Subaru, Himemori Luna, Yuzuki Choco"
 2783,hSD04,ちょこのオムライス,Choco's Omurice,hSD04-013,C,0,0,0,280,Support,Yuzuki Choco
 2784,hSD04,しょこら,Chocolat,hSD04-014,C,0,0,0,50,Support,Yuzuki Choco
@@ -185,7 +185,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2891,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-007,C,0,0,0,120,Purple,Kikirara Vivi
 2892,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-008,C,0,0,0,680,Purple,Kikirara Vivi
 2893,hSD10,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-009,RR,1,0,0,980,Purple,Kikirara Vivi
-2894,hSD10,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,0,180,,Isaki Riona
+2894,hSD10,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,0,180,White,Isaki Riona
 2895,hSD10,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2896,hSD10,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2897,hSD10,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,0,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
@@ -208,7 +208,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2914,hSD11,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2915,hSD11,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2916,hSD11,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
-2917,hSD11,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,1,180,,Isaki Riona
+2917,hSD11,響咲リオナ,Isaki Riona,hSD10-010,RR,1,0,1,180,White,Isaki Riona
 2918,hSD11,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,1,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2919,hSD11,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,1,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2920,hSD11,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,1,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
@@ -253,8 +253,8 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2959,hSD13,ジジ・ムリン,Gigi Murin,hSD13-011,U,0,0,0,220,Yellow,Gigi Murin
 2960,hSD13,ジジ・ムリン,Gigi Murin,hSD13-012,U,0,0,0,220,Yellow,Gigi Murin
 2961,hSD13,ジジ・ムリン,Gigi Murin,hSD13-013,RR,1,0,0,180,Yellow,Gigi Murin
-2962,hSD13,セシリア・イマーグリーン,Cecilia Immergreen,hSD13-014,C,0,0,0,80,,Cecilia Immergreen
-2963,hSD13,ラオーラ・パンテーラ,Raora Panthera,hSD13-015,C,0,0,0,80,,Raora Panthera
+2962,hSD13,セシリア・イマーグリーン,Cecilia Immergreen,hSD13-014,C,0,0,0,80,White,Cecilia Immergreen
+2963,hSD13,ラオーラ・パンテーラ,Raora Panthera,hSD13-015,C,0,0,0,80,White,Raora Panthera
 2964,hSD13,Justice,Justice,hSD13-016,U,0,0,0,120,Support,"Raora Panthera, Cecilia Immergreen, Elizabeth Rose Bloodflame, Gigi Murin"
 2965,hSD13,"JUSTICE, JUST LIKE THAT!!!!","JUSTICE, JUST LIKE THAT!!!!",hSD13-017,U,0,0,0,220,Support,"Raora Panthera, Cecilia Immergreen, Elizabeth Rose Bloodflame, Gigi Murin"
 2966,hSD13,Popo,Popo,hSD13-018,C,0,0,0,120,Support,Gigi Murin

@@ -359,10 +359,10 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2602,2nd Anniversary Blooming Memories,BIG3,BIG3,hBP09-105,P,1,0,1,1280,Support,"Yukihana Lamy, Oozora Subaru, Shirogane Noel",
 2603,V Jump (2026-10),宝鐘マリン,Houshou Marine,hEB01-012,P,1,0,1,420,Blue,Houshou Marine,
 2604,Hololive Dreams PR Pack vol.2,宝鐘マリン,Houshou Marine,hEB01-013,P,1,0,1,2480,Blue,Houshou Marine,
-2605,Miko - flower rhapsody - Limited Edition,さくらみこ,Sakura Miko,hPR-001,P,1,0,0,2480,,Sakura Miko,
+2605,Miko - flower rhapsody - Limited Edition,さくらみこ,Sakura Miko,hPR-001,P,1,0,0,2480,White,Sakura Miko,
 2606,Public Recording Year-End Special,ReGLOSS,ReGLOSS,hPR-002,P,1,0,0,2980,Support,"Juufuutei Raden, Hiodoshi Ao, Ichijou Ririka, Otonose Kanade, Todoroki Hajime",02
 2607,ReGLOSS - ReGLOSS - Limited Edition,ReGLOSS,ReGLOSS,hPR-002,P,1,0,0,2980,Support,"Juufuutei Raden, Hiodoshi Ao, Ichijou Ririka, Otonose Kanade, Todoroki Hajime",
-2608,Basic PR Pack vol.1,ときのそら,Tokino Sora,hSD01-004,P,1,0,1,2980,,Tokino Sora,
+2608,Basic PR Pack vol.1,ときのそら,Tokino Sora,hSD01-004,P,1,0,1,2980,White,Tokino Sora,
 2609,Super PR Pack vol.1,ときのそら,Tokino Sora,hSD01-006,P,1,0,1,3480,White,Tokino Sora,
 2610,Entry PR Pack vol.2,IRyS,IRyS,hSD01-007,P,1,0,1,500,White,IRyS,
 2611,Basic PR Pack vol.1,AZKi,AZKi,hSD01-009,P,1,0,1,7980,Green,AZKi,
@@ -374,7 +374,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2617,Basic PR Pack vol.3,マネちゃん,Mane-chan,hSD01-017,P,1,0,1,1480,Support,Hoshimachi Suisei,
 2618,Basic PR Pack vol.3,サブパソコン,Sub PC,hSD01-018,P,1,0,1,1480,Support,,
 2619,Basic PR Pack vol.4,百鬼あやめ,Nakiri Ayame,hSD02-002,P,1,0,1,180,Red,Nakiri Ayame,
-2620,Basic PR Pack vol.13,百鬼あやめ,Nakiri Ayame,hSD02-004,P,1,0,1,280,,,
+2620,Basic PR Pack vol.13,百鬼あやめ,Nakiri Ayame,hSD02-004,P,1,0,1,280,Red,,
 2621,Hololive Dreams PR Pack vol.1,百鬼あやめ,Nakiri Ayame,hSD02-007,P,1,0,1,780,Red,Nakiri Ayame,02
 2622,Basic PR Pack vol.3,百鬼あやめ,Nakiri Ayame,hSD02-007,P,1,0,1,500,Red,Nakiri Ayame,
 2623,Exstreamer Cup,いろはにほへっと あやふぶみ,Iroha with AyaFubuMi,hSD02-012,P,1,0,1,280,Support,"Kazama Iroha, Nakiri Ayame, Shirakami Fubuki, Ookami Mio",
@@ -408,9 +408,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2651,Super PR Pack vol.4,輪堂千速,Rindo Chihaya,hSD10-006,P,1,0,1,1980,Green,Rindo Chihaya,
 2652,Basic PR Pack vol.8,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-007,P,1,0,1,220,Purple,Kikirara Vivi,
 2653,Super PR Pack vol.4,綺々羅々ヴィヴィ,Kikirara Vivi,hSD10-009,P,1,0,1,4980,Purple,Kikirara Vivi,
-2654,Super PR Pack vol.4,響咲リオナ,Isaki Riona,hSD10-010,P,1,0,1,980,,Isaki Riona,
-2655,Super PR Pack vol.5,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,P,1,0,1,680,,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko",01
-2656,FLOW GLOW - FLOW GLOW - Limited Edition,FLOW GLOW,FLOW GLOW,hSD10-012,P,1,0,1,1480,,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko",02
+2654,Super PR Pack vol.4,響咲リオナ,Isaki Riona,hSD10-010,P,1,0,1,980,White,Isaki Riona,
+2655,Super PR Pack vol.5,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,P,1,0,1,680,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko",01
+2656,FLOW GLOW - FLOW GLOW - Limited Edition,FLOW GLOW,FLOW GLOW,hSD10-012,P,1,0,1,1480,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko",02
 2657,Basic PR Pack vol.8,虎金妃笑虎,Koganei Niko,hSD11-002,P,1,0,1,180,Yellow,Koganei Niko,
 2658,Super PR Pack vol.4,虎金妃笑虎,Koganei Niko,hSD11-006,P,1,0,1,1280,Yellow,Koganei Niko,
 2659,Basic PR Pack vol.8,水宮枢,Mizumiya Su,hSD11-007,P,1,0,1,180,Blue,Mizumiya Su,
@@ -422,20 +422,20 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2665,Super PR Pack vol.4,古石ビジュー,Koseki Bijou,hSD12-011,P,1,0,1,1280,Purple,Koseki Bijou,
 2666,Basic PR Pack vol.11,モココ・アビスガード,Mococo Abyssgard,hSD12-013,P,1,0,1,14800,Red,Mococo Abyssgard,
 2667,Basic PR Pack vol.11,フワワ・アビスガード,Fuwawa Abyssgard,hSD12-014,P,1,0,1,12800,Blue,,
-2668,Super PR Pack vol.5,脱獄を果たした共犯者たち,Escaped Convicts,hSD12-015,P,1,0,1,1980,,"Nerissa Ravencroft, Fuwawa Abyssgard, Shiori Novella, Mococo Abyssgard, Koseki Bijou",01
+2668,Super PR Pack vol.5,脱獄を果たした共犯者たち,Escaped Convicts,hSD12-015,P,1,0,1,1980,Support,"Nerissa Ravencroft, Fuwawa Abyssgard, Shiori Novella, Mococo Abyssgard, Koseki Bijou",01
 2669,Basic PR Pack vol.9,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-003,P,1,0,1,320,Red,Elizabeth Rose Bloodflame,
 2670,Super PR Pack vol.4,エリザベス・ローズ・ブラッドフレイム,Elizabeth Rose Bloodflame,hSD13-007,P,1,0,1,980,Red,Elizabeth Rose Bloodflame,
 2671,Basic PR Pack vol.10,ジジ・ムリン,Gigi Murin,hSD13-008,P,1,0,1,180,Yellow,Gigi Murin,
 2672,Basic PR Pack vol.11,ジジ・ムリン,Gigi Murin,hSD13-009,P,1,0,1,120,Yellow,Gigi Murin,
 2673,Super PR Pack vol.4,ジジ・ムリン,Gigi Murin,hSD13-013,P,1,0,1,1480,Yellow,Gigi Murin,
-2674,Basic PR Pack vol.13,白上フブキ,Shirakami Fubuki,hSD14-004,P,1,0,1,180,,,
+2674,Basic PR Pack vol.13,白上フブキ,Shirakami Fubuki,hSD14-004,P,1,0,1,180,White,,
 2675,Basic PR Pack vol.12,holoAN,holoAN,hSD14-010,P,1,0,1,420,Support,Izuki Michiru,02
 2676,Grand Stage,holoAN,holoAN,hSD14-010,P,1,0,1,19800,Support,Izuki Michiru,03
 2677,Basic PR Pack vol.11,holoAN,holoAN,hSD14-010,P,1,0,1,680,Support,Izuki Michiru,
-2678,Basic PR Pack vol.13,儒烏風亭らでん,Juufuutei Raden,hSD15-004,P,1,0,1,180,,,
-2679,Basic PR Pack vol.13,さくらみこ,Sakura Miko,hSD16-004,P,1,0,1,180,,,
+2678,Basic PR Pack vol.13,儒烏風亭らでん,Juufuutei Raden,hSD15-004,P,1,0,1,180,Green,,
+2679,Basic PR Pack vol.13,さくらみこ,Sakura Miko,hSD16-004,P,1,0,1,180,Red,,
 2680,Basic PR Pack vol.12,星街すいせい,Hoshimachi Suisei,hSD17-004,P,1,0,1,180,Blue,Hoshimachi Suisei,
-2681,Super PR Pack vol.5,ステラ,Stellar,hSD17-010,P,1,0,1,780,,Hoshimachi Suisei,01
+2681,Super PR Pack vol.5,ステラ,Stellar,hSD17-010,P,1,0,1,780,Support,Hoshimachi Suisei,01
 2682,Basic PR Pack vol.12,森カリオペ,Mori Calliope,hSD18-004,P,1,0,1,180,Purple,Mori Calliope,
 2683,Basic PR Pack vol.12,大空スバル,Oozora Subaru,hSD19-004,P,1,0,1,120,Yellow,Oozora Subaru,
 2684,Comic Market 104,白エール,White Cheer,hY01-002,P,1,0,1,980,White,,

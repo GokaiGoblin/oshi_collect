@@ -2,7 +2,7 @@
 
 **A collection tracker for the hololive OFFICIAL CARD GAME (Japanese edition).**
 
-Oshi Collect lets you browse every card, mark the ones you own, track your duplicates, and see what your collection is worth, all on your phone and without an account.
+Oshi Collect lets you browse every card, mark the ones you own, track your duplicates, and follow what your collection is worth week by week, all on your phone and without an account.
 
 > Free, fan-made and non-commercial. Android only for now (iOS may come later).
 
@@ -13,10 +13,11 @@ Oshi Collect lets you browse every card, mark the ones you own, track your dupli
 | | Count |
 |---|---|
 | **Booster sets**: hBP01 Blooming Radiance → hBP09 Volume Vortex, plus hEB01 Summer Hologram | 2,255 cards |
-| **Starter Decks**: hSD01–hSD13, Live Start Decks hSD14–hSD19, and the Holonatsu Paradise set | 368 cards |
-| **Promos**: PR packs, tournament prizes, birthday cards, magazine and album bonuses, collabs and more | 449 cards |
+| **Starter Decks**: hSD01–hSD13, Live Start Decks hSD14–hSD19, and hSD20–hSD21 | 407 cards |
+| **Promos**: PR packs, tournament prizes, birthday cards, anniversary and collection sets, magazine and album bonuses, collabs and more | 537 cards |
+| **Total** | **3,199 cards** |
 
-Every card has its artwork, Japanese and English names, rarity, foil status and an estimated value. hBP10 Glory Echo is listed as *coming soon*.
+Every card has its artwork, Japanese and English names, rarity, foil status and an estimated value, with prices updated every week. hBP10 Glory Echo is listed as *coming soon*.
 
 ---
 
@@ -40,8 +41,8 @@ Every card has its artwork, Japanese and English names, rarity, foil status and 
 
 The **Catalogue** tab shows every card in a 3-per-row grid.
 
-- **Pick a set:** tap **Set ▾** (top-left) and choose from the **Booster Sets**, **Starter Decks** or **Promos** tabs. Choose *All Sets* to see everything, or *All Promos* for every promo at once.
-- **Search:** type in the search bar to find cards by Japanese or English name, card number (e.g. `hBP01-007`), or member, so searching *Suisei* also finds support cards she appears on.
+- **Pick a set:** tap **Set ▾** (top-left) and choose from the **Booster Sets**, **Starter Decks** or **Promos** tabs. *All Catalogue* at the top shows everything; *All Boosters*, *All Decks* and *All Promos* at the top of each tab show every set of that kind, with a heading per set.
+- **Search:** type in the search bar to find cards by Japanese or English name, card number (e.g. `hBP01-007`), member (searching *Suisei* also finds support cards she appears on), or set: its name (*grand prix*, *twin wafers*) or official code (*hWF01*, *hCS02*).
 - **Filter:** tap the **sliders button** next to the search bar to filter by **Owned / Unowned**, **Foil**, **Rarity**, **Archetype** (colour) and **Estimated Value**.
 - **Open a card:** tap any card to see its full details on the Card Profile.
 
@@ -51,7 +52,7 @@ The **Catalogue** tab shows every card in a 3-per-row grid.
 
 <img src="docs/screenshots/profile.jpg" alt="Card Profile" width="280" align="right">
 
-Tap any card in the app to open its **Card Profile**: large artwork, rarity, set, card number, both names and its estimated value.
+Tap any card in the app to open its **Card Profile**: large artwork, rarity, set, card number, both names and its estimated value, with a [trend arrow](#value-history-track-what-your-collection-is-worth) showing how the price moved since last week.
 
 **How to claim a card (add it to your collection):**
 
@@ -69,13 +70,15 @@ Use the **‹ ›** arrows beside the artwork to step through the other cards in
 
 <img src="docs/screenshots/portfolio.jpg" alt="Portfolio" width="280" align="right">
 
-The **Portfolio** tab shows each booster set with:
+The **Portfolio** tab opens with your **collection value**: the total for one of each card you own, how much it changed since last week's prices, and a mini chart. Tap **View history** for the full [Value History](#value-history-track-what-your-collection-is-worth).
+
+Below it, each set shows:
 
 - a **progress bar** with the percentage of the set you've claimed
 - **cards owned / total** in the set (every rarity counts, for a truthful completion figure)
 - the **estimated value** of the cards you own from that set
 
-Tap a set to open it.
+Use the view menu to switch between **Sets**, **Decks** (with their box art) and **Promos**, where promos are grouped into categories such as Basic PR Packs, tournament prizes, birthdays and collabs. Tap any of them to open it.
 
 <br clear="right">
 
@@ -85,9 +88,23 @@ Tap a set to open it.
 
 Inside a set, use **All / Owned / Unowned** at the top to switch views. Cards you don't own yet are dimmed with an **UNOWNED** label, and a small **pink dot** marks cards you have duplicates of.
 
-Switch to another set with the **Set ▾** title at the top, without going back.
+Switch to another set with the **Set ▾** title at the top, without going back. The search bar and **sliders button** work here too, including sorting by value.
 
 <br clear="right">
+
+### Value History: track what your collection is worth
+
+<p>
+  <img src="docs/screenshots/value-history.jpg" alt="Value History: chart and biggest movers" width="280">
+  <img src="docs/screenshots/value-history-sets.jpg" alt="Value History: value by set" width="280">
+</p>
+
+Prices update **every Sunday**, and Oshi Collect remembers each update, so you can see how your collection's value moves over time. Open it with **View history** on the Portfolio or Inventory summary panel.
+
+- **Value chart:** your total value at each weekly update. Switch the range with **4W / 3M / 6M / 1Y / All**; the line under the total shows the change over that range.
+- **Biggest movers:** the cards in your collection that gained or lost the most since the last update.
+- **By set:** what each set contributes to your total, largest first, with whether it went up or down.
+- **Trend arrows** appear next to prices all through the app (card tiles, set cards, Card Profiles and the summary panels): **▲ green** = up since last week, **▼ red** = down, **▶** = no change.
 
 ### Inventory: your duplicates
 
@@ -95,6 +112,7 @@ Switch to another set with the **Set ▾** title at the top, without going back.
 
 The **Inventory** tab is for your spare copies, which is handy for trading.
 
+- The summary panel at the top shows the value of **every** spare copy you hold, with its own **View history**.
 - Each set shows how many duplicates you have, their total value, and your most valuable spare.
 - Inside a set, only cards with duplicates are shown. The **number badge** on the artwork is how many spares you have, and **Total Value** is that card's price × your spares.
 - Tap the **sliders button** to **sort** (Card Number, Most Duplicates, Highest Total Value, Highest Single Value) or filter by Rarity, Foil and Archetype.
@@ -114,7 +132,7 @@ The **Inventory** tab is for your spare copies, which is handy for trading.
 **About the prices:**
 
 - Prices are **estimated market values in Japanese yen**, taken from Japanese card shops (Yuyutei, with Fullahead filling gaps). Other currencies are converted using exchange rates that refresh once a day.
-- **Prices update automatically.** The app checks for new prices each time you open it, so no app update is needed. The **Currency** window shows the date of the prices you're seeing ("Card prices as of …").
+- **Prices update automatically every week (Sundays).** The app picks up new prices when you open it or come back to it, so no app update is needed. The **Currency** window shows the date of the prices you're seeing ("Card prices as of …").
 - A card showing **"No price yet"** simply has no reliable price listed yet. It's never shown as ¥0.
 - Works offline too: the app keeps the last prices it downloaded.
 
@@ -128,6 +146,7 @@ Tap **•••** in the top-right corner of any screen:
 
 - **2-Card / 3-Card View:** bigger or smaller card grid (Catalogue).
 - **Dark Mode / Light Mode:** switch themes; your choice is remembered.
+- **JP Names / EN Names:** card names show in English by default; switch to the Japanese names printed on the cards.
 - **Currency:** see [Currency & prices](#currency--prices).
 - **Report:** spotted a wrong price, name or missing card? Send a short report straight to the developer. Reports sent from a Card Profile include that card's details automatically.
 - **Import / Export:** **Export** saves your whole collection (claims and duplicates) as a `.csv` file you can keep somewhere safe. **Import** loads it back, e.g. on a new phone or after reinstalling.
@@ -150,7 +169,7 @@ Tap **•••** in the top-right corner of any screen:
 | The type of report | *General* or *Card Data* |
 | The screen you sent it from | *Card Profile* |
 | The card's details, if sent from a Card Profile (catalogue ID, number, set, rarity, English name) | *16 \| hBP01-007 \| hBP01 \| SEC \| Hoshimachi Suisei* |
-| The app version | *1.1.0+2* |
+| The app version | *1.2.0+3* |
 | The message you typed | *"This price looks wrong"* |
 
 That's all. **No** device or phone details, device IDs, location, contacts, account, or anything from your collection is collected or sent.

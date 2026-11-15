@@ -25,6 +25,10 @@ How it works
    If that still leaves more than one possible price (e.g. a promo that
    exists in several event versions at different prices), the card is left
    alone and listed in the report as "ambiguous" for a human to check.
+   Fix for that: tool/price_links.csv pins a card to one exact shop listing
+   (Yuyutei card page and/or Fullahead brandcode), found by a human by
+   comparing the artwork. A pinned listing always wins over the guessing.
+   It uses the pages already being fetched - no extra requests.
 4. Nothing is ever set to 0, and a card that can't be found keeps its old
    price (it's listed in the report).
 
@@ -61,6 +65,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES = ['holo_tcg_cards.csv', 'holo_tcg_decks.csv', 'holo_tcg_promos.csv']
 CACHE_ROOT = os.path.join(ROOT, 'tool', 'price_cache')
 REPORT = os.path.join(ROOT, 'tool', 'prices_out', 'scrape_report.txt')
+LINKS = os.path.join(ROOT, 'tool', 'price_links.csv')
 
 USER_AGENT = 'OshiCollectPriceBot/0.1 (personal non-commercial card app; +https://standbyinteractive.com)'
 DELAY_SECONDS = 6         # pause between live requests
@@ -158,6 +163,7 @@ def parse_price(text):
 YY_LISTING = re.compile(
     r'alt="(?P<alt>[^"]+)" class="card img-fluid".*?'
     r'<strong[^>]*>\s*(?P<price>[\d,]+)\s*円\s*</strong>.*?'
+    r'value="(?P<cid>\d+)" class="cart_cid".*?'
     r'value="(?P<kizu>\d)" class="cart_kizu"',
     re.S)
 
@@ -172,11 +178,14 @@ def parse_yuyutei(page, text):
         if m['kizu'] != '0' or 'キズ' in name:
             continue
         listings.append({'page': page, 'number': number.upper(), 'rarity': rarity,
-                         'name': name, 'price': parse_price(m['price'])})
+                         'name': name, 'price': parse_price(m['price']),
+                         'link': f"yuyutei:{page}/{m['cid']}"})
     return listings
 
 
 FA_LISTING = re.compile(
+    # the nearest brandcode link before the name is this listing's own page
+    r'brandcode=(?P<code>\d+)(?:(?!brandcode=).)*?'
     r'<span class="itemName">(?P<name>.*?)</span>.*?'
     r'<span class="itemPrice">\s*<strong>(?P<price>[\d,]+)円</strong>',
     re.S)
@@ -200,7 +209,8 @@ def parse_fullahead(number, text, rarities):
         if not price or price == FULLAHEAD_PLACEHOLDER:
             continue
         listings.append({'page': 'fullahead', 'number': number.upper(),
-                         'rarity': found.pop(), 'name': name, 'price': price})
+                         'rarity': found.pop(), 'name': name, 'price': price,
+                         'link': f"fullahead:{m['code']}"})
     total = FA_TOTAL.search(text)
     shown = len(FA_LISTING.findall(text))
     truncated = bool(total) and int(total.group(1)) > shown
@@ -226,6 +236,37 @@ def save_csv(name, header, rows):
     w.writerows(rows)
     with open(os.path.join(ROOT, 'assets', name), 'w', encoding='utf-8', newline='') as f:
         f.write(out.getvalue())
+
+
+def load_links():
+    """tool/price_links.csv -> {card_id: [listing keys]}, Yuyutei first."""
+    links = {}
+    if not os.path.exists(LINKS):
+        return links
+    with open(LINKS, encoding='utf-8', newline='') as f:
+        for r in csv.DictReader(f):
+            keys = []
+            yy = re.search(r'/card/([\w-]+)/(\d+)', r.get('yuyutei') or '')
+            if yy:
+                keys.append(f'yuyutei:{yy[1]}/{yy[2]}')
+            fa = re.search(r'brandcode=(\d+)', r.get('fullahead') or '')
+            if fa:
+                keys.append(f'fullahead:{fa[1]}')
+            if keys:
+                links[r['card_id'].strip()] = keys
+    return links
+
+
+def pinned_prices(links, listings):
+    """Prices for cards pinned to an exact listing that is on these pages."""
+    by_link = {l['link']: l['price'] for l in listings if l['price']}
+    prices = {}
+    for cid, keys in links.items():
+        for k in keys:
+            if k in by_link:
+                prices[cid] = by_link[k]
+                break
+    return prices
 
 
 # ---------------------------------------------------------------- matching
@@ -311,6 +352,9 @@ def main():
         print(f'  {page}: {len(found)} listings')
         yy.extend(found)
     yy_prices, yy_ambiguous = match(all_rows, yy, all_rows, use_set_page=True)
+    links = load_links()
+    yy_pinned = pinned_prices(links, yy)
+    yy_prices.update(yy_pinned)
 
     # 2. Fullahead, only for card numbers Yuyutei didn't settle
     missing = [r for r in all_rows if r['card_id'] not in yy_prices]
@@ -327,6 +371,9 @@ def main():
         if cut:
             truncated.append(number)
     fa_prices, fa_ambiguous = match(missing, fa, all_rows, use_set_page=False)
+    fa_prices.update({cid: p for cid, p in pinned_prices(links, fa).items() if cid not in yy_prices})
+    pinned = set(yy_pinned) | {cid for cid in fa_prices if cid in links}
+    unfound_links = sorted(set(links) - pinned, key=int)
 
     # 3. Combine and compare with what's in the CSVs now
     new = {**fa_prices, **yy_prices}
@@ -365,6 +412,8 @@ def main():
     rep += [line(r, f"kept {r['price_jpy'] or 'blank'}") for r in all_rows if r['card_id'] in ambiguous]
     rep.append(f'\n== Not found anywhere, kept old price ({len(not_found)}) ==')
     rep += [line(r, f"kept {r['price_jpy'] or 'blank'}") for r in not_found]
+    rep.append(f'\n== Pinned in price_links.csv ({len(links)}), listing not found on the pages ({len(unfound_links)}) ==')
+    rep += [line(r, ' / '.join(links[r['card_id']])) for r in all_rows if r['card_id'] in unfound_links]
     if truncated:
         rep.append('\n== Fullahead searches with more results than one page (only page 1 read) ==')
         rep.append('  ' + ', '.join(truncated))

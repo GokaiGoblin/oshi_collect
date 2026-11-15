@@ -36,7 +36,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2742,hSD02,いろはにほへっと あやふぶみ,Iroha with AyaFubuMi,hSD02-012,U,0,0,0,120,Support,"Kazama Iroha, Nakiri Ayame, Shirakami Fubuki, Ookami Mio"
 2743,hSD02,阿修羅＆羅刹,Asura & Rakshasa,hSD02-013,C,0,0,0,320,Support,Nakiri Ayame
 2744,hSD02,ぽよ余,Poyoyo,hSD02-014,C,0,0,0,120,Support,Nakiri Ayame
-2745,hSD02,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2745,hSD02,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2746,hSD02,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
 2747,hSD02,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2748,hSD02,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
@@ -76,7 +76,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2782,hSD04,スバちょこルーナ,SubaChocoLuna,hSD04-012,U,0,0,0,50,Support,"Oozora Subaru, Himemori Luna, Yuzuki Choco"
 2783,hSD04,ちょこのオムライス,Choco's Omurice,hSD04-013,C,0,0,0,280,Support,Yuzuki Choco
 2784,hSD04,しょこら,Chocolat,hSD04-014,C,0,0,0,50,Support,Yuzuki Choco
-2785,hSD04,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2785,hSD04,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2786,hSD04,あとは任せた！,I leave the rest to you!,hBP01-106,U,0,0,1,80,Support,
 2787,hSD04,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2788,hSD04,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
@@ -96,7 +96,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2802,hSD05,火威青,Hiodoshi Ao,hSD05-012,U,0,0,0,220,Blue,Hiodoshi Ao
 2803,hSD05,音乃瀬奏,Otonose Kanade,hSD05-013,U,0,0,0,120,Yellow,Otonose Kanade
 2804,hSD05,ばんぺん,Banpen,hSD05-014,C,0,0,0,30,Support,Todoroki Hajime
-2805,hSD05,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2805,hSD05,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2806,hSD05,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
 2807,hSD05,ReGLOSS,ReGLOSS,hPR-002,U,0,0,1,50,Support,"Juufuutei Raden, Hiodoshi Ao, Ichijou Ririka, Otonose Kanade, Todoroki Hajime"
 2808,hSD05,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
@@ -116,7 +116,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2822,hSD06,ぽこべぇ,Pokobe,hSD06-012,C,0,0,0,180,Support,Kazama Iroha
 2823,hSD06,風真いろは,Kazama Iroha,hBP01-048,C,0,0,1,120,Green,Kazama Iroha
 2824,hSD06,風真いろは,Kazama Iroha,hBP01-050,U,0,0,1,320,Green,Kazama Iroha
-2825,hSD06,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2825,hSD06,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2826,hSD06,カスタムパソコン,Custom PC,hBP02-076,C,0,0,1,120,Support,Tokino Sora
 2827,hSD06,秘密結社holoX,holoX,hBP02-080,U,0,0,1,50,Support,"Takane Lui, La+ Darknesss, Kazama Iroha, Hakui Koyori, Sakamata Chloe"
 2828,hSD06,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
@@ -137,7 +137,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2843,hSD07,星街すいせい,Hoshimachi Suisei,hSD07-013,U,0,0,0,80,Blue,Hoshimachi Suisei
 2844,hSD07,不知火建設,Shiranui Construction,hSD07-014,U,0,0,0,50,Support,"Hoshimachi Suisei, Omaru Polka, Shiranui Flare, Shirogane Noel, Sakura Miko"
 2845,hSD07,エルフレンド,Elfriend,hSD07-015,C,0,0,0,80,Support,Shiranui Flare
-2846,hSD07,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2846,hSD07,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2847,hSD07,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2848,hSD07,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2849,hSD07,サブパソコン,Sub PC,hSD01-018,C,0,0,1,180,Support,
@@ -167,13 +167,13 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2873,hSD09,兎田ぺこら,Usada Pekora,hSD09-006,C,0,0,0,180,Green,Usada Pekora
 2874,hSD09,不知火フレア,Shiranui Flare,hSD09-007,C,0,0,0,120,Yellow,Shiranui Flare
 2875,hSD09,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
-2876,hSD09,宝鐘マリン,Houshou Marine,hBP02-028,C,0,0,1,30,Red,Houshou Marine
+2876,hSD09,宝鐘マリン,Houshou Marine,hBP02-028,C,0,0,1,50,Red,Houshou Marine
 2877,hSD09,宝鐘マリン,Houshou Marine,hBP02-030,C,0,0,1,50,Red,Houshou Marine
 2878,hSD09,宝鐘マリン,Houshou Marine,hBP02-032,R,1,0,1,120,Red,Houshou Marine
 2879,hSD09,みっころね24,Mikkorone 24,hBP02-084,U,0,0,1,80,Support,"Sakura Miko, Inugami Korone"
 2880,hSD09,HOLOLIVE FANTASY,HOLOLIVE FANTASY,hBP02-085,U,0,0,1,50,Support,"Houshou Marine, Usada Pekora, Shiranui Flare, Shirogane Noel"
 2881,hSD09,ドクロくん,Dokuro-kun,hBP02-095,C,0,0,1,30,Support,Houshou Marine
-2882,hSD09,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
+2882,hSD09,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,220,Support,Harusaki Nodoka
 2883,hSD09,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2884,hSD09,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
 2885,hSD10,輪堂千速,Rindo Chihaya,hSD10-001,OSR,1,0,0,220,Green,Rindo Chihaya
@@ -189,7 +189,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2895,hSD10,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,WHAT'S UP!!!!! KEEEEEP GROWING!!!!!,hSD10-011,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2896,hSD10,FLOW GLOW,FLOW GLOW,hSD10-012,U,0,0,0,80,Support,"Rindo Chihaya, Kikirara Vivi, Isaki Riona, Mizumiya Su, Koganei Niko"
 2897,hSD10,ふぐ太郎,Fugutaro,hSD10-013,C,0,0,0,80,Support,"Isaki Riona, Koganei Niko, Mizumiya Su, Rindo Chihaya, Kikirara Vivi"
-2898,hSD10,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2898,hSD10,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2899,hSD10,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
 2900,hSD10,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2901,hSD10,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
@@ -204,7 +204,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2910,hSD11,水宮枢,Mizumiya Su,hSD11-007,C,0,0,0,120,Blue,Mizumiya Su
 2911,hSD11,水宮枢,Mizumiya Su,hSD11-008,C,0,0,0,220,Blue,Mizumiya Su
 2912,hSD11,水宮枢,Mizumiya Su,hSD11-009,RR,1,0,0,500,Blue,Mizumiya Su
-2913,hSD11,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2913,hSD11,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2914,hSD11,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2915,hSD11,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 2916,hSD11,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
@@ -230,7 +230,7 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2936,hSD12,フワワ・アビスガード,Fuwawa Abyssgard,hSD12-014,C,0,0,0,680,Blue,Fuwawa Abyssgard
 2937,hSD12,脱獄を果たした共犯者たち,Escaped Convicts,hSD12-015,U,0,0,0,1480,Support,"Nerissa Ravencroft, Fuwawa Abyssgard, Shiori Novella, Mococo Abyssgard, Koseki Bijou"
 2938,hSD12,GEOW,GEOW,hSD12-016,C,0,0,0,50,Support,
-2939,hSD12,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2939,hSD12,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2940,hSD12,じゃあ敵だね,"So, That Make You My Enemy",hBP01-108,U,0,0,1,500,Support,"Kazama Iroha, Tokino Sora"
 2941,hSD12,レトロパソコン,Retro PC,hBP02-077,C,0,0,1,30,Support,
 2942,hSD12,シオリ・ノヴェラ,Shiori Novella,hBP04-050,C,0,0,1,80,Blue,Shiori Novella
@@ -258,9 +258,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 2964,hSD13,Justice,Justice,hSD13-016,U,0,0,0,120,Support,"Raora Panthera, Cecilia Immergreen, Elizabeth Rose Bloodflame, Gigi Murin"
 2965,hSD13,"JUSTICE, JUST LIKE THAT!!!!","JUSTICE, JUST LIKE THAT!!!!",hSD13-017,U,0,0,0,220,Support,"Raora Panthera, Cecilia Immergreen, Elizabeth Rose Bloodflame, Gigi Murin"
 2966,hSD13,Popo,Popo,hSD13-018,C,0,0,0,120,Support,Gigi Murin
-2967,hSD13,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,420,Support,Tokino Sora
+2967,hSD13,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
 2968,hSD13,凸待ち,Totsumachi,hBP03-088,U,0,0,1,180,Support,"Tokoyami Towa, La+ Darknesss"
-2969,hSD13,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,280,Support,"Inugami Korone, Nekomata Okayu"
+2969,hSD13,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,320,Support,"Inugami Korone, Nekomata Okayu"
 2970,hSD13,春先のどか,Harusaki Nodoka,hSD01-016,C,0,0,1,180,Support,Harusaki Nodoka
 2971,hSD13,スゴイパソコン,Amazing PC,hSD01-019,C,0,0,1,50,Support,
 2972,hSD13,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
@@ -380,9 +380,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3110,hSD20,アソビ★まわり隊！,Asobi★Mawari-tai!,hSD20-012,U,0,0,0,50,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
 3111,hSD20,ぐるぐるTIME！,Guruguru TIME!,hSD20-013,U,0,0,0,320,Support,"Achichi Mela, Sorashina Sopia, Suzuna Tsuzuri, Hyakuto Kyoko"
 3112,hSD20,百灯キョーコの拡声器,Hyakuto Kyoko's Megaphone,hSD20-014,U,0,0,0,180,Support,Hyakuto Kyoko
-3113,hSD20,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support,Tokino Sora
-3114,hSD20,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,,Support,"Inugami Korone, Nekomata Okayu"
-3115,hSD20,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,,Support,Hoshimachi Suisei
+3113,hSD20,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
+3114,hSD20,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,220,Support,"Inugami Korone, Nekomata Okayu"
+3115,hSD20,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 3116,hSD20,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Kazeshiro Yuki
 3117,hSD20,赤エール,Red Cheer,hY03-001,C,0,0,1,50,Red,
 3118,hSD20,青エール,Blue Cheer,hY04-001,C,0,0,1,50,Blue,
@@ -394,9 +394,9 @@ card_id,set_code,name_jp,name_en,card_number,rarity,is_foil,is_signed,is_reprint
 3124,hSD21,熱千めら,Achichi Mela,hSD21-006,R,1,0,0,420,Purple,Achichi Mela
 3125,hSD21,熱千めら,Achichi Mela,hSD21-007,RR,1,0,0,120,Purple,Achichi Mela
 3126,hSD21,熱千めらの拍子木,Achichi Mela's Hyoshigi,hSD21-008,U,0,0,0,280,Support,Achichi Mela
-3127,hSD21,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,,Support,Tokino Sora
-3128,hSD21,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,,Support,"Inugami Korone, Nekomata Okayu"
-3129,hSD21,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,,Support,Hoshimachi Suisei
+3127,hSD21,ふつうのパソコン,Normal PC,hBP01-104,C,0,0,1,580,Support,Tokino Sora
+3128,hSD21,フレンドリーパソコン,Friendly PC,hBP05-074,C,0,0,1,220,Support,"Inugami Korone, Nekomata Okayu"
+3129,hSD21,マネちゃん,Mane-chan,hSD01-017,C,0,0,1,80,Support,Hoshimachi Suisei
 3130,hSD21,holoAN,holoAN,hSD14-010,C,0,0,1,120,Support,Kazeshiro Yuki
 3131,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-008,C,0,0,1,80,Blue,Sorashina Sopia
 3132,hSD21,宙科そぴあ,Sorashina Sopia,hSD20-009,U,0,0,1,180,Blue,Sorashina Sopia

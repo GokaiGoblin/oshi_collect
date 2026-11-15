@@ -68,7 +68,10 @@ Use the **‹ ›** arrows beside the artwork to step through the other cards in
 
 ### Portfolio: your collection, set by set
 
-<img src="docs/screenshots/portfolio.jpg" alt="Portfolio" width="280" align="right">
+<p>
+  <img src="docs/screenshots/portfolio.jpg" alt="Portfolio: booster sets" width="280">
+  <img src="docs/screenshots/portfolio-decks.jpg" alt="Portfolio: Decks view with the value summary panel" width="280">
+</p>
 
 The **Portfolio** tab opens with your **collection value**: the total for one of each card you own, how much it changed since last week's prices, and a mini chart. Tap **View history** for the full [Value History](#value-history-track-what-your-collection-is-worth).
 
@@ -78,9 +81,7 @@ Below it, each set shows:
 - **cards owned / total** in the set (every rarity counts, for a truthful completion figure)
 - the **estimated value** of the cards you own from that set
 
-Use the view menu to switch between **Sets**, **Decks** (with their box art) and **Promos**, where promos are grouped into categories such as Basic PR Packs, tournament prizes, birthdays and collabs. Tap any of them to open it.
-
-<br clear="right">
+Use the **View ▾** menu (top-left) to switch between **Sets**, **Decks** (with their box art, as on the right above) and **Promos**, where promos are grouped into categories such as Basic PR Packs, tournament prizes, birthdays and collabs. Tap any of them to open it.
 
 ### Set view: owned & unowned at a glance
 

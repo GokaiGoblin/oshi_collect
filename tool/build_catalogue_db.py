@@ -42,6 +42,7 @@ PROMO_EVENT_CODES = {
     '1st Anniversary Celebration Set': 'hCS01',
     '2nd Anniversary Celebration Set': 'hCS02',
     'Hololive Collection: PC Set': 'hPC01',  # オフィシャルホロカコレクション-PCセット-
+    'Hololive Twin Wafers': 'hWF01',  # hololive OFFICIAL CARD GAME ツインウエハース (Bandai), 34 cards
     'Hololive Collection: 2025 Live Set': 'hCO01',  # オフィシャルホロカコレクション-2025ライブセット-
     'Exstreamer Cup 25-26 Final Collection A': 'hCO02',  # エクストリーマーカップ25-26 Final オフィシャルホロカコレクションA
     'Exstreamer Cup 25-26 Final Collection B': 'hCO03',  # エクストリーマーカップ25-26 Final オフィシャルホロカコレクションB

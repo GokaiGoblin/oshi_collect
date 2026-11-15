@@ -79,7 +79,10 @@ class CardModel {
 
   /// True if [query] (already lower-cased and normalised) appears in the JP
   /// name, EN name, card number or tagged members. Shared by every search bar.
+  // Also matches the set code, so an official code like "hCS02" (2nd
+  // Anniversary Celebration Set) or "hPC01" finds that set's cards.
   bool matchesSearch(String query) =>
+      setCode.toLowerCase().contains(query) ||
       nameJp.toLowerCase().contains(query) ||
       (nameEn?.toLowerCase().contains(query) ?? false) ||
       cardNumber.toLowerCase().contains(query) ||

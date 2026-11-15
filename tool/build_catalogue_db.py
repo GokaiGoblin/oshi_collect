@@ -33,14 +33,15 @@ import sys
 # Promo events that are announced/on pre-order but not shipped yet. Their cards
 # stay in the CSV (keeping their card_ids) but the app hides them. Remove an
 # event from this set once the cards are actually in circulation.
-UNRELEASED_PROMO_EVENTS = {
-    '2nd Anniversary Celebration Set',  # official pre-order only (Oct 2026)
-}
+UNRELEASED_PROMO_EVENTS = set()   # 2nd Anniversary Celebration Set released Nov 2026
 
 # Promo events that have an official set code of their own (from the official
 # card list URL, e.g. cardsearch/?expansion=hCO01). Every other event gets a
 # code made from its name ("PR-basic-pr-pack-vol-6").
 PROMO_EVENT_CODES = {
+    '1st Anniversary Celebration Set': 'hCS01',
+    '2nd Anniversary Celebration Set': 'hCS02',
+    'Hololive Collection: PC Set': 'hPC01',  # オフィシャルホロカコレクション-PCセット-
     'Hololive Collection: 2025 Live Set': 'hCO01',  # オフィシャルホロカコレクション-2025ライブセット-
     'Exstreamer Cup 25-26 Final Collection A': 'hCO02',  # エクストリーマーカップ25-26 Final オフィシャルホロカコレクションA
     'Exstreamer Cup 25-26 Final Collection B': 'hCO03',  # エクストリーマーカップ25-26 Final オフィシャルホロカコレクションB
@@ -66,7 +67,7 @@ PROMO_CATEGORY_EVENTS = {
     'Birthday': 'birthday',
     'World Grand Prix': 'tournament', 'Exstreamer Cup': 'tournament', 'Bloom Cup': 'tournament',
     'Selection Cup': 'tournament', 'Grand Stage': 'tournament', 'Trio Challenge 2025 Spring': 'tournament',
-    'Hololive Collection: 2025 Live Set': 'special',
+    'Hololive Collection: 2025 Live Set': 'special', 'Hololive Collection: PC Set': 'special',
     'Exstreamer Cup 25-26 Final Collection A': 'special',
     'Exstreamer Cup 25-26 Final Collection B': 'special',
     '1st Anniversary Blooming Memories': 'special', '1st Anniversary Celebration Set': 'special',

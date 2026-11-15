@@ -73,9 +73,9 @@ TIMEOUT_SECONDS = 30
 
 YUYUTEI = 'https://yuyu-tei.jp'
 # Yuyutei groups promos into these pages rather than one per event.
-# ohc02 = Hololive Collection: 2025 Live Set (SR parallels).
+# ohc01 = Hololive Collection: PC Set, ohc02 = 2025 Live Set (SR parallels).
 YUYUTEI_EXTRA_PAGES = ['promo-100', 'promo-hbp10', 'promo-hsd10', 'promo-heb10',
-                       'promo-hbd20', 'hys01', 'yell01', 'ohc02']
+                       'promo-hbd20', 'hys01', 'yell01', 'ohc01', 'ohc02']
 FULLAHEAD = 'https://fullahead-sdbs.com'
 FULLAHEAD_PLACEHOLDER = 999999
 

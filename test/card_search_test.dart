@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:holo_tcg_tracker/models/card_model.dart';
 
-CardModel _card({String nameEn = 'Green Cheer', String? members}) => CardModel(
+CardModel _card({String nameEn = 'Green Cheer', String? members, String setCode = 'hBP06'}) => CardModel(
       cardId: '1',
-      setCode: 'hBP06',
+      setCode: setCode,
       nameJp: '緑エール',
       nameEn: nameEn,
       cardNumber: 'hY02-001',
@@ -33,5 +33,11 @@ void main() {
     final card = _card();
     expect(card.matchesSearch('raden'), isFalse);
     expect(card.matchesSearch('hy02-001'), isTrue);
+  });
+
+  test('official set code finds a promo set\'s cards', () {
+    final card = _card(nameEn: 'Usada Pekora', setCode: 'hCS02');
+    expect(card.matchesSearch('hcs02'), isTrue);
+    expect(card.matchesSearch('hcs01'), isFalse);
   });
 }

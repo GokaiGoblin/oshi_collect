@@ -2,13 +2,13 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:holo_tcg_tracker/models/card_model.dart';
 import 'package:holo_tcg_tracker/utils/currency_utils.dart';
 
-CardModel _promo({String? variant}) => CardModel(
+CardModel _promo({String? variant, String setCode = 'PR-super-pr-pack-vol-5', String rarity = 'P'}) => CardModel(
       cardId: '2390',
-      setCode: 'PR-super-pr-pack-vol-5',
+      setCode: setCode,
       nameJp: 'ふつうのパソコン',
       nameEn: 'Normal PC',
       cardNumber: 'hBP01-104',
-      rarity: 'P',
+      rarity: rarity,
       isFoil: false,
       isSigned: false,
       isReprint: true,
@@ -38,5 +38,12 @@ void main() {
     expect(_promo().imageUrl, 'https://standbyinteractive.com/cards/Promo/hBP01-104-P.png');
     expect(_promo(variant: '02').imageUrl,
         'https://standbyinteractive.com/cards/Promo/hBP01-104-P-02.png');
+  });
+
+  test('a promo set with an official code loads from its own folder, code first', () {
+    expect(_promo(setCode: 'hPC01', rarity: 'SR', variant: '08').imageUrl,
+        'https://standbyinteractive.com/cards/Promo/hPC01/hPC01-hBP01-104-SR-08.png');
+    expect(_promo(setCode: 'hWF01').imageUrl,
+        'https://standbyinteractive.com/cards/Promo/hWF01/hWF01-hBP01-104-P.png');
   });
 }

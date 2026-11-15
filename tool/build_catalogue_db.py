@@ -78,6 +78,7 @@ PROMO_CATEGORY_EVENTS = {
     'Comic Market 104': 'collab', 'Card Game Festival 2025': 'collab', 'Card Game Festival 2026': 'collab',
     'Sakura Miko POP UP SHOP': 'collab', 'Public Recording Year-End Special': 'collab',
     'Holonatsu Paradise 2025': 'collab', 'Mikodanye PR Pack': 'collab', 'Summer PR Pack 2025': 'collab',
+    'Summer PR Pack 2026': 'collab', 'Tokino Sora 9th Anniversary Party': 'collab',
 }
 
 

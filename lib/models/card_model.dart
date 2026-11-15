@@ -111,9 +111,16 @@ class CardModel {
         // Promo images are named by card number + the card's rarity (almost
         // always P; Anniversary Celebration Set cards are SR), with a version
         // suffix when a card has several promo versions:
-        // hBP01-104-P.png, hBP01-104-P-02.png, hBP03-030-SR-02.png
+        // hBP01-104-P.png, hBP01-104-P-02.png
         final suffix = imageVariant == null ? '' : '-$imageVariant';
-        return '$base/Promo/$cardNumber-$rarity$suffix.png';
+        final file = '$cardNumber-$rarity$suffix.png';
+        // General and birthday promos (set codes made up from the event name,
+        // "PR-…") sit directly in Promo/. Sets with an official code (hCS01,
+        // hWF01, hPC01, hCO01…) have their own folder, and the file name
+        // starts with the code too:
+        // Promo/hWF01/hWF01-hBP01-034-P.png
+        if (setCode.startsWith('PR-')) return '$base/Promo/$file';
+        return '$base/Promo/$setCode/$setCode-$file';
       case 'booster':
       default:
         return '$base/Booster/$setCode-$folderName/$filename';
